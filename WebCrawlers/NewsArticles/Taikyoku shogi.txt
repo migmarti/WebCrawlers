@@ -1,0 +1,111 @@
+Taikyoku shōgi (Japanese: 大局将棋) ('ultimate chess') is the largest known variant of shogi (Japanese chess). The game was created around the mid-16th century (presumably by priests) and is based on earlier large board shogi games. Before the rediscovery of taikyoku shogi in 1997, tai shogi was believed to be the largest playable chess variant ever. It has not been shown that taikyoku shogi was ever widely played. There are only two sets of restored taikyoku shogi pieces and one of them is held at Osaka University of Commerce.[1] One game may be played over several long sessions and require each player to make over a thousand moves.
+
+Because the game was found only recently after centuries of obscurity, it is difficult to say exactly what all the rules were. Several documents describing the game have been found; however, there are differences between them. Many of the pieces appear in other shogi variants but their moves may be different. The board, and likewise the pieces, were made much smaller, making archeological finds difficult to decipher. Research into this game continues for historical and cultural reasons, but also to satisfy the curious and those who wish to play what could be the most challenging chess-like game ever made. More research must be done however. This article focuses on one likely set of rules that can make the game playable in modern times but is by no means canon. These rules may change as more discoveries are made and secrets of the game unlocked.
+
+Because of the terse and often incomplete wording of the historical sources for the large shogi variants, except for chu shogi and to a lesser extent dai shogi (which were at some points of time the most prestigious forms of shogi being played), the historical rules of dai taikyoku shogi are not clear. Different sources often differ significantly in the moves attributed to the pieces, and the degree of contradiction (summarised below with the listing of most known alternative moves) is such that it is likely impossible to reconstruct the "true historical rules" with any degree of certainty, if there ever was such a thing. It is not clear if the game was ever played much historically, as there is no record of any sets having been made.
+
+Taikyoku shogi is very different from other large-board shogi variants: tenjiku shogi, dai dai shogi, maka dai dai shogi, and tai shogi. The most notable differences lie with the piece movements and their promotions.
+
+The objective of the game is to capture the opponent's king(s) and prince(s). When the last of these is captured, the game ends. There are no rules for check or checkmate; however, in practice a player resigns when checkmated. Unlike standard shogi, pieces may not be dropped back into play after being captured.
+
+Two players, Black and White (or 先手 sente and 後手 gote), play on a board ruled into a grid of 36 ranks (rows) by 36 files (columns) with a total of 1,296 squares. The squares are differentiated by marking or color.
+
+Each player has a set of 402 wedge-shaped pieces of 209 types. The players must remember 253 sets of moves. The pieces are of slightly different sizes with the larger pieces near the king and becoming progressively smaller for pieces further from the king, regardless of power. In general, the stronger pieces are nearer to the king.
+
+Several of the English names were chosen to correspond to rough equivalents in Western chess, rather than as translations of the Japanese names.
+
+Each piece has its name in the form of two or three kanji written on its face. On the reverse side of some pieces are two or three other characters, often in a different color (commonly red instead of black); this reverse side is used to indicate that the piece has been promoted during play. The pieces of the two sides do not differ in color, but instead each piece is shaped like a wedge, and faces forward, toward the opposing side. This shows who controls the piece during play.
+
+Listed below are the pieces of the game and, if they promote, which pieces they promote to; starting with the first row.
+
+Below is a diagram showing the setup of one player's pieces. The way one player sees their own pieces is the same way the opposing player will see their pieces.
+
+The players alternate making a move, with Black moving first. (The traditional terms 'black' and 'white' are used to differentiate the sides during discussion of the game, but are no longer literally descriptive.) A move consists of moving a single piece on the board and potentially promoting that piece or displacing (capturing) an opposing piece.
+
+Most pieces in the game move in a unique manner. An opposing piece is captured by displacement: That is, if a piece moves to a square occupied by an opposing piece, the opposing piece is displaced and removed from the board. A piece cannot move to a square occupied by a friendly piece (meaning another piece controlled by the moving player).
+
+Each piece on the game moves in a characteristic pattern. Pieces move either orthogonally (that is, forward, backward, left, or right, in the direction of one of the arms of a plus sign, +), or diagonally (in the direction of one of the arms of a multiplication sign, ×). The lion, lion hawk and knight are exceptions at the beginning of the game, in that they do not move, or are not required to move, in a straight line. (The Buddhist spirit, teaching king, heavenly horse and furious fiend are similar, but they only appear as pieces promote.)
+
+Many pieces are capable of several kinds of movement, with the type of movement most often depending on the direction in which they move. The movement categories are:
+
+Some pieces move only one square at a time. (If a friendly piece occupies an adjacent square, the moving piece may not move in that direction; if an opposing piece is there, it may be displaced and captured.)
+
+The step movers are the prince, generals (except: bishop, rook, pig, vice, great and wood), wolves, earth dragon, running horse, running rabbit, turtle snake, turtle dove, flying swallow, rain dragon, mountain stag, running pup, running serpent, side serpent, yaksha, Buddhist devil, violent stag, drunken elephant, neighboring king, chariots (except: reverse, running and copper), right tiger, left tiger, wind dragon, free pup, rushing bird, old kite, bears (except running), side boar, cloud eagle, flying cat, little standard, cloud dragon, soldiers (except soldier and chariot), violent ox, dark spirit, deva, howling dog, side mover, prancing stag, ferocious leopard, fierce eagle, poisonous snake, flying goose, strutting crow, blind dog, Chinese cock, phoenix, kirin, side ox, angry boar, liberated horse, flying cock, monkeys, barbarians, vermillion sparrow, swooping owl, old rat, cat sword, swallow’s wings, blind tiger, side flyer, coiled serpent, reclining dragon, go between, dog, vertical mover, vertical pup, vertical horse, dragon horse, dragon king and pawn.
+
+Some pieces can move along a limited number (2 to 7) of free (empty) squares along a straight line in certain directions. Other than the limited distance, they move like ranging pieces (see below).
+
+The limited ranging pieces are the king, standards, free dream-eater, wooden dove, dragons (except: rain, side, wind, cloud, flying and reclining), demons, beast cadet, mountain eagle, white tiger, ceramic dove, turtle dove, captive officer, mountain stag, side serpent, great dove, running tiger, running bear, yaksha, Buddhist devil, guardian of the Gods, wrestler, gold chariot, running stag, beast officer, free pup, rushing bird, old kite, peacock, phoenix master, kirin master, silver chariot, vertical bear, pig general, chicken general, horse general, ox general, silver rabbit, golden deer, captive cadet, great stag, stone chariot, cloud eagle, mountain falcon, vertical tiger, copper chariot, golden bird, prancing stag, water buffalo, fierce eagle, water general, mountain general, fire general, turtles, vertical wolf, donkey, enchanted badger, flying horse, angry boar, violent bear, liberated horse, barbarians, center master, roc master, horseman, soldiers (except: rook, ram’s-head, spear and sword), wing general, wind general, wood general, great master and roaring dog.
+
+Several pieces can jump, that is, they can pass over any intervening piece, whether friend or foe, with no effect on either.
+
+The jumping pieces are the wooden dove, running horse, mountain eagle, phoenix master, kirin master, knight, lion, great stag, vice general, flying cat, mountain falcon, golden bird, flying dragon, poisonous snake, phoenix, kirin, turtles, treacherous fox, center master, roc master, free eagle, lion hawk, great master, horned falcon, soaring eagle, roaring dog and lion dog.
+
+Many pieces can move any number of empty squares along a straight line, limited only by the edge of the board. If an opposing piece intervenes, it may be captured by moving to that square and removing it from the board. A ranging piece must stop where it captures, and cannot bypass a piece that is in its way. If a friendly piece intervenes, the moving piece is limited to a distance that stops short of the intervening piece; if the friendly piece is adjacent, it cannot move in that direction at all.
+
+The ranging pieces are the standards, queen, free dream-eater, wooden dove, dragons (except: violent, flying and reclining), demons, running horse, mountain eagle, whale, running rabbit, tigers (except blind), turtle snake, ceramic dove, lance, oxcart, chariots, flying swallow, running pup, running serpent, great dove, running bear, running stag, running wolf, free pup, phoenix master, kirin master, vertical bear, side boar, silver rabbit, golden deer, great stag, cloud eagle, bishop, rook, side wolf, mountain falcon, soldiers (except: sword, burning and cross-bow), violent ox, golden bird, white horse, howling dog, side mover, water buffalo, turtles, vertical wolf, side ox, liberated horse, treacherous fox, roc master, vermillion sparrow, horseman, swallow’s wings, side flyer, great master, side monkey, vertical mover, flying ox, vertical pup, vertical horse, dragon horse, dragon king, horned falcon, soaring eagle, roaring dog and lion dog.
+
+The hook mover, long-nosed goblin, Capricorn, and peacock can move any number of squares along a straight line, as a normal ranging piece, but may also abruptly change tack left or right by 90° at any one place along the route, and then continue as a ranging piece. Turning a corner like this is optional.
+
+The range covered by a hook move is the equivalent of two moves by a rook, or two moves by a bishop, depending on the piece. However, a hook move is functionally a single move: The piece cannot capture twice in one move, nor may it capture and then move on. It must stop before an intervening piece (unless it first changes direction to avoid it), and must stop when it captures, just like any other ranging piece. It can only change direction once per move.
+
+The lion and lion hawk may take multiple (2) steps in a single turn. These do not have to be in a line, so these pieces can potentially reach every square within two or three steps of the starting square, not just squares along one of the diagonals or orthogonals. Such moves are also useful to get around obstructions. An area mover must stop where it captures.
+
+The golden bird and several promoted pieces have the option of jumping a limited number of squares, and then continuing on in the same direction as a ranging piece.
+
+The ancient dragon may jump over any number of pieces, friend or foe, along a straight line, but only when making a capture. Otherwise it moves as a ranging piece.
+
+The great general, vice general, rook general, bishop general, violent dragon and flying crocodile may jump over any number of pieces, friend or foe, along a diagonal or orthogonal. They capture all pieces they jump.
+
+However, they may only jump pieces of lower rank, whether friend or foe. The relevant ranking is:
+
+The Japanese Wikipedia describes another set of movements for this piece.
+
+The Japanese Wikipedia describes another set of movements for this piece.
+
+Unlike in other shogi variants, in taikyoku the tengu cannot move orthogonally, and therefore can only reach half of the squares on the board. This is the move of the capricorn, and may be an error.
+
+It cannot burn other pieces as in tenjiku shogi.
+
+When it promotes to a captive officer (see above), it demotes (moving only two squares orthogonally instead of three).
+
+Because it cannot move orthogonally, a bishop can only reach half the squares on the board.
+
+Because it cannot move orthogonally, a cat sword can only reach half the squares on the board.
+
+Earth general and go between
+
+Because it cannot move orthogonally or backward, a stone general can only reach less than half the squares on the board.
+
+Like other large board shogi variants, this game uses the promotion-by-capture rule. When a piece first makes a capture, it promotes. (If it can: a few important pieces do not promote.) Promotion has the effect of changing how a piece moves. See the table above for what each piece promotes to. Promotion is effected by turning the piece over after it moves, revealing the name of its promoted rank. Promotion is both compulsory and permanent.
+
+This is all very different from smaller shogi variants, where pieces promote when they cross a promotion zone (the enemy camp), and where promotion is optional. The dots on the taikyoku shogi board that would represent promotion zones in other games are only there as placement guides for the initial setup of the two camps.
+
+Some pieces promote, or demote, to a piece that exists in the initial setup of the board. However, such a piece cannot then promote a second time as its namesake does. For example, a bishop promotes to a dragon horse. However, while a ferocious leopard promotes to a bishop on its first capturing move, it does not promote to a dragon horse on its second. Rather, it remains a bishop for the rest of the game. This is easily understood from the equipment, for each piece has only two sides.
+
+If a lance, oxcart, savage tiger, side dragon, running wolf, knight, angry boar, evil wolf, flying cock, wood general, stone general, iron general, dog, pawn, running leopard, free wolf, or raiding falcon reaches the furthest rank, it must remain there until it captures or is captured.
+
+New pieces that only appear as a result of promotion are as follows:
+
+When a player makes a move such that the opponent's sole remaining king or prince could be captured on the following move, the move is said to give check to the king or prince; the king or prince is said to be in check. If a player's last king or prince is in check and no legal move by that player will get the king or prince out of check, the checking move is also mate, and effectively wins the game.
+
+Unlike Western chess, a player need not move out of check, and indeed may even move into check. Although obviously not often a good idea, a player with more than one royal (king or prince) may occasionally sacrifice one of these pieces as part of a gambit.
+
+A player is not allowed to give perpetual check to the sole objective piece.
+
+A player who captures the opponent's sole remaining king or prince wins the game. In practice this rarely happens; as a player will resign when checkmated, as otherwise when loss is inevitable.
+
+A player who makes an illegal move loses immediately. (This rule may be relaxed in casual games.)
+
+Another possible, if rather uncommon, way for a game to end is repetition (sennichite). If the same position occurs four times with the same player to play, then the game is no contest. Recall, however, the prohibition against perpetual check.
+
+The method used in English-language texts to express shogi moves was established by George Hodges in 1976. It is derived from the algebraic notation used for chess, but differs in several respects. Modifications have been made for taikyoku shogi.
+
+A typical example is P-12h. The first letter represents the piece moved (see above). Promoted pieces have a + added in front of the letter. (e.g., +CC for a wizard stork (promoted Chinese cock). The designation of the piece is followed by a symbol indicating the type of move: - for an ordinary move or x for a capture. Next is the designation for the square on which the piece lands. This consists of a number representing the file and a lowercase letter representing the rank, with 1a being the top right corner (as seen from Black's point of view) and 36jj being the bottom left corner. (This method of designating squares is based on Japanese convention, which, however, uses Japanese numerals instead of letters. For example, the square 2c is denoted by 2三 in Japanese.)
+
+If a lion, golden bird, heavenly tetrarch king or teaching king captures by 'igui’, the square of the piece being captured is used instead of the destination square, and this is preceded by the symbol !. If a double capture is made, than it is added after the first capture.
+
+If a move forces the player to promote the piece, then a + is added to the end to signify that the promotion was taken. For example, ORx7c+ indicates an old rat capturing on 7c and promoting.
+
+In cases where the above notation would be ambiguous, the designation of the start square is added after the designation for the piece in order to make clear which piece is meant.
+
+Moves are commonly numbered as in chess.

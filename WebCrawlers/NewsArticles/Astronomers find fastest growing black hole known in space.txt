@@ -1,0 +1,34 @@
+The astronomers have looked back more than 12 billion years to the early dark ages of the Universe, when this supermassive black hole was estimated to be the size of about 20 billion suns with a one per cent growth rate every one million years.
+
+"This black hole is growing so rapidly that it's shining thousands of times more brightly than an entire galaxy, due to all of the gases it sucks in daily that cause lots of friction and heat," said Dr Wolf from the ANU Research School of Astronomy and Astrophysics.
+
+"If we had this monster sitting at the centre of our Milky Way galaxy, it would appear 10 times brighter than a full moon. It would appear as an incredibly bright pin-point star that would almost wash out all of the stars in the sky."
+
+Dr Wolf said the energy emitted from this newly discovered supermassive black hole, also known as a quasar, was mostly ultraviolet light but also radiated x-rays.
+
+"Again, if this monster was at the centre of the Milky Way it would likely make life on Earth impossible with the huge amounts of x-rays emanating from it," he said.
+
+The SkyMapper telescope at the ANU Siding Spring Observatory detected this light in the near-infrared, as the light waves had red-shifted over the billions of light years to Earth.
+
+"As the Universe expands, space expands and that stretches the light waves and changes their colour," Dr Wolf said.
+
+"These large and rapidly-growing blackholes are exceedingly rare, and we have been searching for them with SkyMapper for several months now. The European Space Agency's Gaia satellite, which measures tiny motions of celestial objects, helped us find this supermassive black hole."
+
+Dr Wolf said the Gaia satellite confirmed the object that they had found was sitting still, meaning that it was far away and it was a candidate to be a very large quasar.
+
+The discovery of the new supermassive black hole was confirmed using the spectrograph on the ANU 2.3 metre telescope to split colours into spectral lines.
+
+"We don't know how this one grew so large, so quickly in the early days of the Universe," Dr Wolf said.
+
+"The hunt is on to find even faster-growing black holes."
+
+Dr Wolf said as these kinds of black holes shine, they can be used as beacons to see and study the formation of elements in the early galaxies of the Universe.
+
+"Scientists can see the shadows of objects in front of the supermassive black hole," he said.
+
+"Fast-growing supermassive black holes also help to clear the fog around them by ionising gases, which makes the Universe more transparent."
+
+Dr Wolf said instruments on very large ground-based telescopes being built over the next decade would be able to directly measure the expansion of the Universe using these very bright black holes.
+
+More information: Discovery of the most ultra-luminous QSO using Gaia, SkyMapper and WISE. arXiv:1805.04317 [astro-ph.GA] arxiv.org/abs/1805.04317 
+

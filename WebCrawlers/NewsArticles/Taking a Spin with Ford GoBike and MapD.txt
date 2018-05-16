@@ -1,0 +1,25 @@
+One of the best parts of my job is taking a morning to play with some data in MapD, just to see what interesting facts I can uncover. Today I fired up an instance of MapD Cloud to explore the system data of Ford GoBike, a bike-sharing program in the San Francisco Bay Area.
+
+The Ford GoBike system dataset provides anonymized, timestamped data about the start- and end- station for a bike, the user type (subscriber or casual rider), as well as some customer-reported attributes like birth year and gender. If you’re already familiar with the CitiBike NYC or RideIndego datasets, the Ford GoBike dataset is similarly structured.
+
+Ford GoBike served nearly a million bike rides from July 2017 through March 2018, with anywhere between 2,000 to 5,000 rides per day (and growing, as more bikes and cities are added):
+
+There’s a heavy cyclical component to bike usage, with each peak and valley representing the work week and weekend, respectively. Drilling into the data by day and hour, we can see that Ford GoBike seems to be quite popular for commuting:
+
+8am and 5pm are the most popular hours for using a Ford GoBike, plus or minus an hour in each direction, making a 3-hour “rush hour” in the morning and in the evening pretty evident. It’s not too surprising to me that Monday and Friday are a little less popular during “rush hour”; a late arrival Monday morning and ducking out for Happy Hour on Friday sounds like a lot of places I’ve worked in the past.
+
+Although the higher-level trend is that Ford GoBike is popular for commuting during the work week, if we zoom in on UC Berkeley, we see a much different pattern:
+
+Of the dozen Ford GoBike stations around the Berkeley campus, there’s a decidedly afternoon trend to using the bikes, as well as bit more weekend and late-night riding. Cross-filtering the map to show the San Jose State campus shows a similar trend (not shown).
+
+I’m not exactly sure what the 12am-1am blip in rides on Saturday and Sunday mornings are (upper-right of heatmap), but I suspect partying is involved. Or maybe that’s when the library closes on the UC Berkeley campus. In any case, be careful on your late night rides everyone!
+
+One of my favorite things about interacting with data using the MapD Immerse interface is being able to explore hypotheses on the fly. Suppose I believe that Tourists and Recreational Cyclists can be identified as having bike sessions > 30 minutes. Applying a global filter on ride length, we can see how the Day and Time distributions change, as well as the distribution of Subscribers vs. Customers:
+
+While 30 minutes might not be the exact breakpoint between a commuter and a recreational rider, the heatmap does validate that longer trips are more likely Saturday and Sunday afternoons.
+
+Looking at the Rides by User Type (bottom-left) also shows that these longer trips are weighted very heavily towards “Customer” passes, where users are paying by the trip or the day instead of monthly. If we assume that a commuter would either 1) save money by purchasing a Ford GoBike monthly pass or 2) have their own bicycle (and thus, not be in the dataset), then showing that a ride longer than 30 minutes is 2.5x more likely to be a Customer vs. Subscriber also lends credibility to the hypothesis that rides over 30 minutes in length are recreational cyclists.
+
+I’ve only scratched the surface of the information that can be derived from the Ford GoBike system dataset. One thing is for certain: the distribution of rides will likely change dramatically in the coming months with the introduction of Ford GoBike Plus, an electric-assisted bike that goes up to 18 mph and having enough torque to climb the tallest of San Francisco hills.
+
+Until then, what insights can you find in the Ford GoBike data? Sign up for a 14-day free trial of MapD Cloud and get started today!

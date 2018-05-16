@@ -1,0 +1,41 @@
+I’ve been using a Pixelbook over the past week, checking out the new Linux application functionality. It’s not ready for prime time, but it’s a billion times better than the last time I tried to run Linux apps on Chrome OS.
+
+But I was struck by a certain irony: half the applications I wanted to install were Electron apps. If you’re not familiar with Electron, it’s a framework that allows developers to create desktop apps using web technologies. “If you can build a website, you can build a desktop app,” is the tagline. In fact, many Electron applications feel almost exactly like websites.
+
+Slack, Hyper, Simplenote, Visual Studio Code. All responsible for a large portion of my day, and all of them are built with Electron.
+
+Under the hood, Electron is powered by the Chromium rendering engine and Node.js. Chromium is the open-source part of Google’s Chrome browser. And Node.js is powered by V8, which is Chrome’s JavaScript engine.
+
+Electron apps will always be hamstrung by Chrome OS
+
+So, to clarify: I’m running a laptop that has an operating system called “Chrome OS,” which is mostly just Google’s Chrome browser and a little bit of Linux, and now I’m installing “real” Linux applications inside a virtual machine on top of Chrome OS, and most of those applications are built entirely with Chrome-derived technologies.
+
+And you know what? These Electron apps kind of suck on Chrome OS. I’m sure they’ll improve over time — especially once they get GPU support, which I’m told is in the works — but they’ll always be hamstrung by the sandbox Google has made to keep Linux applications separate and safe from the rest of the OS.
+
+I don’t want to come across as a complainer here. There’s a lot of technical achievement to celebrate on all sides. Electron apps are easy to install on Linux, self-contained, and certainly functional. In contrast, I had to delete a couple of files inside my Steam install to get it to launch, even though Steam’s basic composition — a web browser UI with access to the file system — is hardly more complicated than VS Code’s.
+
+Here’s an Electron developer explaining how it all works, with a nice little history lesson about the technology inside:
+
+Electron is sort of like a web browser and a web server all in one convenient package. Developers build a user interface using HTML, CSS, and JavaScript (the same as any website), and build the “backend” for their app — basically, all the functionality that a website typically can’t do, like delete your hard drive or turn on your webcam without asking — using JavaScript.
+
+Let’s take Slack as an example. Here’s one of Slack’s developers explaining exactly why they use Electron:
+
+That looks like a long list, but what’s most impressive to me is what’s not on the list: the user interface, and the core logic of Slack, are completely Electron-independent. In Slack’s case, most of the core logic lives in the cloud on Slack’s servers. For offline Electron apps, like Visual Studio Code, there’s a lot more “backend” that works on your local computer for compiling code, offering suggestions, and working with git version control. But you can still use the core text editor part of VS Code in a browser — it’s called Monaco Editor, and it powers one of my favorite web-based coding environments, CodeSandbox.
+
+It seems to me like it should be possible to break Electron up into its constituent parts and make Chrome OS the best place to run Electron apps.
+
+I’m looking for an operating system with first-class Electron support
+
+Just run the “backend” of the app in the new Linux sandbox, and run the UI as a Chrome App, powered by the native Chrome OS version of Chrome. I say “just” like this would be an easy undertaking. It probably wouldn’t be. But the alternative for Google is that Slack and VS Code run worse on Chrome OS than they do on Windows and Mac. And then I’ll be sad.
+
+If I let my imagination really run wild, I don’t see why Apple and Microsoft couldn’t do some similar decomposition of Electron using their own OS-optimized browser engines for the UI. I mean, I love that the major browser vendors are working so hard to support Progressive Web Apps as an open standard, but it’s obvious that the demands of most “real” desktop apps will always outpace those open standards.
+
+Developers have clearly signaled their intentions: they want to make cross platform desktop applications that work right now using web technologies. Electron is an open-source project. So contribute! At this point in my app usage journey, I’m looking for an operating system with first-class Electron support, not the inverse.
+
+The architecture specifics of Electron have helped it succeed, but what really matters are results: a developer can make a desktop application using a single JavaScript codebase, and it compiles into a binary that works on every OS. It’s not impossible for Google to contribute to that compile pipeline in order to ensure that Electron apps pop out as perfect Chrome OS citizens — in fact, Microsoft has already developed a tool that helps developers package Electron apps for the Windows Store.
+
+This doesn’t have to be forever. Maybe in the future, developers will start using React Native to build desktop applications. Or perhaps Flutter! Electron apps have a bad reputation for using too much RAM, have potential security issues, can’t (yet) match the speed of C++, and they often lack the polish and familiarity of a great native app.
+
+But it seems clear to me that OS-specific SDKs are becoming a liability for desktop OS vendors. Developers want to use the technologies they know, and they want maximum reach for the products they build. And they’re smart enough to get what they want. A lack of cooperation on the part of Apple, Google, and Microsoft will only hurt users.
+
+Say hello to your new Electron overlord.

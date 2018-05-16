@@ -1,0 +1,13 @@
+Telenav created and hosts OpenStreetCam, as many of you know. OpenStreetCam now has well over 130 million images contributed in large part by OSM mappers (thanks!). We already integrate the images themselves with JOSM and iD.
+
+About a year ago, we started an internal initiative to apply machine learning to detect important features such as signs that are captured in the images. While we haven’t rolled that out at scale yet, you can already see the results in some US metro areas such as Salt Lake City, Detroit and Dallas / Fort Worth, using the latest version of the OpenStreetCam JOSM plugin. The goal is to make mapping sign content much easier and quicker. You can, for example, filter speed detected speed limit signs to see only the ones where the way in OSM does not have this speed limit yet.
+
+So far, the technology behind this has been internal to Telenav. This is changing today.
+
+Starting today, you can see, download, and contribute to the source code that powers our sign detections from Github. In addition, we’re releasing a training set and a test set of 45000 images manually annotated by our map team with more than 55000 signs in 23 different classes such as: traffic signals, stop signs, speed limits and turn restrictions. You can use these data sets to run your own detection improvements. Perhaps you want to detect benches? Bus stops? Storefronts? Be our guest ☺️ We are happy to add your improvements to the OpenStreetCam platform if they are useful to OSM.
+
+We are also running a competition to celebrate this open source release. If you think you have what it takes to improve our existing detections meaningfully, I encourage you to enter! The competition runs until August 17. There is a $10,000 prize for the winner!
+
+Finally: we do not have any plans to automatically add any of this detected information to OSM. Any improvements will always be made manually by mappers through the existing JOSM plugin, iD integration (coming) and MapRoulette.
+
+If you're interested, there was also an official press release announcing this.

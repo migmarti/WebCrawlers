@@ -1,0 +1,75 @@
+Last week, I asked Apple to give me all the data it's collected on me since I first became a customer in 2010 with the purchase of my first iPhone. That was nearly a decade ago. As most tech companies have grown in size, they began collecting more and more data on users and customers -- even on non-users and non-customers.
+
+The recent Cambridge Analytica scandal revealed just how much tech companies have on us -- enough to figure out who we might vote for at the ballot box, for example.
+
+Apple? Not so much.
+
+Read also: This is why Apple needs a cheaper iPhone
+
+Apple took a little over a week to send me all the data it's collected on me, amounting to almost two dozen Excel spreadsheets at just 5MB in total -- roughly the equivalent of a high-quality photo snapped on my iPhone.
+
+Facebook, Google, and Twitter all took a few minutes to an hour to send me all the data they store on me -- ranging from a few hundred megabytes to a couple of gigabytes in size.
+
+What's interesting about the data is what Apple has -- and what it doesn't.
+
+The zip file contained mostly Excel spreadsheets, packed with information that Apple stores about me. None of the files contained content information -- like text messages and photos -- but they do contain metadata, like when and who I messaged or called on FaceTime.
+
+Apple says that any data information it collects on you is yours to have if you want it, but as of yet, it doesn't turn over your content which is largely stored on your slew of Apple devices. That's set to change later this year when the tech giant will allow customers to download their data archives, largely to comply with new European data protection and privacy rules. And, of the data it collects to power Siri, Maps, and News, it does so anonymously -- Apple can't attribute that data to the device owner.
+
+My entire set of data can be perused in less than an hour -- at most.
+
+One spreadsheet -- handily -- contained explanations for all the data fields, which we've uploaded here. Not all the spreadsheets contained information referencing these fields, but it shows you what kind of data Apple can collect on you.
+
+In the first folder, several spreadsheets contained information relating to my interactions with my devices and my content.
+
+Read also: iPhone of our dreams: The fixes and features Apple must deliver
+
+AccountDetails.xlsx contains basic information about the account holder, including name, address, phone number, and Apple ID information. It also includes when an account was created and IP address of the Apple server used to open the account.
+
+iCloudLogs.xlsx keeps a note on every time one of your devices downloads data from iCloud, including your photo library, contacts, and Safari browsing history -- but doesn't contain the actual data.
+
+MailLogs.xlsx also keeps a record of each time something from your Apple device interacts with your iCloud email account, but no email content is stored here.
+
+Two more files relate to Apple's flagship end-to-end encrypted messaging apps, FaceTime and iMessage. Because even Apple can't access the content of encrypted video calls and text messages, Apple can't turn over the data, but it can provide information on all the calls and messages that are routed through its servers.
+
+In both the FaceTime and IDS (iMessage) logs, notes read that the logs only indicate if there was an attempt to place a FaceTime call or to send an iMessage, because both requests are sent through Apple's servers. But neither log whether the call was made or message was sent, let alone if it was successful.
+
+In a separate folder, another batch of Excel documents contained information mostly pertaining to with my interactions with Apple, like downloads and support requests.
+
+AOS Orders contains an entire history of devices and accessories I've bought from Apple dating back to my first purchase. It also includes the five separate occasions I bought new earphones roughly once per year because my cat had chewed through them.
+
+CRM Installed Product is a list of every Apple device ever bought, including highly detailed information -- like serial numbers, a note on if a device is unlocked, unique networking MAC addresses for Bluetooth, Ethernet and Wi-Fi connections, and any other identifying information on a device.
+
+Read also: What would Steve Jobs think of today's Apple?
+
+CRM AppleCare Case Contact contains basic contact information on the account holder, such as name, address, and phone number -- and if the user opts into marketing emails and phone calls.
+
+CRM AppleCare Case Header included every interaction I've had with customer support. Every time you call, a company representatives make notes about the customer's problem, and also describes the next steps or the outcome of the call.
+
+You can see how that looks here.
+
+CRM Warranty includes all the information on a device owner's warranty, what AppleCare coverage they have -- if any, and when warranties expire.
+
+DS Store is a long list of every time you logged in to iTunes and from which specific device, and contains peripheral information like if the login failed.
+
+Game Center predictably contains information on all the gaming sessions a user has played or interacted with -- which in my case, as you'd expect, is limited to almost zero.
+
+iForgot keeps a log of every time you visited your Apple ID page on the web, or reset your password.
+
+iTunes Match Uploads retains a record of every song you've ever uploaded to iTunes Match service, which matches your music with higher quality and downloads that copy instead. The list also includes your user agent information, which can identify your device.
+
+iTunes Match Downloads similarly keeps a list of all matched music that's later downloaded from iTunes Match.
+
+iTunes Downloads contains a user's entire download history since the account's creation -- from apps, songs, albums, videos, and movies -- from the iTunes Store. It also includes information on which device the item was downloaded and its IP address.
+
+Repair Transaction Details recounts every time you put in a repair request with Apple, and includes information on what the issue is, any notes made by Apple staff, and any information that identifies the device, such as a phone's IMEI number.
+
+Marketing Contact includes the information that Apple uses to contact you for marketing reasons, and the reason why -- such as if the user has a developer account.
+
+And that's it -- there's really not much to it.
+
+Read also: iOS 11.4 looks set to be Apple's most boring iOS release to date
+
+As insightful as it was, Apple's treasure trove of my personal data is a drop in the ocean to what social networks or search giants have on me, because Apple is primarily a hardware maker and not ad-driven, like Facebook and Google, which use your data to pitch you ads.
+
+It takes just a few seconds to request your data. Our sister-site CNET has a quick explainer on how to get yours.

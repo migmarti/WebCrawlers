@@ -1,0 +1,9 @@
+It’s important to give your website visitors the impression your site is loading fast. Even if it’s not! There are some tricks to make it look fast or to reduce the perceived waiting time! If not your users may abandon your site, see quote from google below:
+
+It’s almost impossible to load a site on a mobile network in 3 seconds or less. One of the main reasons are large images, webfonts or rendering „unimportant“ stuff at the beginning. Let’s take a closer look on loading images.
+
+Rule #1 of course is to reduce your file sizes as much as possible. Yet, some designs may require large images (I like them too)! So let’s imagine we have a user interface with a very large image showing above the fold. On a slow mobile network (which still exists) the user may see a blank page for a few seconds. We can’t make the network faster and we reduced the image size to the maximum. There’s one more thing you can do: Reduce the perceived loading time!
+
+With the progressive image loading technique the image is not shown until it’s fully loaded in the background. While loading the image in the background we show a tiny version the image which is loaded immediately. This way the user will see something from the beginning and before even noticing the low quality the large image is loaded. What do you think is better:
+
+Correct! With option 2 the perceived loading time this is lower. Even though it took the same amount of time to load the image.

@@ -1,0 +1,19 @@
+Someone once asked me what was the hardest thing to do when developing MXNet. I would not hesitate to say that replicating experimental results from papers is the most difficult part. Here are three examples:
+
+The heroes in the three examples above are top-level researchers in the field of deep learning, but it is still very easy to spend a lot of precious time on some subtle experimental details. A model usually has tens to hundreds of layers and can take several hours to train. Added to this, the model initialization and the order in which the data is read are usually randomized. All of this makes debugging and reproducing experiments difficult.
+
+Fortunately, in recent years, with the power of the open source community, you can find publicly available implementations of the major papers on Github. But this does not solve every problem:
+
+After understanding these pain points, several of us who were engaged in computer vision, Zhi Zhang (@zhreshold), Hang Zhang (@zhanghang1989), Tong He (@hetong007), Eric Xie (@piiswrong), scratched our heads and said, let’s create a toolkit to try to solve these problems.
+
+We want a toolkit that can be used not only by experienced users (i.e. a few years of computer vision experience) but also a project that can help newcomers to the field (i.e. a few months of computer vision experience). This cohort includes:
+
+Of course, if you are just starting to learn, please refer to “MXNet: The Straight Dope” or if you are interested in applications outside of computer vision, please look forward to the other toolkits we will be releasing soon, e.g. our toolkit for Natural Language Processing.
+
+Based on user feedback, this toolkit provides the following features:
+
+The following code downloads the pre-trained SSD model and then performs object detection on the image ‘street.jpg’ and presents the results. (Specific code explanation can be found here.)
+
+GluonCV is hosted here: gluon-cv.mxnet.io. So far we have released the first preview version, which includes three models, all of which achieve the same results as the original papers.
+
+Naturally we will continue to add new models in the next versions. If you are interested in learning about which models, please join the discussion on the github repo or on the forum.

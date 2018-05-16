@@ -1,0 +1,47 @@
+As it states in the Bunny Theory of Code, the code tends to multiply in a quick way. And even with such great tools as Vue and Vuex it’s easy to make a mistake that might grow later all over the project. Here I will talk about Vuex and its getters, and how they might be used in a wrong way. And while dealing with that, I tried to figure out what Vuex getters are good for and how they work under the hood.
+
+Note: It would be nice to have some basic knowledge on Vue and Vuex libraries to read further.
+
+Getters are a part of Vuex store and they are used to calculate data based on store state. Basically, they are one of the many things that make Vue and Vuex shine together. As the documentation says:
+
+Here are a few things that are great about getters:
+
+In fact getters are so great that it is easy to fall in the pit of overusing them extensively. And the mistake I am talking about here is to use getters in a “dummy” way, which can be illustrated in the following example. Let’s create a simple store with a few getters:
+
+These getters are then used in a component to reach the store through them:
+
+In this example we use getters in a dummy way, just to return a specific property from the store. It is an overdo, because the code can be written in a much more efficient way.
+
+First thing we can do is to use to bind store getters to local computed properties.
+
+But we still have dummy getters inside the store. The good news is that we can get rid of them completely, because there is the :
+
+Let’s get back to our example and use instead of :
+
+Here creates simple getters and maps them into computed properties, so that they can easily be used inside components. After that we can remove getters from our store completely, because now mapState takes care of everything:
+
+If you have Vuex store separated into modules, you can’t use the array shorthand syntax here. Instead, you need to use the object notation as shown below:
+
+In this case will look like this (as an option you can use a few nice shortcuts that Vue provides):
+
+As a result, helps us to get rid of dummy getters and directly map state to components, so now we can use getters only when they are really needed.
+
+Let’s say, that in our example we need to get an array of movies already watched. If it’s only about one component, then it’s as simple as putting this logic into a calculated property inside of it. But what if another component also needs the same thing?
+
+We might consider storing calculated data inside the store, but since in our case it’s a derived data based on movies list, it comes with responsibility to keep it in sync wherever the original list changes.
+
+That is when getters might be the best solution. We can define a simple getter function to get movies based on property:
+
+Now every component and every action can access the property and it’s cached, meaning it won’t be recalculated till the store data that is involved changes.
+
+It is also possible to pass arguments to getters and calculate data based on it. It can be achieved by returning a function:
+
+Caching is one of the key features of getters, which actually makes them more preferable over simple helper functions. Getters cache works in a way that if a getter is calculated once, it won’t be recalculated till the part of a store it depends on changes as well. The detailed explanation on how getters caching works can be found in the Appendix.
+
+But be aware that since Vue’s computed properties were designed for data storing, and not for functions, the computed properties cache for parameterised getters does not work. This way the underlying function is executed each time getter is accessed.
+
+Let’s try an example to show the difference in caching between simple and parameterised getters:
+
+The example shows that getters are updated only when the part of store they are using is updated. And while in the basic case the result is cached, in the case of parameterised getters the result is recalculated each time the getter is called. It’s a good point to keep in mind if you are using parameterised getters extensively.
+
+Getters have an important role as a part of Vuex store and it’s our responsibility to use them properly — to compute properties based on state and to provide them in convenient way for both components and actions, so that they won’t be recalculated each time.

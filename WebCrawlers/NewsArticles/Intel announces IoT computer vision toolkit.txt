@@ -1,0 +1,11 @@
+As part of its Internet of Things and artificial intelligence strategy, Intel has announced the Open Visual Inference and Neural Network Optimization (OpenVINO) toolkit for developers. OpenVINO is designed to give developers the ability to build computer vision and deep learning inference apps at the edge. The solution will join Intel’s Vision Products portfolio.
+
+“We are seeing significant growth in IoT markets worldwide, driven in part by a dramatic increase in vision applications, particularly those leveraging artificial intelligence (AI). These imaging and video use cases span nearly every IoT segment. They include finding product defects on assembly lines, managing inventory in retail, identifying equipment maintenance needs in remote locations, and enabling public safety in cities and airports,” Tom Lantzsch, senior vice president and general manager of the Internet of Things group at Intel, wrote in a post.
+
+With the toolkit, developers can build multi-platform computer vision solutions. Intel explains it enables CNN-based deep learning inference on the edge. Supports heterogeneous execution across computer vision accelerators, aims to speed time to market, features a library of functions and pre optimized kerels, and includes optimized calls for OpenCV and OpenVX.
+
+In addition, the solution features a model optimizer, inference engine, and FPGA support.
+
+According to the company the OpenVINO toolkit is already being used for smart city, traffic solutions, medical imaging, and industrial and manufacturing safety.
+
+“The new OpenVINO toolkit combined with a broad range of advanced silicon provides a complete high-performance solution for edge-to-cloud video analytics and deep learning. It empowers developers to easily deploy deep learning inference and computer vision solutions, leveraging a wide range of common software frameworks like TensorFlow*, MXNet* and Caffe,” Lantzsch wrote.

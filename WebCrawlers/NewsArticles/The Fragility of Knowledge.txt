@@ -1,0 +1,155 @@
+A couple years ago, I was taking an outdoor class in West Virginia. I had brought a book to read, and I had put it down on a tree stump as I worked on my project. And while I wasn’t looking, one of the resident goats came by and ate the book’s cover.
+
+This got me thinking about the fragility of knowledge. A book is such a fragile object, and the knowledge it contains is fragile as well. If our society collapsed, how much of our knowledge would be saved, and how much would be lost? What would it take to preserve that knowledge?
+
+We have such an abundance of knowledge these days that we forget how easy it is to destroy. We store our knowledge in physical media (books, hard drives, etc.) and those physical objects are remarkably fragile.
+
+Digital media are fragile in a few ways. For one thing, they’re physically fragile; if you’ve ever dropped a hard drive and broken it, you know how easy it is to lose hundreds of gigabytes of data. They’re also fragile in that they rely on electricity; if the electric grid goes down, we’ll lose access to all the knowledge on our DVDs, hard drives, and the internet. And they’re fragile in the sense that digital technologies quickly become obsolete; I remember watching my dad laboriously copying our family’s home videos from VCR to DVD when that technology shifted.
+
+We can work to preserve our digital data. We can guard against physical damage by making backups, and if the electric grid goes down, we can bring it back up. And there are data librarians, carefully transferring knowledge into new storage media and file formats as the old technologies become obsolete.
+
+But it takes a lot of work to maintain our digital data, and already, so much of it has been lost. Essential data from the Apollo missions is inaccessible because we’ve lost the ability to read the tapes it’s stored on. And the last programmer who really understood the code for the Voyager spacecraft has now retired. As time goes on, more and more scientific data and instruments will be lost in the same way.
+
+We don’t think about books as fragile, because we live in a carefully climate-controlled environment where they’re easy to preserve. But imagine trying to preserve a library full of books in a more primitive dwelling place, say, a humble log cabin with a dirt floor.
+
+Animals will eat your books if you’re not careful. It should be easy to keep out the larger ones, like goats, as long as your cabin has a door. But mice and rats are notoriously good at sneaking through the cracks. They’re a problem in modern dwellings, so I can only imagine they’d cause that much more trouble in a primitive house.
+
+And if you somehow manage to keep out the mice and rats, then you still have bugs to contend with: silverfish and all the other creepy-crawlies that like chewing on paper.
+
+Now suppose you somehow manage to eliminate the rats, mice, and bugs. You still have to worry about dampness, which will rot your books if you’re not careful.
+
+And you also need to worry about humans. Presumably, you’re going to have people handling these books (since otherwise, why bother storing them?). And people are going to cause wear and tear, ripping pages and bending covers and so on. The oils from people’s fingers will damage the books. And if you’re living in a less civilized society, where people work outside and don’t wash their hands as often, they’re going to end up smearing dirt, grease, and animal residue on the pages.
+
+Anyway, even if you solve all these problems, even if you are perfectly and inhumanly carefully with your books, they still only have a finite lifespan. Eventually, the pages will get brittle, and will crumble to dust in your hand. No matter how carefully you tend to your books, you can’t hold onto them forever.
+
+If you want to preserve books for hundreds of years, you have to copy them. If you have a printing press, you can use that. If you don’t, then someone has to sit down and copy the books by hand.
+
+“So what,” you say to all this. “It’s an interesting thought experiment, but we’ve got people archiving all the important digital knowledge. And if something happens to our books, we can just print new ones. It’s all well and good to think about previous civilizations, but this is 2018. We’ve got climate control. We’ve got very technologically sophisticated libraries.”
+
+And yes, we’re fine for now. As long as we can preserve our current levels of technology, then we can also preserve our knowledge. But with one little blip, all of that could be destroyed (nuclear apocalypse, destruction of the electrical grid, major plague that kills 90% of people, you name it).
+
+The thing is, knowledge and technology are mutually reinforcing. As we’ve discussed, you can’t preserve knowledge without the technology to read, store, and reproduce the media that contain that knowledge. And without the knowledge, you can’t recreate the technology… because the instructions for building a printing press were (you guessed it) written in one of the books that got destroyed.
+
+So suppose you have a nuclear war that kills large numbers of people and throws society into chaos for a couple hundred years. People are too desperate for food and survival to bother preserving books, or building printing presses, or doing much of else besides struggling to survive. And by the time things have stabilized enough for people to start wanting to print books again, all the instructions on building a printing press (or a computer, or the electrical grid) have been lost, and all the people who once knew how to do it are dead.
+
+If you fail to preserve knowledge, if you fail to save the printing presses and copy the books as they start to fall apart, then you only have a short window — maybe 40 or 50 years — before anyone who might have been able to recreate the technologies will have died off.
+
+Let’s think about a non-industrial, non-electric society (either pre-modern or post-apocalyptic), and let’s ask: what would it take for such a society to preserve knowledge?
+
+If you don’t have the printing press, then the only way to pass written knowledge down through the ages is to have scribes laboriously copying books by hand.
+
+And to make the books at all, you need certain technologies. You need something to write on: paper or parchment, or maybe clay tablets. If you’re using paper or parchment, you need ink. And you need something to write with: a pen or stylus. You need the raw materials to make these things from, and you need the knowledge of how to make them. For the raw materials, there may only be so much to go around — only so many animal skins to use as parchment, only so many berries from which to get ink. So you’ll be limited in the number of books you can store, since you can only copy a finite number as they start to disintegrate.
+
+And let’s not forget the most important technology of them all — written language. We take it for granted, but writing was only invented around 3200 BC. Without writing, all of your knowledge must be transmitted orally (or through non-verbal pictures). Oral histories can be surprisingly high-fidelity, but they’re still very limited in the amount of knowledge they can store. When all you have is the oral tradition, you’re limited to the amount that your tribe can memorize and pass on.
+
+Could we lose our writing system? Could we lose the concept of writing altogether, and forget that our ancestors had ever stored words in a physical object? I think that’s unlikely — even in the most dire post-apocalyptic setting, scraps of writing will remain: words inscribed into monuments and gravestones, ancient fading street signs. It will be a long time before all traces of our writing are gone.
+
+But if we did lose it, could we recover it? How long would it take? It took most of our evolutionary history to develop the concept in the first place. How long would it take us to figure it out again?
+
+So those are some of the technological requirements for storing and copying knowledge. But what about the social requirements?
+
+Well, first of all, you need a society that values the preservation of knowledge. If all your society cares about is warfare and cattle herding, then it’s not going to devote its resources to creating and preserving books. Why waste human resources training scribes when you could send those people out to wage war or raise cattle?
+
+And even if your society cares about preserving knowledge, it has to be physically structured in such a way that creating and preserving books is possible. For instance, if you belong to a nomadic tribe, and you have to carry all your possessions on your back or in small wagons, a large library just wouldn’t be feasible.
+
+And preserving knowledge takes time and resources. Someone has to create the paper or parchment, and someone has to make the ink to write with. Then someone has to laboriously copy the books, letter by letter.
+
+If you belong to a small tribe of only 50 or 100 people, it might not make sense to train someone as a scribe (or an ink-maker, or a paper-maker). And even if you do have someone skilled in these roles, they might not have much time to devote to it in addition to all the everyday tasks around the village.
+
+I may be wrong, but the way I see it is, book-making (at least at a scale larger than one or two books per tribe) only starts to become viable when your society gets large enough to support division of labor. You need enough people taking care of the basic subsistence needs that a few others can devote their time to specialized crafts like being a scribe.
+
+So what might we expect to see, in a society that values the preservation of knowledge?
+
+Well, for one thing, we’re likely to find scholars: people whose job is it to produce and preserve knowledge. And it’s likely that these people will receive high status, or some other kind of special recognition, in the society.
+
+And this is indeed what we have in our society today! We have academics, a whole group of people whose entire job is to study the knowledge that other people have generated, and to add to that body of knowledge.
+
+Think how weird academics might seem to a stone-age civilization. “You mean there are people who just sit and read books all day? And they never go outside and work with their hands? They do nothing but read and write, and yet society still gives them food and shelter? What freeloaders!”
+
+If you don’t understand the fragility of knowledge, and the importance of knowledge to society, it’s easy to see “academic” as a worthless profession. There are historians that do no nothing but read and understand ancient texts and add a little commentary to their interpretation. There are mathematicians who climb through ever-higher realms of abstraction with less and less connection to the actual world.
+
+And it’s unclear whether the knowledge produced by any specific historian or mathematician will be useful down the line (or even what “useful” means to a given society). But if a society has reverence for knowledge in general, and gives a special class of people the freedom to pursue knowledge, then you end up with a large body of information and a group of people that understand what it means and how to use it.
+
+Another thing I’d expect to see, in a society that valued knowledge, is a cult of sacredness surrounding books. The need for this cult arises directly from the fragility of the physical media: if books are fragile, and books are important, then it’s essential to treat them with reverence and care, in order to preserve them as long as possible.
+
+Books are easily destroyed, so you store them in a special room or container to keep them from being damaged. People are dirty, so you make them undergo a ritual purification before they are allowed to touch the book. Scribes treat their jobs as holy, reverently copying character after character from the old to the new parchment.
+
+And indeed, you can find this in Judaism, a religion whose worship centers around a holy book, the Torah, which makes it necessary to preserve that book carefully. The Torah is stored in the Ark, and only taken out during special religious occasions. You don’t touch it directly with your hands, but with a special metal pointer. The Torah can only be copied by a qualified scribe.
+
+In general, if you want your culture to treat books with respect and care, it makes sense to teach people that books are sacred. The individual rituals might do nothing to preserve the books, but they teach people that books are important and worthy of reverence. For instance, in Judaism, if you accidentally drop a holy book or set it on the floor, it is customary to kiss it. When the Torah is taken out of the Ark and carried around, the whole congregation stands. See this article for more details of Jewish ideas and practices surrounding holy books.
+
+So you can make a society that values knowledge. You can make a society that treats books with reverence, and which has the technology and manpower to copy its books over as the old ones decay.
+
+But knowledge isn’t just a physical object. You need a human to interact with what’s stored in that object. You need a reader to look at those written words and understand what they mean. Fun thought exercise: if you have a book written in a dead language that no one can read, can it still be said to be storing knowledge?
+
+Even if you manage to preserve the books, even if you have the technology to copy them as needed, and your society wants to devote its resources to doing so… if no one can understand what the books mean, then they’re worthless.
+
+Here are some issues that make knowledge fragile even if there’s no apocalypse or loss of technology:
+
+Language change. Anyone who’s tried to study Greek or Roman texts knows this one. If you want to access the knowledge written by Ovid and Cicero, you either need to learn Latin well enough to read the originals, or you have to rely on a translation (which will necessarily introduce some inaccuracies).
+
+If you rely on translations, eventually the language is going to change enough that you need a new translation. So if you have Cicero in 21st-century English and the original Latin, and no one in 2400 AD understands Latin, then they’re going to have to translate Cicero from the English, introducing even more inaccuracies.
+
+So in practice, if you really want to preserve knowledge, then you’re going to need scholars of ancient languages, who are willing to devote their time to studying the meaning of these texts.
+
+Loss of context. Even if you have scholars who are fluent in some ancient tongue, they won’t necessarily be able to understand everything that’s written in it. Life has changed so much over the last few thousand years (both culturally and in terms of material existence) that it’s hard to understand what people were writing about back then.
+
+For example, I have a friend who’s a historian. At one point, he and some colleagues were studying fight scenes in ancient literature. The fights were described as very short, and my friend’s colleagues were speculating about why the authors had chosen this stylized representation. My friend (who has done a fair bit of fighting) had to point out that no, these fight scenes weren’t stylized; real fights tend to be quite short.
+
+This seemed like a perfect example of how, without the lived experience, it’s impossible to tell what’s an accurate description and what’s artistic flair; it’s impossible to tell what’s normal behavior (on the part of the characters or environment) and what’s out of the ordinary.
+
+As another example, I recently read a translation of The Voyage of St. Brendan, a 10th-century Latin text written by Irish monks. I found a lot of it difficult to understand, because the narrative is organized around Christian holidays and the different prayers recited at different parts of the day, and I’m not familiar enough with Christianity to understand their significance. It’s clear that these times and holidays had symbolic meaning in the text, which the reader was expected to understand.
+
+In general, in order to understand a piece of ancient writing, you need to understand the material life that people led back then, and you also need to understand the culture. You also need to understand the canon of previous literature that the writer was drawing on. If you’re not familiar with the Bible, you’re going to have a lot of trouble with European literature from the last 1000 years, since most of it is sprinkled with biblical allusions.
+
+One of the biggest threats to knowledge is the people who actively want to destroy it.
+
+I’ve said that knowledge and technology are mutually reinforcing, but knowledge and society reinforce each other too. The society preserves the books, and the books contain the ideals that form the foundational principles of the society.
+
+If you want to destroy a society, and make sure it never returns, then you need to destroy everything that society has ever written. If you don’t, then people in your culture might discover those books and be influenced by them.
+
+This is why acts of destruction so often focus on the intellectual content of a society. The library at Alexandria was burned by Muslim conquerors who wanted their ideology to be the only one. Legend states that:
+
+And there have been many occasions, throughout history, where conquering societies have burned the temples or religious relics of the people they conquered. That, along with burning books, is an effective way of destroying a culture.
+
+Even in our own society, there are those who want to destroy knowledge. Environmentalists, who think our technologies are wasteful and destructive, might be happy to get rid of the knowledge that we need to construct industrial machines. Those who hate warfare might be happy if we lost the knowledge for making nuclear weapons. Those who are afraid of a future of designer babies might be glad if we lost the knowledge for genetic engineering.
+
+It’s a common theme in post-apocalyptic fiction that knowledge was destroyed on purpose, because it was that knowledge that people used to create the weapons that wiped out society.
+
+So if you want to preserve knowledge, it’s not merely a matter of protecting the physical objects, and making sure you can still understand the knowledge they contain. You also must defend your books or inscriptions against those who will want to destroy them.
+
+I’ve written this all as a hypothetical, but we really have lost a lot of knowledge over the ages. Some of it has disappeared “naturally”, the books simply getting lost or disintegrating as the years went by. Some of it has been deliberately destroyed.
+
+We will never know how much has been lost. But we can catch glimpses of the past’s intellectual wealth from the few hints that survived through the ages. In ancient literature, we find stranded references to books that have been destroyed: lost pieces of mythology, lost works by Archimedes and Plato, books of the Bible, and non-canonical gospels from the early days of Christianity.
+
+We also know about lost knowledge from ancient technologies that, even in the modern world, we struggle to recreate. No one knows how the Egyptian obelisks were raised onto their bases. The secret of Roman concrete was only recently rediscovered. Scientists are trying to recreate the recipe for garum, a fish sauce that ancient Romans used as a condiment. No one knows exactly what Greek fire (an incendiary that could float on water) was made of, and nobody knows how they produced Damascus steel.
+
+Some technologies got lost during the dark ages, and weren’t rediscovered until a thousand years later during the Renaissance. The ancient Greek Antikythera mechanism predicted astronomical events with a sophistication unrivaled until the 1300s, and the Romans built their aqueducts to a level of precision that wasn’t equalled until the modern age.
+
+And there are some technologies that we’ve lost simply because they no longer seem useful. Canning was only invented in 1810, after Napoleon offered a large financial reward to anyone who could more effectively feed his troops. Before that, people preserved meat by drying it, smoking it, or home-curing it with nitrates. People preserved vegetables using lacto-fermentation, a process which may be more nutritionally beneficial than canning is. Who knows what other food preservation techniques we’ve lost, simply because they seemed useless compared to modern technology?
+
+We will never know how much has been lost to the vaults of history. We only have these few scraps that have come through to us through the archaeological or literary record. How much has simply disappeared, never to be seen again? If you think that nothing of real substance could be lost so easily, consider that for thousands of years, everyone simply forgot that the Sumerians existed.
+
+So if we value knowledge, what can we do to prevent its loss in the event of an apocalypse? How can we ensure that as many books as possible are carried into the future, and that people retain enough understanding to use the knowledge that they store?
+
+Well, for one thing, we can teach people that knowledge is sacred, and that without knowledge, we could not have the way of life that we currently enjoy. We can teach people that knowledge is what lifted us up out of past ages, what allowed us to create civilization. We can teach people to hold onto knowledge even in the face of calamity.
+
+But we can also write books with the fragility of knowledge in mind. We can write books that store the essential knowledge of our civilization, and we can write them in a way that makes them accessible to the people of the future.
+
+In Finland, there is a book called the Taitokirja (“skill book”), whose pages contain detailed instructions on how to build various tools and perform various tasks. If I remember correctly, the tools range from simple wood and stone contraptions to modern industrial machinery. The book is intended to allow people to teach themselves these skills, in the event that they are forgotten.
+
+I hear that there is a similar book in English, The Knowledge: How to Rebuild Civilization in the Aftermath of a Cataclysm by Lewis Dartnell. But I haven’t seen this book, so I can’t tell you exactly what it contains.
+
+This is not a book, but the Global Village Construction Set contains instructions for building machines that can be used to bootstrap our way back to modern society in the event that our technology is lost.
+
+On a different note, it is eerie to contemplate this inscription that was written for people 10,000 years in the future, warning them of radioactive waste. There’s no reason to believe that people in that time period would understand what radiation is, so they hired anthropologists to word the message in a way that would ward off people from various cultures. And in case the inscription itself was unreadable, they designed the landscape to be foreboding and to contain ominous forms that would threaten people away from the area.
+
+I recently read the classic novel A Canticle for Leibowitz, which centers around an order of monks, living in a post-apocalyptic future, whose holy task is to collect and preserve any textual remnant of the past. That’s the sort of reverence that you need for preserving knowledge — meticulously copying ancient texts, even if you don’t understand what they mean, in hopes that they’ll be valuable to people of the future. Or simply because the texts themselves, as relics of the past, are sacred.
+
+I have no real conclusion to this post. I simply wanted to convey the awe I have felt ever since I realized how precious our knowledge is, and how easy it is to destroy. I hold each book with reverence now, and I look at our world with a new sense of wonder. We are living in an era of unprecedented technology. Will our society continue to grow and expand? Or will it collapse, the way so many societies have before, leaving us to pick up the broken pieces from the ruins of our world? And if our society does collapse, how much of what we hold dear — our technologies, our philosophies, our novels and legends and stories — will be forgotten so entirely that future societies will never even know they existed? It makes me want to treasure the knowledge we have, for as long as we have it.
+
+I’ve been obsessed with this topic for over a year now. Thanks to everyone at work who has put up with my incessant conversations about it. Particular thanks to my friend Kirby, who sent me many of the links included here.
+
+I haven’t read any of these yet, so I can’t tell you whether they’re any good, but people have recommended the following books about the fragility of knowledge:
+
+For a visceral understanding of how much a culture can change in a few thousand years, and how much knowledge can be lost, I highly recommend the novels Riddley Walker by Russell Hoban and Engine Summer by John Crowley. Both are set in the post-apocalyptic future, and both contain a lot of very reasonable, but completely incorrect, misinterpretations of the artifacts of our time.

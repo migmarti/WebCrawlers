@@ -1,0 +1,35 @@
+As a software engineer, I often feel like I don’t have a significant role in making this world a different place. I can’t stumble upon a cure for cancer, my backend won’t cure the world hunger and my brilliant database design won’t stop the coral reef from dying.
+
+Today, however, I solved an even bigger problem then all of the above – falling asleep during Netflix shows.
+
+Don’t you just hate it when you watch an awesome show, pass out, and autoplay plows on over the next 20 episodes? Leaving you in that annoying state of not even knowing on which episode you dozed off, let alone what part of the episode. This exact problem combined with my laziness stopped me from watching several amazing shows like GoT and Westworld.
+
+Netflix has a solution to this problem – Netflix socks. However, my knitting skills are not yet at a level where I can make it work.
+
+Since I have to practice my knitting skills, I think I need to figure out a way to solve the problem temporarily. Who knows how long ’till I build the sock making muscle memory.
+
+The only logical move to solve the problem is to use state-of-the-art deep neural nets for facial recognition. I thought of implementing a blockchain component for extra buzzword points, but just couldn’t find a use for it… (open to suggestions) :/
+
+The goal is to pause Netflix as soon as I stop watching the show. I also want the video to resume when I wake up. Who wants to exit your blanket cocoon just to press play again?
+
+This is what I ended up with. If you want the technical details – keep on reading.
+
+DISCLAIMER: The codebase you will see below is a mess – it is by no means usable by an average Joe. This was just a concept project and I probably won’t make it easy to use.
+
+This project consists of two separate problems I had to solve. The first is the actual facial recognition, and the second is controlling the Netflix player with its output.
+
+For the first part of the project, I used OpenFace – the amazing open-source face recognition library created by even more amazing people. (hope they don’t see in what horrible way I use the product of their hard work)
+
+Their algorithm ships with a Docker container image which really helped me not worry about dependencies. It also ships with a demo application that I modified a bit to use in my proof-of-concept. The demo app basically allows you to annotate your live camera feed with the algorithm output and also allows you to train the algorithm to recognize identities of faces it detects.
+
+The demo app has a client and a server application. The client worries about capturing the video feed and displaying algorithm output. The server recieves the picture snapshots from the feed, puts it trough the algorithm and returns the annotated image along with the metadata. The client and the server communicate via WebSockets for speed.
+
+The initial idea was to move a basic version of this app in a Chrome extension and use its output to control the Netflix player. Of course, Chrome does not allow extensions to access the computer camera for security reasons – duuh! To work around this speedbump, I decided to just have the demo app open in a separate window and have the Chrome extension listen to the WebSocket communication to get the metadata I need to determine if the person is looking at the screen.
+
+A small change was needed to the OpenFace demo server code – initially, it only sent the metadata back to the user that sent the image for processing. I made it a bit more open and had it broadcast metadata to everyone. Hacky, but I am building a PoC after all.
+
+The second part of this PoC is the Chrome extension that runs in the Netflix tab and makes sure the video is paused when I stop watching. It does that by connecting to the OpenFace server WebSocket and checks for changes in the number of faces found in the feed.
+
+The extension will start/stop the video depending on if anyone is watching:
+
+Those events are handled by the script running in the actual Netflix page:

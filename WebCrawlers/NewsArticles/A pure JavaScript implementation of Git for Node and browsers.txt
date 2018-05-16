@@ -1,0 +1,61 @@
+A pure JavaScript implementation of git for node and browsers!
+
+is a pure JavaScript implementation of git that works in node and browser environments (including WebWorkers and ServiceWorkers). This means it can be used to read and write to to git repositories, as well as fetch from and push to git remotes like Github.
+
+Isomorphic-git aims for 100% interoperability with the canonical git implementation. This means it does all its operations by modifying files in a ".git" directory just like the git you are used to. The included CLI can operate on git repositories on your desktop or server.
+
+aims to be a complete solution with no assembly required. I've tried carefully to design the API so it is easy to use all the features, without paying a penalty in bundle size. By providing functionality as separate functions instead of an object oriented API, code bundlers like Webpack will only include the functionality your application actually uses. (Or at least that's the goal.)
+
+I am working on adding type definitions so you can enjoy static type-checking and intelligent code completion in editors like CodeSandbox.
+
+The "isomorphic" in means it works equally well on the server or the browser. That's tricky to do since git uses the file system, and browsers don't have an module. So rather than relying on the module, is BYOFS (Bring Your Own File System). When creating a new Git object, you pass it the module to use.
+
+If you're only using in Node, you can just use the native module.
+
+If you're writing code for the browser though, you'll need something that emulates the API. At the time of writing, the most complete option is BrowserFS. It has a few more steps involved to set up than in Node, as seen below:
+
+Besides IndexedDB, BrowserFS supports many different backends with different performance characteristics, as well as advanced configurations such as: multiple mounting points, and overlaying a writeable filesystems on top of a read-only filesystem. You don't need to know about all these features, but familiarizing yourself with the different options may be necessary if you hit a storage limit or performance bottleneck in the IndexedDB backend I suggested above.
+
+Unfortunately, due to the same-origin policy by default can only clone from the same origin as the webpage it is running on. This is terribly inconvenient, as it means for all practical purposes cloning and pushing repos must be done through a proxy. However, I am "being the change you want to see in the world" by making PRs to all the major git repository hosting services.
+
+It is literally just two lines of code to add the CORS headers!! Easy stuff. Surely it will happen.
+
+You can install it from npm.
+
+In the package.json you'll see there are actually 4 different versions:
+
+This probably deserves a brief explanation.
+
+For more details about each build see ./dist/README.md
+
+Isomorphic-git comes with a simple CLI tool, named because is a lot to type. It is really just a thin shell that translates command line arguments into the equivalent JS API commands. So you should be able to run any current or future isomorphic-git commands using the CLI.
+
+It always starts with an the assumption that the current working directory is a git root. E.g. .
+
+It uses to parse command line options.
+
+TODO: Document this more. Also write some tests? IDK the CLI is more of a lark for testing really.
+
+I may continue to make changes to the API until the 1.0 release, after which I promise not to make any breaking changes.
+
+I have written this library as a series of layers that build upon one another and should tree-shake very well:
+
+Each command is available as its own file, so you are able to import individual commands if you only need a few in order to optimize your bundle size.
+
+Managers are a level above models. They take care of implementation performance details like
+
+Models and utils are the lowest level building blocks. Models generally have very few or no dependencies except for . This makes them portable to many different environments so they can be a useful lowest common denominator.
+
+Utils are basically miscellaneous functions. Some are convenience wrappers for common filesystem operations.
+
+Isomorphic-git would not have been possible without the pioneering work by @creationix and @chrisdickinson. Git is a tricky binary mess, and without their examples (and their modules!) I would not have been able to come even close to finishing this. They are geniuses ahead of their time.
+
+Thanks goes to these wonderful people (emoji key):
+
+This project follows the all-contributors specification. Contributions of any kind welcome!
+
+Thank you to all our backers! [Become a backer]
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Become a sponsor]
+
+This work is released under The MIT License

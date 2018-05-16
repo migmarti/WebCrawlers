@@ -1,0 +1,43 @@
+tl;dr: We’re splitting up Fractal into two separate apps: One to replace IRC, the other to replace Telegram.
+
+This is an in-depth post on the thinking behind the split of the Fractal app, which was decided at the hackfest in Strasbourg last week. For more information about the hackfest, have a look at my other blog post.
+
+One of the biggest problems with Fractal at the moment is that 1-1 messaging is pretty terrible. Since the rooms in the sidebar are sorted by most recent activity, high-traffic public rooms (such as GNOME IRC channels) tend to drown out rooms with less traffic, such as 1-1s and small groups. This is problematic because the signal-to-noise ratio in 1-1 chats and small groups tends to be much higher than in high-traffic public rooms. This leaves the user constantly searching for the rooms they care about, while the rooms they don’t care about are always at the top.
+
+One way to solve this problem is having a favorites group for “important” rooms. This is a feature Fractal has had for a while, and it does solve some of the problems with a room list sorted purely by recent activity. However, it only works well for rooms that are important over long periods of time, and needs to be managed manually. 1-1 chats are often brief, and there can be many of them in parallel. Putting them in favorites doesn’t make sense in many cases, as it would balloon the size of the favorites group, and require lots of manual work when starting or ending a conversation.
+
+The “obvious” solution would be doing what Riot does: Having a separate group of 1-1 rooms in the sidebar, and thereby keeping the 1-1 conversations in one consistent place. However, this creates more problems than it solves. In practice, it results in multiple groups of arbitrary length competing for real estate in the sidebar. If you have a lot of 1-1s, this means that you’ll be able to see very few rooms (even when most of the 1-1s are old and not relevant at the moment). In Riot, this group is capped at 10 visible rooms by default, but that’s still not great if you only need 2 of them at the moment. The category can be collapsed, but then you can’t see which 1-1s have new messages, and it also means lots of busywork collapsing/expanding the group. Clearly this isn’t an ideal solution, which is why we were very hesitant to go down this path.
+
+As we were discussing this issue over the past few months, I started looking more closely at the way people use different messaging tools. One thing I found puzzling is that despite the fact that Matrix theoretically supports the use cases covered by popular apps like Whatsapp and Telegram, few people are actually using it to replace those apps. Instead, they use it to replace IRC and Slack.
+
+Why? My theory is that most chat rooms fall in one of three categories:
+
+ Private Chats, which include 1-1s and small groups; Team Chats, which are larger, but still private and invite-only; and Public Rooms, which are basically like IRC.
+
+Team Chats and Public Rooms share many characteristics: Both have relatively high amounts of traffic, and there’s a lot of noise. The main difference is that Team Chats are private and the members rarely change (e.g. a company’s internal Slack), while Public Rooms can be joined by anyone at any time, and there is no expectation of privacy (e.g. #gnome-hackers on IRC).
+
+However, Private Chats have relatively little in common with the other two categories: They are low-traffic, and have little or no noise. This may sound like a small difference, but I think it’s the reason why 1-1s suck in Fractal/Riot/IRC, and why people aren’t using Matrix to replace Telegram.
+
+I’ve come to the conclusion that one app can’t cover all the use cases that the Matrix protocol supports, and still provide competitive UX. If you design an app to deal with lots of high-traffic rooms (e.g. Riot as it is today), it will suck for 1-1s, so people will use something else for those. Similarly, Telegram is primarily designed for 1-1s and small groups, which is why it’s a terrible experience if you have many high-traffic groups.
+
+If we want Matrix to succeed as more than an IRC/Slack replacement we need multiple apps, each focusing on a distinct use case. For messaging, I think the most important distinction to make is between what I call the Banquet and the Barbecue.
+
+The Banquet is a big, loud place. There are tons of people, and you don’t know many of them. Lots of things are happening all the time, and it’s hard to keep track of everything. This is what Matrix is currently mostly used for. Slack, IRC, and Discord are also all in this category.
+
+The Barbecue is at the other end of the spectrum: It’s a calm, private environment where friends, family, co-workers, and other acquaintances hang out. Conversations are mostly between 2 or 3 people, slow, and often very personal. Telegram, Whatsapp, iMessage, Facebook Messenger, and a myriad of other chat apps are optimized for this use case.
+
+Now, what does this mean for Fractal? After a long discussion on Thursday, we decided to split up Fractal into two separate apps with different interfaces, each containing a subset of the user’s Matrix rooms.
+
+Exactly how rooms will be split between the two apps is not 100% clear yet. 1-1s are clearly Barbecue, public rooms are clearly Banquet, but private groups could go either way. For these cases we may need a way to explicitly move rooms between apps. The distinction should probably be part of the Matrix spec, so the intent for a room to be a Barbecue or Banquet room could be set when creating a room, and persist across devices.
+
+The two apps will share practically all the internals, and even large parts of the interface. However, the split will allow us to do some things differently in each app to optimize the interfaces for the different use cases. Some of the changes we’re considering are a bubble-style message view in the Barbecue app, and more room categories (such as low-priority) in the Banquet app’s sidebar.
+
+For more details on the split have a look at the blog posts by Daniel, Eisha, Julian, and Adrien.
+
+How exactly the apps will be branded (and what will happen to the Fractal name we all love) is still being decided, but there is some consensus to move to GNOME-style generic names. The Barbecue app will almost certainly be called “Messages”. For the Banquet app there’s less agreement, but my current favorite is “Discussions”.
+
+The Fractal brand will not go away though: We’re thinking of keeping it around as the name of the community project that develops both GNOME Matrix apps, and/or using it for the backend powering both apps.
+
+There are lots of details to be figured out in this transition, both from a design and an implementation perspective, but I’m very excited about this new direction. If you’d like to join the effort, come talk to us on Matrix.
+
+Note: I have no illusions that this change will magically get everyone to leave Whatsapp/Telegram/iMessage and move to Matrix. In the short term, the goal is simply to make Matrix 1-1s a good experience. That said, if we ever want Matrix to make inroads with the general public, I think a move in this direction is an important precondition.

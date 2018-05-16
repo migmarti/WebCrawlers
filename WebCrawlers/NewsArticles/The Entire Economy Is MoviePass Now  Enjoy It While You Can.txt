@@ -1,0 +1,17 @@
+Perhaps the buzziest money-loser of the year is MoviePass, which has upended the film industry by essentially giving away millions of free movie tickets. Until recently, MoviePass members could pay $9.95 for a monthly subscription that allowed them to watch up to one movie per day in theaters, with MoviePass paying the face value of the ticket on a preloaded debit card. Since the average cost of a movie ticket in the United States is around $9, going to just two movies per month resulted in a good deal for the customer, and a loss for the company. (MoviePass has started placing more restrictions on which films its customers can see, perhaps in an effort to trim costs.)
+
+MoviePass’s business model — which Slate described as “creatively lighting money aflame in order to subsidize the movie-going habits of some 3 million customers” — has turbocharged its growth. And the company maintains that it can make money by striking revenue-sharing deals with theater chains, or charging movie studios to advertise inside its app.
+
+But investors aren’t convinced. Shares of MoviePass’s parent company, Helios and Matheson Analytics, have fallen more than 90 percent since October, and the company recently reported that it has been burning through its cash reserves, spending an average of $21.7 million per month with just $15.5 million left in the bank at the end of April. On Tuesday, Helios reported that MoviePass lost $98.3 million in the first quarter, despite adding more than a million net subscribers.
+
+Mitch Lowe, the chief executive of MoviePass, told me in a phone interview this week that the company’s financial troubles have been exaggerated. The company has access to a $300 million equity line of credit that will keep it solvent, he said, and blamed the company’s competitors, such as large theater chains, for sowing the seeds of doubt.
+
+“They smell blood in the water, so they’re spreading rumors and hypotheses,” he said.
+
+Ultimately, companies like MoviePass illustrate the perilous tightropemany growing businesses must walk. Spend too little on acquiring new customers and drawing business away from your competitors, and you won’t make it off the ground. Give too many freebies away, and you risk running out of cash before you’re big enough to cash in.
+
+“Pricing can be strategic,” said Kara Nortman, a partner at Upfront Ventures, which invests in technology companies. “If you can attract a lot of consumers to your product or service, it gives you a lot more power with incumbents who are limiting your growth.”
+
+The king of money-losers, of course, is Amazon, which went years without turning a profit. Instead, it plowed billions of dollars back into its business, building out its e-commerce infrastructure and jump-starting side efforts like Amazon Web Services and Amazon Prime Video. Those years of investments paid off, and Amazon is now the second most valuable company in the world, with $1.6 billion in profit last quarter alone.
+
+Not every company can repeat Amazon’s success. Just ask any of the dozens of “Uber for X” start-ups that raised millions of dollars to disrupt industries like laundry, parking and grocery delivery by offering cut-rate promotional deals, only to run out of capital before customers latched on. Or consider crash-and-burn cases like Beepi, a used car marketplace that blew through nearly $150 million in venture capital before shutting down in 2016. (Happily, not before I bought a car through the service for thousands of dollars less than its market value. Thanks, venture capitalists!)

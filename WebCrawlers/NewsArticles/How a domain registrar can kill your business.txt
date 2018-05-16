@@ -1,0 +1,77 @@
+In this post we will write about recent domain incident we suffered, who is responsible and what we did to minimize the damage.
+
+So, in the morning of May 3rd, I noticed uptimechecker.io becomes unreachable at moments, then available again, then down again, and so on. It all reminded of DNS problems, but I didn't have idea how big the problem will become.
+
+I knew our domain should be renewed about these dates, and we were already billed for this renewal. Our domain registrar is domain.com, so I logged in to our domain.com dashboard to check if everything is OK, but domain was not renewed and domain details were reading 2 days until expiry.
+
+I contacted domain.com support immediately, their chat agent responded immediately, confirmed we were billed for domain and that domain is not renewed, and he created support ticket for the issue. This is the start of horror story with domain.com support.
+
+I was regularly checking the ticket, but nothing happened, and after 4 hours I noticed nameservers for uptimechecker.io were reverted to default values (not serving anything). UptimeChecker.io was completely down for all users.
+
+I tried to set nameservers to correct values, but Control panel returned error: uptimechekcer.io is not managed here!
+
+I updated the ticket, said it is urgent because our users cannot access the service. I didn't got response for the next 8 hours, and after that, this was response:
+
+Hello,
+
+
+
+ Thank you for contacting Support.
+
+
+
+ I apologize for any inconvenience this has caused you. We can understand your concern about the domain renewal issue. I will need to hand this ticket over to one of our senior registrar specialists to further assist you on 'uptimechecker.io' domain renewal issue. You should be hearing from them within 24-48 hours. 
+
+
+
+ If you have any further questions, please chat with us at https://www1.domain.com/chat/ . 
+
+
+
+ Sincerely,
+
+
+
+ Sachin K
+
+ Domain Registrar Specialist
+
+So, our domain is not working, no one can access the service, obviously domain.com is responsible for the incident because they failed to renew the domain, but they said please wait 24-48 hours!? That is the time we started panicking, because it looked like no one at domain.com is really caring about the issue, and we were not able to do anything to recover the service by ourselves, since we were completely cut off of our domain because nameservers were set to incorrect values and there were no way we can update them.
+
+It turned to be even worse than this, they didn't answer anything for next four days. I was contacting live chat support every day, in first days two times per day, and every time chat agent assured me someone is working on the ticket, and that ticket will be updated shortly, they sometimes said in next 6 hours, or next 24 hours. So yeah, it may sound crazy, but that is true, and they lied to us constantly every day. And we were completely blind what was happening and when we can expect the resolution.
+
+Since we were completely locked out of control of our primary domain, only way to do something on our side was to purchase another domain, change all of our systems to work with the new domain, and to inform our users about it. This is pretty radical, so I wanted to avoid this if possible, but no one from domain.com gave us an answer when we can expect the service to be online again.
+
+Finally, on Sunday (four days after incident started) I concluded that we really cannot rely on them, and I purchased the new domain: uptimechecker.org and started the migration process. Everything was ready for the switch on Monday, so I contacted live chat support one more time, and got the same answer: someone will update your ticket today. They really updated the ticket with this bizarre answer:
+
+Hello, 
+
+
+
+ Thank you for your recent contact and concerns in regards toward your domain name. We are currently reaching out to our registrar members, to ensure your domain name is renewed. Unlike common domain names like .com or .nets. .IO's are managed by a specific organization, that manages only .IO domain names. They must receive notification to renew the domain name prior to three days before the domain name expires. Unfortunately, our automatic renewal system is not compatible to renew the .IO domain names. Therefor, we are reaching out to our registrar members to reach to the registry to redeem the domain name. We do apologize for the delay in your resolution. Once I have received a confirmation on your domain renewal, I will notify you. If you have any questions or concerns please feel free to contact us. 
+
+
+
+ Regards, 
+
+ Danny G. 
+
+ Domain Registrar Specialist.
+
+So, basically, they admitted this is their fault, and their systems cannot do it properly, but they can create invoice and take money, and not even inform the user about any problems!? Also, in that update, they didn't give us any time estimate when we can expect the resolution. I asked for that information each day over live chat, always getting response: your ticket will be updated in the next 6 hours, or sometimes, in next 24 hours. It is still not updated, it is now 8 days after the last update.
+
+After that update, I decided it is time to inform all our users about migration to the new domain: uptimechecker.org. This was all we could do, and we would do that even earlier, but we hoped urgent problem like this will be handled earlier by domain.com, however, we were terribly wrong.
+
+One week after the migration, uptimechecker.io started working again (we still don't have control over our domain, but somehow DNS servers are reverted to correct values). They still didn't updated the ticket, we don't know how they fixed this, is it going to work permanently, or this is only temporary fix - again, zero information from them. I contacted live support again, they said it works now because "they are working on the issue", and that specialist will update ticket - and guess what, they didn't.
+
+I know this all sounds unbelievable, and if someone told me such story probably I would not believe also, so, at the end of this post, you can find full text of this ticket. Sadly, all said in this post is true.
+
+While we are still waiting to regain control of our domain, UptimeChecker will continue to work both on uptimechecker.org and uptimechecker.io. To avoid situations like this to happen in the future, we will transfer all our domains out of domain.com.
+
+So, to conclude, be aware of your Domain registrar, and be careful who you work with, because domain problem like this is one of the worst thing can happen to your business:
+
+We value our users, and we are really sorry this happened, but it was out of our control. We apologize one more time to all of you, we did only thing we could to minimize the impact of the problem, and we hope you will stay with us :)
+
+If you are new to UptimeChecker, you can try our service with all features totally free for 14 days! And if you become our user, we promise we will never let you down like our registrar did with us!
+
+Here you can find whole ticket, without any modifications:

@@ -1,0 +1,129 @@
+Follow the instructions below to install WordPress on an Ubuntu 18.04 server with a LEMP (Nginx, MariaDB, PHP) stack and a free SSL certificate (HTTPS) by Let’s Encrypt.
+
+What To Do Next
+
+FAQs and Troubleshooting
+
+Let’s start with the requirements. You don’t need much.
+
+Before we go on, these instructions are for people that plan on installing and managing a WordPress server themselves. If you don’t know how to manage a server, get managed WordPress hosting and skip this tutorial.
+
+If you want to use CentOS you can check our Centmin Mod tutorial.
+
+The instructions below will work on other versions of Ubuntu, including 16.04 and 14.04, but these are specifically written for 18.04.
+
+Before doing anything, you should update your server and its packages with the following commands:
+
+To install Nginx on Ubuntu 18.04, run the following command:
+
+Check if Nginx is installed with:
+
+Which should give you an output similar to this:
+
+If you use a firewall you’ll need to add a rule to allow Nginx.
+
+MariaDB is pretty much the same with MySQL, so don’t get confused by the name. To install MariaDB, run the following command:
+
+To check if it’s installed, log into your MariaDB server by running:
+
+If you can log in it’s installed. You should get the specific MariaDB version you’re running in the welcome message:
+
+Exit out of the database server by running:
+
+You should run the following script to secure and configure your database server:
+
+And follow the prompts. Use a strong password. You can enter Y (the default) for all prompts.
+
+Ubuntu 18.04 uses PHP 7.2, so make sure the plugins you’re planning on using work well with PHP 7.2.
+
+To install PHP with all its dependencies and needed modules, run the following commands:
+
+Check if PHP is installed with:
+
+Which should give you an output similar to this:
+
+That’s it. The LEMP stack is installed. Let’s move on.
+
+First, start by editing the php.ini file.
+
+We’ll use the Nano text editor (which is the easiest for beginners). After you edit something with Nano, hit “CTRL + X”, then Y, and Press enter to save the changes. You can search the file with “CTRL + W”.
+
+And search for this line:
+
+Uncomment the line by removing the ; and update it to 0:
+
+Find all the following lines in the php.ini file and update them accordingly:
+
+You can use different values depending on your server.
+
+First, log in to your MariaDB server with the password you set earlier:
+
+And create a database for your WordPress by running these commands:
+
+With these commands, you’ll create a database and a user and grant permissions to the user. You can use your own names instead of these. Remember to use a strong password.
+
+Start by navigating to the directory where you want to download WordPress. We’ll use Nginx’s default directory:
+
+Extract the archive in the directory you’re currently in:
+
+And paste the following (after updating example.com to your domain)
+
+Run the following command to test and see if everything’s ok with Nginx:
+
+Now restart Nginx and PHP-FPM for the changes to take effect
+
+There’s a default wp-config file that we need to edit. So first rename the file:
+
+And update the following lines with your database information:
+
+For security reasons, you should update the security keys in your wp-config file.
+
+First, go here to generate them.
+
+And update the following lines with the ones you generated:
+
+You can be done here if you don’t plan on using HTTPS, but we’ll show you how to set up a free SSL certificate from Let’s Encrypt.
+
+We’ll use Let’s Encrypt and the certbot for automatic installation and configuration.
+
+Then install a certificate for your domain:
+
+At the prompts, agree to the Terms and Conditions by entering “a” and then optionally subscribe to ETF with “y”.
+
+IMPORTANT: the certbot will ask you whether to redirect all traffic to HTTPS (option 2) or not (option 1), you need to choose option 2. So enter 2.
+
+The certbot will automatically update your Nginx configuration file. A Let’s Encrypt certificate lasts 90 days by default. You’ll be notified before it expires, so you can renew it.
+
+To automatically update your certificate, set up a cron job by running:
+
+And adding the following line:
+
+Which will automatically renew your certificate every 30 days.
+
+Navigate to https://example.com and follow the steps to finish installing WordPress.
+
+First, you’ll need to choose a language.
+
+Then, you’ll need to enter site information such as title, username, password etc.
+
+Click on ‘Install WordPress’ and that’s it! You’re done. You’ve successfully installed WordPress on Ubuntu 18.04 with Nginx, PHP 7.2, MariaDB, and Let’s Encrypt SSL (HTTPS).
+
+Here’s what you should do next:
+
+Some frequently asked questions (with answers!) and common issues related to installing WordPress on Ubuntu:
+
+No, but it’s definitely recommended since it’s free and easy to set up anyway. If you don’t plan on using an SSL certificate you can just skip step 10.
+
+It can be caused by many things, but it’s most probably an error in your wp-config.php file. Make sure you’re using the right information (user, password etc.)
+
+We used Nginx so there’s no .htaccess file. This can be confusing for a beginner since many tutorials include instructions for Apache by default. The “.htaccess of Nginx” is the “/etc/nginx/sites-available/example.com” file you created earlier. Note that you cannot use the same .htaccess code in your Nginx configuration file.
+
+Better not. You already installed everything manually. You don’t really need it anyway. If you do plan on using a control panel then it’s better if you start fresh and don’t follow this tutorial at all.
+
+It offers you more control over everything. You decide what you use and how you use it. There’s always an option to just get WordPress cloud hosting without having to install or do anything yourself, but where’s the fun in that? 🙂
+
+Sure you can! And the process is way easier – you’ll install everything in this tutorial (and more) with a single command if you use a tool like EasyEngine or Centmin Mod.
+
+Feel free to leave a comment below if you’re stuck somewhere. If you want extensive work done on your server then you can contact us here.
+
+Please closely follow our tutorial and make sure you read everything. If you have any questions or got any errors feel free to comment below.
