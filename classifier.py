@@ -9,6 +9,7 @@ import scipy
 import os
 import io
 import shutil
+import re
 
 inputpath = '/home/mig/WebCrawlers/WebCrawlers/NewsArticles/'
 outputpath = '/home/mig/WebCrawlers/WebCrawlers/SortedNewsArticles/'
@@ -38,7 +39,7 @@ def sort_article(title, text, path):
     filename = path + '/%s' % title
     with open(filename, 'w') as f:
         f.write(text)
-    print("Success: Sorted article " + str(title) + "\n")
+    print("Success: Sorted article " + str(title))
 
 
 if __name__ == "__main__":
@@ -55,22 +56,31 @@ if __name__ == "__main__":
     #print(training.target_names)
     # ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
 
-    genres = ['Religion', 'Technology', 'Technology', 'Technology', 'Technology', 'Technology', 'Miscellaneous', 'Recreation', 'Recreation', 'Recreation', 'Recreation', 'Science', 'Technology', 'Biology', 'Science', 'Social Commentary', 'Politics', 'Politics', 'Politics', 'Religion']
+    genres = ['Sociology', 'Technology', 'Technology', 'Technology', 'Technology', 'Technology', 'Miscellaneous', 'Recreation', 'Recreation', 'Recreation', 'Recreation', 'General Science', 'Technology', 'Biology', 'General Science', 'Sociology', 'Politics', 'Politics', 'Politics', 'Sociology']
 
     classifier = train(trial, training.data, training.target)
     categories = np.array(genres)
+    dist = {}
 
     filepaths = getFilepaths(inputpath)
     for filepath in filepaths:
-        print("Processing: " + str(filepath))
+        print("\nProcessing: " + str(filepath))
         text = readFile(filepath)
-        genreIndex = classifier.predict([text])
-        genre = str(categories[genreIndex][0])
+        if len(re.findall('\$ *\d+', text)) > 5:
+            genre = 'Economics'
+        else:
+            genreIndex = classifier.predict([text])
+            genre = str(categories[genreIndex][0])
         print("Predicted genre: " + genre)
         path = str(outputpath + genre)
         if not os.path.exists(path):
             os.makedirs(path)
+            dist[genre] = 1
         title = os.path.basename(filepath)
         sort_article(title, text, path)
+        dist[genre] += 1
+
+    print("Results: ")
+    print(str(dist))
 
 

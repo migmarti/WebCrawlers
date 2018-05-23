@@ -1,6 +1,7 @@
 import nltk
 import os
 import io
+from nltk.corpus import wordnet as wn
 
 basepath = '/home/mig/WebCrawlers/WebCrawlers/NewsArticles/'
 
@@ -50,13 +51,24 @@ def main():
     totaltext = ""
     filepaths = getFilepaths(basepath)
     for filepath in filepaths:
-        print("Processing: " + str(filepath))
+        print("\nProcessing: " + str(filepath))
         text = readFile(filepath)
         tokens = tokenizeText(text)
         fdist = getNounFreqDist(tokens)
-        words = fdist.most_common()
-        word = words[:1][0][0]
-        print("Main noun: " + str(word))
+        words = fdist.most_common(3)
+        word = str(words[0][0])
+        word2 = str(words[1][0])
+        word3 = str(words[2][0])
+        print("Most common nouns: " + word + ", " + word2 + ", " + word3)
+        """
+        try:
+            s1 = word + '.n.1'
+            s2 = word2 + '.n.1'
+            synset = wn.synset(s1).lowest_common_hypernyms(wn.synset(s2))[0]
+            print("Lowest common hypernym: " + str(synset))
+        except:
+            print("Could not get lowest common hypernym.")
+        """
         totaltext += text
     tokens = tokenizeText(totaltext)
     fdist1 = getTotalFreqDist(tokens)
