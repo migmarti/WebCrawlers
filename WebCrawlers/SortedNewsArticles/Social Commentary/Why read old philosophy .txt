@@ -1,0 +1,49 @@
+Im going to try to explain a mystery that puzzled me for years. This answer finally dawned on me in the middle of one of thoseoccasional conversations in which non-perplexed friends patiently try to explain the issue to me. So I am not sure if mine is a novel explanation, or merely the explanation that my friends were trying to tell me, in which case my contribution is explaining it in a way that is at all comprehensible to a person like me. If it is novel, apparently some other people disagree with it and have an almost entirely satisfactory alternative, which has the one downside that it is impossible to explain to me.
+
+The puzzle is this:
+
+Why do people read old philosophers to learn about philosophy?
+
+We read old physicists if we want to do original research on the history of physics. Or maybe if we are studying an aspect of physics so obscure that nobody has covered it in hundreds of years. If we want to learn physics we read a physics textbook. As far as I know, the story issimilarin math, chemistry, engineering, economics, and business(though maybe some other subjects that I know less about are more like philosophy).
+
+Yet go to philosophy grad school, and you will read original papers and books by historical philosophers. Research projects explore in great detail what it is that Aristotle actually said, thought, and meant. Scholars will learn the languages that the relevant texts were written in, because none of the translations can do the texts the necessary justice.The courses and books will be named after people likeHume as often as they are named after topicsof inquiry like Causalityand larger subject areas willbe organized by the spatiotemporal location of the philosopher, rather than by the subject matter: Ancient Philosophy, Early Modern Philosophy, Chinese Philosophy, Continental Philosophy.
+
+The physics situation makes a lot more sense to me. Hypothetically, who would I rather read an explanation of The Alice Effect by? Alice, the effects seventeenth century discoverer, or Bob, a modern day physics professor authoring a textbook?
+
+How mightphilosophy be different?
+
+Some pieces of explanations I heard, or made up while hearing other explanations:
+
+I dont find any of these compelling. If I understood some material well enough to make use of it, I would generally expect to be able to summarize it ordescribe it in a different language that I knew. Soifnobody is capable of summarizing or translating the material it is hard to believe that I am getting much out of it by reading it. Some content cant be described isnt much of an explanation, and even if it was,how did the philosophers describe it? And if you found it, but then couldnt describe it, what would be the point? And if philosophy is about having certain experiences, like poetry, butthen it would seem to be a kindof entertainment rather than a project to gain knowledge, whichis at least not what most philosophers would tell you. So none of these explanations for learning philosophyto involve so much attention to veryold philosophersseemedthat plausible.
+
+Ok, so thats the mystery.
+
+Heres my explanation. Reading Aristotle describe his thoughts about the world is like watching Aristotle ride a skateboardif Aristotle were a proskater. You are not getting value from learning about the streets he is gliding over(or the natural world that he is describing) and you should not be memorizing the set of jumps he chooses(or his particular conceptualizations of the world). You are meant to be learning about how to carry out the activity that he is carrying out: how to be Aristotle. How to do what Aristotle would do, even in a new environment.
+
+An old work of philosophy does not describe the thing you are meant to be learning about. It was created by the thing you are meant to be learning about, much like watching a video fromskater-Aristotles GoPro. And the value propositionis that with this high resolution Aristotles-eye-view, you can infer the motions.
+
+There is not a short description of the insights you should learn (or at least not one available), because the insights you are hopefully learning are not the insights that Aristotle is trying to share. Aristotle might have highly summarizable insights, but what you want to know is how to be Aristotle, and nobody has necessarily developed an abstract model of how to be Aristotlefrom which summary statements can be extracted.
+
+So it is not that the useful content being transmitted is of a special kind that isimmune to being communicated as statements. It is just not actually known in statements. Nobody knows which aspects of being Aristotleare important, and nobody has successfully madeasimplified summary. What we know isthis one very detailed example. Much like if I showed you a bee because I thought Icouldnt communicate it in wordsitwould not be because bees are mysteriously indescribable, it would bethat I havent developed the understanding required to describewhat is important about it, so Im just showing you the whole bee.
+
+On this theory, if someone doesnt realize what is going on, and tries to summarize Aristotles writings in the way that you would usually summarize the content of a passage, you entirely lose what was valuable about it. Much as you would if you summarized a video of a skaterin motion into a description of the environment that they had interacted with. I hypothesize that thisis roughlywhat happens, and is why it feels like summaries cant capture what is important, and probably why translations seem bad always. Whenever a person tries to do a translation, they faithfully communicate the content of the thoughts at the expense of faithfully communicating the thinking procedure.
+
+For instance, suppose I have a sentence like this:
+
+If not quite the same words were available in a different language, it might get translated to:
+
+Which tells us something very similar about whether friendly banter is for counter-signaling.
+
+But something subtle is lost about the process: in the initial statement, the author is suggesting that they are relying on the accretion of many separate pieces of evidence that may not have been independently compelling, whereas in the latter that is not clear. Over a long text, sentences like the former might give the reader an implicit understanding of how disparate and independently uncompellingevidence might be combined in the intuition of the author, withoutthe issue ever being explicitly discussed. In the latter, this implication is entirely lost.
+
+So I think this explains the sense that adequate summarization is impossible and translation is extremely difficult. At least, if we assume that people either dont know what is really going on.
+
+As an aside, I explained my theory to Ben Hoffman, and also asked him what on earth Plato was trying to do since when I tried to read him he made some points about fashion and sports that seemed worthy of a blog post, but maybe not of historical significance. Ben had a neat answer. He said Plato is basically doing the kind of summarization that a person who knew what was going on in my theory would do. He listened to Socrates a lot and thought that Socrates had interesting methods of thought. Then instead of summarizing Socrates points, he wrote fictionalized account of conversations with Socrates that condense and highlight the important elements of thinking and talking like Socrates.
+
+This doesnt explain why philosophy is different to physics (and basically all of the other subjects). Why would you want to be like Socrates, and not like Newton? Especially since Newton had more to show for his thoughts than an account of what his thoughts were like. I suspect the difference is that because physicists invent explicit machinery that can be easily taught, when you learn physics you spend your time mastering these tools. And perhaps in the process, you come to think in a way that fits well with these tools. Whereas in philosophy there is much less in the way of explicit methods to learn, so the most natural thing to learn is how to do whatever mental processes produce good philosophy. And since there is not a consensus on what they are like in the abstract, emulating existing good philosophers is a plausible way to proceed.
+
+I was in the CMU philosophy department, which focuses on more formal methods that others might not class as philosophylogic, algorithms for determining causality, game theoryand indeed in logic class we learned a lot of logical lemmas and did a lot of proofs and did not learn much about Frege or Gdel, though we did learn a bit about their history and thought at other point in the program.
+
+The story I hear about philosophyand I actually dont know how much it is trueis that as bits of philosophy come to have any methodological tools other than think about it, they break off and become their own sciences. So this would explain philosophys lone status in studying old thinkers rather than impersonal methodsphilosophy is the lone ur-discipline without impersonal methods but thinking.
+
+This suggests a research project: try summarizing what Aristotle is doing rather than Aristotles views. Then write a nice short textbook about it.

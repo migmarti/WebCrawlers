@@ -1,0 +1,29 @@
+Chris Paine, who previously directed Revenge of the Electric Car, recently produced a documentary on AI risks titled Do You Trust This Computer.
+
+Prior to its release, it gained a large amount of attention when the space entrepreneur Elon Musk shared it with his 20+ million Twitter followers:
+
+Besides sponsoring free online viewing of the documentary for several days and promoting the film on Twitter, Musk features in the documentary alongside Stuart Russell (co-author of Artificial Intelligence: A Modern Approach), Eric Horvitz (Director at Microsoft Research Labs), Andrew Ng (co-founder of Google Brain), Shivon Zilis (a Director of OpenAI), and a variety of AI entrepreneurs. Although the documentary covers a combination of both positive and negative possible impacts of AI, on the whole its message is very pessimistic; the main thesis is that the technology is quickly getting beyond our control and we should be very worried. The film actually opens with a quote from Mary Shelleys Frankenstein:
+
+In order to address these concerns, the documentary proposes the following solutions:
+
+Elon Musk, who co-founded Neuralink, a brain-computer interface company, explains further in the movie:
+
+The current fascination with the topic of AI, as well as Elon Musks involvement in and promotion of the documentary, helped it gain much attention from both AI experts and non-experts, and reactions were decidedly different between the two groups.
+
+The AI research community, already tired of unrealistic coverage of recent AI progress, was seemingly unanimous in its disapproval. Many notable experts took to Twitter to voice their opinions on the film:
+
+In contrast, the coverage by journalists without expertise in AI was also critical but at times less willing to pass conclusive judgement:
+
+The breadth of the film sacrifices any chance of engaging with the question of artificial intelligence and its implications at anything deeper than the absolute surface level. The film mostly comes off as a montage of soundbites from leading AI researchers, who undoubtedly have profound insights to offer about AI, if only Paine had given them the space to do so in his film.
+
+The contrast between AI experts confident dissaproval with the medias more mixed and often neutral evaluation reflects a problematic information-asymmetry and highlights the need for better public understanding of AI.
+
+Although Chris Paine may have intended to inform people about the genuinely important topic of AI risks, his documentary does more harm than good by misinforming the audience in many egregious ways. Rather than objectively informing about the current state of the technology, the movie promotes an unrealistic belief that superhuman AI is imminent and seeks to evoke a sense of panic and anxiety about where we are headed.
+
+The documentary misleads and creates panic primarily in three distinct ways:
+
+Omission and implication: the documentary creates a sense of panic by introducing present-day AI risks without acknowledging the immense efforts to address them . Granted, it is true that a lot more has to be done, but many have already stepped up to the challenge. Furthermore, key dialogues with Elon Musk, Stuart Russell and others imply drastic ideas that are not remotely true and easily debunked. Mixing fact with fiction: worse yet, the documentary conflates real and fictional AI risks. Throughout the film, we are offered dystopian scenes from the Matrix, Terminator and Ex Machina, which are nowhere near real present day AI risks. The solutions it presents to these risks are also often very far from practical in the present day. The idea of merging with AI is especially far from practical today and almost out of science fiction . Manipulative emotional appeals: the first 5 minutes, after opening with a quote from Frankenstein, feature a fast paced montage made up of foreboding music and short sound-bites which is clearly meant to evoke a sense of distrust and fear about AI. Similar cinematic techniques are used all throughout the film to maintain this emotional influence .
+
+It is because of the usage of these techniques that Franois Chollet was spot on in describing this film as gratuitous fear-mongering dressed up as a documentary. This egregious combination encourages viewers to form an incorrect understanding of real news concerning AI with the utterly false belief that AI is growing quickly beyond our control rather than just being developed by programmers much like other computer algorithms.
+
+Chris Paine and his collaborators (Elon Musk notably among them) produced a documentary on AI which conflates real risks with imaginary ones. Considering that AI technology, like any technology, may be used for both good and evil it is essential to focus on the real issues of today and not be distracted by little understood science-fiction inspired ideas about the future.

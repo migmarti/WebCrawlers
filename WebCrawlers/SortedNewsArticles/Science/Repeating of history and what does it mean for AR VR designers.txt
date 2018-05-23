@@ -1,0 +1,11 @@
+I heard a lot of thought that current state in AR is very close to times before releasing iPhone. If somebody not aware of details, Ill repeat: Around ten years ago, maybe you even remembered, there wasnt iPhone. There was a lot regular mobile phones, few powerful, but useless smartphones on Symbian OS, and unknown Android.
+
+Generally, people were fine, with just phones, but some companies tried to convince us that we needed unreally powerful Symbian OS or hand computers. And as a default selling point that you will be able to do everything that you are doing on a computer, but on the go.
+
+A message was clear, but it didnt work this way. As much they tried, working with data sheets wasnt easy on those bulky devices.
+
+After releasing first iPhone wasnt clear why its different. Yeah, there wasnt buttons at all. But how are we going to edit out data sheets? But very soon became obviously that iPhone here to stay, and more importantly it created a new market. Apple found right message to customers why they needed it. And it wasnt just mirroring all functions from home computer.
+
+And the last part. After few years Android appeared and became first mobile operating system, leaving Nokia with its Symbian far behind. And we can argue a lot about if Android copied iOS or not. But the idea that Android was much closer to usability to iOS than to Symbian is unquestionable.
+
+So, ho its related to now? By my observation, we are now in before iPhone era. We already have enough powerful hardware to create a palm-size computer, but still, there isnt clear who will be a leader. We have a lot of rough solutions: Hololens, Meta, ARKit, ARCore, Oculus, Vive. But all of them are as Symbian OS, that is somewhat cool. But not much better than a regular phone.

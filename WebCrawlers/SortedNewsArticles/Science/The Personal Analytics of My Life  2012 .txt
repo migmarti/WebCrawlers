@@ -1,0 +1,111 @@
+One day Im sure everyone will routinely collect all sorts of data about themselves. But because Ive been interested in data for a very long time, I started doing this long ago. I actually assumed lots of other people were doing it too, but apparently they were not. And so now I have what is probably one of the worlds largest collections of personal data.
+
+Every dayin an effort at self awarenessI have automated systems send me a few emails about the day before. But even though Ive been accumulating data for yearsand always meant to analyze itIve never actually gotten around to doing it. But with Mathematica and the automated data analysis capabilities we just released in Wolfram|Alpha Pro, I thought now would be a good time to finally try taking a lookand to use myself as an experimental subject for studying what one might call personal analytics.
+
+Lets start off talking about email.I have a complete archive of all my email going back to 1989a year after Mathematica was released, and two years after I founded Wolfram Research. Heres a plot with a dot showing the time of each of the third of a million emails Ive sent since 1989:
+
+The first thing one sees from this plot is that, yes, Ive been busy. And for more than 20 years, Ive been sending emails throughout my waking day, albeit with a little dip around dinner time. The big gap each day comes from when I was asleep. And for the last decade, the plot shows Ive been pretty consistent, going to sleep around 3am ET, and getting up around 11am (yes, Im something of a night owl). (The stripe in summer 2009 is a trip to Europe.)
+
+But what about the 1990s? Well, that was when I spent a decade as something of a hermit, working very hard on A New Kind of Science.And the plot makes it very clear why in the late 1990s when one of my children was asked for an example of being nocturnal they gave me. The rather dramatic discontinuity in 2002 is the moment when A New Kind of Science was finally finished, and I could start leading a different kind of life.
+
+So what about other features of the plot? Some line up with identifiable events and trends in my life, sometimes reflected in my online scrapbook or timeline. Others at first I dont understand at alluntil a quick search of my email archive jogs my memory. Its very convenient that I can always drill down and read a raw email. Because as with essentially any long-timescale data project, there are all kinds of glitches (here like misformatted email headers, unset computer clocks, and untagged automated mailings) that have to be found and systematically corrected for before one has consistent data to analyze. And before, in this case, I can trust that any dots in the middle of the night are actually times I woke up and sent email (which is nowadays very rare).
+
+The plot above suggests that theres been a progressive increase in my email volume over the years.One can see that more explicitly if one just plots the total number of emails Ive sent as a function of time:
+
+Again, there are some life trends visible. The gradual decrease in the early 1990s reflects me reducing my involvement in day-to-day management of our company to concentrate on basic science. The increase in the 2000s is me jumping back in, and driving more and more company projects. And the peak in early 2009 reflects with the final preparations for the launch of Wolfram|Alpha. (The individual spikes, including the all-time winner August 27, 2006, are mostly weekend or travel days specifically spent grinding down email backlogs.)
+
+The plots above seem to support the idea that lifes complicated.But if one aggregates the data a bit, its easy to end up with plots that seem like they could just be the result of some simple physics experiment. Like heres the distribution of the number of emails Ive sent per day since 1989:
+
+What is this distribution? Is there a simple model for it? I dont know. Wolfram|Alpha Pro tells us that the best fit it finds is to a geometric distribution.But it officially rejects that fit. Still, at least the tail seemsas so oftento follow a power law.And perhaps thats telling me something about myself, though I have to say I dont know what.
+
+The vast majority of these recipients are people or mailgroups within our company.And I suspect the overall growth is a reflection of both the increasing number of people at the company, and the increasing number of projects in which I and our company are involved.The peaks are often associated with intense early-stage projects, where I am directly interacting with lots of people, and there isnt yet a well-organized management structure in place.I dont quite understand the recent decrease, considering that the number of projects is at an all-time high.Im just hoping it reflects better organization and management
+
+OK, so all of that is about email Ive sent. What about email Ive received? Heres a plot comparing my incoming and outgoing email:
+
+The peaks in 1996 and 2009 are both associated with the later phases of big projects (Mathematica 3 and the launch of Wolfram|Alpha) where I was watching all sorts of details, often using email-based automated systems.
+
+OK. So email is one kind of data Ive systematically archived. And theres a huge amount that can be learned from that.Another kind of data that Ive been collecting is keystrokes. For many years, Ive captured every keystroke Ive typednow more than 100 million of them:
+
+There are all kinds of detailed facts to extract: like that the average fraction of keys I type that are backspaces has consistently been about 7% (I had no idea it was so high!). Or how my habits in using different computers and applications have changed.And looking at the daily totals, I can see spikes of writing activitytypically associated with creating longer documents (including blog posts).But at least at an overall level things like the plots above look similar for keystrokes and email.
+
+What about other measures of activity? My automated systems have been quietly archiving lots of them for years. And for example this shows the times of events that have appeared in my calendar:
+
+The changes over the years reflect quite directly things going on in my life.Before 2002 I was doing a lot of solitary work, particularly on A New Kind of Science, and having only a few scheduled meetings.But then as I initiated more and more new projects at our company, and took a more and more structured approach to managing them, one can see more and more meetings getting filled in.Though my family dinner stripe remains clearly visible.
+
+Heres a plot of the daily average total number of meetings (and other calendar events) that Ive done over the years:
+
+The trend is pretty clear. And it reflects the fact that in the past decade or so Ive gradually learned to work better in public, efficiently figuring things out while interacting with groups of peoplewhich Ive discovered makes me much more effective both at using other peoples expertise and at delegating things that have to be done.
+
+It often surprises people when I tell them this, but since 1991 Ive been a remote CEO, interacting with my company almost exclusively just by email and phone (usually with screensharing). (No, I dont find videoconferencing with the company very useful, and the telepresence robot I got recently has mostly been standing idle.)
+
+So phone calls are another source of data for me. And heres a plot of the times of calls Ive made (the gray regions are missing data):
+
+Yes, I spend many hours on the phone each day:
+
+And this shows how the probability to find me on the phone varies during the day:
+
+This is averaged over all days for the last several years, and in fact Im guessing that the peak weekday probability would actually be even higher than 70% if the average excluded days when Im away for one reason or another.
+
+Heres another way to look at the datathis shows the probability for calls to start at a given time:
+
+Theres a curious pattern of peaksnear hours and half-hours. And of course those occur because many phone calls are scheduled at those times. Which means that if one plots meeting start times and phone call start times one sees a strong correlation:
+
+I was curious just how strong this correlation is: in effect just how scheduled all those calls are. And looking at the data I found that at least for my external phone meetings at least half of them do indeed start within 2 minutes of their appointed times. For internal meetingswhich tend to involve more people, and which I normally have scheduled back-to-backtheres a somewhat broader distribution, shown on the left.
+
+When one looks at the distribution of call durations one sees a kind of physics-like background shape, but on top of that theres the obviously human peak at the 1-hour mark, associated with meetings that are scheduled to be an hour long.
+
+So far everything weve talked about has measured intellectual activity. But Ive also got data on physical activity. Like for the past couple of years Ive been wearing a little digital pedometer that measures every step I take:
+
+And once again, this shows quite a bit of consistency.I take about the same number of steps every day.And many of them are taken in a block early in my day (typically coinciding with the first couple of meetings I do).Theres no mystery to this: years ago I decided I should take some exercise each day, so I set up a computer and phone to use while walking on a treadmill.(Yes, with the correct ergonomic arrangement one can type and use a mouse just fine while walking on a treadmill, at least up tofor mea speed of about 2.5 mph.)
+
+OK, so lets put all this together. Here are my average daily rhythms for the past decade (or in some cases, slightly less):
+
+The overall pattern is fairly clear. Its meetings and collaborative work during the day, a dinner-time break, more meetings and collaborative work, and then in the later evening more work on my own.I have to say that looking at all this data I am struck by how shockingly regular many aspects of it are.But in general I am happy to see it.For my consistent experience has been that the more routine I can make the basic practical aspects of my life, the more I am able to be energeticand spontaneousabout intellectual and other things.
+
+And for me one of the objectives is to have ideas, and hopefully good ones.So can personal analytics help me measure the rate at which that happens?
+
+It might seem very difficult.But as a simple approximation, one can imagine seeing at what rate one starts using new concepts, by looking at when one starts using new words or other linguistic constructs. Inevitably there are tricky issues in identifying genuine new words etc. (though for example I have managed to determine that when it comes to ordinary English words, Ive typed about 33,000 distinct ones in the past decade). If one restricts to a particular domain, things become a bit easier, and here for example is a plot showing when names of what are now Mathematica functions first appeared in my outgoing email:
+
+The spike at the beginning is an artifact, reflecting pre-existing functions showing up in my archived email.And the drop at the end reflects the fact that one doesnt yet know future Mathematica names. But its interesting to see elsewhere in the plot little bursts of creativity, mostly but not always correlated with important moments in Mathematica historyas well as a general increase in density in recent times.
+
+As a quite different measure of creative progress, heres a plot of when I modified the text of chapters in A New Kind of Science:
+
+I dont have data readily at hand from the beginning of the project. And in 1995 and 1996 I continued to do research, but stopped editing text, because I was pulled away to finish Mathematica 3 (and the book about it).But otherwise one sees inexorable progress, as I systematically worked out each chapter and each area of the science. One can see the time it took to write each chapter (Chapter 12 on the Principle of Computational Equivalence took longest, at almost 2 years), and which chapters led to changes in which others. And with enough effort, one could drill down to find out when each discovery was made (its easier with modern Mathematica automatic history recording). But in the endover the course of a decadefrom all those individual keystrokes and file modifications there gradually emerged the finished A New Kind of Science.
+
+Its amazing how much its possible to figure out by analyzing the various kinds of data Ive kept. And in fact, there are many additional kinds of data I havent even touched on in this post.Ive also got years of curated medical test data (as well as my not-yet-very-useful complete genome), GPS location tracks, room-by-room motion sensor data, endless corporate recordsand much much more.
+
+And as I think about it all, I suppose my greatest regret is that I did not start collecting more data earlier.I have some backups of my computer filesystems going back to 1980. And if I look at the 1.7 million files in my current filesystem, theres a kind of archeology one can do, looking at files that havent been modified for a long time (the earliest is dated June 29, 1980).
+
+Heres a plot of the latest modification times of all my current files:
+
+The colors represent different file types. In the early years, theres a mixture of plain text files (blue dots) and C language files (green). But gradually theres a transition to Mathematica files (red)with a burst of page layout files (orange) from when I was finishing A New Kind of Science.And once again the whole plot is a kind of engramnow of more than 30 years of my computing activities.
+
+So what about things that were never on a computer?It so happens that years ago I also started keeping paper documents, pretty much on the theory that it was easier just to keep everything than to worry about what specifically was worth keeping. And now Ive got about 230,000 pages of my paper documents scanned, and when possible OCRed.And as just one example of the kind of analysis one can do, heres a plot of the frequency with which different 4-digit date-like sequences occur in all these documents:
+
+Of course, not all these 4-digit sequences refer to dates (especially for example 2000)but many of them do. And from the plot one can see the rather sudden turnaround in my use of paper in 1984when I turned the corner to digital storage.
+
+What is the future for personal analytics?There is so much that can be done.Some of it will focus on large-scale trends, some of it on identifying specific events or anomalies, and some of it on extracting stories from personal data.
+
+And in time Im looking forward to being able to ask Wolfram|Alpha all sorts of things about my life and timesand have it immediately generate reports about them.Not only being able to act as an adjunct to my personal memory, but also to be able to do automatic computational historyexplaining how and why things happenedand then making projections and predictions.
+
+As personal analytics develops, its going to give us a whole new dimension to experiencing our lives. At first it all may seem quite nerdy (and certainly as I glance back at this blog post theres a risk of that).But it wont be long before its clear how incredibly useful it all isand everyone will be doing it, and wondering how they could have ever gotten by before.And wishing they had started sooner, and hadnt lost their earlier years.
+
+Thanks for all the great comments and suggestions, both here and in separate messages!
+
+Id like to respond to a few common questions that have been asked:
+
+How can I do the same kind of analysis you did?
+
+ Eventually I hope the answer will be very simple: just upload your data to Wolfram|Alpha Pro, and itll all be automatic.But for now, you can do it using Mathematica programs.We just posted a blog explaining part of the analysis, and linking to the source for the Mathematica programs that youll need.To use them, of course, youll still have to get your data into some kind of readable form.
+
+What systems did you use to collect all the data?
+
+ Different ones at different times, and on different computer systems.For keystroke data, for example, I used several different keyloggersmostly rather shadowy pieces of software marketed primarily for surreptitious uses. For the phone call data, all my landline phones have always been connected to our company phone system (originally a PBX, now a VoIP system), so I was able to use its built-in logging capabilities. For email, I had a script set up as part of our company email system back in 1989 that forks off a copy of all my messages, and sends them to an archive.This script has had to be updated quite a few times over the years when weve changed email systems.
+
+How does your treadmill setup work?
+
+ Its pretty straightforward. I have a keyboard mounted on a board that attaches to the two side rails of the treadmill.Ive carefully adjusted the height of the keyboard, and Ive put a gel strip in front of it, to rest my wrists on.I have the mouse on a little platform at the side of the treadmill.And I have two displays mounted in front of me.Ive sometimes thought about developing some kind of kit to let other people computerize their treadmills but its seemed too far from my usual business. (And when I first had the treadmill set up, I was still a bit embarrassed about my impending middle age, and need for exercise.)
+
+With everything you have going on, do you find time for your family?
+
+ Happily, very much so.Its helped a great deal that Ive always worked at home, so when Im not actively in the middle of working, I can spend time with my family.Its also helped that Ive been very consistent for a long time in taking an extended dinner break with my family (thats the 2.5 hour gap visible in the early evening in most of my plots).In the blog, I concentrated on work-related personal analytics; I have quite a lot more thats family oriented, but I didnt include this in the blog.

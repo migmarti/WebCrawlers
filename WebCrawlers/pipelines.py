@@ -33,7 +33,7 @@ class DropInvalidArticlePipeline(object):
     def process_item(self, item, spider):
         item['link_title'] = item['link_title'].encode("utf-8")
         title = item['link_title']
-        if "pdf" in title.lower() or "video" in title.lower() or "show hn" in title.lower():
+        if ("[" in title.lower() and "]" in title.lower()) or "github" in item["url"]:
             print("Excluded invalid article: " + str(item["link_title"]))
             raise DropItem("Excluded invalid article: " + str(item["link_title"]))
         return item

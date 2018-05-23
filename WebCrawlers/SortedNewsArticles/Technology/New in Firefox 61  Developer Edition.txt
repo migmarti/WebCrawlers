@@ -1,0 +1,29 @@
+Firefox 61: Developer Edition is available now, and contains a ton of great new features and under-the-hood improvements.
+
+Taking inspiration from Spinal Tap, Developer Editions dark theme now darkens more parts of the browser, including the new tab page.
+
+Searchable websites can now be added to Firefox via the Add Search Engine item inside the Page Action menu. The sites must describe their search APIs using OpenSearch metadata.
+
+And yes, the Page Action menu is also dark, if youre using a dark theme.
+
+More than just source maps, Firefox 61 understands how tools like Babel and Webpack work, making it possible to seamlessly inspect and interact with your original code right within the Debugger, as if it had never been bundled and minified in the first place. Were also working to add native support for inspecting components and scopes in modern frameworks like React.
+
+To learn more, see our separate, in-depth blog post: Debugging Modern Web Applications.
+
+The Developer Tools have seen numerous quality-of-life improvements.
+
+You can now rearrange tools to suit your individual workflow, and any tabs that dont fit in the current window remain readily accessible in an overflow menu.
+
+The Network panel also gained prominent drop-down menus for controlling network throttling and importing/exporting HTTP Archive (HAR) files.
+
+Weve also sped up the DevTools across the board, and are measuring and tracking performance as an explicit goal for the team. Even more improvements are on the way.
+
+In Firefox Quantum, we re-implemented many of the DevTools using basic web technologies: HTML, JavaScript, and CSS. Were even using React inside the DevTools themselves! This means that if you know how to build for the web, you know how to hack on the DevTools. If youd like to get involved, we have a great getting started guide with pointers to good first bugs to tackle.
+
+Theres also an entirely new tool available, the Accessibility Inspector, which reveals the logical structure of your page, as it might appear to a screen reader or other assistive software.
+
+This is a low-level tool meant to help you understand how Firefox and screen readers see your content. To learn more, including how to enable and use this new tool, check out Marco Zehes article Introducing the Accessibility Inspector. If youre looking for more opinionated tools to help audit and improve your sites accessibility, consider add-ons like the aXe Developer Tools or the WAVE Accessibility Extension.
+
+Lastly, we landed a number of improvements and refactorings that should make Firefox a better all-around browser.
+
+Firefox 61 is currently available in Beta and Developer Edition, and it will become the stable version of Firefox on June 26th. If youd like to keep up with Firefox development as it happens, we recommend reading the Firefox Nightly Blog, or following @FirefoxNightly on Twitter.

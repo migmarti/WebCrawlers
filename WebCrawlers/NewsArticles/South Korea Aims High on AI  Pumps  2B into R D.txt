@@ -1,0 +1,27 @@
+The birthplace of Samsung, LG and Hyundai, South Korea is a hotbed for tech and consumer electronics innovation. The country however trails neighbors China and Japan in the artificial intelligence competition, and lags far behind global leader the United States.
+
+Eager to kickstart its AI industry, the nation of 52 million yesterday released an ambitious national plan to invest ₩2.2 trillion (US$2 billion) by 2020 to strengthen its AI R&D capability. The program includes the establishment of six new AI research institutes, JoongAng Ilbo reports.
+
+“The government believes obtaining AI core technologies by joining hands with private corporations will not only achieve global standards but eventually nurture talented people and quality jobs. We aim to reach the global top four by 2022,” says Chang Byung-gyu, head of the Presidential Fourth Industrial Revolution Committee launched last October.
+
+This is not the first time South Korea has made a big commitment to AI. In 2016 DeepMind’s AlphaGo defeated Korean Go Master Lee Sedol, which shocked Koreans. Two days later the country announced it would invest ₩1 trillion (US$863 million) in AI research over the next five years.
+
+This time, the pressure comes from China and its aggressive plan to build an AI industry worth US$150 billion by 2030. Earlier this year, Chinese Premier Li Keqiang stressed “reinforcing the new generation of artificial intelligence research and development” among the state’s innovation focuses for 2018.
+
+South Korea’s Ministry of Science and ICT (MSICT) proposed the investment strategy as a way to close the gap between Korea’s AI tech and China’s. The MSITC also estimated that Korean AI tech is currently 1.8 years behind US AI tech.
+
+The MSICT defines South Korea’s AI R&D strategy in three categories: human resources, technology and infrastructure.
+
+Under the plan, South Korea will cultivate 1370 AI talents by 2020, including 350 key researchers; and award 4,500 domestic AI scholarships. The Ministry also announced a short-term project to address the AI talent shortage with six-month intensive training courses that will gestate 600 young talents by 2021. Meanwhile, universities are being encouraged to set up AI courses.
+
+A large-scale public specialization project to develop AI technology will also be carried out, with a focus on new drug development and medical services. Just today, South Korea approved the AI-powered VUNOmed-BoneAge, an image diagnostics device that uses deep learning to determine bone age from an X-ray scan of a person’s hand. It is expected to be deployed in children’s growth clinics.
+
+South Korea is also smartening up its chip industry with an approved budget of ₩1 trillion (US$1 billion) for development of AI semiconductors by 2029. This will enable domestic chip makers to put greater focus on AI chip development.
+
+To strengthen its AI infrastructure, the strategy calls for further research on AI and brain science at local universities and the establishment of five regional AI research centers to conduct research on integrating AI into robotics, bio-science, machinery and automobiles.
+
+Might South Korea be the dark horse in the AI race?
+
+South Korea’s heavy investment on AI R&D comes as no surprise. Innovation and technology laid the groundwork for the country’s remarkable economic rise over the past half century. Powerful multinational corporations, known as chaebol, take the lead in technology development, while the government plays a critical role in boosting R&D capacity.
+
+During the 1970s South Korea established a string of research institutions, including the Daedeok Innopolis — a dedicated industrial science hub housing 26 research institutes, seven universities, 1,484 firms, and more than 26,000 researchers (including 10,244 PhDs). In 1999, the South Korea government earmarked US$3.5 billion for twenty-three projects in fields such as bioscience, nanotechnology and space technology.

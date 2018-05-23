@@ -1,0 +1,49 @@
+Recognizing opportunities to disrupt the multi-trillion dollar construction industry, a slew of startups are focused strictly on developing technologies to make construction projects go more smoothly while increasing productivity and efficiencies. Investors are joining the game, with a number of venture capital firms formed with the purpose of investing in construction technology.
+
+As evidence of the growing interest in the field, funding in North American construction technology startups surged by 318 percent to $581.6 million in 2017 compared with $182.7 million in 2013, according to Crunchbase data. Investors pumped dollars into 87 known North American deals last year compared to 44 in 2013.
+
+Those figures are expected to go way up in 2018. In January, one startup aloneMenlo Park-based Katerrabrought in $865 million from Softbank, RiverPark Ventures, and Four Score Capital in a Series D round. Thats more than the whole sector raised in 2013 and 2017 combined.
+
+According to its Crunchbase profile, the startup optimizes every aspect of building development, design, and construction. It has raised $1.1 billion since its inception in 2015.
+
+A number of other companies in the space are growing. San Francisco-based Rhumbix has raised more than $20 million to develop its mobile platform designed for the construction craft workforce. Most recently, it brought in $7.4 million in a Series A round last September.
+
+Carpinteria, Calif.-based Procore Technologies, which has developed a cloud-based construction management software application and is backed by investors such as Bessemer Venture Partners and ICONIQ Capital, has raised $229 million over time. San Francisco-based PlanGrid also markets a cloud-based productivity software that aims to help owners, general contractors, and subcontractors collaborate on blueprints and building documents from any device. It raised a $6.9 million Series B round last September and has brought in $66 million in total since it was founded in 2011.
+
+On the investor side, newly-formed Boston-based Four Score Capital is an example of a VC firm focused strictly on real estate technology. The West Coast is also home to firms targeting the construction space. Brick & Mortar Ventures, based out of San Francisco, backs startups developing software and hardware solutions for the real estate, hospitality, and construction industries. Los Angeles-based Navitas Capital is focused on real estate and construction technology.
+
+Greylock Partners, which invested in Rhumbix, is not focused exclusively on construction tech. However, its eyeing more deals in the space, according to Partner Jerry Chen.
+
+Construction is a multi-trillion dollar industry that is beginning to adopt technology aggressively to reduce costs and increase productivity, he told Crunchbase News.
+
+David Glynn, president and managing director of Glynn Capital Management (another Rhumbix investor), notes that, over the past 30 years, the construction industry has struggled with productivity challenges.
+
+Within any project, labor is by far the biggest cost driver, representing over 50 percent of the total cost, he said. With profit margins of 1-3 percent, any improvement in productivity or efficiency makes a big difference to overall profits.
+
+Glynn acknowledges that the construction vertical has historically been a tough industry for IT providers to crack.
+
+Construction companies are not known for spending very much on IT or R&D, and the people and process make selling into the industry a challenge, according to Glynn.
+
+To his point, a June 2016 McKinsey & Co. study found that the construction industry is among the least digitized. Implementing solutions across construction sites for multiple sectors that are geographically dispersed is more than a little challenging.
+
+The construction industry has been historically very slow to adopt technology and has been very resistant to change, Glynn said. To the extent that Rhumbix and some of the other emerging companies in the space can provide real value and ROI, we think you will start to see an acceleration of adoption of technology in the industry.
+
+Rhumbix is currently the firms only investment in the space but Glynn said it is actively looking at other ways to invest behind the trend.
+
+Kent Ho, founder and partner at s28 Capital, notes that his firm has invested both in Rhumbix, PlanGrid, and another unnamed modular construction that is in stealth mode.
+
+Im very excited about the prospects for technology to modernize the construction industry and think that we are at a critical transition point where adoption in the industry is about to pick up substantially, he said. Ive met many developers over the last couple years and they are all asking for solutions for the same issues. The software and the technology solutions are finally at a point where customers are willing to try and adopt.
+
+Rhumbix was founded by U.S. Navy veterans Zach Scheel and Drew DeWalt, and is on track to grow its revenue by 400 percent in 2018, according to Scheel. After completing his military service, Scheel enrolled in Stanford Universitys Graduate School of Business where he interned with Bechtel as an assistant area superintendent and worked as a project controls engineer at a copper concentrator in the Atacama Desert of Northern Chile.
+
+With Rhumbix, you had two amazing founders[] that came from the construction world and had a strong vision of how mobile computing can improve the life of the craft workers and foremen, Greylocks Chen said.
+
+The startup has developed a tool for digitizing field data on project sites. It tracks timekeeping, production, and T&M tags via a smartphone app that eliminates the need to use paper and spreadsheets in the field. Foremen save 2.5-3 hours per week on paperwork when using the Rhumbix system, the company estimates, according to feedback received from customers.
+
+We view timekeeping as way for Rhumbix to build a strong customer relationship from which we believe it can build a broader platform of products around the worker and worker data, Glynn said. Rhumbix has built an elegant but simple solution that provides significant and easy to understand ROI to construction companies.
+
+Raymond Levitt, an engineering professor at Stanford University and operating partner at Blackhorn Ventures, believes that Greylock investing in what has traditionally been seen by VCs as a backward industry, speaks volumes.
+
+The convergence of trends such as the lower cost sensors, the increase in powerful mobile devices, broadband everywhere through cellular networks that are getting faster and faster, and the trend toward software sold as a subscription has helped boost investment in construction technology, he told Crunchbase News.
+
+As these trends continue to continue to converge, there is little doubt that funding in construction technology will only likely go up. The only hindrance to that growth might be an economic slowdown that would slow or stop construction projects. But as construction continues to boom, the need for startups to help increase efficiency and productivity should continue to grow as well.

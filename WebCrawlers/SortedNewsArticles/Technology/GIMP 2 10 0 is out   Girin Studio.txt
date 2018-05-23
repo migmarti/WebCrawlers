@@ -1,0 +1,11 @@
+So we are a bit late to announce it, since this happened on April 27, during Libre Graphics Meeting 2018 (by the way, can you spot ZeMarmot team, Aryeom and Jehan, in the goodbye photo of the meeting?), but yeah after 6 years of hard work, GIMP 2.10.0 is finally out!
+
+This is a huge release. You can read the release notes which are scrolling like forever and that is still not actually the full deal. We had so many awesome changes and cool new features in this release that we had to cut down the release notes contents when writing it.
+
+We are obviously not going to detail the participation of ZeMarmot in this release, since Jehan (hence ZeMarmot project) is the second biggest contributor of GIMP 2.10.0 with 1126 commits. So our overall report would basically be about as big as the release notes themselves. Lets spare you this!
+
+I hope you will enjoy this new version (you can download it here) as much as we enjoyed creating it. These have been a very exciting 6 years of contributions. And that is not finished! We are barely back from Libre Graphics Meeting and a bit exhausted (this is the reason why we failed a bit to send this news in a timely manner), and we already started working on GIMP 3, with the port to GTK+3 (in the same time as we fix flow of bugs, as always just after a major release).
+
+ Future for GIMP is bright! 
+
+A big thanks to all our donators for helping us make such great software! With every bit of your donations, you contributed to Free Software. We love you!

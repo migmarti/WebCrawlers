@@ -1,0 +1,33 @@
+Most recent TBTK release at the time of writing: v0.9.6
+
+When developing computationally intensive algorithms, it is important to be able to time the execution to find the main bottlenecks. TBTK therefore provides a flexible Timer class that allows for simple profiling of C++ code.
+
+The Timer is made available through
+
+In its basic use case the Timer acts as a time stamp stack that allows a single time stamp to be pushed onto the stack through the call
+
+The latest time stamp can similarly be popped from the stack using
+
+When a time stamp is popped, the time difference between the current time and the time that the time stamp was pushed onto the stack is printed to the standard output. In addition, the current stack depth and the optional tag is also printed. This allows for easy identification of which part of the code a specific time difference corresponds to.
+
+In the following example nested tick-tock calls are used to simultaneously measure the total calculation time of a nested loop as well as the time taken by a single iteration of the outer loop.
+
+We can see that each iteration takes 20-23ms to execute while the full calculation takes 211ms. On the left we also see the stack depth, while the tag is displayed to the right.
+
+As a second example we consider the following recursive function call
+
+Each time the recursive function is entered, a new time stamp is pushed onto the stack. After ten consecutive function calls the function begins to return and the time stamp stack is unwinded. The resulting output is
+
+While the stacked mode allows for flexible measurements of multiple pieces of code at the same time, it is not suitable for a case like the following
+
+Here both doA() and doB() are executed multiple times and we may want to figure out which one that is the bottleneck. Moreover, measuring doA() and doB() in single shot measurements may not be useful for figuring out the overall performance. For example, doA() and doB() may take widely different times to execute each time and the execution time for doB() may even depend on what the previous call of doA() did, and vice versa. In such cases it is only meaningful to measure the accumulated time taken by each function over the full loop.
+
+For this reason the Timer  also has an accumulator mode. To use this mode we first create two new accumulators.
+
+The accumulators can then be used independently by supplying the corresponding ID to the tick-tock calls.
+
+Since tick-tock pairs can be executed millions of times for any given accumulator, no information is printed by the tock calls in this mode. Instead the time accumulated so far can be printed at any time through the call
+
+Note that time is added to the accumulators when the tock calls are made. Therefore, when printing the accumulator table, only completed time intervals contribute to the listed time. We also note that it is possible to use stacked tick-tock calls and accumulator calls simultaneously.
+
+For more information about the Timer class, see the corresponding manual page and API entry.

@@ -1,0 +1,29 @@
+Welcome to the audio equivalent of "The Dress."
+
+Remember trying to figure out whether the photo of that dress spreading through social media in 2015 was black and blue or white and gold? It left the Internet puzzled for days until experts explained that the reasons we saw different colors depended on how our brains and eyes perceived them.
+
+We have a 2018 version, only it's messing with our ears. It started with a tweet from Cloe Feldman asking users whether they heard the word "Laurel" or "Yanny" in a three-second audio clip.
+
+Depending on where you hear the words, what you hear may change. For example, you may hear "Laurel" while listening on laptop speakers, but "Yanny" when playing the clip through your smartphone's built-in speaker.
+
+More: Laurel or Yanny? Chrissy Teigen, Mindy Kaling, more debate audio illusion on Twitter
+
+Bharath Chandrasekaran, an associate professor at The University of Texas, said he tested it with 10 people, and even they were divided: Half went for "Laurel" while the other half went for "Yanny."
+
+"We live in a noisy world," said Chandrasekaran, who teaches in the school's department of communication sciences and disorders. "Very little information actually reaches our ears. Its not surprising that this is perceived in different ways."
+
+The best headphones have a flat frequency responseand dont filter the sound, he says. But the cheaper the headphone, earbud or computer speaker, "the less reliable the quality of the audio." As a result, "your brain makes all kinds of predictions about what it thinks youre hearing, he said.
+
+Kevin Cureghian, a Los Angeles-based audio engineer, attributes it to the difference in speakers.
+
+"Any speaker that can replicate enough 'low end' or 'bass'  you will most likely hear Laurel. But any speaker that doesn't reproduce lots of low end (smaller size speakers in general), you will most probably hear Yanny."
+
+Cureghian tested this theoryby putting a low pass filter into his audio software program on the file. With the low pass filter, he heard Laurel, but when he adjusted it with a high pass filter, to add in the high frequencies, "you will hear Yanny. I guarantee it."
+
+But even on the same device, people can't agree, leading to the possibility that the difference also stems from how well your ears pick up frequencies.
+
+We brought an iPhone to the beach Wednesday morning and played the clip for passersby. While a few said it was "Laurel, clearly," others were mixed. We heard people say "Hear me," Dearie," "Laura" and "Yi-wee."
+
+Not one of our dozen folks picked "Yanny."
+
+Follow us on Twitter: @jeffersongraham and @brettmolina23.

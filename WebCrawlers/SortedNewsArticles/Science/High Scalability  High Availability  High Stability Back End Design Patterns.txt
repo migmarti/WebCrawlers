@@ -1,0 +1,11 @@
+An updated and curated list of selected readings to illustrate best practices in building High Scalability, High Availability, High Stability, High Performance, and High Intelligence back-end systems. Concepts are explained in the articles of prominent engineers and credible references. Case studies are taken from battle-tested systems that serve millions to billions of users.
+
+Understand your problems: scalability problem (fast for a single user but slow under heavy load) or performance problem (slow for a single user) by reviewing some design principles and checking how scalability and performance problems are solved at tech companies. The section of intelligence are created for those who work with data and machine learning at big (data) and deep (learning) scale.
+
+"Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, Vietnamese refugee, CTO of Uber Technologies Inc. So, keep calm and mind the availability and stability matters!
+
+Look at some interview notes and real-world architectures with completed diagrams to get a comprehensive view before designing your system on whiteboard. You can check some talks of engineers from tech giants to know how they build, scale, and optimize their systems. There are some selected books for you (most of them are free)! Good luck
+
+If you find this project helpful, please share on your chat groups, on Twitter, or on Weibo so more people can be helped! Power is gained by sharing knowledge, not hoarding it. Thank you!
+
+This repo is continuously crafted and revised by Binh Nguyen, a knowledge hungry engineer and a firm believer in practice. Feel free to use it to your convenience! Thank You and Happy Coding

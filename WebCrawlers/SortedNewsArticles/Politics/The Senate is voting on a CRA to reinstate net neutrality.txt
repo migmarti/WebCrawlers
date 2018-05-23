@@ -1,0 +1,45 @@
+Supporters of net neutrality protest the Federal Communications Commission's decision to roll back its open-internet rules. Thomson Reuters
+
+The US Senate on Wednesday voted narrowly in favor of reinstating the Federal Communications Commission's net-neutrality rules.
+
+Three Republicans joined with all 47 Democrats and two Democratic-leaning senators to back the measure.
+
+Senator John Kennedy of Louisiana, one of the Republicans who voted in favor of the measure, said for him the decision to back it came down to whether he or anyone else should trust their cable company. Most Americans get their internet access from the local cable company.
+
+"If you trust your cable company, you're gonna support" the FCC's December move to eliminate its net-neutrality rules, Kennedy said. "If you believe as I do that I trust everybody but I still believe in verification  it's like I said in my campaign  I believe love is the answer but back in Louisiana I still own a handgun just in case."
+
+He added: "I just think there should be a free and open internet."
+
+"This is a historic day in the fight for the future of the Internet," said Evan Greer, deputy director of Fight for the Future, an internet activist organization that had been pushing for the resolution.
+
+Though the vote on the measure has been expected for months, its outcome had been uncertain going into the vote. Fifty senators previously declared their support for it  one shy of the majority needed to pass it.
+
+In the end, forty-seven senators  all Republicans  voted against it. Sen. John McCain, who is ailing with a brain tumor, did not vote.
+
+Sen. John Thune, R-South Dakota, who led the effort against the resolution decried its passage. Thune has called on Congress to pass a law that would enshrine at least some version of net neutrality into law. The passage of the resolution will encourage Democrats to hold off on coming to the table to negotiate over such a bill, he said.
+
+"This vote was about politics, not protecting net neutrality," he said.
+
+Although few Republicans joined the Democrats to pass the measure, and Thune and other Republicans opposing it tried to paint the debate in partisan terms, net neutrality in general and the FCC's net neutrality rules in particular enjoy widespread, bipartisan support outside the Beltway. A poll last month indicated that 86% of the public  including 82% of Republicans  supported leaving the rules in place.
+
+Earlier in the day, the measure overcame a procedural hurdle, portending its eventual outcome. The same three Republicans  Kennedy, Susan Collins of Maine, and Lisa Murkowski of Alaska  who eventually voted in favor of the resolution joined with their colleagues across the aisle to pass a motion to proceed with a final vote. Collins had previously said she supported the underlying measure.
+
+Senate Democrats cheered the procedural vote. In a tweet, Sen. Amy Klobuchar of Minnesota called it an "amazing victory for consumers, small businesses and rural communities."
+
+The Senate voted on the resolution under the Congressional Review Act, a law that allows Congress, with a simple-majority vote in both houses, to overturn new regulations by federal agencies within 60 legislative days of implementation.
+
+The resolution seeks to overturn a rule voted on by the FCC in December that would eliminate most of its net-neutrality regulations.
+
+Net neutrality is the principle that all traffic on the internet should be treated the same. While the name for the principle isn't that old, the basic idea predates the internet and has its roots in the telephone and telegraph networks and even older services.
+
+For nearly all of the past 10 years, the FCC has had in place rules that sought to guarantee net-neutrality protections. The latest version of the agency's rules, from 2015, barred internet service providers from blocking, slowing, or giving preferential treatment to particular online sites or services.
+
+The FCC's new anti-net-neutrality regulation, set to take effect next month, eliminates those prohibitions. Instead, it simply requires providers to disclose how they handle internet traffic. It also hands off to the Federal Trade Commission the job of ensuring providers abide by the terms they've disclosed and watching out for anticompetitive behavior.
+
+That the FCC overturned its net-neutrality rules was no surprise. Ajit Pai, the new chairman appointed by President Donald Trump, made clear that he opposed them and would seek to eliminate them when he took over as the FCC's head.
+
+But Pai did so despite widespread support for the rules; a survey taken around the time of the FCC's December vote found that an overwhelming majority of Americans supported keeping them in place, including most Republican voters.
+
+Despite the Senate's passing of the resolution, the measure is unlikely to be enacted. It has drawn far less support in the House of Representatives, and Trump is unlikely to sign a resolution that would effectively rebuke his FCC chairman.
+
+However, net-neutrality supporters are also seeking to overturn the FCC's action in federal courts and pushing measures that would offer net-neutrality protections within a state's borders.

@@ -19,7 +19,7 @@ class NewsSpider(CrawlSpider):
             follow=True
         ),
     )
-    maxItems = 40
+    maxItems = 3
     count = 0
     print("Starting spider: " + name + ". Item limit: " + str(maxItems))
     articlePath = basePath + 'NewsArticles/'
@@ -42,8 +42,8 @@ Usa XPath para obtener una lista de los artículos en la página. Cada artículo
 
 
     def on_item_parse(self):
+        self.count += 1
+        print("Items parsed: " + str(self.count) + "\n")
         if (self.count == self.maxItems):
             print("Spider: Item parse limit reached. Shutting down.")
             sys.exit("Exiting now.")
-        self.count += 1
-        print("Items parsed: " + str(self.count) + "\n")

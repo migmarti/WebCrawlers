@@ -1,0 +1,79 @@
+There are now 3 monthly plans:
+
+Each monthly plan pays 80% royalties, and each can create up to 100 books and/or courses.
+
+The Free, Standard and Pro plans are identical in many important ways:
+
+With all these features in the Free plan, you’d wonder how we’re ever going to sell Standard and Pro plans…
+
+We’re huge fans of MailChimp–both of their service and of their pricing. MailChimp has a good Free plan for people who are just starting out. By the time you want to pay for MailChimp, you are convinced of the value they offer.
+
+Similarly, we want the Free plan on Leanpub to be something that an author can happily live with until they are fully convinced of the value that Leanpub offers.
+
+If you are not familiar with Leanpub, the notion that you would want to generate a full preview of your ebook more than 20 times in a month seems a bit silly.
+
+Furthermore, if you are familiar with the typical processes used by traditional publishers to produce ebooks, the notion that you would actually want to publish your ebook more than 20 times in a month seems outright insane.
+
+Now, once you’re familiar with the Leanpub workflow, and that you can preview or publish your book with one button click, you will realize how easy it is. So, you’ll start doing it–a lot. (This is especially true if you set up a post-commit hook on GitHub via the Leanpub API!)
+
+In that case, it will be really easy to bash into the 20 preview or publish per month limit. (This will also be true if you create a number of books or courses.)
+
+But, by that point, Leanpub will easily be worth $8/month to you.
+
+Finally, in terms of the planned tastefully-small Leanpub marketing near the top of the page: Leanpub is a viral loop company, but our viral loop relies on an author creating a book. So, it’s slower than, say, Twitter. Our adding some marketing near the top of the page will enhance this viral loop, which is important for us. And if an author feels strongly about not wanting it there, then that’s also worth $8/month to them.
+
+So, while the Free plan is fantastic, the Standard and Pro plans will contain a few key improvements which we think will convert a significant enough percentage of our Free plan customers. But what’s the difference between the Standard and Pro plans?
+
+We want the Standard plan to meet the needs of almost everyone.
+
+The Pro plan is identical to the Standard Plan, except it adds three things:
+
+The Pro plan should differentiate from the Standard plan by adding pro features, not by imposing arbitrary limits on the Standard plan. Things like Google Analytics, MailChimp integration and InDesign export definitely are pro features.
+
+In terms of the pricing of the Pro plan, we think it should be about 50% more expensive–just like a MacBook Pro versus a MacBook.
+
+That’s the theory, anyway. We’ll see how it plays out in the months ahead!
+
+Frankly, they’ve been very promising, and each pricing change has been an improvement on the previous pricing. However, we’re not happy to settle for a local maximum; we want to find the ideal pricing for Leanpub.
+
+Also, along the way, we have accumulated a lot of validated learning about customers, and we’ve paid millions of dollars of royalties to our authors in the process. We’ve also built the best ebook creation platform in the world, and we’re well on our way to having built the best course creation platform in the world.
+
+Specifically, Leanpub’s book creation pricing history can be segmented into 4 phases:
+
+For the first six years of Leanpub’s life, we were an amazing, free book creation workflow subsidized by an optional storefront.
+
+Then, in October 2016 we started charging a $99 flat fee to create a book. Our storefront revenue stayed roughly constant, but we added tens of thousands of dollars of revenue from book writing purchases.
+
+However, charging the flat fee to create a book obviously meant that the number of new books created per day decreased.
+
+Also, the LTV of a one-time $99 purchase was $99, plus any store revenue and viral loop revenue of course. Now, the greatest thing about monthly recurring revenue (MRR) is that it recurs. So, we wanted to see if adding a monthly fee option would be well-received.
+
+So, last month we added a SaaS option. Authors could pay $8/month for a Standard plan, and more money for Pro and higher plans.
+
+Over the past month we have found that more than half of our new books have been created using the monthly plan approach, with almost all of their authors choosing the $8/month Standard plan. However, a significant number of authors have still chosen the $99 flat fee approach.
+
+In terms of the results of our SaaS experiment over the past month, a few of the immediately obvious ones are:
+
+After much reflection about who we are as a company, we realized a number of deeper things:
+
+If you’ve ever considered writing a book or creating a course: Make one! Or 10 of them. Or 100.
+
+Seriously, if you haven’t tried creating a book or course on Leanpub: What’s stopping you?
+
+Creating a book or course on Leanpub is now free.
+
+Even if you choose to pay, it’s 100% risk-free: the Standard and Pro plans have 14-day free trials, and the $99 option has a 45-day refund period, just like any Leanpub purchase. And the Free plan is, well, free!
+
+To create a book or course, go to https://leanpub.com/create/book. You can choose between the Free, Standard or Pro plan there, as well as the $99 Flat Fee option.
+
+Finally, if you want to promote one of your books or courses, you can do so by buying a spot on The Shelf at any time. To do this, you simply go to https://leanpub.com/shelf/buy. Shelf spot prices range from $29 to $349 based on length.
+
+All of us at Leanpub are very excited about our future. For the first 6 years of our life, authors could create books for free. So, this is kind of like going back to our roots, but with having learned how to create both monthly recurring revenue and flat fee revenue from book and course writing purchases in the process.
+
+We expect that this will be the best of both worlds for us: we’ll get the increased number of author signups that come with a free plan, but with the added monetization provided by both the $99 flat fee and the $8/month and $12/month plans.
+
+Most importantly, adding a Free plan means that many more authors are now able to try the Leanpub workflow for themselves, regardless of their budget.
+
+There is an amazing opportunity for Leanpub in both books and courses. Switching to the Freemium approach is something we are doing out of ambition. Leanpub exists to win in two huge markets, not just to carve out a small niche. We have learned a lot from our customers over the past 8 years, and we’re very excited about the next 8 years!
+
+I would like to sincerely thank every Leanpub author and reader who has helped us so far. We’re just getting started.

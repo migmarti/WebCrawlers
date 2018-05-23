@@ -1,0 +1,23 @@
+The Application Insights Profiler lets you view performance profiles of live requests that were served by an application. It also highlights the hot paths that use the most time.
+
+This is a site extension that you can add using ARM:
+
+This extension depends upon having an App Setting named APPINSIGHTS_INSTRUMENTATIONKEY with the Instrumentation Key as its value. Putting this altogether looks as follows:
+
+NOTEA depends on reference to the site extension has been added to the App Settings defintion. This has been added in order that the site extension gets installed before the App Settings are applied; since App Settings changes restart the App Service and this will cause the site extension install to be cancelled.
+
+The ASP.NET project needs to be configured with Application Insights which can be done using Visual Studio.
+
+Open the project with Visual Studio, and when loaded right click on the project and select the Configure Application Insights option. A simple wizard should open up and just keep clicking next.
+
+This wizard does the following:
+
+Application Insights also allows monitoring at the client side which includes timings of page loads and AJAX calls, counts and details of browser exceptions and AJAX failures, as well as users and session counts.
+
+To set up, you just need to add the SDK to the Shared Layout page which is detailed here.
+
+I have saved the best for last  Snapshot debugging. When this is enabled, anytime an exception occurs (say in your production web app) it automatically collects a debug snapshot.
+
+You can then view this snapshot either in the Azure Portal or Visual Studio, it shows your code with all the state and variables at the moment the exception was thrown.
+
+The full setup guide can be found here.

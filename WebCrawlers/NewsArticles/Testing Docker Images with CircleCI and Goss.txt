@@ -1,0 +1,57 @@
+Testing is a critical piece of any CI/CD pipeline. Most teams do pretty well with application level testing, and there are plenty of frameworks (JUnit, RSpec, etc.) to support it. But server-level testing–the validation of server configuration and services–is, too often, omitted. In this blog post, we’ll explore an approach to execute tests against our custom Docker images as part of a CircleCI pipeline using Goss.
+
+We’re only going to cover a few types of tests in this post, so it’s worth exploring the Goss manual to learn all the operations available. The project also includes which is a Docker-focused wrapper for . It includes two basic operations: and .
+
+In order to run tests locally, you’ll need to install dgoss using the appropriate steps depending on your OS.
+
+You’ll also need a Docker image under development. Through the rest of this post I’ll be referencing my sample project, which you should fork and follow along!
+
+As suggested by Goss manual, the easiest way to get started is through the use of run inside the server/container you want to test. Because we’re running side the container, we’ll need to build it first.
+
+Then using the tag name from above, we can run the container with Goss installed for us via dgoss. supports any Docker arguments you need to start the image. In my sample project this includes a modified entrypoint.
+
+You can run to as a shortcut to repeat these commands.
+
+Once inside the running Docker image, you can explore different tests, which the Goss command will automatically append to a goss.yaml file. This file will be copied into your local workstation after your exit.
+
+Our first test is pretty primitive: make sure our entrypoint.sh file made it onto the filesystem.
+
+You can see the output specifies the location, type, owner, and other key attributes. You can now to see the initial test structure, but a healthy image includes more than the mere existence of files, so let’s add a few more tests.
+
+Our Docker image is pretty simple, and the entrypoint just runs some simple logic based on the presence of configuration files mounted in our production environment. We want to make sure it handles this configuration file as expected.
+
+For our first test, we want to make sure the script exits with a read warning if no file is found. Since this is the default state, we can run the following:
+
+It is important to quote arguments, otherwise Goss will treat them as separate commands.
+
+You can see that Goss is expecting an exit status of 1, which a message printed to stderr.
+
+We have a few more tests that are a bit more complicated, as they modify files to mimic certain conditions that could occur in production. For these tests, I found it more readable and maintainable to encapsulate the logic into their own scripts with clear intentions indicated in the filename. One example can be seen in the . That test will make sure that a non-empty schedule modifies our config.
+
+Each test in that directory sets some expected state, then calls just as we did above.
+
+Sometimes output will have dynamic content, and fortunately Goss supports some basic pattern matching. The test above, for instance, uses the current day and hour in the test, and will be printed in the output. Since this will change the output depending on when we execute the tests, we use a regexp to handle this.
+
+Note: the use of is required so that yaml doesn’t parse the colons as a yaml key: value.
+
+When you type after running all your steps, you will see that Goss copies the generated goss.yaml back to your local machine before stopping the instance.
+
+The file is an aggregation of the individual outputs we’ve already seen, grouped by their type.
+
+Now that we should have a working Docker image (we hope) and some tests defined in our goss.yaml, we want to execute our tests against a fresh image. dgoss expects a file named goss.yaml in the current directory. Since I placed ours in the folder, we need to include the argument.
+
+The commands above will build a new Docker image, mount Goss and goss.yaml, and execute our tests.
+
+That output is not very exciting, but that’s the way passing tests should be. So, let’s break something!
+
+What happens when you execute ? Goss will print the expected instead of the actual output, and include an error summary. It also exits with a non-zero status which is important for our next step: integrating with our continuous integration pipeline!
+
+It’s great that we’ve got tests running locally, but the idea here is to integrate Docker-level testing into our CI/CD pipeline so that we don’t ship bad images.
+
+CircleCI does not provide an image with Goss preloaded, but installing it only takes a second. You can view the sample config.yml for the full setup. I’m including just the relevant snippets here.
+
+Note: for CI execution we pass the argument to our test runner. This converts the output format and pipes it to ~/goss/report.xml to be included in CircleCI’s test summary:
+
+Well that’s it! With this basic structure running, you can add more mature tests, and include Goss-based image testing as a core step in your CI/CD pipeline to keep your team’s codebase tested from service to server.
+
+Be sure to add that happy green status badge to your repo to let the world know!

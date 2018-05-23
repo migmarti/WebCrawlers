@@ -1,0 +1,71 @@
+The US Senate today voted to reverse the Federal Communications Commission's repeal of net neutrality rules, with all members of the Democratic caucus and three Republicans voting in favor of net neutrality.
+
+The Senate approved a Congressional Review Act (CRA) resolution that would simply undo the FCC's December 2017 vote to deregulate the broadband industry. If the CRA is approved by the House and signed by President Trump, Internet service providers would have to continue following rules that prohibit blocking, throttling, and paid prioritization. Net neutrality to die on June 11, as Ajit Pai blasts special interests
+
+FCC Chairman Ajit Pai has scheduled his repeal to take effect on June 11. If Congress doesn't act, the net neutrality rules and the FCC's classification of ISPs as common carriers would be eliminated on that date.
+
+Democrats face much longer odds in the House, where Republicans hold a 236-193 majority. Republicans have a slim majority in the Senate, but Sen. Susan Collins (R-Maine), Sen. John Kennedy (R-La.), and Sen. Lisa Murkowski (R-Alaska) broke ranks in order to support net neutrality and common carrier regulation of broadband providers.
+
+Before the vote, Sen. Ed Markey (D-Mass.) urged fellow senators to disregard the "armies of lobbyists marching the halls of Congress on behalf of big Internet service providers."
+
+Lobbyists tried to convince senators that net neutrality rules aren't needed "because ISPs will self-regulate" and that blocking, throttling, and paid prioritization are just hypothetical harms, Markey said.
+
+Lobby groups representing all the major cable companies, telecoms, and mobile carriers urged senators to reject the attempt to restore net neutrality rules.
+
+The lobby groups complained that net neutrality rules don't apply to "the practices of edge providers, such as search engines and social media platforms." That's no surprise, because the FCC regulates telecommunications networks and net neutrality rules apply specifically to broadband networkswebsites and online services are regulated separately by the Federal Trade Commission.
+
+Markey said that net neutrality rules are needed because of events like Comcast throttling BitTorrent traffic and AT&T blocking Skype and other voice applications that compete against its mobile phone service.
+
+"Net neutrality is the free speech issue of our time," Markey said.
+
+Large majorities of both Democratic and Republican voters support net neutrality, Markey noted. Thousands of small businesses wrote to Congress in support of net neutrality, and "millions of Americans sent letters, posted tweets, and made calls defending net neutrality," he said.
+
+The FCC's anti-net neutrality vote "neglected the will of everyday Americans and gave a gift to the rich and powerful," providing ISPs with "new tools to inflate profits" at the expense of Internet users and small businesses, Markey said.
+
+Sen. Elizabeth Warren (D-Mass.) tore into the Trump administration and FCC, saying the commission "has become a puppet for giant Internet providers."
+
+When Pai unveiled his "plan to destroy net neutrality, he made it clear that he would ignore the views of millions of Americans who weighed in to urge him to abandon that plan," Warren said.
+
+Pai criticized the vote today, saying, Its disappointing that Senate Democrats forced this resolution through by a narrow margin. But ultimately, I'm confident that their effort to reinstate heavy-handed government regulation of the Internet will fail."
+
+Pai's order that eliminates net neutrality rules was titled "Restoring Internet Freedom." Today, Pai said that the Internet "will continue to be free and open once the Restoring Internet Freedom Order takes effect on June 11."
+
+Internet providers claim that net neutrality rules harm network investment, but in reality, ISPs like Comcast raised their capital investment while the rules were in place, Sen. Maria Cantwell (D-Wash.) said. "The notion that they are somehow going to slow down investment is just not true," she said. Ajit Pai not concerned about number of pro-net neutrality comments
+
+"The cable industry ranks at the very bottom of 43 industries in consumer satisfaction," Cantwell also said, arguing that Internet users need protection from the companies' anti-consumer practices.
+
+Repealing net neutrality would create "toll booths all over the Internet," and "those higher costs would, in one way or another, come out of your pocket," Sen. Ron Wyden (D-Ore.) said.
+
+Sen. Roger Wicker (R-Miss.) said that all senators want to prevent blocking and throttling, and he argued that Congress should pass bipartisan legislation to protect net neutrality. But Wicker did not say whether he wants a ban on paid prioritization, which would let ISPs charge websites and online services for better access to Internet users than online services that don't pay such fees.
+
+"Today, some in Congress are trying to give the government more control again, applying utility-style regulations that would threaten the Internet as we know it," Wicker said.
+
+US Senator John Thune (R-S.D.) criticized Democrats for trying to maintain "partisan, onerous, and heavy-handed regulations on the Internet."
+
+Some aspects of the FCC's net neutrality regulation "lack a fundamental connection to net neutrality principles and harm consumer freedom," Thune said.
+
+By way of example, Thune criticized the Obama-era FCC for trying to stop certain zero-rating plans. The FCC determined in January 2017 that AT&T and Verizon Wireless violated net neutrality by letting their own video services stream on their mobile networks without counting against customers' data caps, while charging other video providers for the same data cap exemptions. Pai reversed that decision.
+
+"Net neutrality isn't about regulating mobile phone plan offerings to meet a government Internet standard," Thune said. "But the Markey resolution would restore rules that the Obama Federal Communications Commission used to scrutinize such popular and affordable plans."
+
+Thune noted that in 2015, he proposed legislation that would have prohibited blocking, throttling, and paid prioritization.
+
+Democrats "reached the cynical conclusion that exploiting concern about the Internet outweighed the value of working with Republicans to pass net neutrality protections," Thune said.
+
+Thune's proposal wouldalso forbidthe FCC from regulating Internet service providers as common carriers. Common carrier regulation can go beyond net neutrality by letting the FCC protect consumers from unjust or unreasonable rates and practices in general.
+
+Though Thune supports a ban on paid prioritization, there are Republicans who want to let ISPs charge for fast lanes. Thune acknowledged that his proposal "did not anticipate all of the concerns that my colleagues raised and, of course, there is always room for compromise."
+
+Sen. James Lankford (R-Okla.) repeated the telecom industry talking point that ISPs shouldn't face different rules than websites.
+
+"What we don't want to have is two different sets of rules where this set of companies, the Googles and Facebooks and Netflix, get to tell a different set of companies, the fiber, how they do their business," Lankford said. "Neither do we want the fiber companies telling the content companies how to run their business. Let them compete."
+
+Lankford also claimed that the broadband industry is awash in competition.
+
+"A lot of people say there [are] only a few Internet service providers that are out there," he said. "Well, in the United States, there are 4,500 Internet service providers that are out there."
+
+But except for satellite services with poor latency and a few large mobile providers, those broadband networks don't serve the whole country. Internet users generally have just one or two options for high-speed Internet service at their homes, as FCC data shows.
+
+Despite that reality, Lankford argued that the small ISPs will keep the big ones in check. "Yes, there are some big [ISPs], but there are a lot of small ones, and if the big ones misbehave, guess what happens: competition will beat them down and those small companies will beat them," Lankford said.
+
+Sen. Ben Cardin (D-Md.) argued that customers frustrated by network limitations won't be able to easily switch ISPs because there's so little competition. "Competition does not existthis is not a matter of competition, this is a matter of preventing discrimination," he said.

@@ -1,0 +1,29 @@
+Whether youre starting a new company or adding a new feature in your existing product, I strongly recommend adding metric monitoring early on to both your engineering as well as product data. Whether that be database query latencies or number of page viewsstart recording it early in your development. I know it may be hard to justify this work and you may be thinking, I dont have time to add monitoring or The data is too sparse and will be much too noisy to be useful. It will require a judgement call to invest in this work, so consider this scenario when you are prioritizing your next tasks:
+
+You are running a bootstrap company and all employees (all 3 of you) are working hard to get the product up and running. There is no time to write unit tests or add monitoring. You have 100 customers and you want to 100x that number. A year into development, you see glimpses of success of your future and, naturally, your course of action is to double down on the features. Then, at some point, your CEO (acting customer support & relations) starts receiving emails about how sluggish your product is. Your instinct is to blame the database and add some indexes. This helps in one instance, but not another. Suddenly the sluggish report comes about a section of code you havent touched in many months. What now? Should you stop developing those features you promised and investigate? How did we get here? When did it slow down? Why didnt we know about this? Should we invest into monitoring? Now its too late. So when wasnt too late?
+
+Ive previously published a blog on a number of wisdoms Ive learned while working at Nextdoor. One such lesson is in regard to monitoring metrics in production. Having a hand in helping this company grow to millions of users, I know that one of the keystones of our success has been to be data-driven early on. That means having early monitoring and alerting.
+
+Frequently, I hear a counter argument for collecting metrics too early saying that the data will be just pure noise. While its somewhat true, its not a reason to ignore the data. Storing metric data, especially when there is little of it, is very cheap. Many services offer a free tier, or you may want to self-host something like Nagios or Munin in your private network.
+
+Advantages of storing metric data from the start is that you always have something to go back to. Even with the data being rare, it becomes very useful in such cases as the anecdote above. But your CEO should never be the alerting mechanism for your metricsautomated monitoring and alerting should be the first signs of systemic issues.
+
+Consider these three types of hard to alert on data:
+
+Setting up alerts on metrics in these situations is hard, and can result in bad alerts: non-actionable, too aggressive, or too passive. Bad alerts are evil alerts and should not exist. So what can be done for complex situations with sparse data? In these cases, alerting is hard because mathematical aggregations such as do not work well. The concept of data trend vs. data noise loses meaning. Consider a situation where you want to detect a 20% error rate over 5 minutes. In the graph below the green stripe shows the band of norm as calculated by historical data.
+
+From the figure above its clear that the same data point can have a different significance due to other data points. You can envision that adding 1 more sample on the right image would bring the anomaly from 100% down to 50%, and one more33%. To have 1 data point represent 20% anomaly within 5 minutes the monitor would have to observe at least 1 data point per minute. Being smart about your data volume is the crux of the solution to alerting on sparse data.
+
+Being most familiar with Datadog over other monitoring solutions, Ill use it as an example. While I am a big fan, I dont doubt that there are other services that offer a comparable solution.
+
+As your product grows, so will the volume of your metrics. At some unknown point in time you will have enough data to no longer be trapped by the aforementioned sparse data gotchas. How do you know when this time arrives? Monitor it! For the example above, we could monitor for amounts of data exceeding 5 data per 5 minutes to guarantee that an excess of 20% anomaly is not a matter of noise. You will likely have to go back and adjust the actual alarm thresholds once you have a significant amount of data, or better yetuse automatic anomaly detection.
+
+Given one monitor for the erroneous data and a separate one for amount of data, you can create a single composite monitor.
+
+With such setup you get the best of both worlds: monitoring and alerting early on without the noise of periodic and useless alarms. Lets consider how this setup would behave in the three circumstances above.
+
+Always Sparse: The alerts would be mostly silent. If enough data happens to come in, and the metric is actually in error-state, then the alert will fire.
+
+Sporadically Sparse: The alerts will be enabled by volume during the high-traffic and disabled during low-traffic. Get a good nights rest even if a few latent measurements happen.
+
+Early-on Sparse: The alert will simply sit quietly until the feature gains enough traffic to be significant. This set up guarantees as early enabling as possible.

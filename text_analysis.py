@@ -52,6 +52,11 @@ def main():
     for filepath in filepaths:
         print("Processing: " + str(filepath))
         text = readFile(filepath)
+        tokens = tokenizeText(text)
+        fdist = getNounFreqDist(tokens)
+        words = fdist.most_common()
+        word = words[:1][0][0]
+        print("Main noun: " + str(word))
         totaltext += text
     tokens = tokenizeText(totaltext)
     fdist1 = getTotalFreqDist(tokens)
@@ -62,6 +67,7 @@ def main():
     print(words[:100])
     print("\nTotal Noun Frequency\n")
     print(nouns[:100])
+    print("\nFile Quantity: " + str(len(filepaths)))
 
 
 

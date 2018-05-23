@@ -1,0 +1,19 @@
+DeepMind created an AI which spontaneously developed the machine learning equivalent of gut-based navigation.
+
+The UK-based Google sister-company seems to specialize in creating machine learning experiments designed to determine if AI can inform the field of neurology, and vice versa. DeepMind recently published a paper demonstrating a neural network that, upon trying to solve a navigational problem, developed a method of spatial awareness that imitates the creation of Grid Cells in mammals.
+
+Grid Cells, which were discovered in 2005, are a little-understood phenomena that occur within mammal brains to aid with navigation. Basically, our ability to generally understand where we are based on how far weve traveled and in what direction, is governed by these specialty cells that form in hexagon-shaped patterns that the brain sort of overlays into space, causing neurons to fire when we move through it. This works about the same for all mammals, like a built-in feature, crazy as it sounds.
+
+But scientists dont know how Grid Cells work. Somehow the brain manages to create these hexagons and the neurons do fire, but there are multiple theories as to how the phenomena actually helps us navigate.
+
+DeepMinds AI was checking into one of these theories  the idea that Grid Cells give us a vector-based approximation of location  when researchers noticed it developed a system of its own that imitates human Grid Cells in order to solve navigation problems in the same way laboratory mice (and most mammals) do.
+
+As a first step, we trained a recurrent network to perform the task of localising itself in a virtual environment, using predominantly movement-related velocity signals. This ability is commonly used by mammals when moving through unfamiliar places or in situations where it is not easy to spot familiar landmarks (e.g. when navigating in the dark). We found that grid-like representations (hereafter grid units) spontaneously emerged within the network  providing a striking convergence with the neural activity patterns observed in foraging mammals, and consistent with the notion that grid cells provide an efficient code for space.
+
+The scientists tested the theory by using reinforcement learning to reward the AI for successfully traversing virtual game environments using vector-based navigation. Throughout the experiment they inhibited the AIs ability to form its version of Grid Cells, and the result was that it immediately got worse at the tasks. But, allowing the AI to develop its own version of Grid Cells gave it superhuman navigational abilities.
+
+DeepMind hasnt unlocked the secrets of Grid Cells by creating an AI that spontaneously imitates them when presented with the same problems that mammal brains are, but its given the theory plenty of support. Hopefully this will lead to robots that navigate like mice, or even people. In simulated environments the AI already outperforms humans in simple navigational tasks, but well hold our applause for a real-world exhibition.
+
+Perhaps most important of all: this further shows how organic brains continue to inform the development of advanced AI. And anytime a computer spontaneously develops a human trait its worth remembering that modern AI is little more than a curious toddler compared to what the experts believe it will one day become.
+
+Read next: Ticketmaster plans to roll out facial recognition. What could go wrong?

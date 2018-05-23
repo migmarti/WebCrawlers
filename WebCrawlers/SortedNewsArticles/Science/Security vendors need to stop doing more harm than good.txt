@@ -1,0 +1,45 @@
+Opinion: What if the security industry operated under a basic tenet: "First, do no harm?"
+
+Video: What security vendors can do to earn some credibility
+
+Much like physicians, security vendors prescribe remedies for their customers' ailments.
+
+Unlike physicians, no Hippocratic oath exists for security vendors. What if our industry operated under a basic tenet like "First, do no harm?" Instead, security vendors continue to add new layers of complexity, and therefore new attack surfaces, with the intention of solving a security problem on the stack below.
+
+Their rationale? That it is better than doing nothing or better than what the customer had in place the day before.
+
+Read also: Cybersecurity: How to devise a winning strategy
+
+This argument is short-sighted and indicates a lack of comprehension of the risk they are imparting to their customers. Is it intentional or mere ignorance on the part of the vendors? And what can enterprises do to protect themselves? How do we get to a new cybersecurity industry ethos, focused on viable solutions and committed to doing no harm?
+
+Apple, Google, and Microsoft have spent millions of dollars, on both technology and developers, to lock down the OS and build resiliency subsystems to make exploitation highly expensive for the attacker in terms of time and labor -- for example, jailbreaking or sandbox evasion.
+
+And yet, security vendors (including many of the biggest brands in endpoint, network security and container security) introduce new vulnerabilities and additional risk by breaking the default security boundaries established in all the major operating systems.
+
+Many endpoint and network security vendors introduce new attack surfaces by adding complexity. Instead of looking at the root cause of an issue, they continue to branch out and apply point solutions.
+
+Sometimes, these solutions break the default secure design principles established by the platform vendors. Endpoint and anti-virus software vendors that do not use privilege-separation and sandboxing therefore create a new and large attack surface at the highest privilege level of the endpoint.
+
+Network security appliances are essentially anti-virus software inlined at critical vantage point of a network and suffer from same diagnosis as above.
+
+Infrastructure security vendors expose guest virtual machine data streams to a complex parser running at the host with root privileges. The container security vendor corollary to that would be exposing the data streams from a container to an agent running at a high-privilege level at the host.
+
+In addition to the clearly risky behaviors above, there is a whole subset of solutions that I call homeopathic. Essentially, these do no harm -- but also do not solve any problems. You can safely list most of the governance, risk, and compliance (GRC) solutions under this subset.
+
+Read also: Vendor selection: What needs to be in a good policy
+
+As an industry, we do a disservice to our customers and the trust that they put in us when we not only solve their real security issues but expose them to much worse. That network appliance on the tap port is a higher order systemic risk than anything else they endured the day before its installation.
+
+In my experience, many enterprise IT professionals feel confused by the claims of vendors and the conflicting attacks they lob at each other.
+
+Here are a few tips and questions that help cut through the morass of mixed messages and get to the truth behind the hype.
+
+We must have an ethical shift in the cybersecurity industry. The majority of solutions are akin to the bloodletting "cures" of the dark ages. Count yourself lucky if you don't die from them.
+
+I have been in this industry for over 20 years. Our moral compass is broken and we need to act for the greater good rather than for self-promotion to fill our pockets. We must take action before a massive "extinction-like" event. A self-propagating ransomware attack could one day spread using an anti-virus vulnerability or through a network security appliance that infects all inbound email attachments in its wake.
+
+Read also: The 10 best ways to secure your Android phone
+
+We cannot afford such a catastrophe. I challenge my fellow security industry leaders to make the changes necessary to evolve the industry for all our benefit.
+
+Sinan Eren is chief executive of Fyde. He is a serial entrepreneur with more than a decade of experience in the security field, working for Turkcell, Entercept (acquired by McAfee), Immunity Inc., and Preto Inc. Sinan holds a degree from Istanbul Technical University, and is a co-author of the popular book The Shellcoders Handbook.

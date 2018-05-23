@@ -1,0 +1,21 @@
+So at work one of the things I do is write regression tests against our webapp. One of the many, many ways to do automated testing is with the Selenium browser automation framework. Selenium needs a way to hook into your browser of choice: for chrome, this is Chromedriver. So far, so good.
+
+My tests fail a lot. This is the point of tests, of course, you make a change, your tests break, you fix them up. (It would be nice to plumb them into a CI pipeline, but since they actuate actual, physical machines, that presents certain practical problems.) Ideally, my tests would only break when I break them, but frustratingly often, they start failing because the tooling rotted away when I wasn't looking. In particular, Chromedriver.
+
+In descending order, these would be my preferred outcomes when Chromedriver needs to be updated:
+
+1.) Actually, it would be cool if routine Chrome upgrades didn't screw up Chromedriver. Wouldn't that be great? Each Chromedriver release supports several different versions of Chrome, so obviously it's not an ABI thing, so why the short shelf life?
+
+2.) If Chromedriver is stale, how about just updating yourself automatically, rather than making a human do it for you? You're a big program, you can open network sockets yourself. I see there's an npm module for Chromedriver, but I'm pretty sure I don't want to be running an npm install on a Windows QA box just to keep a Chrome module up to date.
+
+3.) If Chromedriver is stale, how about you tell me that? An error message along the lines of, maybe, "Chromedriver 2.36 does not support Chrome 67, please download the latest copy of Chromedriver." Would that be so awful?
+
+No, instead Chromedriver picks the last, most exciting option:
+
+Pop quiz, hotshot. When Chromedriver throws the exception , what does that mean?
+
+How about SessionNotCreatedError: session not created exception from timeout: Timed out receiving message from renderer: 600.000 ?
+
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status from timeout: Timed out receiving message from renderer ?
+
+You get the idea. Chromedriver is addicted to throwing wrong, completely spurious exceptions as a matter of routine. According to their site, any given version of Chromedriver is only good for three releases. That means Chromedriver will go stale and start returning insane, wrong errors after just 4.5 months. I'm not a fan of that behavior! Wish it didn't do that!

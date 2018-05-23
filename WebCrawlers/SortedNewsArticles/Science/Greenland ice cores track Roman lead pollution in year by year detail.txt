@@ -1,0 +1,47 @@
+Buried beneath the snow on Greenlands surface, ancient layers of ice hold deposits of lead that originated at mines and foundries in ancient Rome. Fluctuations in the amount of ancient lead pollution that reached Greenland turn out to be a remarkably accurate way to trace the economic impact of wars, plagues, and imperial expansion in Classical Europe.
+
+Lead might seem unexciting, but the classical worlds economy ran on it. The Romans made extensive use of lead for water pipes and other elements of plumbing, weights, soldering clamps between ashlar blocks or columns in architectural construction, sheathing the hulls of some ships, etc., classical archaeologist Andrew Wilson of the University of Oxford told Ars.
+
+In a much more direct way, the economy ran on silver: Roman currency was minted in silver coins called denarii. When smelting silver, adding lead to the crushed ore helps concentrate the silver. High-temperature smelting at around 1,200C, along with the process of separating lead from silver after the fact, released a lot of lead into the air over Southern Europe during Roman times.
+
+Lead pollution could provide a proxy for the general state of the Roman economy, but historians would need a detailed record of changes in pollution levels from year to year. That was found 2,500 miles away in the ice sheets of Northern Greenland. Paleoclimatologist Joe McConnell of the Desert Research Institute and his colleagues turned to a 423-meter-long ice core taken by the Northern Greenland Ice Core Project.
+
+The core records nearly 2,000 years of annual ice buildup, from 1100 BCE to 800 CE. Each layer records slightly less than a years worth of accumulated ice, which traps other material, like lead from mines and foundries in Europe. McConnell and his colleagues say theyve dated the layers with an uncertainty of just one or two years, making it easy to compare lead pollution with historical events.
+
+The close timing in known historical events and changes in Greenland lead pollution certainly argues for a cause-and-effect relationship, McConnell told Ars.
+
+Of course, Europe wasnt the only place industrial-scale lead production was happening at the time. China also had a significant lead industry, but computer simulations show that atmospheric currents carry pollutant particles to northern Greenland from Europe much more efficiently than from China, so European pollution dominates the Greenland ice record. And tests of the isotope ratios in the lead from an earlier coring project found that the material had, in fact, come mostly from mines in Spain and elsewhere in Europe.
+
+The ice core shows increased lead pollution coming out of Europe starting around 1000 BCE, when the Phoenicians expanded westward from their homeland in the Eastern Mediterranean and reached important lead- and silver-mining areas in Spain. Many of these were held by the city-state (and later empire) of Carthage. And over the next 1,800 years, lead pollution marked fluctuations in Europes economy.
+
+The traces of lead in ancient layers of Arctic ice got there because, somewhere in Europe, a Roman foundry was busy smelting ore. But its eerie to realize that other layers are clean because those miners and foundry workers were suddenly gonedead, fleeing, or fighting.
+
+McConnell and his colleagues saw a characteristic pattern around wars throughout Roman history. When conflict came to a mining region, as it did during the three Punic Wars between Rome and Carthage, it disrupted life and work in the region. That shows up as a year or two of slightly cleaner ice in Greenland, since Europe was producing less lead pollution.
+
+At the outbreak of the first Punic War in 264 BCE, for instance, the amount of lead in the Greenland ice layers dropped abruptly. But production ramped up again closer to the final years of the war, as Carthage minted more silver coins to pay its mercenary forces.
+
+Wartime drops in production were usually followed by a recovery at the end of the conflict, as people returned to work and started pumping particulate lead into the atmosphere again. After the end of the Second Punic War in 206 BCE, Rome had control of Carthages mining territories in Spain, and that coincided with a sharp increase in the amount of lead pollution in the ice core from Greenland.
+
+During the Crisis of the Roman Republic, a period of wars and political instability from the late second to mid first century BCE (it ended in the rise of the Roman Empire), lead emissions from Europe stayed relatively low. But as things stabilized, especially as Rome conquered key mining areas in Northern Spain around 16 BCE, Europe began pumping out steadily high amounts of lead that stained the distant ice.
+
+With Rome an empire, lead pollution increased drastically. The highest lead emissions at any point in antiquity are recorded in layers of Greenland ice dating to the first century CE, and they stayed high through about 160 CE. That coincides with Romes consolidation of its imperial rule in the provinces, ushering in the period of political stability and economic prosperity known as the Pax Romana.
+
+But there were some fluctuations in lead output during the Imperial centuries. We have examples of currency from different periods in Roman history, and these show that the waning centuries of the Roman Empire saw the percentage of actual silver in Roman coins drop gradually.
+
+Under Augustus and the early Julio-Claudian emperors, until AD 64 [64 CE], silver denarii were made from effectively 100-percent silver bullion; and [they] were made of new metal (not recycled coin), explained Wilson. In 64 CE, Nero cut that to 80 percent, and Roman mints started recycling old coins to make new ones instead of relying on newly mined silver.
+
+A sharp drop in lead pollution in the Greenland ice cores mirrors that process.It seems most likely that the drop in silver productiondeclining mine output?entailed the reduction of fineness and the shift to recycling coin, said Wilson.
+
+From 103-107 CE, under Trajan, the Empire briefly returned to producing coins from new metal again, coinciding exactly with a spike in lead pollution in Greenlands ice. When Imperial mints went back to recycling coins, pollution levels dropped again.
+
+And it all came to a crashing halt in 165 CE when a devastating pandemic struck the Empire. Today, historians think it was either smallpox or measles, but the Romans knew it as the Antonine Plague, and several waves of outbreaks killed as many as five million people before it finally burned itself out in 193 CE.
+
+The Roman Empire would keep going for another couple of centuries, but its economy never recovered. Some areas had lost up to a third of their population to the Antonine Plague, which left the Empire with both a smaller mining workforce and less economic demand for currency. The battered condition of the Roman economy is evident in the low levels of lead in ice layers from the plague years and the five centuries that followed.
+
+"The nearly immediate and persistent emissions decline following major plague outbreaks suggests low societal resilience and far-reaching economic effects," wrote McConnell and his colleagues.
+
+The already-battered Roman economy took another hit during the Plague of Cyprian from 249 CE to 270 CE, which struck in the midst of a period of political turmoil called the Imperial Crisis. It dropped lead emissions to their lowest levels since 900 BCE. European lead production didnt start to recover until the early medieval years, when mining resumed in France and Britain.
+
+What does all of this mean for our understanding of classical history? It means there are still heaps of information to be gleaned from Greenlands ice and a lot of work to be done in combining the ice-core data with written and archaeological records to produce a more detailed history of the Roman economy.
+
+One of our objectives here was to document how closely changes in Greenland lead pollution (and so European emissions) reflected known historical events, particularly with exact dates associated with them," McConnell told Ars. "Now that we have confirmed this, classical and economic historians can interpret the continuous and well-dated Greenland pollution record in far greater detail.
