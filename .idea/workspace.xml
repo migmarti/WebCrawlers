@@ -1,86 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf0fb72d-b57a-474b-8952-2df0ca606ec6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/NewsArticles/HTCExodus  The first native blockchain phone.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/NewsArticles/Mente digital Agencia de SEO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/NewsArticles/Serverless and lambda  what to do when you run out of disk space.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Biology/California s Coffee Cancer Folly.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Biology/Cheesemaking tips from the ancients.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Biology/DeepMind s AI taught itself to navigate like a mammal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Biology/Glyphosate shown to disrupt microbiome  at safe levels  study claims.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Biology/He Was Dying  Antibiotics Weren t Working  Doctors Tried a Forgotten Treatment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Biology/Phages are making a comeback.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/4 developers picking a random restaurant  Problem .txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Algorithms Behind Modern Storage Systems.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Apple shipped an estimated 600 000 HomePods in the first quarter of the year.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Banquets and Barbecues  Splitting Up the Fractal Matrix Client for Gnome.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Code patterns that are a recipe for trouble.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Designing open standards with the minority rule.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/EFF to New York Appellate Court  No Warrantless Searches of Devices at Border.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Engineering a Job Based Forecasting Workflow for Observability Anomaly Detection.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Google  please stop breaking Chromedriver.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Google Chrome no longer breaks Web games  but the fix won t last.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Google must be hit with billion dollar fine for snooping on Aussies.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/HTCExodus  The first native blockchain phone.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/How a domain registrar can kill your business.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/I asked Apple for all my data   what was sent back.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/In Soviet Russia Netflix Watches You.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Laurel or Yanny  Experts tell us why  The Dress  for ears is driving us crazy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/OptiML  The Nitty Gritty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Our Job Titles  Developer  Programmer or Software Engineer .txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Product Dev  Challenges of Monitoring and Alerting on Sparse Infrequent Data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Repeating of history and what does it mean for AR VR designers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Security vendors need to stop doing more harm than good.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Senate votes to overturn Ajit Pai s net neutrality repeal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Serverless and lambda  what to do when you run out of disk space.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/The intuition behind Fisher Yates shuffling.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/US cell carriers are selling access to real time phone location data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/What Korea Says About Crypto s Massive Potential.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/What to Do If You Forgot to Report Your Crypto Trades on Last Year s Tax Return.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/What we ve learned from building Ghost after 5 years and  3M.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/Infinite chess.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/Musk  Zuckerberg  Bezos  and Ethically Iffy  Philanthropy .txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreation/Taking a Spin with Ford GoBike and MapD.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreation/Today s Rangers vs  Mariners Is Only Watchable With a Facebook Account.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/ Do You Trust This Computer  Gets a Whole Lot Wrong About AI Risks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/AI Safety via Debate.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/Exquisite Rot  Spalted Wood and the Lost Art of Intarsia.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/Finland offers free online Artificial Intelligence course to anyone  anywhere.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/Stupid or Not  Man Who Sold Everything for Bitcoin Still Hopes for the Best.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/Taikyoku shogi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/The Fragility of Knowledge.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/The Librarian is a game that feels like a poem.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/This DIY filmmaker made the  Boyhood  of skateboarding.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/Why read old philosophy .txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/A pure JavaScript implementation of Git for Node and browsers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Announcing TypeScript 2 9 RC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Azure Application Insights with App Service   ENABLE ALL THE THINGS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Completely Silent Computer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/GIMP 2 10 0 is out   Girin Studio.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/How to Install WordPress on Ubuntu 18 04 with Nginx  MariaDB  PHP 7 2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Intel announces IoT computer vision toolkit.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Intel s First 10nm Cannon Lake CPU Confirmed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/MXNet GluonCV Deep Learning Toolkit for Computer Vision.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Mente digital Agencia de SEO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Microsoft Surface Hub 2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/New in Firefox 61  Developer Edition.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Ocelot Arcade System.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/PCA as a convex optimization problem.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Productionalizing ECS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Revisiting using Docker.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Testing Docker Images with CircleCI and Goss.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/The desktop belongs to Electron.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Time perception   Progressive image loading.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Tutorial   SQL processing on Apache Kafka with in memory enrichment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Using TBTK to time C  code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/Vuex getters are great  but don t overuse them.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/World s lightest wireless flying machine lifts off.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawlers/spiders/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/spiders/news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_analysis.py" afterDir="false" />
-    </list>
+    <list default="true" id="cf0fb72d-b57a-474b-8952-2df0ca606ec6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +202,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-11" width="1309" height="675" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35960215" />
       <window_info anchor="bottom" id="TODO" order="6" />
