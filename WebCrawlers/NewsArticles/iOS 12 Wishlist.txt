@@ -1,0 +1,21 @@
+With WWDC imminent, here are my top wishes this year.
+
+I want to be wowed!
+
+I mostly use my iPhone in the dark and even with the lowest brightness setting, it’s still too bright. Dark mode should also result in better battery life on iPhone X because of its OLED screen.
+
+I’m sure I’m not the only one fed up with the volume indicator obscuring the video you’re watching. The centered volume HUD works on macOS as it only takes up a tiny part of the screen. Bringing it to iOS was a huge mistake. Time to fix that.
+
+Siri is a joke compared to what Google is doing and the Photos app is way behind Google Photos on smartness.
+
+Notifications have just gotten worse with each recent iOS release.
+
+The ability to change default apps or some kind of intent system. We all know Google Maps is better. And I prefer Google Inbox over Mail.
+
+One of the main selling points of the iPhone is the camera. Compressed photos are not enough! Some of us want the highest quality possible.
+
+We’ve had the static grid of app icons for 10 years now. It’s been great, but it’s time for something new and more dynamic. I imagine something mixing widgets and apps.
+
+The Photos app is actually pretty good, but it still leaves a lot to be desired. The face detection is so-so. The photos chosen for the Memories feature feel arbitrary. Many useful adjustments are missing, like white balance, noise reduction, and vignette. I wish you could copy-paste adjustments from one photo to another. iCloud Photo Library is slow to sync and it’s slow to download cloud-only photos. My iPhone often saves videos with the incorrect orientation, so I wish you could rotate videos too.
+
+What’s your wishlist? Let me know on Twitter.

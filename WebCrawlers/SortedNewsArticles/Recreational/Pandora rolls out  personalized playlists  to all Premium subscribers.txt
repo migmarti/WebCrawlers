@@ -1,0 +1,15 @@
+Pandora is taking a leaf out of Spotifys book today with the launch of personalized playlists for its Premium subscribers.
+
+The music-streaming company first announced this feature back in Marchand has been trialing it with a small number of Premium users over the past couple of months. Now its ready for prime time.
+
+Spotify has built much of its reputation in recent years on its smart music recommendation tools. These are powered byits 2014 acquisition of the Echo Nest, a music data intelligence platform that maps out musical tastes to predict what it thinks you will like. Spotify has gone on to launch a bunch of popular playlists, including the Daily Mix andDiscover Weekly.
+
+Pandora is adopting a similar model, using a combination of its in-house music genome, machine learning, and human curators to figure out the best playlists for any situation.
+
+Machine learning is very much the order of the day in the music-streaming realm. Earlier today,Gracenote announced a new system that uses AI to classify individual song styles, with the ultimate goal of helping streaming providers compile perfect playlists by analyzing the styles of millions of songs.
+
+Pandoras new feature builds on itsprevious playlists effort, except now its going all-in on the individual experience.
+
+Were taking the guesswork out of the age-old question, What do I want to listen to? by catering to your genre-bending music personalities and giving you access to the best soundtrack tuned to the moment youre in, said Pandora chief product officer Chris Phillips.
+
+Though these playlists are limited to those on the ad-free subscription,Pandora said that you will still be able to share them with non-Premium users via a link.

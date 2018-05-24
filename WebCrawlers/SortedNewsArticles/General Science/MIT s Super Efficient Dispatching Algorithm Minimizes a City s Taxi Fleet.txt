@@ -1,0 +1,17 @@
+Researchers at MIT say theyve found an efficientdispatching algorithm that cancut a citys fleet of taxis by 30 percent.
+
+They describe their work in a paper published today in Nature.
+
+New York would need 30 percent fewer vehicles if the taxi fleet, even with human drivers, is managed better,Carlo Ratti, the directorof MIT's Senseable City Lab tells IEEE Spectrum. Thats a big savings, both in taxis and in the space they takeup on city streets. New Yorks 14,000-oddtaxis log some 500,000 trips a day.
+
+The technology would seem to help the beleaguered taxi business fend off private ride-hailing services, like Uber and Lyft. They have their own algorithms, optimized partly to match drivers and passengers and partly to pool ride-sharing customers.
+
+Ride sharing was the first thing Ratti and his colleaguesstudied, back in 2014, when they determinedthat if taxi passengers in Manhattan could put up with just a five-minutedelay, nearly 95 percent of their trips could beshared. That would cut the total time that passengers spend in taxis by up to 40 percent.
+
+This time,the researchersasked how a better dispatching model could make better use of the taxi fleet as its run today, that is,without assuming muchride sharing. They call it the minimum fleet problem, and they handle it as a master pool playerdoes, by makingeach shot set up the next one. By giving due weight to minimizingthe distance between a taxis destination and the origin of its next potential trip, the model moves more passengers per vehicle over a given period of time.
+
+A perfect solutionwould lay to restthe famous Traveling Salesman Problem, which tries to find the shortest path a salesman must take to hit every spot on his route. That problem quickly becomes intractable, however, as the number of spots increases. You could solve it for Mayberry, but not for Manhattan.
+
+Instead, the MIT researchers created what they call avehicle sharing network, similar to the network they used in 2014 for optimizing ride sharing. It looks like a graph in which each node represents atrip and each line linking twonodes represents a pair of trips that onevehicle can handle. Manipulating the layout of the graph provides ways of improving (if not perfecting) the solution.
+
+What if all of Manhattans 280,000 or so vehicles were robocars, driving themselves while under the control of the MITmaster plan? If we were to look at a fully autonomous city, Rotti says, the reduction in vehicles would be closer to 50 percent.

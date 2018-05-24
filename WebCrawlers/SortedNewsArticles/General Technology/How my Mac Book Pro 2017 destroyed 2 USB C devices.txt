@@ -1,0 +1,17 @@
+At morning my new Macbook was not working well  when i been disconnecting charger it was not detecting this properly, so i decided to reset SMC, and this resolved the problem. In the office i connected my passive USB-C hub with HDMI/USB output and it starts to smell very bad. I was stupid enough to connect my USB-C ubikey to the same socket and it was destroyed immediately, with the same smell and some lights. Both devices were destroyed. MacBook was working like nothing happens.
+
+I realized that i already saw post about it on Reddit and been able to find original post Macbook Pro frying USB peripherals. It was looking exactly as my case. So i decided to validate it.
+
+I do have usb-c->microusb adapter from some charger + microusb power to power adapter plug. I connected to cables to it and been able to measure the voltage, thats how it looks:
+
+Now i connected it to the voltmeter and plugged in to the affected port with a usb-c charger plugged in a different port:
+
+
+
+20V!!! instead of maximum 5 allowed. All other sockets were provided ~1v, probably that is idle current when no data lines are connected:
+
+
+
+I tried different combinations, but only top right socket was failing. So it seems to be another known issue in this new model, in addition to very problematic keyboard.
+
+I been using only original charger with original cable but got usb-c devices fried. According to the post i provided below  i am not alone with such issue. Tomorrow i will send this Mac to repair and hopefully replacement will not be affected. I think that Apple engineers should consider this issue as very serious one, but giving the fact how they handle keyboard-related issues it seems to be unlikely.

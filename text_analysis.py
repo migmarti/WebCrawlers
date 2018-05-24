@@ -1,9 +1,13 @@
 import nltk
 import os
 import io
+from matplotlib import pylab
 from nltk.corpus import wordnet as wn
+import tkinter as tk
+from datetime import datetime
 
 basepath = '/home/mig/WebCrawlers/WebCrawlers/NewsArticles/'
+imagepath = '/home/mig/WebCrawlers/WebCrawlers/Frequencies/'
 
 def getFilepaths(path):
     filepaths = []
@@ -46,6 +50,21 @@ def getNounFreqDist(tokens):
     fdist = nltk.probability.FreqDist(nouns)
     return fdist
 
+def filename_generator():
+    date = str(datetime.now().date())
+    to_return = imagepath + '{0}.png'.format(date)
+    return to_return
+
+def my_show():
+    return pylab.savefig(filename_generator())
+
+
+def saveGraph(fdist):
+    pylab_orig_show = pylab.show
+    pylab.show = my_show
+    fdist.plot(10, title=str(datetime.now().date()))
+    pylab.show = pylab_orig_show
+
 
 def main():
     totaltext = ""
@@ -80,6 +99,7 @@ def main():
     print("\nTotal Noun Frequency\n")
     print(nouns[:100])
     print("\nFile Quantity: " + str(len(filepaths)))
+    saveGraph(fdist2)
 
 
 

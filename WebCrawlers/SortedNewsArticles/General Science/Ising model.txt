@@ -1,0 +1,67 @@
+[ Aim of this article: To introduce the basic idea of Ising 2D model ]
+
+Before we proceed for the exploration, let you rejoice with the historical background of Ising Model.
+
+Spontaneous magnetization is a very peculiar property of the ferromagnetic material. So, many physicists in the early twentieth century found this phenomenoncurious. Physicists lacked a good theoretical model until Ernst Ising introducedone now known as the Ising Model, in 1925. But, the credit goes to his doctoraladvisor Wilhelm Lenz, who gave it as a problem to him. It is believed that Lenzhad this idea first in 1920. I shall quote here the English translated resume [1] from his Dissertation:
+
+I, Ernst Ising, was born on May 10, 1900, the son of the merchant Gutsav Ising
+
+ and his wife Thekla, at Lowe, Koln. Shortly thereafter my parents moved to
+
+ Bochum, Westfall, where I started school in Easter 1907. I received my diploma at
+
+ the Gymnasium there, in 1918. After brief military training, I began my studies of
+
+ mathematics and physics at Gottingen University in Easter 1919. After an absence
+
+ of one semester, I continued my studies in Bonn, where I studied astronomy among
+
+ other things. Two semesters later I went to Hamburg. There I turned especially to
+
+ the study of theoretical physics at the suggestion of Professor Dr. W. Lenz, and at
+
+ the end of 1922, I began under his guidance the investigation of ferromagnetism
+
+ which led to the results presented here.
+
+Ernst Isings analysis of a linear chain of two-state spins (i.e. +1 and -1 ) using his eponymousmodel was unusual at that time. His work on the one-dimensional system showedthere was no phase transition at finite temperature. He then concluded that therewill not be a phase transition in higher dimensional systems. He asserted this conclusion without any mathematical proof, simply extrapolating from his one-dimensionalresult.
+
+ This statement proved to be erroneous, as demonstrated by Lars Onsager in thetwo-dimension version of the model. This discovery garnered much attention andIsing found himself an unexpected celebrity.
+
+Now, we are ready to explore the basic intuition of this model.
+
+At the same time, Stern and Gerlach were working in the same institute ontheir famous experiment on the quantization of the magnetic field of an electron. The idea so far developed wasthat the atom which has magnetic property consists with magnetic dipoles, andthese dipoles have a limited number of orientations (i.e spin up and spin down).With this concept, Ising assumed the field created by these dipoles will only result from the interaction between the atoms and damped very soon.
+
+So, our first question will be, How one atoms spin will interact with other spins?
+
+Suppose, we have a two-dimensional sheet of paper at which on each lattice there areeither one of the spins. We assume spin up (+1) by the up arrow and spin down (-1) by the down arrow in the below figure:
+
+Now, we randomly choose any one spin from the lattice.Either it will be spin up or spin down. By luck, we chose to spin up (say). Againour second question will be, What is theprobabilitythat the next randomly chosen spin will be spin up? Before answering this question, lets modify our questionas, If there is no any interaction between the spins then, what is the probability thatthe next randomly chosen spin will be spin up? Surely! Its one-half because there is an equal probability for both the spin alignments. Now, letsanswer our previous unmodified question! Rely on Ising assumption, we can say theprobability to be greater than one-half because firstly we have chosen spin up and its field will affect to the next randomly picked spin as well.
+
+Again, Lets make our question interesting! What if the first randomly chose spin is spin down! Now, What will be the probability of that spin which we havesaid earlier that, it is greater than one-half? Logically, Its lesser than one-half [Think about for convincing yourself with this answer. If it contradicts your thoughts then, comment below!].
+
+This approach was used by Peierls. His proof is mathematically intuitive and showed the presence of a non-vanishing spontaneous magnetization in Ising 2D model.
+
+In the numerical simulation, it is possible to simulate this model and can gain relevant observable thus, produces results that can be comparable with the theory. Find a copy of my report entitled as A short visit on Ising 2d Model . Also, find a full and up-to-date software at Ising 2D model Simulator.
+
+I would like to express my deep gratitude for my academic advisors Prof. Dr. Narayan Prasad Adhikari and Dr. Jonah Maxwell Miller whose expertise, patience, encouragement and invaluable guidance provided me a beauty in my research. Without their help and insight, this work would not be what it is now.
+
+[1] For more about the history of this model, I suggest you look at this article: Stephen G. Brush. History of the lenz-ising model. Reviews of Modern Physics,39(4), 1967.
+
+[2] For clear intuition of Stern-Gerlach experiment, refer The Physics Mill blog post on Spin and the Stern-Gerlach experiment.
+
+[3] This article has a good introduction for the beginner: Barry A. Cipra. An introduction to the ising model. American MathematicalMonthly, 94(10):937959, 1987.
+
+[4] Leonard Susskinds Statistical Lecture series 9 is also a good video resource to look on!
+
+[5] For clear theoretical approach of the Ising model, I will redirect you to the lecture note (at handout 12. Ising Model) by Wei Cai.
+
+[6] I prefer to suggest you, Rajesh Singhs work on Ising Model in two dimensions.
+
+[7] You can find a wonderful visualization toolto understand more about Ising model.
+
+[8] Good to see the discussion of this post on Reddit.
+
+If you guys need some help in Ising 2D model or, have some questions, comments, or insults then, please dont hesitate to shot me an email or comment below.
+
+Want to share this post

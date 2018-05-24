@@ -35,6 +35,7 @@ def train(classifier, X, y):
     print("Training has finished. Accuracy: %s" % classifier.score(X_test, y_test))
     return classifier
 
+
 def sort_article(title, text, path):
     filename = path + '/%s' % title
     with open(filename, 'w') as f:
@@ -42,11 +43,24 @@ def sort_article(title, text, path):
     print("Success: Sorted article " + str(title))
 
 
+def predict_genre(classifier, text):
+    if len(re.findall('(\$ *\d+|currency)', text)) > 5:
+        genre = 'Economics'
+    elif len(re.findall('game', text)) > 5:
+        genre = 'Recreational'
+    else:
+        genreIndex = classifier.predict([text])
+        genre = str(categories[genreIndex][0])
+    print("Predicted genre: " + genre)
+    return genre
+
+
 if __name__ == "__main__":
     if os.path.exists(outputpath):
         shutil.rmtree(outputpath)
 
-    training = fetch_20newsgroups(subset='all')
+    training = fetch_20newsgroups(subset='all',
+                                  remove=('headers', 'footers', 'quotes'))
 
     trial = Pipeline([
         ('vectorizer', TfidfVectorizer(stop_words=stopwords.words('english'))),
@@ -56,7 +70,7 @@ if __name__ == "__main__":
     #print(training.target_names)
     # ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
 
-    genres = ['Sociology', 'Technology', 'Technology', 'Technology', 'Technology', 'Technology', 'Miscellaneous', 'Recreation', 'Recreation', 'Recreation', 'Recreation', 'General Science', 'Technology', 'Biology', 'General Science', 'Sociology', 'Politics', 'Politics', 'Politics', 'Sociology']
+    genres = ['Religion', 'Computer Science', 'Computer Science', 'Computer Science', 'Computer Science', 'Computer Science', 'Miscellaneous', 'Recreational', 'Recreational', 'Recreational', 'Recreational', 'General Technology', 'General Technology', 'General Science', 'General Science', 'Recreational', 'Politics', 'Politics', 'Politics', 'Religion']
 
     classifier = train(trial, training.data, training.target)
     categories = np.array(genres)
@@ -66,12 +80,7 @@ if __name__ == "__main__":
     for filepath in filepaths:
         print("\nProcessing: " + str(filepath))
         text = readFile(filepath)
-        if len(re.findall('\$ *\d+', text)) > 5:
-            genre = 'Economics'
-        else:
-            genreIndex = classifier.predict([text])
-            genre = str(categories[genreIndex][0])
-        print("Predicted genre: " + genre)
+        genre = predict_genre(classifier, text)
         path = str(outputpath + genre)
         if not os.path.exists(path):
             os.makedirs(path)

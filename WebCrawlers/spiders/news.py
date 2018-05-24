@@ -19,7 +19,7 @@ class NewsSpider(CrawlSpider):
             follow=True
         ),
     )
-    maxItems = 3
+    maxItems = 50
     count = 0
     print("Starting spider: " + name + ". Item limit: " + str(maxItems))
     articlePath = basePath + 'NewsArticles/'

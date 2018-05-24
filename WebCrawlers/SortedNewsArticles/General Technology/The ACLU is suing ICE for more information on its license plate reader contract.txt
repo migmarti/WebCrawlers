@@ -1,0 +1,9 @@
+In January, The Verge revealed a new contract that gave Immigration and Customs Enforcement (ICE) access to a nationwide network of license plate readers maintained by Vigilant Solutions. The contract put a powerful surveillance tool to work specifically for immigration cases, raising troubling implications for immigration and privacy groups. Those groups have been pushing for more data on the program ever since, and now, one of them is taking ICE to court.
+
+In a lawsuit filed today, the American Civil Liberties Union of Northern California is seeking training materials and privacy policies relating to the license plate reader program as well as the specific contracts codifying ICE access to the network. The ACLU-NC filed an initial request under the Freedom of Information Act more than two months ago, and it has received no response from the agency.
+
+The information sought in ACLU-NCs FOIA request would reveal for the first time information concerning ICEs use, maintenance, and handling of sensitive personal information, the complaint reads, and would allow members of the public a meaningful opportunity to vet the federal governments surveillance of motorists.
+
+Details on the program have been widely sought but difficult to obtain. The Verge filed a similar FOIA request in January, asking for any training and guidance materials related to the Automated License Plate Recognition (ALPR) contract. A reply earlier this month claimed that no responsive records were available.
+
+News of the contract has inspired a broad backlash from sanctuary districts in California, many of whom have looked for ways to withdraw from the Vigilant network in response to the ICE contract. In February, the City of Alameda voted down a $500,000 contract with Vigilant, and San Pablo voted against a $2.9 million vendor switch to Vigilant the following month.
