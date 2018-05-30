@@ -1,0 +1,27 @@
+In the past few years, from self-driving cars to a virtual personal assistant, intelligent machines that can consider, reason and react like humans have been on the rise.
+
+Companies like Google, IBM, Facebook etc are eyeing to get lead on this technology so called as AI or Artificial Intelligence.
+
+The technology is changing the landscape of human interactions in customer-facing industry. According to a report, by 2020, 85% of the interaction will be happening between a customer and a virtual assistant in the enterprises.
+
+Already many businesses like IBM Watson, Salesforce Einstein, Amazon Alexa, and Microsoft Azure are pioneering AI platforms with the power of cognitive computing and machine learning.
+
+With the help of AI, companies are now looking to secure deeper and ongoing relationship with customers and optimize their interactions.
+
+In 2017, Accenture conducted a digital consumer survey of 26,000 consumers in 26 countries. Below are the highlights of how AI is taking central roles in consumers lives.
+
+AI-based scheduling can both enhance your customer experience and boost staff productivity.
+
+By seeing patterns that can be easily recognised by humans, the interaction between the consumers and the assistant is made much more efficient.
+
+For an instance, you can easily set up chatbot on your Facebook Messenger platform that gets automatically popped up whenever the user visits the page.
+
+The bot can easily communicate with the user taking the basic details and based on scheduling algorithm can easily fix the appointment for them.
+
+An e-mail based AI service like Kono can easily schedule and fix meeting just by sending an email.
+
+It gives a recommendation of dates available for booking.
+
+Once the date is chosen by the customer, it marks the date on your Google Calendar thus simplifying the process.
+
+AI merged with scheduling does not necessarily remove human interaction as the operational part still needs to be performed by the living ones instead it improves the online scheduling experience for the customers.

@@ -1,0 +1,51 @@
+One of the more interesting customer projects that we did lately was the development of a test bench for a Bluetooth Low Energy (BLE) peripheral. This post is about the software architecture that we employed in building it. We believe that this architecture brings many benefits, at the cost of reasonable complexity.
+
+In our scenario, the Device Under Test is a stationary BLE peripheral — its functionality is not important in this context. The device is connected via USB to a host system and communicates with it over a serial protocol. The device contains a USB-to-serial converter and is also powered over USB.
+
+On the client side, the device interacts with mobile devices via BLE. Data is exchanged via a custom protocol built on top of GATT attribute read and writes as well as asynchronous notifications.
+
+The first basic question that arose was how can we test this device systematically? We need replacements for the host system and the end-user smartphone app. We also need a framework to run tests and a user interface that allows an operator to easily run a suite of tests against the device and check its results.
+
+For the test bench hardware we decided to use an industrial RaspberryPi touch panel PC by Comfile Technology. The RaspberryPi seemed like the right platform because it has plenty of power and great software support. This is also a very cost-effective solution, with the panel PC costing just 299 USD.
+
+Testing the host side of the device is now pretty straightforward. The device is plugged into the test bench hardware and the test bench software can communicate with it directly via serial port.
+
+To test the BLE side of the device we needed a replacement for the smartphone — let’s call it a BLE probe. We first envisioned a testing app that could be remote-controlled by the GUI tool via TCP/IP. We decided against it and chose an nRF51 Dongle with custom firmware instead. This approach has a number of advantages. First, it allows low-level access to BLE functionality without any restrictions imposed by smartphone operating systems like iOS and Android. Second, it can be connected directly to the test bench via USB, so all kinds of connectivity issues between the test bench and the probe do not come up. Also for us this was a natural choice because of prior experience programming the nRF5x chipsets.
+
+Qt was suggested all around by colleagues for implementing the test bench software due to its proven track record, high-quality implementation, low resource usage and cross-platform nature. It seems to be a very popular choice especially in the embedded world. Qt also seems to be the only choice when one needs a cross-platform GUI library that works well on all platforms.
+
+For us, the choice was not that obvious. Having no prior experience with Qt and not being terrible keen on writing C++ code, we decided to use .NET Core instead. .NET Core is a cross-platform rewrite of the Microsoft .NET platform, with a smaller footprint that makes it appealing for devices with constrained resources. Also, you can use C# which we were already familiar with.
+
+There is one thing that .NET Core does not give you though: a cross-platform UI toolkit. The reason why this was a necessity for us is that the customer required the test bench to be deployable on both Windows and Linux. Here is where we diverge the most from traditional approaches: our UI is an Angular web app.
+
+This gives us a software stack that is both modern, easy-to-use and aligns well with popular skill sets such as web and backend development. It also enforces a clean separation of the UI and the business logic, as the business logic needs to be provided as REST service calls.
+
+Let’s go through each layer individually an explore its properties.
+
+Implementing the user interface as a web app has a number of appealing properties:
+
+The JavaScript ecosystem is a bit crazy — we use Angular/TypeScript as we believe this is currently a good choice in projects where maintainability matters. Also we believe that strong typing is useful, especially when it comes to refactoring.
+
+The user interface starts up after the RaspberryPi finishes booting and is displayed in a Chromium browser in kiosk app mode. This hides all menus and navigation bars and displays the app in full screen mode.
+
+The user interface code is served by a minimal nginx instance.
+
+The test logic is built with .NET Core 2, and exposed as REST endpoints using ASP .NET Core.
+
+Microsoft has embraced non-Windows platforms and the open source community in recent years, and this really shows in the .NET Core developer experience. Visual Studio is available for Macs (which we use for development) and works well. Documentation is great although often out of date as the ecosystem is moving rapidly.
+
+.NET Core runs on Linux, Windows and Mac, and applications are easily packaged for deployment. Microsoft is also strongly supportive of containers, so if you’re using Docker you will be happy.
+
+One stumbling block that we encountered in this particular project is that .NET Core does not include a serial port library. We worked around this problem by using socat (a kind of Swiss Army knife for sockets and files) to expose the serial port through a TCP socket. The following command configures the /dev/ttyUSB0 serial port with the proper serial communication parameters, and exposes it as a TCP service on port 9000.
+
+This indirection gives some additional flexibility in deployment — it decouples the test bench hardware from the DUT and the probe. It is also handy for development: you can develop the testing logic on your workstation while communicating with a Device Under Test or probe connected to the RaspberryPi.
+
+This BLE probe runs on an nRF51 dongle and was developed with the nRF SDK in C, the default choice for nRF chipset development.
+
+The nRF SDK supports cross-platform development (you just need to install the ARM toolchain first), and quick iterations are possible. The DAPLink firmware exposes a serial port and allows flashing new firmware via drag&drop.
+
+We used a rigid USB cable to hold the dongle in an upright position, hovering above the Device Under Test to get consistent signal strengths. The small form factor of the dongle proved useful here.
+
+The architecture presented here was the right choice for our BLE peripheral test bench. Your project may have different needs, we do believe however that it is flexible enough to be useful in other scenarios.
+
+If you liked this article, please give it a clap!

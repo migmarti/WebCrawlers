@@ -1,0 +1,35 @@
+The brain is soft and squishy, like a swollen network of gooey gel. Electronics, on the other hand, tend to be rigid. So designing a brain implant can be tricky, like sticking a plastic fork into a bowl of Jell-O and hoping the fork doesnt move too much.
+
+The first sensor was implanted into the brain of a paralyzed patient in 1998. The past 20 years have seen growing interest in brain-machine interfaces, which are brain implants that can record information from our neurons and also stimulate the neurons. Millions of dollars have been spent on developing this technology, from government-funded projects to Elon Musks startup NeuraLink. The possibilities are intriguing: help those with motor disabilities, treat depression, or, if youre Musk, merge AI and human brains to replace language as we know it.
+
+The Verge spoke with Christopher Bettinger, a materials scientist and biomedical engineer at Carnegie Mellon University, about the state of brain-machine implant research, obstacles that remain, and the new research material that could solve some of these design problems. (This research was recently published in the journal Advanced Functional Materials.)
+
+This interview has been lightly edited for clarity.
+
+What are some of the main challenges when it comes to brain-computer interfaces?
+
+Theres a fundamental asymmetry between the devices that drive our information economy and the tissues in the nervous system. Your cellphone and your computer, for example, use electrons and pass them back and forth as the fundamental unit of information. Neurons, though, use ions like sodium and potassium. This matters because, to make a simple analogy, that means you need to translate the language. It just slows everything down, and raises questions of: how do you accelerate that translation? How do you harmonize those different languages?
+
+The other issue is mechanics. The brain is this swollen network of gooey gel. To date, most interfaces have been these silicon-based technologies, [so its] like sticking a plastic fork into a bowl of Jell-O. These might work for a few days or weeks or even months. But eventually, they start to fail. And theres micro-motion artifacts, or the small movements of the probe in the brain that can damage the tissue, lead to inflammation, or exacerbate scarring. Its all natural biological reactions, but over time it leads to worse signal quality, and, eventually, the implant fails.
+
+When we talk about things like inflammation and scarring, how dangerous is this?
+
+Implants in the brain are not intrinsically dangerous. The implantation is not painful since there arent any sensory neurons in the brain. Its not going to lead to some chronic disease. It might rupture some blood vessels, but these vessels are typically three or four human hairs wide, so it wont, for example, cause a stroke. It wont affect cognitive ability either.
+
+The real issue is the life of the device. Its just not very practical to have a very elaborate surgery and have that device not work within a few months. So people are working on ways to extend the lifetime of these devices. The holy grail is really to have a device that doesnt work for only three months or three years, but for 30 years. And if thats possible, there are so many interesting applications in rehabilitation, in augmenting human function, monitoring mental health. But we need that long-term timescale.
+
+What is the lifespan now? Ive heard about five years. Is that correct?
+
+The life of a silicon-based interface is about five years, but along the way, various parts will start failing. Lets say you have a device with a few hundred electrodes. Some of them will definitely last five years, but along the way, youll see a gradual erosion in the overall information that you can extract from the brain.
+
+Weve been talking about the limitations of silicon, the rigid material. I know that you work with brain implants made out of polymer, which tends to be softer and more stretchy. But what are some of the limitations of polymers?
+
+Theres a lot of research being done in silicon fabrication already. There are silicon-based computers, solar cells, and so on. And thats all being leveraged for neural implants. With polymer-based devices, we have more unusual or boutique ways of making it, and thats a limitation. And there are very practical challenges, like packaging connectors in implants. Theres a lot of room for improvement.
+
+Tell me about this paper you just published about a new material for these implants.
+
+Well, in the 70s, we had rigid structures for implants. In the 90s, people started making devices on polymer films that can bend. More recently, people are making polymers that can stretch like a rubber band. Our paper describes a process to make gels that are bendable and stretchable. The key discovery is this chemical process that makes electronics and sticks them on this really squishy, gelatinous material.
+
+Right, so this would be safer for the brain. Now that this paper has been published, whats next? And are there applications that arent just for brain implants?
+
+There are actually a lot of interesting applications for these interfaces that arent in the brain. We can use these to record signals from the spinal cord or other locations where you dont really want to be penetrating things into tissue. For example, being able to work with nerves in the bladder or the pancreas or vagus nerve could have a lot of interesting therapeutic benefits  almost like acupuncture.

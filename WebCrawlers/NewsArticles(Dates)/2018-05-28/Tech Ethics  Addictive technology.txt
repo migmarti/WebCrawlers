@@ -1,0 +1,57 @@
+This is part 2 in a series on ethics in the tech industry. In this post I'm going to explore the topic of addictive apps and technology. What roles do they play in our daily lives? How do technologists use psychology to drive engagement? How do we decide if an app exists for the benefit or detriment of the individual and our society?
+
+This post means to be the start of the conversation, not a prescription of a solution. I won't propose wide-sweeping public policy nor a manifesto of hard ethical law. Ethical decisions are inherently contextual, but without first asking these questions, how can we hope for a better world?
+
+The word "addictive" has negative connotations. In the spirit of getting to a more perfect answer in this debate, I'm going to do my best to use the phrase "habit-forming." A purposefully wide definition, habit-forming technologies are those designed to increase user engagement. They incentivize higher usage through a wide set of techniques.
+
+The most obvious habit-forming technique is the well-timed push notification.
+
+Hooked by Nir Eyal is the seminal text in building habit-forming products. Eyal's "Hooked Model" starts with an important element, what he calls the "trigger." While notifications are not the only type of trigger, they may be the most prevalent in the stickiest products we use. Their ability to take action on them is cheap: just tap the screen. Numerous studies have found that push notifications directly lead to increased pervasiveness of smartphones.
+
+Facebook is designed to be addictive and notifications are a key part of that strategy. Sean Parker, an early investor and employee, said it explicitly: "how do we consume as much of your time and conscious attention as possible?" He explains how the company focused on exploiting human psychology to "give you a little dopamine hit every once in a while."
+
+This practice is so successful that entire companies have been formed to optimize push notifications. Boundless Mind (previously Dopamine Labs) has raised millions of dollars to help companies create user habits with push notifications. A quote lifted from their landing page reads "delight doesn’t just feel good: it rewires the brain." Another, "human behavior is programmable."
+
+Do those phrases make you cringe too? Let alone ethical theory, anyone who wants to program my behavior need to back off. But it seems we're way past that point. More savvy users have figured out that turning off notifications can decrease stress and anxiety. But, the average American still receives 46 push notifications per day. An estimated 53% of Americans enable push notifications "Always" or "Often" when installing new apps. Any way we slice it, push notifications are undeniable installment in modern life.
+
+Let's turn our attention to the effects many addicting social media apps have, namely self-comparison. While the effects of these phenomena are not necessarily habit-forming, the habit-forming techniques these companies deploy amplifies these effects. These ancillary phenomena are relevant to our discussion.
+
+In the landmark study conducted at by Harvard, researchers proved that more time spent on Facebook causes a negative effect on well-being, physical health, life-satisfaction, with a particularly strong negative effect on mental health. They also found that quantity of usage was the primary contributor to these effects. It seems reasonable to assume that habit-forming techniques used by Facebook and others magnify these negative effects.
+
+As Facebook and social media have woven themselves into the social fabric, these habit-forming techniques have increased both the breadth and depth that social media influences our society. The effects of these techniques contribute to a positive feedback loop, accelerating the pace that our collective mind becomes entrapped by and subjected to risks to our health.
+
+Let's explore these ethical ideas through a toy example.
+
+Let's say a company or organization uses these same habit-forming tools to guide users to take action on something objectively good: brushing your teeth two times a day. It explodes in popularity and people are talking about it constantly. They compare streaks and badges, trying to climb the leaderboards to become the Toothmaster. It's the first thing you think of when you wake up in the morning and the last thing you think about before drifting off to sleep.
+
+This app gamifies, notifies, and rewards something that contributes to the user's health. Studies have shown that it works too. Users are 20% less likely to get a cavity than non-users. They also report a higher well-being.
+
+In this scenario, which elements are objectively bad: the addition itself, what we are addicted to, the techniques used to addict us, or the intent of those doing so?
+
+To evaluate the ethical grounds of the addiction, we must look at the impact it has on its addicts. In this case, things are looking great. Users are healthy and happy. There doesn't seem to be an inherent negative impacts of using the Toothmaster app.
+
+One could argue that dependence on such a tool could have negative long-term impacts. Let's say for instance that the app shuts down and users lose their habits fast. So fast that they actually end up in worse dental health situation than when they started. For those users, did this app actively hurt them? If so, how do we compare the negative impact on the minority with the positive impacts on the majority?
+
+This is the utilitarian line of thinking: we must optimize for the greatest good for greatest number. Unfortunately, this brand of ethics breaks down in all sorts of majority vs. minority situations. Applying utilitarianism becomes difficult when you must decide how much of the downstream effects an action is responsible for. It's not hard to justify that all attributable effects following a decision should considered. Once you decide the scope of effects, how do you quantify the positive and negative effects for comparison?
+
+Utilitarianism also fails at being able to prescribe moral rules in unfamiliar situations in advance. It's unknowable beforehand the potential outcomes of many decisions. If something bad you didn't expect happens, are you still responsbile?
+
+Let's try something less empirical and use a philosophy with more universal application: Kant's idea of categorical imperatives. Kant's second form gives us something to work with: never treat another as means to an end. Kant derives this form from an interesting line of thinking. If the defining quality of humanity is reason, and therefore freedom to choose, then we cannot choose to take freedom from another by imposing our will against them. Doing so would violate their humanity and status as rational creatures. A categorical imperative is like a well-defined version of the golden rule.
+
+In our case, an app-maker who uses techniques to capture user's attention against the user's wishes is violating this objective freedom of choice. According to Kant's second form, deception like this is universally wrong. The user would no longer be an end themselves, but a means to profits.
+
+If the users of Toothmaster didn't want the dopamine withdrawals and the wasted time browsing leaderboards but were hooked by the techniques used to drive engagement, the app would be in violation of a categorical imperative to not deceive or steal from others. In this theory, the use of these techniques regardless of outcome would be wrong.
+
+We've looked at the addiction itself and its potential effects on individuals and society. We must also consider the intent of the app-maker in the scenario.
+
+Unfortunately, it seems the reason these techniques are usually used is unsurprising and uninteresting: influencing behavior on behalf of advertisers is more profitable than charging customers directly. The companies with the capital to experiment with these techniques also have to be profitable and grow at an explosive pace.
+
+From a utilitarian perspective, it seems clear that increasing a company's profits while decreasing happiness of its users is not ethically sound. Of course it depends on how the company uses those profits. But let's be real, decreasing user happiness is more widespread than the company's profits.
+
+Yet if we look deeper, these techniques amount to fancy marketing. So what's different about this capitalistic endeavor that we should worry about? Why should we reject these behaviors?
+
+I argue that it's due to the scale and undetectable power that these companies wield. While psychological warfare is nothing new, the ability to shift a peoples's conscious without any noticeable intervention is what's terrifying about this present danger. Propaganda is easy to spot when it's coming from a faceless organization. When it comes at us from our 1,200 closest "friends" it's almost impossible to see. It seems clear that taking away an individual's reasonable ability to choose how they spend their time and what to accept as truth is to enslave them.
+
+Even if the intent of the app-maker is objectively and purely good, are the unintended consequences excusable? Historically, the leadership in our industry has been answering this question with a resounding "yes." Technological progress—sans any obvious evil—trumps all other considerations. Negligence is fine, as long as you clean up after yourself. In essence: ask for forgiveness, not permission.
+
+This is what I argue must change. Technologies wield unprecedented scale and speed of societal change. It's more important than ever to be intentional and conscious of the potential effects of what we build. Sure, we will make mistakes, but to act with gross negligence and ignorance is no longer acceptable. If we continue down this path, the harm our industry inflicts will continue to accumulate, this time with no excuse.

@@ -1,0 +1,11 @@
+The design is being led by Jouni Helminen , who we’ve invited to write a guest post in order to introduce the design proposal and to gather feedback before we get implementing it in earnest. At the moment the design is entirely artwork (all the images below are screenshots of drawings rather than an implemented app!), but we hope it gives a good overview of what we’re aiming for and just how incredibly cool this could be! We hope you like it as much as we do 😀
+
+As many know, we’ve been working on a massive UI/UX refresh for Riot.im over the last few months; starting with Riot/Web and aiming to make it radically simpler and more intuitive whilst still exposing the full power of Matrix.
+
+I first came across Matrix on Hacker News a couple of years ago when I was working on Ubuntu Phone, and was looking for an encrypted open-source chat platform we could use. I loved the ethos of Matrix — my first experience of realtime chat was using IRC at my uncle’s internet cafe in Helsinki in the mid-90’s, and chatting to people across the world felt like magic. Matrix being an open-source protocol with federated servers really reminded me of that collaborative, positive open ecosystem of the early days of the internet.
+
+IRC, while still around, has mostly been superseded by proprietary chat platforms that offer improved user experience, particularly on mobile. Many of these apps are great, but I think chat is such a fundamental part of the internet and our lives that it feels like there should be user friendly options which aren’t owned and controlled by private entities. In general I think we will see decentralisation of many platforms emerge and play out over the next decade.
+
+As Matrix is an open source protocol, there are several apps that can be used as clients. Riot one of them, developed by New Vector, the core developers of Matrix, and it was the one I first tried. If you’ve tried Riot, you’ll probably agree that while fully usable, it hadn’t benefited from much design love ❤️recently.
+
+The platform itself is super promising and I think the user experience of Riot at the moment holds it back from fulfilling its true potential. I got in touch with the founders, power duo Matthew and Amandine — and after finding out we felt aligned about what’s needed, started working new designs for Riot.

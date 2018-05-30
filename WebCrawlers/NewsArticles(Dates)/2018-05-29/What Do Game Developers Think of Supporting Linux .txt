@@ -1,0 +1,61 @@
+It’s been 5 years already since Valve released Steam for Linux so I asked some game developers who support Linux about their current thoughts on supporting Linux. Some of these game developers may not be familiar to most PC gamers so I made a list of the games they developed.
+
+Crema Games: Right now the Steam survey figures are 0.28% of Linux users (February 2018), but I think it was much higher when we released the game on Steam (April 25th 2017). Our sales are higher, 0.9% of sales are Linux sales.
+
+Frictional Games: In the past 3 months, the Linux sales for our games have been less than 2% of all PC sales.
+
+Laminar Research: Linux represents a tiny fraction of our overall sales.
+
+Lince Works: So far we’ve sold around 300,000 copies of Aragami between Steam, GOG, Humble Store, and other PC digital stores. Of these, around 8,000 copies were on macOS and only around 2,000 copies were on Linux platforms. That means Linux players are only 0.67% of our total player base.
+
+Monomi Park: Linux sales are less than half a percent of our total sales on Steam.
+
+New World Interactive: Linux sales make up a minute percentage (0.2%) of our sales for Insurgency, this is broadly in line with the recent Steam Hardware survey which puts the share of Linux at about 0.28%.
+
+SCS Software: I have checked our year-to-date numbers for both of our flagship games, Euro Truck Simulator 2 and American Truck Simulator. As reported by Steam reporting tools, sales on Linux are below 0.25% in both cases. There is probably not much of an urgent business case to support Linux for us. Our typical player is not a hardcore gamer, we have a large group of non-gamers, “truckers” basically, who are quite likely to use anything beyond the least common denominator platform – Windows. Also, another major group of players are “mid-core” players, we also think of them as “zen players” who are keen to play our boring-by-design sandbox driving game. These too may not be early adopters of any kind, or people who would tend to look beyond Windows. This may skew the numbers towards Windows compared to “average,” indie, or even AA+ games.
+
+Witch Beam: Our Linux sales are in the ball park of the survey results, though keep in mind Cactus is a bit older now on Steam so during our biggest sales periods the Linux player base on Steam was smaller.
+
+Crema Games: Most likely not, we’ll revise again the income we got due the Linux users once we have to port our next game to any platform and we’ll take that decision then, but right now seems worthless. Porting to Linux requires time, and support on each update. Right now, the time and money we have invested in the Linux port is higher than that we have got.
+
+Frictional Games: We will try to continue supporting Linux, as we want to support our different communities.
+
+Laminar Research: We plan on continuing Linux support at this time.
+
+Lince Works: While the percentages are a little bit higher than the average shown on the Steam Hardware Stats, it’s still really hard to justify spending the time developing the Linux and Mac versions, and doing the QA and customer support (specially for Linux distros). You could argue that, as we use Unity as a game engine, exporting the game to Linux/Mac platforms should be as easy as clicking a button, but the reality of it is that things break between different OS, distros, hardware configurations, etc., and the final dilemma is not if we can/should build the game on Linux/Mac, the question should be if those users will have a nice experience and if we have the means or can afford the time to provide it for them. We are just a small indie team with 5 programmers and can’t be everywhere. Looking at the numbers, porting the game to Linux/Mac has not been profitable and we’ve done it only to reach all the players we can.
+
+Monomi Park: It is highly unlikely we would support Linux for our next game. The amount of development time we’ve spent with porting to Linux could have easily been spent on features for Slime Rancher that would have generated a lot more revenue from PC, Mac and console players. It’s also worth noting that we support our games long term. It isn’t a matter of porting to Linux and being done with it. We’ve updated Slime Rancher dozens of times since launching over two years ago. Each time we update the game we have to ensure it runs correctly on Linux. It’s just not worth the effort in the current market. If we were a studio that shipped a game and moved on, then maybe a Linux port would be reasonable. But that’s certainly not how the most successful games are developed these days.
+
+New World Interactive: We do plan to support Linux for Insurgency: Sandstorm, though official support is likely to come out post-release, for day one we are focusing on Windows, PS4 and Xbox One. This is simply a case of prioritizing our limited development resources to where they will have the greatest impact and ensuring we have a timely release.
+
+SCS Software: For several of our programmers, Linux is their preferred development platform. So we have Linux support “for free” essentially. We support OpenGL natively in our engine (as we do DX), so we are not hindered in any way on non-Windows OSes. The programmers’ argument is that by working on/for several platforms, our development culture is healthier, and our ability to find weird bugs is improved. So that’s our kind of business case to be on Linux. So in conclusion, we are not “porting” to Linux from Windows, we actually have developers working natively on Windows, Linux as well as Mac, so all these three platforms can be considered primary and native for us in a way.
+
+Witch Beam: I can’t see us releasing a PC game without Linux support at this point, the obvious why answer being that there’s an audience to connect with there which means giving players what they want and us making more money – a win win. The not so obvious answer is that my experience with the Linux community has been very positive with Cactus, folks like Josh ‘Cheeseness’ Bush who I now consider a close friend helped us out whenever we ran in to issues and I don’t disagree with a lot of Linux players desire to see more open platforms offer real competition in the market.
+
+Crema Games: I don’t know, could be, but now I don’t venture to give an answer.
+
+Frictional Games: It looks like Vulkan has much better driver support for AMD and Intel GPUs. Our game engine uses OpenGL which makes porting games to Linux is quite easy. Using Vulkan wouldn’t be much different. If a game is written in DirectX it is fairly difficult to port it to Linux since DirectX is very different from OpenGL. DirectX12 on the other hand is similar to Vulkan. This makes porting cheaper and could mean that more games end up getting Linux support post launch.
+
+Laminar Research: The parity of Vulkan on Linux and Windows will be the same as the parity of OpenGL on Linux and Windows, so it’s not better and it’s not worse. Vulkan is better for performance, but it’s not necessarily better for portability.
+
+Lince Works: Knowing all the issues already intrinsic to releasing and supporting a game on a new platform, adding yet another variable like supporting another graphics API is out of the question. We can always give the option to try an experimental build with Vulkan, but there’s no way we can afford to support it properly if something breaks.
+
+Monomi Park: That’s entirely dependent on how the various engines out there support it, and it’s not something we’ve looked into.
+
+New World Interactive: The Linux version of Insurgency: Sandstorm has been delayed until post-release and so we haven’t started looking into it properly yet.
+
+SCS Software: Vulkan, if it prevails ultimately, would be a clear benefit for cross-platform, as projects wouldn’t have to decide if it’s worth it for them to look beyond DirectX, the usual API on Windows. We too aim for Vulkan one day, but to do it right, we have to do a lot of refactoring in our higher levels of the renderer, so it’s a long term commitment.
+
+Witch Beam: We’re a tiny team without a lot of programming experience so we’re using an off the shelf closed source engine called Unity, the upsides to that are that we can make games at all but the downside is the tech evolution has less meaning for us because we only get what they give us. I suppose from a high level perspective anything that creates a more standardized graphics pipeline for Linux should help all developers in the long run though!
+
+We also asked Aspyr Media if Linux gaming is still good business for them and here is what Elizabeth Howard, Vice President of Publishing, has to say:
+
+“Aspyr supports Linux and will continue to do so in the future. In the past year, we have released Observer and InnerSpace on Linux, with Next Up Hero slated for release this summer. In addition, we released a number of DLCs and the Rise and Fall expansion for Civilization VI. In short, we love our Linux supporters!”
+
+Related readings:
+
+ Newbie Friendly Guide to Using Linux for Gaming
+
+ Milestones of Linux as a Gaming Platform
+
+ A Look at the Statistics of Linux Games

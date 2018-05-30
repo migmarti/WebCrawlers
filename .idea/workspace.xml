@@ -2,6 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf0fb72d-b57a-474b-8952-2df0ca606ec6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/DefaultImages/Computer Science.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/DefaultImages/General Science.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/DefaultImages/General Technology.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SavedObjects/object-9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/ScrapedPages/quotes-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/A pure JavaScript implementation of Git for Node and browsers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Algorithms Behind Modern Storage Systems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Announcing TypeScript 2 9 RC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Apple shipped an estimated 600 000 HomePods in the first quarter of the year.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Azure Application Insights with App Service   ENABLE ALL THE THINGS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Code patterns that are a recipe for trouble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/GIMP 2 10 0 is out   Girin Studio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Google  please stop breaking Chromedriver.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/How Apple Dethroned Intel as the World s Most Innovative Chipmaker.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/How to Install WordPress on Ubuntu 18 04 with Nginx  MariaDB  PHP 7 2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/In Soviet Russia Netflix Watches You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Intel announces IoT computer vision toolkit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Intel s First 10nm Cannon Lake CPU Confirmed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Introducing Machine Learning Practica.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/MXNet GluonCV Deep Learning Toolkit for Computer Vision.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Microsoft Surface Hub 2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Neurochips from the 90s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/New in Firefox 61  Developer Edition.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/PCA as a convex optimization problem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Productionalizing ECS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/RealMan s Compiler Collection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Revisiting using Docker.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Stanford EE267  Virtual Reality.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Testing Docker Images with CircleCI and Goss.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/The desktop belongs to Electron.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Time perception   Progressive image loading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Tutorial   SQL processing on Apache Kafka with in memory enrichment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/Using TBTK to time C  code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Computer Science/iOS 12 Wishlist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/AI and Compute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Astronomers find fastest growing black hole known in space.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/California s Coffee Cancer Folly.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Cheesemaking tips from the ancients.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Crashed on a Deserted Island  A Blockchain May Save Your Life.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/DeepMind s AI taught itself to navigate like a mammal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Deutsche Bank looking to cut around 10 000 jobs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Finland offers free online Artificial Intelligence course to anyone  anywhere.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Giving patients the  right to try  experimental drugs is a political maneuver.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Glyphosate shown to disrupt microbiome  at safe levels  study claims.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Good Eggs raises  50M from Benchmark and others.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Greenland ice cores track Roman lead pollution in year by year detail.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/He Was Dying  Antibiotics Weren t Working  Doctors Tried a Forgotten Treatment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/High Scalability  High Availability  High Stability Back End Design Patterns.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Honeybees May Be Dying in Larger Numbers Due to Climate Change.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Ising model.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Last universal common ancestor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Line between telecom and media is already starting to blur.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/MIT s Super Efficient Dispatching Algorithm Minimizes a City s Taxi Fleet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Musk  Zuckerberg  Bezos  and Ethically Iffy  Philanthropy .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Mysterious rise in banned ozone destroying chemical alarms scientists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/OpenStreetCam sign detection code and training data open sourced.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Paris Ponders an Audacious Idea  Free Transit for All.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Phages are making a comeback.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/So You Want to Trade Crypto Technical Analysis  Part 3 .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/South Korea Aims High on AI  Pumps  2B into R D.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/SpaceX s Next Giant Leap  Second Stage Recovery.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/The Personal Analytics of My Life  2012 .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/US gov t employee in China left with brain injury after strange sounds  pressure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/4 developers picking a random restaurant  Problem .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Banquets and Barbecues  Splitting Up the Fractal Matrix Client for Gnome.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Charitable donations instead of con swag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Comcast confirms plan to buy 21st Century Fox and control of Hulu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Completely Silent Computer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Designing open standards with the minority rule.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/EFF to New York Appellate Court  No Warrantless Searches of Devices at Border.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Engineering a Job Based Forecasting Workflow for Observability Anomaly Detection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Google  Taking action against scammers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Google Chrome no longer breaks Web games  but the fix won t last.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Google must be hit with billion dollar fine for snooping on Aussies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/How a domain registrar can kill your business.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/How my Mac Book Pro 2017 destroyed 2 USB C devices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/I asked Apple for all my data   what was sent back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Internet Users  Better Beware  There Are Prying Eyes On Line.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Laurel or Yanny  Experts tell us why  The Dress  for ears is driving us crazy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Ocelot Arcade System.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/OptiML  The Nitty Gritty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Our Job Titles  Developer  Programmer or Software Engineer .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Product Dev  Challenges of Monitoring and Alerting on Sparse Infrequent Data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Repeating of history and what does it mean for AR VR designers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Security vendors need to stop doing more harm than good.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Senate votes to overturn Ajit Pai s net neutrality repeal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Stealthy  destructive malware infects half a million routers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Stop remembering passwords to keep your accounts secure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/The ACLU is suing ICE for more information on its license plate reader contract.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/The intuition behind Fisher Yates shuffling.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/US cell carriers are selling access to real time phone location data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Vuex getters are great  but don t overuse them.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/What we ve learned from building Ghost after 5 years and  3M.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/World s lightest wireless flying machine lifts off.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/YouTeam is a marketplace for offshore developer talent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/The U S  just hit a 40 year low in its fertility rate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/Uncertain territory  Strange life and curious sustainability of de facto states.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCrawlers/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCrawlers/spiders/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/spiders/news.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WordCloudMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordCloudMaker.py" afterDir="false" />
@@ -15,40 +133,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCloudMaker.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WordCloudMaker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="news.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/news.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-              <folding>
-                <element signature="e#15#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebCrawlers/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="193">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -73,7 +162,6 @@
       <find>octopus</find>
       <find>hed</find>
       <find>[</find>
-      <find>game</find>
       <find>tax</find>
       <find>cr</find>
       <find>currenct</find>
@@ -84,9 +172,11 @@
       <find>illion</find>
       <find>economics</find>
       <find>economic</find>
-      <find>$</find>
       <find>plot</find>
       <find>saveGraph</find>
+      <find>game</find>
+      <find>$</find>
+      <find>government</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,7 +187,6 @@
       <list>
         <option value="$PROJECT_DIR$/WebCrawlers/spiders/test.py" />
         <option value="$PROJECT_DIR$/WebCrawlers/spiders/news_crawler.py" />
-        <option value="$PROJECT_DIR$/WebCrawlers/items.py" />
         <option value="$PROJECT_DIR$/WebCrawlers/config.py" />
         <option value="$PROJECT_DIR$/scrapy.cfg" />
         <option value="$PROJECT_DIR$/WebCrawlers/text_analysis.py" />
@@ -105,9 +194,11 @@
         <option value="$PROJECT_DIR$/WebCrawlers/classifier.py" />
         <option value="$PROJECT_DIR$/classifier.py" />
         <option value="$PROJECT_DIR$/text_analysis.py" />
-        <option value="$PROJECT_DIR$/WebCrawlers/pipelines.py" />
         <option value="$PROJECT_DIR$/WebCrawlers/spiders/news.py" />
+        <option value="$PROJECT_DIR$/WebCrawlers/items.py" />
+        <option value="$PROJECT_DIR$/Classifier.py" />
         <option value="$PROJECT_DIR$/WordCloudMaker.py" />
+        <option value="$PROJECT_DIR$/WebCrawlers/pipelines.py" />
       </list>
     </option>
   </component>
@@ -134,18 +225,6 @@
               <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
               <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="SortedNewsArticles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +297,7 @@
     <frame x="52" y="-11" width="1309" height="675" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35960215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35883704" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32976827" />
@@ -238,22 +317,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24636573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32976827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35883704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32976827" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -265,203 +344,100 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreation/AI Safety via Debate.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Technology/The Fragility of Knowledge.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/Serverless and lambda  what to do when you run out of disk space.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/High Scalability  High Availability  High Stability Back End Design Patterns.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Sociology/Stupid or Not  Man Who Sold Everything for Bitcoin Still Hopes for the Best.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreational/ Do You Trust This Computer  Gets a Whole Lot Wrong About AI Risks.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="28" column="374" lean-forward="true" selection-start-line="28" selection-start-column="374" selection-end-line="28" selection-end-column="374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/AI and Compute.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="2" column="268" selection-start-line="2" selection-start-column="268" selection-end-line="2" selection-end-column="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Completely Silent Computer.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/JC Penney Outlook is negative and could follow Sears into bankruptcy.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/What Korea Says About Crypto s Massive Potential.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/What to Do If You Forgot to Report Your Crypto Trades on Last Year s Tax Return.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="16" column="972" selection-start-line="16" selection-start-column="971" selection-end-line="16" selection-end-column="972" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Leanpub Goes Freemium.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1131" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/JC Penney Outlook is negative and could follow Sears into bankruptcy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Seattle Unanimously Passes an  Amazon Tax  to Fund Affordable Housing.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="4" column="349" selection-start-line="4" selection-start-column="349" selection-end-line="4" selection-end-column="349" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Greenland ice cores track Roman lead pollution in year by year detail.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/Uncertain territory  Strange life and curious sustainability of de facto states.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Designing open standards with the minority rule.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="14" column="282" lean-forward="true" selection-start-line="14" selection-start-column="282" selection-end-line="14" selection-end-column="282" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Charitable donations instead of con swag.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Technology/Internet Users  Better Beware  There Are Prying Eyes On Line.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="2" column="9250" lean-forward="true" selection-start-line="2" selection-start-column="9250" selection-end-line="2" selection-end-column="9250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/General Science/US gov t employee in China left with brain injury after strange sounds  pressure.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="10" column="264" selection-start-line="10" selection-start-column="264" selection-end-line="10" selection-end-column="264" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreational/Dockless Bikes Are Changing Mobility Right Meow.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="2" column="774" selection-start-line="2" selection-start-column="774" selection-end-line="2" selection-end-column="774" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreational/Why Being a Foster Child Made Me a Conservative.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="8" column="171" lean-forward="true" selection-start-line="8" selection-start-column="171" selection-end-line="8" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Charging Bird scooters overnight is like a much less fun version of Pokemon Go.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16" column="290" selection-start-line="16" selection-start-column="290" selection-end-line="16" selection-end-column="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Nassim Nicholas Taleb on Self Education and Doing the Math.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="134" column="41" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreational/Medieval Theories of the Emotions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="2" column="1036" selection-start-line="2" selection-start-column="1036" selection-end-line="2" selection-end-column="1036" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreational/The unusual economics of electric vehicles create dirt cheap deals.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/AI and Compute.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/Uncertain territory  Strange life and curious sustainability of de facto states.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/The U S  just hit a 40 year low in its fertility rate.txt" />
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Economics/The unusual economics of electric vehicles create dirt cheap deals.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Recreational/I Wish Mum s Phone Was Never Invented.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="36" column="208" lean-forward="true" selection-start-line="36" selection-start-column="208" selection-end-line="36" selection-end-column="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/Trump can t block users on Twitter  federal judge rules.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="6" column="130" lean-forward="true" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Recreational.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/Frequencies/ 2018-05-23.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a_new_hope.txt">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Science/Is timeless UI design a thing .txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Science/Treating Mental Illness with Psychedelics.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_analysis.py">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Science/What I ve Been Doing Since Quitting My Job.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Recreational/Lobotomizing Gnome.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Recreational/Mono on AIX and IBM i.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Recreational/OpenBSD Kernel Internals Creation of process from user space to kernel space.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Recreational/A Recommender System for the Music Industry  ML Mixer .txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-159" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Recreational/Advice for Applying to Data Science Jobs.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Recreational/Building a responsive svg   responds to its own aspect ratio.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Environ variables are not for configuring software.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Defect attractors.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Flutter Development on a Pixelbook.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/How I Built Gmail Message Finder ID.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Getting into Blockchain an Engineer s Story.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/How to Impregnate a Rhino.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Is timeless UI design a thing .txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Sam Altman  How to Avoid Distractions and Start the Right Company.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Story of Big Data  A Technical Comedy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/The History of Flat Design Patterns in Mobile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Why New York beats Silicon Valley as a destination for some startup founders.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/You make less money than you used to  Blame your iPhone.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Bye  Chrome  Why I m switching to Firefox and you should too.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Building a Quantified Self API Using AWS Lambda and AWS API Gateway.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/24 tips for React Native you probably want to know.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/Atari s all new gaming console is available for pre order.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/FIFA 18 game simulation predicts 2018 FIFA World Cup Winner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-30/Recreational/MoviePass parent company to acquire Emmett Furla Oasis  launch new film division.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Politics/Ideo redesigns the dreaded annual review.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Politics/GDPR  China and data sovereignty are ultimately wins for Amazon and Google.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles(Dates)/2018-05-29/Politics/France s  Spiderman  joins fire brigade as citizenship awaits.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawlers/Frequencies/2018-05-29.png">
       <provider selected="true" editor-type-id="images" />
@@ -469,65 +445,75 @@
     <entry file="file://$PROJECT_DIR$/Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextAnalyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Politics.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Science.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Computer Science.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Economics.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/test.py">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/NewsArticles(Dates)/2018-04-03/How Artificial Intelligence Is Reshaping Commerce.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Technology.png">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-29/Computer Engineering.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="e#15#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-29/Economics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-29/Politics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-29/Recreational.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-29/Science.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-29/Technology.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WordCloudMaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        <state relative-caret-position="207">
+          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-03-11/Computer Engineering.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-01-26/Science.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-03-17/Computer Engineering.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-04-03/Economics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-04-13/Technology.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-03/Technology.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-11/Economics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-21/Politics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds(Dates)/2018-05-15/Economics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>

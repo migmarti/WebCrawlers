@@ -1,0 +1,49 @@
+On this article I will talk about  a technique to avoid showing a blank page / empty space while your front-end app is requesting data from an API, and how you can improve the UX of this same app using content placeholder in a Vuejs application.
+
+Let’s imagine that a front-end application needs to request information from an API, how the page will look like before the data is presented?
+
+Well showing a blank page is not very user-friendly specially if the user is accessing the application from a slow internet connection, like a bad 3G. The user could end up thinking that the app is broken and may try to refresh the browser. I am pretty sure it is not what you want him to do or to think.
+
+To prevent such things we used for years the traditional spinner to say to the user:
+
+What if I tell you that there is another approach instead of showing a spinner or a blank page, and this same approach will be able to anticipate to the users how the content will look like when that application finishes the request successfully, just like an input placeholder. Well this technique is called content placeholder, and you have been exposed to this, if you have used Facebook or LinkedIn.
+
+Basically what you see above is Facebook showing is content placeholder effect while fetching the information about posts from the API. Sorry for the long introduction, I wanted to give you a little bit of context, so on this post I will implement a small vue app that interacts with JSON Placeholder API in order to fetch posts. You can see the final result here: https://jsbin.com/cavukesomu/edit?html,css,output
+
+PS: You probably have a super fast internet connection, so try to simulate a slow internet connection, go to DevTools>Network and choose Slow 3G. This will allow you to test the demo in a worst condition in terms of internet speed.
+
+Since this is a quick demo I will not use vue-cli to generate the project, instead I will use JSBin and add vue.js with the <script> tag. I am also using JSbin to show how easily you can start building vue apps without hundreds and hundreds of configurations.
+
+In the code above, there’s a simple html page where:
+
+As you can see, things are a little bit ugly, let’s add some style:
+
+Ok, now Include this css inside of the <head> tag. Moving forward, we now need to setup a vuejs application and start to make requests to JSON Placeholder in order to get the posts:
+
+
+
+ Well in the script above I:
+
+Ok, so far so good, the component structure is defined and styled, the vue app is running inside of the html code, a GET request will be performed as soon as the component is created by vue engine, and now I use vue loops to iterate over the array and show the data, check the magic happening:
+
+Simple as this, my be COBOL. I used:
+
+You should have an output like the image above. Everything is good, now go to DevTools > Network and set the internet connection to Slow 3G, then reload the page. You should see a blank page before vue display the content, so that is what we want to avoid here, because in real world application users may not have your super fast internet connection.
+
+Of course we could display a spinner and give the user the perception that the data will be displayed at some point, but, for god-sake we are in 2018, we can do better lol. Since you know what kind of content your application is expecting and how it will look like, we will implement a similar layout in the place of the tradition spinner.
+
+Let’s modify our previous html code and add the code for content placeholder:
+
+Before we modify the vue code, let’s style the content placeholder html code. We want the placeholder to have the same style as the original where the real content is displayed. So in the already defined .post css block, I will add another selector that match the placeholder article.
+
+I hope you could achieve the expected result. If you have any doubt you can check the final result here: https://jsbin.com/cavukesomu/edit?html,css,output
+
+If you’re using vue inside of an existent project or code base, and in order to avoid the scenario presented in the image above, where the component code is displayed before browser finishes request vuejs, you want to consider two workarounds:
+
+Define the <script></script> that loads vue inside <head> tag, right after all the <link> or <style> tags.
+
+In your css can set #vueapp to display: none for instance, and set a handler for load to the window object, and then, inside of the handler you will set #vueapp to display: block; and your vue application code.
+
+It maybe confusing, but one thing you must to understand when using any modern framework is that there’s sometimes a trade-off between speed on rendering, productivity, code maintainability and scalability. You can achieve all of this using a bunch of innerHTML, but you’d be manipulating the DOM directly which is a heavy task, these modern frameworks they workaround this by using the VirtualDOM technique, which instead of manipulating the DOM directly they work with an in-memory DOM.
+
+I hope you enjoyed this article and I would love to read your thoughts about the content that I provided here. Thank you.

@@ -1,0 +1,47 @@
+All analytics were done with databases. All data were stored in databases. It was a well known anti-pattern to store data worthy of a database in a flat file.
+
+Google did not like databases. May be they tried it and it did not work. May be it did work, but the company that can make it work ask for too much money. May be they did knew it does not work. End of the day, they used files. Being google they build a big ( distributed) file system. Of course they wrote a new shiny distributed file system.
+
+Google wanted to query their big files. Lot of geniuses got together, and for once, came up with the most simple solution. Where the solution came from is not clear.
+
+May be they took map and reduce operations from functional programming, throw away other operators. Then mash these two and create a new operator. May be they took MPI, threw away all 100+ powerful operators and kept two. May be one of genius dream it up. We do not know.
+
+They created the most simple solution to a complicated problem. This is unheard of and not worthy of such geniuses. They did another thing no one has done.
+
+They told everyone about it. While making lot of money, they told everyone about part of the secret sauce. Why? we do not know. Maybe they were thinking about increasing human knowledge. May be they wanted others to think in the way they did so they can easily hire others. Maybe, they wanted world to know that they do serious stuff. May be they were so far ahead and sure others can’t catch up. May be they did know MapReduce does not work in the long run so want to send their competition in a wild goose chase. In this world of bluff and double-bluff, Who knows.
+
+But all hell break loose. People felt like when prometheus brought fire from heaven. Well yes, we do not know how it felt then, but I am sure it was something like this. Few people got together and implemented it in opensource. Yahoo, the competitor to google, help fund some of it, Hadoop is born.
+
+People did not have use cases like Google. They did not have data like Google. Most did not had data to fill even a MySQL database. Yet everybody loved MapReduce. They dream up about lot of data and created Big Data.
+
+They dream of how one can collect data about the world, make sense of it., and change the world. Then all they did was count words with it. Some dig in and found some data that few gigabytes big but others couldn’t even do that. So they dream of when they have lot of data. Others figured scientists were handling big data for a long time calling it scientific computing. Everyone marveled at what scientists were doing all along. Now it is much easier to get research grants, so scientists did not mind either. Now we have real big data ( which we had all along).
+
+Since google had beef with databases, someone figured problem is SQL. They created a new kind of storage and call it NoSQL. Soon they figured they need a way to query there storage and whatever they did, queries look like SQL. So they change the name to Not Only SQL.
+
+Mike Stonebraker, ten years before receiving his turing award, spoke out. He told in his humble and spear like prose that “Guys all you do is counting and grouping. SQL can do all this and more. Just make SQL work with your glorified big files”. Of course nobody listened.
+
+Academics and Investors went crazy and throw their brains and money into Hadoop.
+
+Soon comes Spark, which beat Hadoop 10–20X performance. Bye bye Hadoop. Wait wait, what happen to all investor money to build Hadoop companies. They got together and huddled Spark, so tightly. Now it is hard to tell where Hadoop ends and Sparks starts. They explained both are MapReduce technologies ( although Mapreduce is less than 1/10 of Spark does) and Spark is the future. Everyone is happy.
+
+Meanwhile Google dropped Hadoop, but did not bothers to tell us. To be fair they talked about all technologies they build instead, but did not help put the 2+2 together. It is not like many were paying attention.
+
+Thanks to Spark, Machine Learning (ML) takes off big. Soon data science is born. Years of old ML research comes back, new things are found, improvement made, new techniques discovered or rediscovered. Soon it turns out Spark does not work that well with deep learning. Google and others had to create new techniques. This did not matter. Most data is small. So we can do the data science with R and Python in a single machine and be mysterious about how we can run it in scale. GAFA(Big four tech companies) kept running machine learning in large scale and told us about it. That is enough to keep mystery and aura going. Also GAFA hiring everyone who can do machine learning also helped.
+
+All this is said and done, money is in the enterprise. They already had data warehouses and BI. Big data goes there and fold it in. Well, I did not said replace. Sometime BI and data warehouses were just fold in and counted as analytics. Sometime, upgrading the current product took you from old technology to new technology. Sometimes old technology is replaced.
+
+Meanwhile, SQL and NoSQL databases are merging. NoSQL databases are supporting full SQL or coming close. SQL databases supporting NoSQL features. Someone should have listen to Mike, but he has grown tired of saying “I told you so”. He does not said anything.
+
+Act 6: Big data has it all
+
+Now big data/ analytics/ AI has it all. A huge markets, use cases, customers, investors, what else can you ask for?
+
+All is not well. It is very hard to find people who can build these systems. It is even harder to find architects who can think it through and make is actually usable. Almost no one think about usability yet and we are just waking up to problems like bias. But some systems are up, somebody must be making use of it, and somebody is getting some benefits. Who knows.
+
+Big companies that were renamed as Big data companies are not growing. All that promised growth must have gone to blockchain. Open source companies are growing 50%, but they are too small. In current rate, they might catch up in about 10–20 years.
+
+Everyone is busy. There is AI and singularity is coming and robots are coming. What will happen when they take over our jobs? Bots are in rage too. Most bots we have breaks within two sentences. Among the rest, most are not useable and it is much easier to use a UI to get the same thing done. Some turn into a shame within hours. But this is details, who has time to read the details. Who cares whether big data works or not.
+
+There might still be time to make it work. May be hard work is done in already. Programmers are being trained. New generation is being thought. More and more is asking for analytics. We can get end to end stories right, get usability right, and get the tools right. It can work.
+
+Keep up the good work, I will check back when I am bored with blockchain.

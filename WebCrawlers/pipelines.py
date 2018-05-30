@@ -33,7 +33,7 @@ class DropInvalidArticlePipeline(object):
     def process_item(self, item, spider):
         item['link_title'] = item['link_title'].encode("utf-8")
         title = item['link_title']
-        if ("[" in title.lower() and "]" in title.lower()) or "github" in item["url"]:
+        if ("[" in title.lower() and "]" in title.lower()) or "github" in item["url"] or "arxiv" in item["url"]:
             print("Excluded invalid article: " + str(item["link_title"]))
             raise DropItem("Excluded invalid article: " + str(item["link_title"]))
         return item
@@ -53,9 +53,15 @@ class ExtractArticlePipeline(object):
     def process_item(self, item, spider):
         try:
             article = self.g.extract(url=item["url"])
+            date = article.publish_date
             text = article.cleaned_text.encode("utf-8")
             item["text"] = text
-            self.save_article(item["link_title"], item["text"])
+            status = True
+            if date is not None and "2018-" in date:
+                item["date"] = str(date)[0:10]
+                status = self.save_dated_article(item["link_title"], item["text"], item["date"])
+            if status is not False:
+                self.save_article(item["link_title"], item["text"])
         except Exception as e:
             print("\n" + str(e))
             print("Line: " + str(sys.exc_info()[-1].tb_lineno) + "\n")
@@ -82,3 +88,18 @@ class ExtractArticlePipeline(object):
             print("Success: Saved article " + str(name))
         else:
             print("Insufficient text from: " + str(title) + ". Text is empty, too short or prohibited.")
+
+    def save_dated_article(self, title, text, date):
+        if len(text.split()) > 250:
+            name = re.sub('[^A-Za-z0-9 ]+', ' ', title)
+            path = self.savePath + '/NewsArticles(Dates)/' + date + '/'
+            if not os.path.exists(path):
+                os.makedirs(path)
+            filename = path + '%s.txt' % name
+            with open(filename, 'w') as f:
+                f.write(text)
+            print("Success: Saved article with date: " + str(name) + " -> " + str(date))
+            return True
+        else:
+            print("Insufficient text from: " + str(title) + ". Text is empty, too short or prohibited.")
+            return False

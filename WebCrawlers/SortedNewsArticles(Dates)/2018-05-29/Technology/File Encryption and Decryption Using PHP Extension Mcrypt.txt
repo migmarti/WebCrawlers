@@ -1,0 +1,13 @@
+Today, in this tutorial we will learn about encryption and decryption of file using PHP. This can be very useful when we are saving some confidential or critical files in server. No one will be able to access the file without the key phrase that was used to encrypt the file.
+
+Encryption is the process of encoding a message or information in such a way that only authorized parties can access it and those who are not authorized cannot. Encryption does not itself prevent interference, but denies the intelligible content to a would-be interceptor.
+
+Decryption is the process of taking encoded or encrypted text or other data and converting it back into text that you or the computer can read and understand. This term could be used to describe a method of un-encrypting the data manually or with un-encrypting the data using the proper codes or keys.
+
+Encryption is widely used on the internet to protect user information being sent between a browser and a server, including passwords, payment information and other personal information that should be considered private. Organizations and individuals also commonly use encryption to protect sensitive data stored on computers, servers and mobile devices like phones or tablets.
+
+We will be using Mcrypt PHP extension for this purpose of encryption and decryption. The mcrypt extension is an interface to the mcrypt cryptography library.
+
+The mcrypt extension is included in PHP 5.4 through PHP 7.1. It was removed from PHP 7.2 and moved to an unofficial PECL extension because the mcrypt library is no longer maintained.
+
+You can follow the following video for step by step implementation of the approach:

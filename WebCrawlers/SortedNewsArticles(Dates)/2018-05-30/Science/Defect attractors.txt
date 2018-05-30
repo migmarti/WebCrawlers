@@ -1,0 +1,27 @@
+Theres a phrase Ive used on this blog more than once that I had reason to Google just now and found that (to my surprise) the top hits are mostly my writings. It is defect attractor.
+
+In this post Im going to explain why I think this is an important concept that needs to be in the toolkit of every software engineer, and talk about the practice it implies.
+
+The first thing to know about defect attractor is that I didnt coin it myself. Google notices the first use I know about, by Les Hatton. In his work on the error statistics of large C++ programs, Hatton described class inheritance as a defect attractor.
+
+Im a fan of Hattons work. He has breadth of perspective. He asks interesting questions, finds sharp answers, and writes about them lucidly. I understood instantly what he meant by that phrase and seized upon it with glee.
+
+A defect attractor of a program, language, API, or any other kind of software construct is a feature which, while possibly not bad in itself, spawns defects in the design or code near it.
+
+The concept unifies a large class of things experienced software engineers know are problems. Portability shims are defect attractors. Special, corner, and edge cases are defect attractors  in fact, when we complain about something being a special case we are usually expressing unease about it being a defect attractor. Special case is the what of our complaint, defect attractor is the why.
+
+Hatton was quite right, class inheritance is a defect attractor. This is true on the level of language design where it spawns questions like how to handle diamond inheritance that dont have one good answer but multiple bad ones. Its also true in OO codebases, where Hatton noticed that defects cluster noticeably around code using inheritance. Language designers have reacted sensibly by moving to trait- and interface-based object systems that dont have inheritance  Go is a notable recent example.
+
+More defect attractors: endianness-sensitive data representations, binary wire and file formats in general, and floating point. These are things where program after program using them makes the same dumb mistakes. Experience doesnt help as much as it should.
+
+In C: pointer arithmetic. Casts. Unions and type punning. And of course the Godzilla of defect attractors, manual management of dynamic memory allocation. Experienced programmers know these are going to bite them on the ass and that much of the labor of C programming is not the expression of algorithms but mitigation attempts to blunt the attractors teeth.
+
+In any language, the goto statement is a famous defect attractor. So are text-substitution macros in languages that have anything resembling a preprocessing stage.
+
+Once youve grasped what a defect attractor is, its a short step to good practice: stay the hell away from them! And when you see a known defect attractor in code youre auditing, go to high alert.
+
+Slowly weve learned this about some individual defect attractors like gotos. The consciousness Im trying to raise here is that, as engineers, we should be more generally aware of what kinds of features and techniques defects cluster around; we should know to avoid them and to be suspicious when we can encounter them.
+
+Clarity of language promotes clarity of thought. I want this phrase to spread because its clear. Thank you, Les Hatton.
+
+Im sure my commenters will have a good time pointing out defect-attractor classes Ive missed. Just try to keep in mind that things I dont like and things that cause defect clusters arent identical, eh?

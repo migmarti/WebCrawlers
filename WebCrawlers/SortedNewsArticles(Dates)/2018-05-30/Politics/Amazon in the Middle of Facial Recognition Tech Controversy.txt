@@ -1,0 +1,53 @@
+In the modern world of ever-developing technologies there are barely a few advancements that can really surprise us. However, ethical components of such seem to draw a lot of attention. And recently, Amazon got into a huge dispute over the selling of their facial recognition technology to the law enforcement bodies. So, lawless.tech decided to take a look into the issue.
+
+The American Civil Liberties Union has revealed that Amazon is selling its facial recognition technology to the police placing the tech giant in a big fuss over the privacy matters.
+
+Amazons Rekognition is a deep learning-based image and video analysis technology that allows for the identification of objects, people, text, scenes, and activities, as well as detection of any inappropriate content. However, the most interesting features offered by the service are indisputably the facial analysis and facial recognition. On their website, it is stated that you can detect, analyze, and compare faces for a wide variety of user verification, cataloging, people counting, and public safety use cases, which is offered by almost any other company that works in the facial recognition technology field.
+
+Still, Amazon seeks to have a competitive edge, so it rolls out some new features every now and then. Thus, last November, Amazon Web Services (AWS) announced in their blog post three new features of Amazon Rekognition:
+
+Well, this sounds much more interesting. However, the advancement isnt quite a breakthrough in the field.
+
+Last December, the massive Chinese surveillance system estimating to have 176 million CCTV cameras with facial recognition and AI technologies was tested by a BBC reporter, John Sudworth. In the experiment he was photographed and put into the polices database, afterwards trying to blend in the crowd of one of the Chinese cities. As a result, it took 7 minutes to find and apprehend the reporter. A couple of months later, in February, the police of Zhengzhou, a city in Chinas Henan province, have deployed smart-glasses to scan travellers passing through the entrances of crowded areas including busy train stations. The police said the usage of the technology had resulted in seven arrests. Charges included human trafficking and hit and runs.
+
+The news from China may seem like an ominous Black Mirror screenplay came to life. For the general public, the news stayed on the level of a sci-fi plot, where it is mostly amusing to watch over the development of the situation. However, when the facial recognition technology draws attention of Western governments, this very fact seems to capture more interest than usual.
+
+The facial recognition technology has initiated a heated debate in the Western society as it poses an obvious threat to one of the most fundamental human rights recognized in the West: privacy.
+
+In an open letter to Jeff Bezos, the Founder & CEO at Amazon, a coalition of organizations dedicated to protecting civil rights and liberties, including the American Civil Liberties Union (ACLU) and Human Rights Watch (HRW), to name a few, addressed the issue of commercializing the surveillance services by selling them to the government authorities while stressing a probability of a threat to certain persons and communities. The undersigned organizations highlighted:
+
+One of the main statements in the open letter addresses the freedom of people to a normal life without being watched by the government:
+
+An Amazon spokeswoman then made a statement to New York Times stressing that the company offered a general image recognition technology that could automate the process of identifying people, objects and activities providing the examples of such usage. Thus, amusement parks can use the tech to find missing children, and Sky News, a British broadcaster, actually managed to automatically identify the guests at the recent royal wedding. She also said that as with all AWS services, the company required customers to comply with the law.
+
+They have also posed the following question to the Hill:
+
+Deputy Jeff Talbot, a spokesman for the Washington County Sheriffs Office, and one of the law enforcement authorities to use Rekognition, told New York Times:
+
+The Orlando Police Department, the other authority to use it, recently had a news conference regarding the usage of the software on several cameras in the citys downtown as reported by the Orlando Sentinel. The police Chief, John Mina, said that no members of the public are being tracked by the software. Seven OPD officers who volunteered for the pilot are the only people whose images have been uploaded into the system. The main reason for using Amazons software is to try out new technology.
+
+Some officials didnt seem much happy about it nonetheless.
+
+There is even a public petition seeking to stop Amazon from entering the government sector with this technology, which has also garnered almost 50,000 signatures
+
+As the general public is becoming increasingly aware of the tech, it feels concerned about its potential to violate other fundamental rights, like that to not being discriminated. Facial recognition technology does have a capability to identify the race and the gender of a human being, so a number of Democratic lawmakers in the United States have already noted that using such technology may also lead to reinforcing racial profiling. In particular, they referred to a recent study that found gender and skin-tone bias in commercial facial recognition systems. The congressmen sent a letter to Jeff Bezos demanding a disclosure of any other government authorities and /or private companies that are using Amazons technology with a strict deadline to provide the answers, which is the 20th of June.
+
+Still, while such concerns are quite legitimate, the technologys potential isnt limited to building a dystopian society of total surveillance. Actual use cases, though not too abundant so far, shed a light on the positive aspects of such a tech as well.
+
+Facial recognition systems have been successfully used to tackle crime, from human trafficking to identification of suspects. For instance, Marinus Analytics, a social innovation company, provides technical solutions based on artificial intelligence to law enforcement bodies. One of their tools, Traffic Jam, is being effectively used in the human trafficking prevention and tackling. In one of their articles Marinus Analytics have given a description of the results of the Amazons Rekognition service integrated in the Traffic Jam:
+
+At the same time, the use of facial recognition systems might be disruptive, especially in the countries where the protection of privacy is an intricate matter. For example, the most recent news coming from China have become almost mainstream, including their notorious Social Credit System and a usage of smart glasses to scan travelers.
+
+The statement by Human Rights Watch in this regard reads:
+
+Sophie Richardson, China director at the HRW also said:
+
+All in all, its pretty obvious that the technology itself isnt good or bad per se, and its implications solely depend on the policymakers that actually put it to use. Considering the inherent intricacy of the matter, however, it seems quite unlikely that the society ever reaches consensus in this regard.
+
+So far, the regulation of facial recognition tech covers only the most general aspects of privacy in the overwhelming majority of jurisdictions that have any regulatory framework of this sort in place. There is only a handful of countries that have any actual laws regarding the use of personal data gathered with facial recognition systems for crime prevention. Nonetheless, the business environment makes giant leaps in developing technologies that inevitably interfere with everyday lives of a person, a community or even an entire nation.
+
+This is the right time to be addressing how these A.I. systems work and where they fail  to make them socially accountable, said Suresh Venkatasubramanian, a professor of computer science at the University of Utah in an article for New York Times describing a bias that facial recognition systems have when it comes to the identification mistakes caused by the tone of skin of the persons being identified.
+
+The possibilities these systems provide cannot be underestimated. The lives of people can be saved if the technology is used properly. On the other hand, with great power comes great responsibility. The facial recognition tech can obviously be used to prevent crime or detain suspects, but it is also capable of becoming the backbone of a 1984-esque scenario and be used for total surveillance and everything it entails. The possibility of breaching not only the right to privacy, but also the right to liberty, non-discrimination, freedom of movement, to name a few, is an urgent call for setting up the appropriate laws.
+
+Follow us onTwitterto stay tuned on the recent developments in regulation of new technologies, and be the first to read expert opinions.

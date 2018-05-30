@@ -1,0 +1,75 @@
+Wir zeigen euch in dieser Artikelreihe anhand des Beispiels “Erkennung von Umweltplaketten an Fahrzeugen” unterschiedliche Machine- und Deep-Learning-Ansätze. In diesem Artikel implementieren wir einen Detektor auf Basis des HOG-Algorithmus (Histogram of Oriented Gradients) aus der dlib C++ Library.
+
+Die Links zu allen Teilen und unserem youtube channel finden sich hier:
+
+ >Deep Diesel – Teil 1: Machine und Deep Learning zur Erkennung von Umweltplaketten
+
+ >Deep Diesel – Teil 2: Machine-Learning-Dieselfilter HOG Detektor 
+
+ >codecentric.ai youtube channel für regelmäßige  Machine- und Deeplearning Updates
+
+Ein schneller Einstieg in die Arbeit mit Machine Learning im Bereich Computer Vision gelingt mit der dlib Library, die eine Vielzahl von Algorithmen zusammenfasst. Die Library ist eine C++-basierte Bibliothek, bietet aber für ein Subset der Funktionen auch ein Python Interface an. http://dlib.net/. Ein Blick in das sehr breite Spektrum an Beispielen und Kommentaren, die mit der Library ausgeliefert werden, lohnt sich auf jeden Fall: Von Gesichtserkennung über Fahrzeug-Detektion bis hin zum Deep-Learning-basierten Dog-Hipsterizer finden sich unterschiedliche Szenarien in den Beispielen.
+
+Eine gute Hilfe zur Installation findet sich hier. Ihr solltet idealerweise die dlib mit GPU-Unterstützung nutzen (CUDA/cuDNN).
+
+Wir haben uns für den Start für einen einen HOG-Detektor (Histogram of Oriented Gradients) entschieden, der sich primär auf die geometrischen Eigenschaften des Objekts bezieht. Der große Vorteil an diesem Detektor ist, dass für erste Ergebnisse nur sehr wenige Trainingsdaten benötigt werden. Die grundlegende Idee ist eine lokalisierte Auswertung (Zählung) des Auftreten von Gradienten (Kanten) und die Zusammenfassung in ein charakteristisches Histogramm. Dieses Histogramm kann dann als Template genutzt werden, um ähnliche Strukturen in anderen Bildern zu identifizieren. Lokalisiert bedeutet in diesem Kontext, dass viele Histogramme entlang eines engen Gitters für das Bild erstellt und ausgewertet werden.
+
+Dieses Vorgehen ermöglicht es, geometrische Objekte auch nach Verschiebung, in Grenzen auch bei Skalierung, zu erkennen die Erkennung ist aber leider nicht Rotations- oder Perspektiv-invariant, da sich die Orientierung der Gradienten im auszuwertenden Bild verändert.
+
+Der HOG-Detektor macht in unserem Use Case keinen Gebrauch von einem naheliegenden Charakteristikum – der Farbe der Umweltplakette – sondern orientiert sich ausschließlich an der runden Form und der kontraststarken “4”. Um einen Eindruck zu bekommen, woran sich der Algorithmus orientiert, kann man die Feature-Gradienten visualisieren.
+
+Mit der folgenden Methode extrahieren wir die Features unserem Bild:
+
+Der entsprechende Call der Methode, um 32 Pixel Blöcke zu visualisieren, ist:
+
+Ein guter Ausgangspunkt, um dies für eigene Bilder und Objekte nachzuvollziehen, ist das mit der dlib ausgelieferte Beispiel: fhog_ex.cpp http://dlib.net/fhog_ex.cpp.html, die leicht gepatched werden kann. Hier einige Beispiele für die erkannten Features der Umweltplakette.
+
+Für die Umsetzung des Detektors verwenden wir das Python Interface und orientieren uns an typischen Schritten zur Erstellung eines Detektors. Den Weg zu einem funktionierenden Detektor unterteilen wir in fünf Schritte.
+
+Bei der Arbeit am Detektor haben wir mehrere Methoden zum Sammeln und den Einfluss auf die Leistung des Detektors ausprobiert.
+
+Initial haben wir ohne die Berücksichtigung der Eigenschaften des Algorithmus Frontalfotos von parkenden Fahrzeugen gemacht, später haben wir die Perspektive angepasst und zuletzt sind wir auf die Nutzung von Videos von Fahrzeugen in Bewegung umgestiegen. Die Performance der Ergebnisse ist von Schritt zu Schritt besser geworden, wobei der größte Unterschied beim Umstieg auf die Nutzung der Videos zu erkennen war. Insbesondere die korrekte Perspektive und das Nutzen des gleichen Devices für die Aufnahme von Trainingsdaten, Testdaten und späterer Detektion haben sich als die Faktoren mit dem größten Einfluss herausgestellt. Das einfachste Vorgehen für die Erhebung von Testdaten ist es, ein Video von vorbeifahrenden Fahrzeugen aufzunehmen und dann ausgewählte Frames, auf denen die Umweltplakette gut erkennbar ist, zu speichern.
+
+Des Weiteren ist zu bemerken, dass es beim HOG-Detektor eher darauf ankommt, wenige repräsentative Bilder zu finden als viele unterschiedliche Trainingsdaten. Viele Bilder verwässern in diesem Fall das Histogramm, nach dem wir in den Testdaten suchen, und machen das Ergebnis eher schlechter als besser.
+
+Zum Labeling der Daten verwenden wir das Tool imglab, welches nach dem Kompilieren der dlib C++ Library im dlib/tools/ Ordner zu finden ist. Mit dem Befehl
+
+wird initial ein XML File mit der Liste der Trainingsdaten generiert, welches danach mit
+
+geladen wird, um die Label anzubringen.
+
+Nach der Eingabe des Label-Namens werden die Regions of Interest (RoIs) umrandet. Es hat sich gezeigt, dass Objekte nicht pixelgenau eingekreist werden sollten, da die Gradienten innerhalb der Markierung als charakteristische Merkmale interpretiert werden. Ergebnis ist ein XML File mit den Pfaden zu den Daten und den Koordinaten zu den RoIs.
+
+Beispiel für ein XML File mit den Metainformationen zu den Trainingsdaten
+
+Zum Training des Classifiers erstellen wir ein minimales Python-Script, in welchem wir das XML File mit den Labels einlesen und die notwendige Parametrisierung vornehmen (training_options:http://dlib.net/python/index.html#dlib.train_simple_object_detector).
+
+Dabei können wir optional die Trainingsdaten verdoppeln (Data Augmentation), indem wir Bilder für spiegelsymmetrische Objekte vertikal spiegeln (auf Schriftzeichen, wie in unserem Fall die ‘4’, nicht anwendbar). Entsprechend der Maschine, auf der wir trainieren, können wir die Anzahl der Threads anpassen, die für die Parallelisierung des Trainings gespawnt werden. Der Parameter C entspricht dem SVM C regularization parameter, der ein Maß dafür ist, wie stark der Trainings-Algorithmus Fehlklassifikationen bestrafen soll. Je höher C, desto enger werden die Klassifikationsgrenzen gezogen, was am Ende zu einem Overfitting in Bezug auf die Trainingsdaten führen kann. Ein passendes C ist durch ‘geschicktes’ Ausprobieren zu finden. Eine gute Darstellung des Effektes findet sich hier.
+
+Ein grundlegende Methodik im Machine Learning ist das Aufteilen der vorliegenden gelabelten Bilder in Trainings- und Testsets. Dabei wird mit den Bildern des Trainingssets der Detektor trainiert und die Performance über das Klassifizieren der Bilder aus dem Testset gemessen.
+
+Precision ist eine Metrik zur Messung der Genauigkeit der Detektionen – eine Precision von 1 heißt, dass es keine falsch positiven (‘falscher Alarm’) Detektionen gab.  Eine Precision von 0 heißt, es wurden in jedem Bild falsche Detektionen vorgenommen.
+
+Recall benennt die Wahrscheinlichkeit der korrekt detektierten Objekte. Ein Recall von 1 entspricht einem Detektor, der alle Objekte gefunden hat. Ein Recall von 0 heißt, es wurde kein Objekt gefunden.
+
+Average Precision ist ein Maß für die Gesamt-Güte des Detektors, welches über alle Detektionen gerechnet wird. Je näher an 1, desto besser ist der Detektor auf dem Test-Set. Eine detaillierte Beschreibung findet sich hier.
+
+Ziel des Szenarios war es, eine Real-Time-Analyse des Verkehrsflusses vorzunehmen, also auf einem Video-Live-Stream die Detektion durchzuführen. Dafür haben wir ein einfaches Setup mit gewählt, was einfach reproduzierbar ist.
+
+Um eine Auswertung der Live-Daten des Verkehrs zu bekommen, bauen wir eine kleine Applikation, die einen Videostream nimmt und die Einzelbilder durch unseren Detektor laufen lässt.
+
+Da die Frames live ausgewertet werden sollen und aktuelle Bilder mit cam.read() immer nur zwischen den Auswertungen mit dem Detektor aktualisiert werden, ist die Frame-Rate eher gering. Für eine flüssige Auswertung kann ein pre-recorded Video Frame für Frame durch den Detektor ausgewertet werden.
+
+Der von uns vorgestellte einfache Detektor ist leicht zu implementieren, hat aber im vorliegenden Setup in Bezug auf das Anwendungsszenario nur eine ausreichende Performance. Um diese zu steigern, würde noch einiges an Aufwand in die Parametrisierung des Algorithmus fließen müssen. Insbesondere Aspekte wie die starke Abhängigkeit von der Perspektive sind eine Herausforderung. Im Versuchsaufbau sind mit steigender Geschwindigkeit auch Aspekte wie Bewegungsunschärfe und niedrige Frame-Rate ein Problem, denn der Detektor ist allein auf klare Umrisse angewiesen und darauf, dass die Umweltplakette in ausreichender Größe erkennbar ist. Diese Aspekte lassen sich sicherlich mit verbesserter Hardware in Hinblick auf optische Qualität und Rechenleistung adressieren. Da der Detektor keine Informationen aus den Farbkanälen zieht, wäre es auch möglich, in den Infrarotbereich auszuweichen und Einzelaufnahmen mit Blitz zu machen, wie es bei den aktuell in der Verkehrsüberwachung eingesetzten Geräten schon der Fall ist.
+
+Für einfache Object-Detection-Szenarien in kontrollierten Umgebungen ist der Algorithmus sehr gut geeignet, um schnell zuverlässige Ergebnisse zu liefern. Insbesondere positiv hervorzuheben ist die Eigenschaft, dass nur sehr wenige Trainingsdaten benötigt werden.
+
+Im nächsten Setup wollen wir uns die Eigenschaften und Performance von Detektoren anschauen, die auf Deep-Learning-Ansätzen basieren.
+
+Die Links zu allen Teilen finden sich hier:
+
+ >Deep Diesel – Teil 1: Machine und Deep Learning zur Erkennung von Umweltplaketten
+
+ >Deep Diesel – Teil 2: Machine-Learning-Dieselfilter HOG Detektor 
+
+ >codecentric.ai youtube channel für regelmäßige  Machine- und Deeplearning Updates

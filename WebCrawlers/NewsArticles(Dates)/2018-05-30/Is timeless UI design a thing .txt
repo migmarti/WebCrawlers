@@ -1,0 +1,75 @@
+It's only natural that when we create a brand new product and its respective visual identity, we want it to be the new cool kid on the block. And usually, that will require some knowledge and research of the current trends to understand which might provide us some years of stylish headstart.
+
+It's all quite okay, but only if you take into account the budget you'll need when it becomes necessary to rework the whole thing because it went out of style. Which will happen and probably sooner than you think.
+
+We see trends come and go, fonts that become extremely uncool, buttons that aren't supposed to have round corners anymore, rebrandings and efforts to keep up with the trends... but what if I want my product or brand to be timeproof?
+
+I want to design my product once and I want to keep that design for the long run - and by long run I mean that 15 years from now it will still look good; it won't look outdated and out of touch.
+
+Is it even realistic?
+
+Sometimes you don't really want your design to be timeless. Sometimes you need your product out really quick because you know it will lose its timing very soon, so you just want to bank now.
+
+In that case, you don't need to go for timeless and trendproof. You want it to be good, and you want it to look bleeding edge and urgent, because that's what it is.
+
+In other cases, you should want your design to last long because the longer it lasts, the more established it becomes.
+
+All the famous logos and brand identities are not the ones that "look nicest" but the ones that lasted. Sometimes they'll require small updates here and there, but nothing major. How did those brands manage?
+
+If we think of Coca-Cola or Nike, their logos are some of the top-most iconic shapes in pop culture, and that provides them with the credibility and familiarity to stay on people's minds.
+
+But the typefaces they use and the overall style they adopt in their branding objects and digital presence has been changing gradually but steadily through the years - because they can afford to. They have permanent teams on the job.
+
+That's not most companies. Most companies cannot afford a rebranding job every two years or so.
+
+Should companies with a reduced budget and an eye on the future bet on trend-proof or classic design? Definitely so. Skip the trends, at least for now. There's no such thing as timeless design, because it's too dependent on its context, but one can shoot for longevity.
+
+My experience tells me there's not many examples out there of visual identities in digital products that have passed the test of time - the industry is too new, we're still babies at this.
+
+But what about in "traditional" graphic design? And by "traditional" I mean print mostly, like posters, books, brochures, etc. There's definitely plenty of objects which have passed the test of time. For some of these objects you can't even tell when they were designed. Could be the 60's, could be last year.
+
+They're doing something right.
+
+Take the Swiss Style graphic design: its style is born out of function. Simplicity is achieved through the search of beauty within pure functionality, which resulted in minimalist shapes and typefaces.
+
+Functionality is timeless, so most objects designed within this style were able to stylistically survive for decades, and still counting.
+
+We can definitely say that the Swiss Style (aka International Style) was already focused on usability above all before UX/UI were even a thing.
+
+So, following their basic design principles whilst adopting some of their aesthetics is likely going to be a win-win situation: you won't be cursing Roboto in a year from now, and usability won't be compromised.
+
+The downside is that we can't all be doing Swiss Style products and brandings, because sameness can be a problem for a visual identity. So here are other examples that didn't necessarily follow the aesthetics of Swiss Style but still managed to stay relevant, as these are still the same from 2015.
+
+I wouldn't be able to tell you how to be visually unique or how to create a relevant visual identity that doesn't rely on trends, because that would have to be the result of your own research. Research that would take into account your product's context and needs. What I can do is tell you what to look for.
+
+How long has this typeface or other lookalikes been around? Does it look really cool but an awful lot like many of them being currently used? If so, try a different route.
+
+Is it Futura (been around for a long long time but is over used lately)? I would say go for it, but try to do it your own way. Maybe find inspiration in older usecases.
+
+Is it Baskerville or Times New Roman? Good for you! Really, don't be too afraid to use serifs anymore, screens are getting better and better, and so is the readability of our classy-looking, long-reading, old-school friends.
+
+You just have to keep them big and make sure your serifs are not like two pixels mushed together. If you do this right, these typefaces have the potential to be strong, soft, serious, romantic, classic, avant-garde... it's your choice. The colors will help set the mood of your object. Serifs are not dead!
+
+There's a reason why Pantone regularly sets the "color of the year" - besides the obvious commercial motivations, of course. Colors do come in and out of fashion. And depending on your context, you might be walking into the sameness problem I previously mentioned.
+
+Like, say, a corporate business with a palette that settles on blues and grays, with a touch of orange for the highlights. Wow, tell me more.
+
+Or a product that is targetting tech savvy and young people using bright mint green for highlights and buttons. It's pretty, but how many Spotify's can there be? It's not exciting anymore.
+
+My advice to you is pretty much the same as for typefaces: look for old references. What colors have designers used in the past and are still working?
+
+Adapt them to the demandings of your digital object. Maybe use bold colors to contrast the classic nature of your typeface, create your own mood.
+
+The truth is that even illustration and button shapes have fads.
+
+Remember the round cornered buttons? Yeah, I remember too. The only way it's okay for a designer to use them now is if it's #ironic. So keep it functional, not decorative. The round corners were never suiting any purpose.
+
+And maybe this is just me being salty but right now it seems that there's somewhat around three different illustrators doing work for all the digital products, because the illustrations all look the same. As anything that is overdone, it will be uncool soon enough too.
+
+Be really, really unique, be really, really classic (literally, use paintings if you will), or, learn something from Swiss Style and be really, really geometric.
+
+There probably can't be any guidelines for timeless or classic design, therefore it's hard to identify or create a style that is timeproof. This is because if there are guidelines, there will be repetition, and repetition is a one way ticket to saturation and boredom. That's how trends exist, and trends are, by definition, meant to die.
+
+So I guess the way to longevity is to step away from trends and look at what has been done that has lasted. It's probably very unique, very neutral, or minimalist to the point that literally only function speaks to the viewer.
+
+And truly, whatever path you choose, keeping pure function at the forefront of your design is a very safe basis for endurance. Everything decorative will probably come back to bite you.

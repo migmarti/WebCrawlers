@@ -1,0 +1,23 @@
+Today I’m going to reveal how Apple ended up with all the metadata of the emails you ever sent (and even received in some cases) using the official Mail app since the launch of iCloud.
+
+Many years ago I stopped using Gmail but I kept the account. Instead of deleting it I deleted everything inside including emails and contacts and kept it connected to my phone using the official Mail app. 2 years ago, I noticed that when writing an email and started to type the recipient I could see my deleted contacts showing up. I checked Google again and even iCloud Contacts but nothing.
+
+Ever since I never had time to properly investigate what actually happened but with this GDPR day, I remembered of this and I was more than willing to take a closer look.
+
+I originally thought it came from Google servers but after investigating I concluded that iCloud Mail seems to discreetly collect the metadata of the emails you send in the official application in clear on Apple servers, regardless of the mailbox used (Google, Outlook, Riseup, Fastmail…).
+
+Apparently used for the “Recent” feature to auto complete emails, here I am with 1.2 MB of metadata which is around more than 700 contacts, which is roughly about every email that I could contact from any mailboxes since the iCloud launch up to somewhere in 2017, which collides with my migration to ProtonMail which uses an external app.
+
+In my personal dump I was able to find emails addresses going back to early 2012. I was also able to find no-reply emails so it’s unclear at this moment if Apple was collecting metadata of emails you were receiving as well. I can assume that they did it in the past but stopped since as I could not reproduce.
+
+The problem is that the data is still there (even after several years, yet we are talking about “recent people” here) and no way exists for the user to know the list (without opening a web developer console) and for the little he could find he have to delete them one by one.
+
+I confirmed with a friend and it seems that despite the fact that he didn’t had an actual iCloud email address, this data were still saved as he discovered later by creating it.
+
+If you use an iPhone or a Mac with iCloud enabled, you are likely affected. You can check how much data Apple saved for you by logging on iCloud Web and executing what I called iRemember in the web developer console: https://gist.github.com/pwnsdx/9a8092604363bbaf5560f1d68171ccd9
+
+I believe Apple seems to be aware of the issue and stopped the collection of email addresses somewhere in the beta versions of the upcoming iOS 11.4 version.
+
+They added a KB article describing the feature (without any technical details) 2 months ago: https://support.apple.com/kb/ph20541?locale=en_GB (Yup, 2 months ago for a 5 years old feature).
+
+This data is probably going to be in the GDPR reports that are coming out soon and it’s probably why it’s being fixed now but many people will definitely ask themselves how this ended up in their Apple account.

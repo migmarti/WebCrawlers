@@ -1,0 +1,9 @@
+Evan Spiegel publicly addressed Facebook’s long-standing practice of copying his company’s products Tuesday, joking that Facebook should model Snap’s approach to collecting less information about its users. “We would really appreciate it if they copied our data protection practices also,” Spiegel said on Tuesday night at the Code Conference in Southern California.
+
+Interviewer Kara Swisher asked Spiegel how he felt about Facebook’s decision to copy key Snapchat innovations including ephemeral 24-hour stories and augmented reality lenses. Spiegel first said that his wife, Miranda Kerr, cared more about it than he did. (Kerr said she was “appalled” by Facebook’s moves in an interview last year.) But then he brought up data privacy — months after the bruising global scandal involving Cambridge Analytica — drawing a huge laugh from the crowd.
+
+Snap collects less data on users than Facebook does, though it does still allow advertisers to target ads based on demographic criteria that the company gathers. It has never offered a full-featured API that allows users to give away their friends’ information, as Facebook once did.
+
+Spiegel went on to say that he looked at Facebook’s copying as a designer. “If you design something that is so simple and so elegant, that the only thing other people can do is copy it exactly … that as a designer is really is the most fantastic thing in the world,” Spiegel said.
+
+However ethically dubious, Facebook’s Snapchat clones have been largely effective. Instagram’s addition of stories helped to drive a new wave of growth for the app, and WhatsApp’s version of stories are now the most widely used version of the product in the world.

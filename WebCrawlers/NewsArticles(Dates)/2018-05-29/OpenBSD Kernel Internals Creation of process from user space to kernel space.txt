@@ -1,0 +1,163 @@
+Have a look in the below screen-shot for the proper view of values:
+
+After, that, it is checking for the non-privileged uid and also the number of process shouldn’t greater than the soft limit of resources, that is, 9223372036854775807 , this is what I have found in gdb.
+
+Then, it increments the ui_proccnt  , that is, number of processes by diff and then return count.
+
+Now, we will proceed further,
+
+FORK_FORK : It is a macro which defines that the call is done by the fork(2) system call. Used only for statistics.
+
+After “ ls ” from user-space it goes to fork () (libc) then from there to sys_fork ().
+
+Life cycle of a process (in brief):
+
+fork1 () creates a new process out of p1, which should be the current thread. This function is used primarily to implement the fork(2) and vfork(2) system calls, as well as the kthread_create(9) function.
+
+Every process is created by sys_fork()  , that is, fork system call which is indirectly (internally) calls fork1()
+
+Here, the parent process is “ksh”, that is, default shell in OpenBSD which invokes “ls” command or any other command.
+
+Now, Suppose, that, you have launched “ ls ” command from CLI (xterm):
+
+I have divided the full process and functions that are used in the kernel into the points, so, I think it will be easy to read and learn.
+
+Now, I will not waste your time too much.
+
+I have used gdb to debug the process and analyze it line by line.
+
+These series will be divided into 3 parts, like creation , execution , exit . Because the creation of process itself took some amount of time to learn and analyze or track from user-space to kernel-space line by line (for me).
+
+Like, we will take an example of the user-space process that will be launched from the Command Line Interface (console), for example, “ ls ” and then what happens in kernel-space, after launching “ ls ” from user-space.
+
+Today, I would like to discuss something about the process creation in OpenBSD operating system from user-space level to kernel space.
+
+I know this time it is a little late, but I am also busy with some other professional things. :)
+
+And, if non-privileged allowed and the count is increased by the maximum resource limit, then it will decrease the count via by passing as parameter and also decreases the number of process and threads.
+
+Now, checking if the variable doesn’t contain any thread’s address, that is, if it is zero, then decrement the count of the number of process and thread.
+
+Now, there are the some important functions:
+
+Here, in the function, we will get our user-space process, that is, in our case “ls”. The process gets retrieved from the pool of process, that is, via function.
+
+Then, set the state of the thread to be  , which means the process/thread is being created by  . Setting
+
+Now, they are zeroing the section of which is zero initialized by using . See, the below code snippet from
+
+In above code snippet all the variables will be zeroed via upon creation in the fork.
+
+Then, they are copying the section from to
+
+ via . Have a look below in the screen-shot for which of the field members will be copied.
+
+It means initialize the struture and call the function with  .
+
+scheduler_fork_hook(parent, p): It is a macro which will update the of child from parent’s .
+
+holds an estimate of the amount of CPU that the process has used recently
+
+Now, the another important function is which will create the process somewhat in same fashion like we have seen above in the func.
+
+In above code snippet, the same thing is happening again like select process from via then zeroing using and copying using .
+
+So, for the detailed explanation, please go through the function first.
+
+Now, next is initialization of process using function.
+
+: It is the original and main thread in the process. It’s only still special for the handling of and some signal and ptrace behaviours that need to be fixed.
+
+→Copy initial thread, that is, to  .
+
+→Initialize the queue with referenced by head. Here, head is . Then, Insert at the TAIL of the queue. Here, elm is  .
+
+→Set the number of references to , that is,
+
+→copy the process to the process of initial thread.
+
+→setting the same creds for process as the initial thread.
+
+→the condition check for the new thread and the new process via .
+
+→Initialize the List referenced by head, here, head is
+
+Now, after the process initialization, pid allocation takes place.
+
+internally calls the which again calls the then via a fully randomized number is returned which is used as pid.
+
+Then, for the availability of pid, or in other words, for unused pid, it verifies that whether the new pid has already taken or not by any process. So, it verifies it one by one in the process, process groups, and zombie process by using function which internally calls these functions:
+
+Now, store the pointer to parent process into  .
+
+Increment the number of references count in process limit structure, that is,  .
+
+Store the vnode of executable of parent into  ,that is,  .
+
+Above code snippet means, if valid vnode found then increment the variable inside the structure of the executable.
+
+Now, the calculation for setting up process flags:
+
+update the with PS_EMBRYO by ORing it, that is, 
+
+ /* New process, not yet fledged */
+
+→ Force visibility of all of the above changes.
+
+— All stores preceding the memory barrier will reach global visibility before any stores after the memory barrier reach global visibility.
+
+In short, I think, it is used for forcefully make visible changes globally.
+
+Now, Insert the new , that is, at the head of the list. Here, head is  .
+
+Substructures 
+
+ and directly copy of and .
+
+** if (child_is_suspending_the_parent_process_until_the_child_is terminated (by calling _exit(2) or abnormally), or makes a call to execve(2)) then atomically set bits,
+
+— To create or Update PCB and making child ready to RUN.
+
+allocate thread ID, that is,  
+
+This is also the same calling directly and using function for finding the thread ID by number.
+
+Again, 
+
+If (isProcessPTRACED())
+
+{
+
+then save the parent process id during ptracing, that is, 
+
+  .
+
+If (pointer to parent process_of_child != pointer to parent process_of_current_process)
+
+{
+
+proc_reparent(pr, curpr→ps_pptr); /* Make current process to the new parent of process child, that is, */
+
+Now, check whether contains some address, in our case, contains a kernel virtual address returned by .
+
+If above condition is , that is,  . Then, set the ptrace status:
+
+Set point to the ptrace state structure. Then, make the point to  .
+
+→Update the ptrace status to the process and also the process.
+
+Now, for the new process set accounting bits and mark it as complete.
+
+Freeing the memory or kernel virtual address that is allocated by malloc for via  .
+
+Notify any interested parties about the new process via  .
+
+Now, updated the stats counter for successfully forked.
+
+Now, pass pointer to the new process to the caller.
+
+Then, finally, I have seen in the debugger that after the , it jumps to file for system call handling and for the setting frame.
+
+Some of the machine independent (MI) functions defined in file, like, , and .
+
+Then, after handling the system calls from then, control pass to the system call, which I will explain later (in the second part) and also I will explain more about the code in upcoming posts. It has already become a long post.

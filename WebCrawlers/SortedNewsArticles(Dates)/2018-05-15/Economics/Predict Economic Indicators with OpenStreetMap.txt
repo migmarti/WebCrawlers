@@ -1,0 +1,45 @@
+OpenStreetMap (OSM) is a massive collaborative map of the world, built and maintained mostly by volunteers. On the other hand, there exist various indicators to measure economic growth, prosperity and produce of a country. What if we use OpenStreetMap to predict those economic indicators?
+
+One inspiration for this project came from the publication Measuring Economic Growth from Outer Space where they tried to predict the GDP growth of countries with satellite data at night. Their aim was to have an alternative way to measure economic growth since reliable data on economic growth is difficult to come by, especially in rural areas.
+
+Instead of measuring lights, here we will focus on the various amenities like universities, atms, parking spaces and others found in OSM within each of the countries in the european union (EU) and member states of the european free trade association (EFTA). The objective is to see which of those amenities correlate most with the selected economic indicators. All the necessary scripts to collect and clean the data from OSM and the economic indicators can be found in this repository.
+
+There are various ways to measure the macroeconomic performance of a given country. The key measures of economic performance include economic growth (e.g. real GDP growth), inflation, unemployment and current account (e.g. low deficit). The focus in this project were three particular indicators, the Gross Domestic Product (GDP), the Human Development Index (HDI) and the Big Mac Index.
+
+But before getting to the indicators we need to take a quick look at the Purchasing Power Parity (PPP). Purchasing Power is the amount of goods you can get for one currency and PPP is the ratio of two countries purchasing power. This is done by a market basket of goods approach, where the PPP rates are determined by comparing the prices of identical items in different countries. PPP is often used to make more accurate comparisons between two countries gross domestic product (GDP) than can be made when using market exchange rates. In this project the GDP and GNI are based on a purchasing power parity converting them to international dollar as a common currency.
+
+One of the most well-known economic metrics is the Gross Domestic Product (GDP) which is defined by the OECD as an aggregate measure of production equal to the sum of the gross value added of all resident and instituional units engaged in production. In simple terms this measures the market value of all goods and services produced in a country within a period of time (e.g. in one year).
+
+Gross National Income (GNI) on the other hand is a measure of a countrys income. The main difference to GDP is that GDP exclusively counts income received from domestic sources and GNI includes the net income received from abroad. In most cases GDP and GNI are close. But if the GNI is much higher than the GDP this can mean that the country receives large amounts of foreign aid. In the opposite case where GDP is much higher, it can mean that there are subsidaries of multinational companies in this country because of low taxes which can be seen in the comparison below for Ireland and Luxenbourg.
+
+The Human Development Index (HDI) is a composite index consisting of life expectancy, education and per capita income indicators which are used to rank countries by their human development. The index was developed by the Pakistani economist Mahbub ul Haq for the United Nations Development Programme (UNDP) to assess the development of a country and not economic growth alone.
+
+The final indicator in our selection is the Big Mac Index which was created by the Economist Magazine in 1986 as an informal way of comparing purchasing power between currencies against the U.S. Dollar. McDonnalds is available in 119 different countries and one particular thing about McDonnalds is its consistency in its products among its stores. This means the same items are made in the same way with the same ingredients in very different economies around the world, making the Big Mac a suitable candidate for a market basket of goods for the PPP. This can efficiently show which currencies are under or overvalued compared to other currencies. This makes it a prime example for the purchasing power parity discussed before.
+
+Having our economic indicators in place, we can now move on to select the desired amenities in OSM. There are various elements in OSM, which can be associated with tags consisting of key-value pairs. One useful key is the amenity key, which tags various community facilites like university, school, restaurant or others.
+
+The goal in our data aquisition is to get the 50 most used values for the amenity key (e.g. amenity=parking) for each country. A great website to explore world-wide statistics for key-values tags found in OSM is taginfo, where the most common amenities can be found in this list. The 50 most common values were automatically collected with the taginfo API. Next step is to collect the counts for each of the 50 amenities for each country. This is done with the Overpass API and the Overpass QL which enables specific access to OSM without having to download the whole data set. More information how to work with the Overpass API can be found in this article. The next example snippet shows how to get the number of all benches in Germany.
+
+Next step is to load the amenities for each country. Since we have also the population for each country, we want to normalize the counts to have an amenity per capita measure. This makes it easier to compare the countries. Additionally we want to replace all amenities with count 0 to 0.1, which is helpful when visualizing the data set with logarithmic scale.
+
+The population data is from the World Bank Open Data and the poulation count is from 2016. The same applies to the GDP and GNI data, which are also from the World Bank from 2016.
+
+Now lets take a look how the amenities are distributed.
+
+With this data we can explore for example which country has the most benches, restaurants, schools or any other amenity that peaks our interest. Note that since OSM is based mostly on community contributions, the data might be incomplete or in some places even too detailed compared to others. It is important to be aware of this possible bias, but we can assume that most amenities, as the more important tags are more complete in this regard.
+
+Now we will calculate the correlation for each amenity with all of the selected economic indicators to see which one seems to have the most influence. We are using the Pearson Correlation Coefficient to measure the linear correlation. For all economic indicators we will be using the normalized amenity counts and for the population we will take the total amenity counts.
+
+Lets take a look a fairly obvious correlation, the correlation between population and number of amenities. We want to see which amenities are most correlated with the population. We expect that all amenities should have some correlation with the population.
+
+This is in fact the case, after looking through the plots we can see that in many cases the outliers skew the correlation significantly, as we have only 32 countries to work with. According to the data the has the strongest correlation and therefore predicts the population the best.
+
+This was expected to see correlation in this, but nevertheless interesting to see the most correlated amenities with population. Next, we will take a look at the other indicators and how they correlate with each amenity
+
+Coriously, we can see that school and marketplace seem to hold strongest correlation for positive and negative correlation respectively. Let us take a closer look at the distributions.
+
+Since we used economic indicators measuring similar things it should come as no surprise that we will find similar correlation within the amenities. It is still interesting to see that school and marketplace are consistent within those indicators. This would be interesting to extend to other countries to see if this consistency still holds.
+
+OpenStreetMap offers a great source to explore the hidden gems inside its vast data set and this project only scratched the surface of it. There is still a plethora of other things to explore and rabbit holes to fall into and as a living data set that is growing with each distribution the things to explore only increase. Finally, all the calculations and necessary scripts to collect the data from OSM can be found in this repository and this article covers more details on how to load data from OSM with Python and the Overpass API.
+
+Related to this topic, there is a great article on Urban Form Analysis with OpenStreetMap Data by Geoff Boeing which talks about analysis and visualisation of street networks and building footprints. Another good read is the article OpenStreetMap past(s), and OpenStreetMap futures(s) by Alan McConchie which explores the OSM users and the contributions over time. In the next article we will explore what relationships can be found between countries and cities by their amenities.

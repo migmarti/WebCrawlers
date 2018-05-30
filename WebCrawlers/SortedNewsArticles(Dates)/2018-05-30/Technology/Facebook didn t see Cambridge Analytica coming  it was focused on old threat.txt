@@ -1,0 +1,11 @@
+In light of the massive data scandal involving Cambridge Analytica around the 2016 U.S. presidential election, a lot of people wondered how something like that couldve happened. Well, Facebook didnt see it coming, Facebook COO Sheryl Sandberg said at the Code conference this evening.
+
+If you go back to 2016 and you think about what people were worried about in terms of nations, states or election security, it was largely spam and phishing hacking, Sandberg said. Thats what people were worried about.
+
+She referenced the Sony email hack and how Facebook didnt have a lot of the problems other companies were having at the time. Unfortunately, while Facebook was focused on not screwing up in that area, we didnt see coming a different kind of more insidious threat, Sandberg said.
+
+Sandberg added, We realized we didnt see the new threat coming. We were focused on the old threat and now we understand that this is the kind of threat we have.
+
+Moving forward, Sandberg said, Facebook now understands the threat and that its better able to meet those threats leading in to future elections.On stage, Sandberg also said Facebook was not only late to discovering Cambridge Analyticas unauthorized access to its data, but that Facebook still doesnt know exactly what data Cambridge Analytica accessed. Facebook was in the midst of conducting its own audit when the U.K. government decided to conduct one of their own, therefore putting Facebooks on hold.
+
+They didnt have any data that we couldve identified as ours, Sandberg said. To this day, we still dont know what data Cambridge Analytica had.

@@ -17,3 +17,4 @@ class NewsItem(scrapy.Item):
     link_title = scrapy.Field()
     url = scrapy.Field()
     text = scrapy.Field()
+    date = scrapy.Field()

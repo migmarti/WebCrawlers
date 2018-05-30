@@ -1,0 +1,19 @@
+At Appsilon we frequently build advanced R/Shiny dashboards that need user authentication. I would like to share with you how we implement user management - user accounts, the authorization process and gather usage statistics to have a better understanding of how the app is used.
+
+For user authentication, we created the shiny.users package. For user administration and usage statistics, we created the shiny.admin package. We will show you a sneak peek of how these packages work. They are not released yet - but we opened an Early Adopter Waitlist - sign up and we will contact you as soon as these packages will be ready for production testing!
+
+Here is an example of how shiny.users works when you add it to your shiny application:
+
+Below you can view the code of this example:
+
+This is a simple demo with users defined in a list. In a real-world scenario, you would store user credentials in a database or authenticate users with an external API. This is also covered in shiny.users.
+
+In bigger apps with more users, you will also need user management, authorization management (different roles e.g. admin, writer, reader, etc) and usage statistics. For such advanced use cases, we created shiny.admin package.
+
+This package is an extension to the shiny.users package. When you add it to your Shiny app, you instantly get admin panel under the url . This panel is only accessible by the users with “admin” role.
+
+We observed huge gains from above features. We exactly understood how our apps were used by our users. Here are some screenshots from shiny.admin:
+
+I hope you like the idea of shiny.users and shiny.admin packages. Let us know what would you expect from user accounts and admin panel features. Do you think there is a need for developing such packages? Tell us about your use cases and needs in the comments or contact us at [email protected]
+
+Also, don’t forget to sign up to shiny.users and shiny.admin waitlist!

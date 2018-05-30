@@ -1,0 +1,25 @@
+With FCC chairman Ajit Pai abolishing comprehensive net neutrality protections that prevent ISPs from interfering with Americans choice of what sites and services they use on the internet, states are stepping in to protect their residents, widening the battleground. And by virtue of being the fifth largest economy in the world, and the home to Silicon Valley, California will be a major front in the fight for net neutrality.
+
+Thankfully, our home State Senator Scott Wiener from San Francisco has put forward the strongest state bill in the country, SB 822, which reinstates all of the substantive protections in the 2015 FCC order. The Electronic Frontier Foundation has called Wieners bill the gold standard of net neutrality protection, and dozens of companies and organizations will be holding a rally and meeting with senators in the California State Capitol this Tuesday to support it. Getting the bill passed now is key as Ajit Pais repeal order goes into effect June 11, or less than two weeks from now.
+
+But Scotts bill needs your help. The bill is up for a full Senate vote next week, as early as today. If California can lead the way and set a high bar, other U.S. states will follow suit. Passing the bill will also send a message to federal lawmakers that only comprehensive protections, not half-measures, will do. Thats why ISPs such as AT&T and Comcast, which are among the most powerful players in California, are trying to weaken any potential legislation.
+
+The key Senators that need our support to vote for the bill next week are:
+
+We need as much pressure on the Senate as possible today, as the bill could be voted on this week, as possibly early as this morning.
+
+If the bill gets through the Senate, it will need to go through at least two committees in the House. In these hearings, letters from startups, investors and the tech community will be key to persuading lawmakers that net neutrality is key to Californias economy.
+
+In the original FCC 2015 order under the Obama administration, there were two pages of rules and 300 pages of accompanying explanatory text. Most state bills just copied some or all of the rules. But they missed many of the core protections in the body of the bill.
+
+SB 822 incorporates all of the 2015 protections, including bans on access fees and circumvention at the point of interconnection. This is why former FCC Chairman Tom Wheeler, who wrote the 2015 rules, supports this bill. California Attorney General Xavier Becerra also signed on to support the bill; it allows the Attorney General to investigate and enforce prohibitions on ISPs if they offer differing quality levels of service based on content.
+
+Like the 2015 order, the bill also addresses zero-rating, which is the practice of exempting some Internet traffic from a customers data limits. SB 822 makes clear what kinds of zero-rating practices are acceptable, which are banned and which are subject to a general conduct standard. It also bans zero-rating plans that favor an ISPs own services and zero-rating plans that involve a fee paid by edge providers (which harms startups).
+
+ Startups and investors: There are already about 60 startups and investors signed on, including Lyft, Reddit, Medium, Github, Twilio and Sonos.
+
+ The mayors of San Francisco Mark Farrell, Los Angeles Eric Garcetti, San Joses Sam Liccardo, Sacramentos Darrell Steinberg, and Oaklands Libby Schaaf have also signed on, out of concern that ISPs will begin to act in ways that harm consumers.
+
+ Three former FCC commissioners, including former Chairman Tom Wheeler, Gloria Tristani and Michael Copps also support this bill.
+
+ The Electronic Frontier Foundation is joined by more than 40 public interest groups including the ACLU, Courage Campaign, CALPIRG, Color of Change, Common Cause, Consumers Union, Fight for the Future, National Hispanic Media Coalition and Public Knowledge in their support.

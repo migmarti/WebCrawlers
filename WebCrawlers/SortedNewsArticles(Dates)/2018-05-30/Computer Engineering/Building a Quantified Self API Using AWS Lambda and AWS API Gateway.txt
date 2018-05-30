@@ -1,0 +1,53 @@
+Ive been tracking my health, wealth and fitness in various forms for more than a decade now. I like being able to see my progress over time and have been recording everything from bills, workouts and spending in a notepad since I was a teen. Eventually I tracked everything in a spreadsheet but even that has slowly evolved into using various apps, services and devices. To name a few, the various app Ive tried in the past are:
+
+While on their own these apps work great, they can be a walled garden with all my personal data trapped in separate silod services without an API to access them. Also, it can be tedious to check multiple different apps to see the information you are looking for in one glance. I wanted a way to see all my personal information on a single pane of glass on infrastructure that I control. I played with MagicMirror for a bit and it was great, but it just lacked some of the modules I was interested in.
+
+Since I know Python and AWS quite well, I set out to build my own solution. While building an API in of itself isnt that unique, I wanted to try out Amazon API Gateway and Lambda which I will demonstrate at the end of the article.
+
+I should mention that I did look around for other solutions, but the closest I found was Google Now. Google Now does a great job of bringing information to you when you need is such as sports highlights, commute, flight information and restaurants nearby, it was lacking some of the other information I was actually interested in. Plus, Im mostly in the Apple eco system, so without an Android as my primary device it wasnt as useful.
+
+I have a Nokia Body+ digital scale. The scale is Wifi connected and measures body fat (%), muscle mass and body water. As soon as your measurements are made they are pushed up to Nokia. Luckily, Nokia has an API that I was able to query.
+
+Having lived in UK and Australia, I still keep an eye on the exchange rates there. While browsing through Home Assistant components found this great APIFixer, which allows you to get exchange rates for several currencies for free.
+
+This one should have been easier than it sounds. Since Yahoo Finance shut down its API and Google Finance closed it portfolio users really have no other option to track their portfolio via an API. I read this article of a guy that also built his own portfolio tracker in a single index.html. Through that article I discovered the IEX API
+
+Read my previous article on how I build my own API to monitor my plants
+
+I normally track crypto currencies using Crypto Pro on iOS and Coin Tracking, but why have a separate app. I included crypto prices in my dashboard using CoinMarketCaps API
+
+I find it useful before I leave to work in the morning, when my next bus or streetcar will arrive. Fortunately, Nextbus provides an XML (unfortunately) API for real time bus tracking in various cities.
+
+While I may know when the next bus will arrive, service may be delayed on the subway impacting my commute. Google Transit API actually estimates how long it will take to get from home to work.
+
+One of my favorite weather apps on iOS is Weather Line. What makes it unique compared to the default weather app on iOS is that it shows hourly and daily weather in a line graph. While that doesnt sound like much, I find it really useful for a quick glance of the weather ahead. I tried to replicate the same idea on my dashboard.
+
+Google makes an API available for Google Calendar. I found it one of the hardest to work with but got it working with some trial and error.
+
+I wrote the backend using Flask because its simple and easy to use. I also used the Flask-Restful library which Twilio open-sourced back in 2012. The structure of my project looks as follows, notice the /lib directory containing libraries I wrote to connect to each API described above
+
+Inside the /lib directory there is an api_(service).py file for each backend API I connect to. For example my Darksky library looks like this:
+
+Once I have created a library for each api, I import it then then create a Resource
+
+Finally, Ill add a route for /weather and the blueprint to my __init__.py
+
+With the API written I still needed somewhere to run this thing. While I could setup a Docker container or an EC2 instance, it would be much cheaper and less overhead for it to be serverless using Lambda. Luckily, I found the awesome project Zappa
+
+Zappa lets you build and deploy serverless Python applications. To get started you just need to run two commands
+
+Zappa init will detect your application type and create a default config file for you. For my Flask project my zappa_settings.json looked something like this
+
+Another cool thing, is using AWS ACM, you are not charged for any certificates created using ACM that are attached to AWS resource. So I was able have my API run over HTTPS without much effort.
+
+With the config file all setup, to deploy you code all you need to do is run
+
+Running the deploy command Zappa will zip up your code, deploy it to an S3 bucket, create a Lambda, create an API Gateway, and attach the Lambda to the Gateway as seen below.
+
+Using a combination of open source software such as Flask, Flask-Restful, Zappa and Python, Im able to create an Rest API with urls such as:
+
+which I can then visualize on one dashboard using Vue.js.
+
+Eventually, I plan on adding more and more resources to track information thats most important to me.
+
+Drop me a note and let me know if youve done anything similar and how you did it. Happy hacking.

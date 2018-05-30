@@ -1,0 +1,57 @@
+In the last decade, we saw a rapid shift from ultra-realistic design to almost flat. Today, flat design is a mainstream interface design. Flat aesthetic is everywhere — the websites we surf and mobile apps we use — most of them are flat.
+
+In this article I want to discuss the origin of the flat design, its benefits and downsides, as well as share some tips on how to design flat interfaces. But before we dive deep into the flat design, it’s worth defining what flat design is.
+
+Flat design is a design style that is defined by the absence of 3D visual effects and highly realistic graphical elements. It uses 2-dimensional visual details and objects with simple shapes. To prevent the design from looking boring, designers use bold typography and bright contrast colors.
+
+While many designers believe that flat aesthetics was born when Microsoft released it’s Metro design language, the flat design movement was born way before the first digital interface was built. The roots of flat design are set in Swiss Style and Bauhaus school. The primary idea of Swiss Style was in returning to the basics of craftsmanship – the simplicity of design which is achieved when form follows a function. Swiss Style and flat design share same properties – they both focused on the use of grids, clean typography, and excellent visual hierarchy of layout. Just as Swiss Style influenced art, architecture, and manufacturing, flat design influenced web and mobile design. Designers understood that websites and apps not only need to look great but also function smoothly.
+
+The history of modern mobile devices counts from the day when the first Apple iPhone was introduced. Apple sparked a mobile revolution by defining a new standard of how devices should look and behave; the company also introduced a new visual language for mobile apps. If you look closely at the first mobile interfaces, you’ll notice that the vast majority of early mobile apps had a skeuomorphic design. Skeuomorphic design attempted to bring real life to the screen — such design uses realistic textures, drop-shadows and other characteristics of real-world objects.
+
+Skeuomorphic design was not a trend; it was necessary for the new technology to be adopted. When the first iPhone arrived, touch-based interfaces were unfamiliar for the vast majority of users. Skeuomorphic design played a vital role in interface adoption — it introduced users, unfamiliar with the technology, to new concepts. By creating lifelike affordances in UIs that the user can relate to, designers allowed users to transfer existing knowledge to the new products.
+
+After a relatively short period of time, mobile devices became widely adopted, and people got comfortable with technology. Designers realized that there’s no need to use skeuomorphic object anymore. As a result, many companies (including Apple) moved from skeuomorphic to the new paradigm that better fits mobile interfaces — flat design. Flat design was seen as a way to create an “authentically digital” experience.
+
+As Jony Ive mentioned in one of the interviews shortly after iOS 7 release: “We understood that people had already become comfortable with touching glass, they didn’t need physical buttons, they understood the benefits. So there was an incredible liberty in not having to reference the physical world so literally. We were trying to create an environment that was less specific.”
+
+In flat design all ornamental elements of UI objects are considered unnecessary clutter. Flat design strips down visual elements to expose their essential functionality — since they don’t serve any functional purpose, the trend has moved towards scaling back their use.
+
+The rise of flat design continued the switch of focusing on what’s really important in user interface — content. By eliminating unnecessary clutter from a design, designers not only reduce noise but also make room for more content.
+
+Flat makes it easier to support the design across a range of device sizes. It’s far easier to scale 2D objects and adapt them to different screen sizes, than highly-realistic 3D objects with gradients and complex shadows.
+
+Flat is a lightweight UI — less visual element to display means you have to spend less processing power. Since there’s no need to render ultra-realistic textures, complex shadows, gradients or any other attributes of skeuomorphic design, it allows designers to reduce page weights and increase page loading time.
+
+Flat UI requires less graphic design skills to create a UI. As a result, designers spend less time figuring out how each individual object should look and focus more on creating good visual hierarchy.
+
+Minimalist design styles like Material Design are the right choice for mobile apps because they can be very resilient to design changes. Modification of app’s icons, colors, and typefaces and other app’s attributes won’t cause a tremendous amount of app when a company decides to change its branding.
+
+Flat icons create a sense of simplicity. By striping visual characteristics of icons to very basic, designers can create an easy-to-understand UI where the meaning of the icons can be perceived quickly.
+
+Illustrations are an excellent extension of flat design. It’s a well-known fact that pictures are worth a thousand words. Well-designed illustrations not only delight users, but they can also help designers save valuable screen estate that previously was used for text copy.
+
+Despite the widespread belief that flat design is a short way to good usability, creating an effective flat design is surprisingly challenging. Flat design is tricky: just because flat designs appear simple doesn’t mean they’re easier to design. Here are a few common pitfalls made by many mobile app designers when they incorporate flat aesthetics:
+
+In this section, we’ll see what you should do to avoid such mistakes and create a flat UI with excellent usability.
+
+When Metro design was initially introduced to the market, weak clickability signifiers was one of the most significant problems it had. Since Metro design was a true-flat design (or extreme flat design), it didn’t provide many visual signifiers for UI elements. Lack of dimensionality (shadows or gradients) often caused situations when it was tough to tell whether a particular UI element is interactive or not.
+
+In the attempt to solve this problem, a more balanced approach of flat design was emerged — Flat 2.0 design (or semi-flat design). Google Material Design is an excellent example of semi-flat design. Material Design is based on flat design paradigm, but it adds depth (three dimensions) to convey functionality and clarity.
+
+One of the most critical aspects of good flat design is highly readable typography. It’s a well-known fact that typography exists to honor content. But, unfortunately, many flat designs suffer from low-contrast issues. While low contrast can make UI look nicer, it creates a lot of problems for mobile users: text becomes almost unreadable, especially in the sun glare.
+
+When creating flat aesthetics always pay attention to contrast. Make sure your text and elements are legible. Follow the recommendations of WCAG and design text and icons with the contrast ratio of 4.5:1.
+
+Minimalist design styles don’t look great with lots of different typefaces in use. Selecting a single Typeface with sufficient weights to allow for the type variation needed to accomplish visual design goals is a way of dealing with this limitation. Ideally, you should have only one font in your app, and this typeface should be selected according to the platform guidelines (San-Francisco for iOS, Roboto for Android). If you need to highlight some information, use a different font size or font weight, but not different typeface.
+
+Use visual clues to guide the eye. You can use size and color contrast to make the element attention-grabbing. If you check the following example, you’ll immediately notice a big bright object.
+
+As was mentioned before, flat UI should be designed in a way so users know instantly what is interactive and what’s not. Since mobile users don’t have an opportunity to use the mouse cursor to figure out the clickability, designers have to design elements in a way that users understand exactly what each individual element does just by looking at them. Here are a few methods that designers can use to achieve this goal:
+
+Flat’s visual simplicity works well together with motion. Motion helps describe state changes and transitions in the interface. Properly incorporated animation can make flat design more user-centric.
+
+No matter what type of design you choose for your product, your design should always work for your users. When it comes to mobile UX, most users seek simplicity and clarity in apps — they should be able to understand how to use your app without reading a manual. It’s impossible to be sure that users will be able to work with your product without testing. Thus, always test your product with users to make sure they understand your UI.
+
+Flat design has an opportunity to make a mobile app both functional and beautiful. When incorporating flat aesthetics into your product, try to avoid common pitfalls. If you avoid these pitfalls, you can take advantage of the benefits of minimalist design styles and craft a product your users will appreciate.
+
+About the Author: Nick Babich is a developer, tech enthusiast, and UX lover. He has spent the last 10 years working in the software industry with a specialized focus on development. He counts advertising, psychology, and cinema among his myriad interests.

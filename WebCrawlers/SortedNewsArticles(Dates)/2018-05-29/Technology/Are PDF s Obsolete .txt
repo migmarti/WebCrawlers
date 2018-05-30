@@ -1,0 +1,35 @@
+There are many solid reasons why the PDF format is irrelevant in a mobile first Internet. But if thats true, then why did a Googler retweet a link to a page hosting a PDF, a tweet that received 97 retweets?
+
+It has been suggested that one of the reasons PDFs are inappropriate for the modern Internet is that they are dead end pages. In most cases there is no site navigation within PDF pages.
+
+Its like a dead end street, a site visitor or a bot crawler has no where else to go once they reach the end of the document. The bot and the site visitor may leave the site after reaching the dead end page. Such a page can be considered a poor user experience.
+
+On a technical level, the flow of PageRank could stop at a dead end web page. This is called a PageRank Sink. The ideal situation is to keep the PageRank flowing throughout the site so that more pages are indexed.
+
+Another criticism of PDF for web is that they are inherently incompatible for mobile browsing. They dont display on a browser and require a separate app to view. This breaks and interrupts the flow of information from the website to the user.
+
+The first offense is that the user has to wait for the PDF to download. Long wait times are associated with higher abandonment rates. After the PDF has been downloaded, the mobile site visitor has to wait for a new app to open.
+
+One of the most respected seo audit professionals, Alan Bleiweiss, offered this assessment of using PDFs in an Internet thats mobile first:
+
+Not according to Internet Marketing expert Edward Lewis(also known as PageOneResults), someone who has been in the business since 1995.
+
+Heres what Edward Lewis had to say:
+
+On the issue of hreflang tags, canonical tags, pagination tags, this is what Edward Lewis offered:
+
+Edward Lewis published a document titled, SEO for PDFs (PDF) outlining how to optimize PDF files. Its full of tips on how to apply SEO concepts to PDF documents.
+
+Yes and no. They dont have to be dead ends. Links can be embedded into a PDF file. While many PDF files are PageRank sinks, they dont have to be. So if you need to host a PDF, then consider adding navigational links so that users can return to the site.
+
+Yes, there can still be value in hosting PDF files. One way is the use of PDF files as bait as a way to harvest an email address. If the newsletter has value then the PDF bait is useful for stimulating traffic and email sign-ups.
+
+Another way is the example that started off this article. Two Internet marketers wrote a guide to GDPR(PDF) and started promoting it. John Mueller spotted it and retweeted it. Theres no sign up required to receive the PDF. Its a useful document and a good example of using a PDF file to add value, build awareness and generate links.
+
+Share this article and post your opinion:is PDF Obsolete?
+
+
+
+Images by Shutterstock, Modified by Author
+
+Screenshots by Author

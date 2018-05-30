@@ -1,0 +1,49 @@
+There are so many possibilities and options when it comes to website analytics – it can be quite frustrating to decide which services should you include in your analytics/tracking set-up and which would be an overkill.
+
+Over years of work we have worked with clients in very different industries and with very contrasting goals and needs. Through all of that we have created a list of tools that we include in our initial set-up for clients. Of course, not every client needs all of this, but we go through these options in every case and usually include most of them if not all.
+
+Best of all – all of these things are free to set-up and use.
+
+Looks a lot, but actually isn’t – just start from the upper left corner and work your way down line by line. Or choose the easiest tasks first – just adding all codes to website – and after that work towards that “Expert” column.
+
+This is not a tracking tool, but helps a lot to set up all the other stuff in this list. It does what its name tells you – helps to manage tags (scripts, code, etc.). The way it works is quite simple – it has triggers and tags. Trigger is what initiates tag to work on any page. For example, the standard trigger is pageview – this trigger would be used for any codes that need to be executed every time user reloads a page (Google Analytics, Facebook Pixel, Linkedin Insights Tag, Yandex Metrica and others).
+
+Triggers can also be a lot more specific – trigger can be a pageview with specific URL or a click on one specific button. They can be mixed together. Trigger that only fires on subscription button click under email box could be used for Facebook Lead event to both track actions from FB campaigns and to build custom audience on FB with people who have subscribed to your newsletter.
+
+This tool might seem a bit un-intuitive at first, but it’s very powerful. The best part – having GTM on your website will mean that in most cases you (or your agency) won’t need any input from your developers to add new tracking tools or features to your website.
+
+World’s most popular analytics tool. In most cases this is already set up. Google Analytics gives you clear and valuable insights from what sources your visitors come, on which parts of the website they land, what they do after that or if they leave immediately (bounce) and how much time they spend on your website.
+
+In more advanced approach Google Analytics also let’s you to set up goals you want to measure – this should be used if possible since it lets to distinguish only those users who have done something you have wanted them to do. For example, you have a contact form that brings you in new leads – it’s very important to know where exactly users came from before they were on your website (as opposed to everyone else who has been on your site).
+
+And even more advanced approach – seeing ecommerce data (transactions/purchases, purchase values) in Google Analytics. If you tag links you use for campaigns correctly you’ll be able to determine your ROI’s very precisely for every campaign and even banner.
+
+NB! To later use custom/defined audiences in Adwords campaigns (and have “similar to” audiences for later use), set them up immediately – while Facebook allows to create audiences based on past page visits and events, Google tools only start to gather the data from the point when audiences have been created.
+
+While very under-used by small & medium businesses, this can be one the most important tool for optimising website’s content. This is also one of essentials that SEO specialists use – you could say that it’s the cornerstone of their craft.
+
+It gives information on how and when your website (links to it) appears in Google’s search results, what queries trigger the appearance, how many clicks they bring in, what are the CTRs, how many impressions there are and in which positions.
+
+Everyone knows that Facebook is marketing’s behemoth, but most stop at just scratching the surface of Facebook’s ad platform possibilities. Facebook pixel is kind of analytics tool, but created with the purpose of tracking advertising efforts and gathering custom audiences.
+
+Measuring Facebook campaigns – when Facebook pixel is set up to measure custom events (with help of Google Tag Manager) you can see conversions right in the campaign view of Facebook ads manager. For example, you have a goal to get new leads through your website and you have created Facebook campaign – wouldn’t it be nice to see exactly how many people have signed up for demo of your product after seeing or clicking on your Facebook ad? Well, Facebook pixel helps to do just that.
+
+Creating audiences – the most common way of setting up campaigns is to use Facebook’s built-in targeting options and targeting specific locations, gender, ages and even interests. If this is the way how you have built your campaigns until now, custom audiences that you can create with the use of Facebook pixel can dramatically improve your results.
+
+For example, just by having a Facebook pixel on your website you can create an audience of all visitors that you can use for your future campaigns. Let’s say you have a new product – one of most valuable audiences to show this information to would be the people who have already been on your website (high possibility that they are already interested in what you can offer).
+
+Facebook also has troves of information on their users and they put this to use with lookalike audiences. Any custom audience can be used to create lookalike audience – Facebook takes the audience you have and then finds the users who are the most similar to them. This works really well in cases when you have custom event created on Facebook for those who convert on your website – you take the audience of people who have bought your product (data comes from Facebook pixel) and create a lookalike audience of these people to use in your next sales campaign.
+
+This is almost the same thing as Facebook Pixel – it’s just a bit more basic. Linkedin doesn’t give the option to create lookalike audiences (yet) and conversion tracking is a bit inferior. Otherwise, this is a great tool to track conversions from Linkedin on Linkedin itself and also to build remarketing audiences.
+
+Since linkedin is quite expensive compared to Facebook (about x10 more expensive – at least in Baltic markets), it is usually used for reaching very specific, niche audiences since targeting by industry, position and other aspects is unparalleled compared to anything.
+
+Linkedin insights tag gives to option to retarget only those website visitors who are working in an industry you are interested in or is at position in the company you’re interested in.
+
+As told in the table in the beginning – it’s almost the same as Google Analytics, but we usually set it up for our clients just for the couple of reasons mentioned – heatmaps, scroll maps, user session recordings.
+
+As you can see in the image attached – after a while, when the data is there, it can be used to easily convey to your boss or colleagues why some parts of website or menu don’t work as intended and what needs changing.
+
+Sometimes comes on very handy
+
+Start with understanding what you want to measure to optimise your marketing and then create a plan with set timeline for implementation. We suggest you don’t wait too long, because there are visitors who visit your site today whose interactions could be used for optimising your marketing efforts tomorrow. The sooner you start, the more money you save in the long run.

@@ -1,0 +1,23 @@
+If you’ve been working with Vue for a while, you may have come across this way of rendering your app — this is the default in the latest version of the CLI, in :
+
+Or, if you’re using a render function, possibly to take advantage of JSX:
+
+You may be wondering, what does that do? What does it stand for? The stands for hyperscript. It’s a riff of HTML, which means Hypertext Markup Language: since we’re dealing with a script, it’s become convention in virtual DOM implementations to use this substitution. This definition is also addressed in the documentation of other frameworks as well. Here it is, for example, in Cycle.js.
+
+In this issue, Evan describes that:
+
+This is shortened to because it’s easier to type. He also describes it a bit more in his Advanced Vue workshop on Frontend Masters.
+
+Really, you can think of it as being short for . Here would be the long form:
+
+If we replace that with an , then we first arrive at:
+
+...which can then be shortened with the use of ES6 to:
+
+The Vue version takes up to three arguments:
+
+There’s more in-depth information in the Vue Guide here.
+
+The name hyperscript may potentially be confusing to some people, given the fact that hyperscript is actually the name of a library (what isn’t updated these days) and it actually has a small ecosystem. In this case, we’re not talking about that particular implementation.
+
+Hope that clears things up for those who are curious!

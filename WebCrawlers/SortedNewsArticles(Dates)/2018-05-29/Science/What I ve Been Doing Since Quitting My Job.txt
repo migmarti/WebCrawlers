@@ -1,0 +1,93 @@
+I worked as a software engineer for Google from 2014 to 2018. On February 1st, I quit my job and formed my own single-person software company.
+
+That was four months ago, so I thought Id share an update on how things are going.
+
+Thats the most common question people ask. Whats it like?
+
+For the first few days, I kept thinking, Woohoo! Im free! It was like starting a long-awaited vacation and knowing that it could potentially last forever.
+
+Now, it just feels normal. Enjoyable, but normal.
+
+It seems weird to me that I ever had an office job. Its like remembering the experience of high school. I sat listening to people talk for six hours a day? And then I had to go home and do more work? I know that it happened, but it seems so foreign to me now.
+
+The best part of quitting has been how much control I have over my time. I structure my day however I want, and theres no friction when I change my schedule. If I feel like going for a run at 3 oclock in the afternoon, I just go for a run. Im not going to miss a meeting or hold up anyones work.
+
+With so much time thats my own, I find myself more willing to experiment and pursue opportunities that wouldnt have appealed to me when I was an employee.
+
+In March, I gave my first ever conference presentation. I adapted my post, How to Do Code Reviews Like a Human, and presented it at NERD Summit, a newcomer-friendly conference in Western Massachusetts.
+
+A few days later, I received an email from Stephen Cross, one of the co-hosts of the Talking Drupal podcast. He enjoyed my talk and invited me to discuss it further on his podcast. We had a fun conversation and explored code reviews from angles I had never considered before. I didnt tell Stephen until we stopped recording, but that podcast episode was another significant first for me: my first ever podcast appearance.
+
+Oddly, my most notable accomplishment since quitting my job has been writing a blog post about quitting my job. If youre reading this, chances are that you found my blog because of my February post, Why I Quit Google to Work for Myself. It attracted 300,000 readers in its first week, dwarfing the record of my previous top post by 6x.
+
+When the post went live, I spent the entire day just responding to emails, comments, and Twitter messages. It was great! I felt like a celebrity.
+
+The next day, I continued responding to messages. It didnt bring quite the same rush as the first day, but it still felt good to see all the encouragement and compliments.
+
+By the third day, I started to feel overwhelmed. I realized that I could spend the next two weeks doing nothing but responding to feedback about my post. Many of my readers were asking what I was working on post-Google. What was I going to say? Well, Ive primarily been focused on the quick dopamine hits I get when I see notifications about that post.
+
+One of the people who reached out to me was Stephanie Hurlburt. Shes the co-founder of a successful graphics software company and is well-known in the startup community for her insightful blog posts and Twitter threads.
+
+She sent me a kind message about the post and offered her availability if I ever wanted advice. I had been following Stephanie for months before she reached out to me, and I knew that she received a high volume of messages. I asked her how she managed them, and she shared this helpful suggestion:
+
+Her advice might sound simple, but it was very freeing. I typically respond to people in a day or two, so having a backlog of hundreds of messages and emails made me feel perpetually behind.
+
+After I spoke to Stephanie, I felt like I had permission to take my time. I shifted my focus back to my software projects but set aside time every few days to answer a specific number of messages like five emails or 10 Twitter messages.
+
+Sidenote: Stephanie said it was okay to delay responses for a month, but she wrote me a thoughtful three-paragraph reply within minutes of my question. Its possible that shes tricking me so that she can maintain her position as the most helpful person on Twitter.
+
+Stephanie also pointed out that its not realistic to respond to every single message. I still feel guilty when I ignore an email, but I found that getting out of the mindset of prompt responses helped me detach a bit and make rational choices about which messages to answer. For example, if someone writes me with questions about finding a blog cartoonist, thats fun for me to talk about because not many bloggers work with cartoonists. Ill answer that email ahead of one that asks me more general questions about getting hired at Google.
+
+Before quitting, I kept hearing stories about how starting even a small business causes severe stress. I thought, Im sure thats true for them, but Im going to be spending every day in my pajamas. How stressed will I really be?
+
+But they were right. I did feel stress. Not about the things they warned me about like money or customers. I was stressing about self-imposed deadlines that nobody else cared about. They gave me more anxiety than any external deadline I ever had at Google.
+
+The problem was that I took on too many projects. While I was an employee, eight hours a day in the office felt like an eternity. I reasoned that eliminating my hours in the office would give me eternal free time.
+
+Tragically, I found myself still limited to the standard 24 hours per day. But I kept saying yes to new opportunities because each one seemed small in isolation. After a few weeks, I had taken on so many little tasks that I wasnt making progress on any of them.
+
+Im now more conservative about taking on projects. Even if they seem small, it takes a lot of mental energy to simply track them. These days, I limit my focus to this blog and one software project (spoiler alert: they end up intertwining).
+
+My first business idea was to build a service on top of Sia, a decentralized storage platform Ive written about frequently.
+
+Sias goal is to make data storage a commodity so that anyone can sell it. It promises prices that are 1/10th of Amazons or Googles rates. Sias technology is still under the radar because few people understand how to use it, much less how to build services on top of it.
+
+I was one of only a few dozen people who understood Sia at a deep enough level to build a business on the platform. If I used that knowledge to enter a market typically limited by bandwidth or storage (e.g., file backup, video streaming), Id have a massive advantage over competitors whose infrastructure costs were 10x higher.
+
+I didnt know exactly what I wanted to build, but I knew a unique way I could attract users. Few people were discussing Sia, and nobody was writing about it from a developers perspective. I knew there was a market for technical content because the Sia articles I had written on my personal blog had attracted thousands of readers. I created a blog called Space Duck and started writing about my exploratory tests on the platform.
+
+Unfortunately, these tests revealed that Sia was not as cheap as everyone thought. At Sias true price point, there were providers with more stable, feature-rich offerings. Without any practical advantages over other storage providers, Sia was a dead end.
+
+I turned my attention back to KetoHub, a website I created last year to help users find recipes for the keto diet.
+
+One of KetoHubs main features is finding recipes based on ingredients you have. For example, you can search for ground beef and see 50 different keto-friendly recipes that use it.
+
+This type of search is difficult because it requires KetoHub to determine what part of an ingredients text is relevant. In the screenshot above, the original ingredient was 1 pound of ground beef, but KetoHub reduced the search result snippet to Ground beef.
+
+Throwing away junk words is harder than it looks. I initially solved this by writing lots of rules. One rule was, remove units of measurement. If someone begins typing tab then Tabasco is a good match, but 2 tablespoons vinegar is not. Nobody wants to see recipes based on the fact that they involve a tablespoon of something.
+
+But what about dash? Its an informal unit of measurement (a dash of cinnamon), but theres also a popular seasoning called Mrs. Dash. Okay, Ill refine the rule to, throw away units of measurement unless its dash preceded by Mrs.
+
+That rule doesnt always work either. One recipe author apparently felt that Mrs. Dashs marital status was nobody elses business, so he referred to the seasoning as Ms. Dash.
+
+This is the nature of applying strict rules to random web data. They start out simple, but after enough variations and edge cases, the rules increase in complexity and conflict with each other.
+
+Every time I added a new recipe source to KetoHub, I had to spend several hours juggling rules so that KetoHub could handle the new sites idiosyncracies without breaking any of the existing rules.
+
+I needed a more flexible way for KetoHub to process ingredients.
+
+Early in KetoHubs life, a commenter on Indie Hackers showed me a blog post describing how The New York Times used machine learning to parse ingredients from the Times historical archive of recipes.
+
+That sounded neat but felt like overkill for my little recipe aggregator site. It would be like launching a home cleaning startup because your bathroom was dirty. It might solve the problem, but the solution was bigger than the issue it addressed.
+
+Then I had a realization: what if ingredient parsing is the business?
+
+KetoHub was a fun project, but I still hadnt found a way to monetize it. If parsing ingredients was a problem for KetoHub, maybe it was a problem for other apps. There were existing services that offered ingredient parsing, but each one I evaluated was either inaccurate or mandated prohibitively strict usage terms.
+
+I asked my freelancer friend, Ferngully, to begin experimenting with the Times technique for parsing ingredients. Her initial results were promising, so we spent a few weeks going down the rabbit hole of machine learning and natural language processing.
+
+We now have a working demo. If you give it a recipe ingredient like or , and it will break it down into structured components:
+
+For the next few weeks, Im going to focus on reaching out to different app developers about how the Ingredient Parser API can be useful for them. By June, I hope to refine the API based on their feedback and publish it to marketplaces like Mashape and RapidAPI.
+
+If youre a developer with an app that handles recipe ingredients or you know of one that does, lets talk. Shoot me an email at michael@mtlynch.io or sign up for Ingredient Parser API updates.

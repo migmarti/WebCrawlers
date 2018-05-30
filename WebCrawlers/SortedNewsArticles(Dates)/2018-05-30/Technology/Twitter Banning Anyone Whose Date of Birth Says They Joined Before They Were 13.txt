@@ -1,0 +1,17 @@
+Since the European Unions new data privacy lawsthe General Data Protection Regulation, or GDPRcame into effect last week, a ton of people have complained that their Twitter accounts were suspended because Twitter seems to believe they are under the age of 13, even though theyre not.
+
+According to Twitter, the company is opting to ban anyone whose date of birthwhether it was provided at the time of sign up or laterindicates they were under the age of 13 when they signed up for the service.
+
+For example, Twitter removed the account of Canadian journalist Tom Yun, who is older than 13. According to a screenshot Yun shared on a new Twitter account, Twitter notified him that in order to create a Twitter account, you must be at least 13 years old and you dont meet these age requirements. Twitter has long required that users must be over 13 years old to use the service. The GDPR sets a minimum age of consent for using online services at 13 but allows for countries to determine their own rules.
+
+Read More: Here Are Some of the Worst Attempts At Complying with GDPR
+
+According to Twitter, the platform does not require a date of birth but some users chose to provide one when they signed up. If the provided date of birth indicates the user was under the age of 13 at the time, Twitterin order to comply with the GDPRwould have to ask the user to provide consent through their parents to continue using the platform. Twitter did create such a system, according to the company. But some users did not enter a date of birth when they signed up, instead adding it to their profile later, and Twitter cannot legally keep content on its platform that it knows was created by someone under the age of 13. Moreover, Twitter cannot separate content created before age 13 and after, according to the company.
+
+According to Twitter, the social network has opted to suspend users whose provided date of birth indicates they were under the age of 13 when they signed up. Suspended users, like journalist Tom Yun, can create a new account on the platform. The company is working on a longer term solution for affected users.
+
+Twitters arguably clumsy handling of this situation is similar to how many technology companies have scrambled to comply with data regulationsin some cases, companies have opted to black out service for entire regions.
+
+Sure, the wave of suspensions could be seen as Twitter enforcing its own long-neglected rules regarding the minimum age, but it is undoubtedly messy. It is also concerning when a private company unceremoniously bans journalists, who often use the platform to disseminate news and information to the public.
+
+Get six of our favorite Motherboard stories every day by signing up for our newsletter .

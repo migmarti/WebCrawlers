@@ -1,0 +1,17 @@
+The idea of serverless computing is not new, but it is only now becoming more popular in the industry. According to Chris Aniszczyk, CTO and COO of the Cloud Native Computing Foundation (CNCF), the introduction of AWS Lambda in 2014 really popularized the concept. AWS Lambda was followed up by the announcements of IBM OpenWhisk on Bluemix, Google Cloud Functions and Microsoft Azure Cloud Functions, along with the launch of a number of other serverless frameworks such as Terraform, Fission and Fn.
+
+The CNCF defines serverless computing as “the concept of building and running applications that do not require server management. It describes a finer-grained deployment model where applications, bundled as one or more functions, are uploaded to a platform and then executed, scaled, and billed in response to the exact demand needed at the moment,” the foundation wrote in a whitepaper. The benefits include zero server ops and no compute costs when idle.
+
+It does not remove the need to use servers to host and run code. It does, however, remove the manual task of server provisioning, maintenance, updates, scaling and capacity planning. “Instead, all of these tasks and capabilities are handled by a serverless platform and are completely abstracted away from the developers and IT/operations teams. As a result, developers focus on writing their applications’ business logic. Operations engineers are able to elevate their focus to more business-critical tasks,” the CNCF wrote.
+
+The top use cases for serverless include workloads that are asynchronous, concurrent, infrequent, in sporadic demand, unpredictable variance in scaling requirements, stateless, ephemeral, and highly dynamic. Aniszczyk explained serverless is not a good option for users that are looking at startup time and performance or trying to avoid being locked into a specific cloud platform provider,
+
+According to the CNCF, the top 10 serverless examples include:
+
+The CNCF explains that serverless is the next step in cloud-native computing. Going forward, the CNCF hopes to advance serverless adoption through collaborative and community-driven efforts with a focus on interoperability. The foundation set up a Serverless Working Group in 2017 with participation from Google, Red Hat, IBM, Microsoft, Docker, Oracle and Pivotal.
+
+Recently, the CNCF accepted the open-source specification CloudEvents into the CNCF Sandbox. CloudEvents aim to provide a specification for event data. “The lack of a common way of describing events means developers must constantly re-learn how to receive events. This also limits the potential for libraries, tooling and infrastructure to aide the delivery of event data across environments, like SDKs, event routers or tracing systems. The portability and productivity we can achieve from event data is hindered overall,” according to the project’s page.
+
+The project will help the CNCF in its serverless efforts and enable developers to run and manage app code with functions triggered by events.
+
+“One thing is quite clear – as a new technology there is a lack of standardization and interoperability between cloud providers that may lead to vendor lock-in. There is a need for quality documentation, best practices, and more importantly, tools and utilities. Mostly, there is a need to bring different players together under the same roof to drive innovation through collaboration,” the CNCF wrote.

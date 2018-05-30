@@ -1,0 +1,19 @@
+A month ago in a tweetrelated to my post about bringing people back to the open web, I casually proposed a resource that would score tools, services and other websites on their commitment to being a part of the open web. I'm back to flesh that idea out a little more.
+
+I'm imagining a simple site that displays a score or grade for each major user-facing tool or service on the web.
+
+The score would help users of the site know at a glance what to expect from the service when it comes to the practices and mechanics of maintaining openness on the web. A badge with the score on it could be voluntarily displayed by the sites themselves, or the score could be incorporated into a browser extension and similar tools that give visibility to the information as users explore the web.
+
+If a site has a high score, users could confidently invest time and energy in it knowing that they'd benefit from clear ownership of their data, easy interoperability with other tools, and no proprietary lock-in. If a site has a low score, users would know that they are entering a walled garden where their data and access to it is the product.
+
+The score or grade would be based on some easily digestible criteria. In my initial proposal these would look at the robustness of the site's API offering, the availability of standard feed options, the usefulness of export tools, the focus on user empowerment, and the level of transparency about how the service works and makes use of user data:
+
+How each of these would be weighted and incorporated into a final score remains to be seen.
+
+For a given site I'd like to make sure that it's a relatively objective process to look at the real, publicized offerings around each of these areas and pick a High/Medium/Low rating. But in cases where it's not clear or where there are differing interpretations, the scoring site would need a mechanism for discussion in an attempt to reach consensus.
+
+In general, if I built this site I'd want it to be accessible for anyone to contribute to, but in a way that allows for scoring to be peer reviewed and improved over time. "The consensus of the open web advocacy community" holds a lot more weight than "some guy named Chris." So whether that's via issues or pull requests on a GitHub repo, a form on a WordPress site, or something more custom, anyone should be able to come along and add a resource, contribute to its scoring, and join in the discussion.
+
+Of course, the scoring site itself should get high marks in all of the above areas. It should have a robust API for accessing sites and scores, a feed of newly scored sites and discussions, the ability to download all scoring data at once for further analysis and other uses, and strong transparency about how everything works.
+
+Questions I could use feedback on, please comment below:

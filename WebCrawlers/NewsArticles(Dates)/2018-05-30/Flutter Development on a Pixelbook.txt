@@ -1,0 +1,65 @@
+Here’s a screenshot of this working, taken directly from a Pixelbook running Visual Studio Code locally and connected through the Android Device Bridge to a Flutter app also running locally. This is not an emulator — the Flutter app is being executed directly on the Pixelbook (check out the target platform in the bottom-right corner of the Visual Studio Code status bar).
+
+What is even more cool is that all this works just as well with Flutter, which means you can do all your development on-device without even needing an emulator to test your app out. While a little experimental, it makes Pixelbook a fascinating device for any Flutter developer who isn’t bought into the Apple ecosystem.
+
+In the rest of this article, I’m going to provide step-by-step instructions to get this running on your own device. As a reminder, this is still early days: for now, it requires a Pixelbook rather than other Chromebooks; it is only available on the dev channel of Chrome OS, which is unstable. Your mileage may vary; things may break, and of course the performance characteristics of the Pixelbook will be very different to those of a typical iPhone or Android device. No promises from us around support at this stage. Enough caveats? :)
+
+First things first: you need your device to be in developer mode, which removes some of the sandbox protections that would be available to a typical consumer and enables you to sideload untrusted applications like the ones you’re going to be building with Flutter. On a Pixelbook, you can enter developer mode by holding down the and keys while you press the power button. The system will reboot into the recovery screen (which prompts you to insert a USB stick). Ignore the text on the screen and hit Ctrl+D, which will initiate the process after a further warning.
+
+Now you need to switch your device to the dev channel for Chrome OS, which will give you the latest bits (at the time of writing, this was 68.0.3437.0, but this changes regularly). Once you’ve changed the channel, you will need to let Chrome OS download and install the latest bits from that channel, and then reboot.
+
+Once you’ve rebooted with the latest dev channel bits, you’ll see a new entry in the Settings app that offers the chance to install Linux support on your Chromebook:
+
+When you turn this on, it’ll offer to download and activate the Linux container:
+
+On my machine, this took a couple of minutes to complete; when finished, there was a shiny new Terminal app icon on the app launcher, which I promptly pinned to my taskbar.
+
+Now for the fun bits. Launch the terminal, and use apt to make sure you have the very latest Linux bits by running .
+
+Let’s also install some other utilities and dependencies you’ll need at various points during the next steps:
+
+Because you’re running in a container, the easiest way to download into the container instance in current builds is to just use . (You can download them using Chrome and then transfer them through an SSH tunnel, but that’s a little more laborious.) It’s easier to download and install Flutter with the following commands:
+
+Now you should be able to run and it should give you a clean bill of health for Flutter itself, even though it will complain about a lack of tooling or devices at this stage.
+
+Now it’s time to install an IDE or two. Both of the primary supported IDEs for Flutter (Android Studio and Visual Studio Code) work perfectly well within the Chrome OS Linux support. Regardless of whether you plan to use Android Studio as your IDE, however, you’re going to want to install it so that you have the Android build tools.
+
+For Android Studio, you’ll need to get the URL for the zip file from the website (follow the link through to the accept license page, and then copy the link address from the download button), and then you can go to the command line to download, unzip and launch it:
+
+Android Studio seems to take a considerable time to load on its first invocation; don’t panic if you don’t see anything much happening for a minute or two. When it’s finally there, you’ll see a dialog like the following:
+
+Click through the remaining setup steps (I didn’t bother selecting the Android Virtual Device, because, y’know, we don’t need it!). When the IDE launches, go to the preferences page and install the Flutter plug-in:
+
+One last one-off step at this point — make sure you’ve accepted all the Android licenses by running the following:
+
+For Visual Studio Code, you simply need to follow the regular install steps from the website (with the usual caveat about using to download the install package). Here’s what I typed (the URL automatically redirects to the latest version):
+
+You’re mostly there! Running should now show that everything is set, except that there are no connected devices. We’ll fix that in the final step.
+
+We need to take care of a few things so that the Pixelbook is itself recognized by Android as a development device.
+
+First up is to modify the Chrome OS firewall to allow incoming ADB connections from the Linux side of the house. From a Chrome window, press Control+Alt+T to start the Chrome OS terminal and then type to start a shell within the terminal. Now a few commands:
+
+After the system reboots, you’ll need one last command:
+
+Next up is to turn on Android developer mode. You might think we’ve already done this right at the beginning, but we’ve only set the Pixelbook itself into developer mode: the Android side requires the same magic invocation that you may be used to from phones. The setting is a bit buried: from the Settings app, select the Google Play Store menu and then choose Manage Android preferences:
+
+This will launch a separate Settings app for the hosted Android environment, where you’ll find the Device status page:
+
+Tap the build number seven times: that’s the magic incantation that unlocks the Developer Options screen and will let you turn on ADB debugging:
+
+Now you can at last set up an ADB connection to the local device that Flutter can reach. You’ll find in the following location, assuming you unzipped Android Studio from your home directory:
+
+Run the following command to connect to the local Android instance:
+
+With luck, should give you a clean bill of health. You can now create and run a Flutter app, for instance:
+
+and after Gradle has built the APK and deployed it you should see a fullscreen window pop up with the sample app running.
+
+Like any other Android app running on a Pixelbook, you can restore the window from maximized, at which point the app will look very similar to how it would look if running on a phone: except it’s running directly on your Pixelbook!
+
+You’ll probably want to adjust the screen DPI settings a little to get more real estate. Some apps respond better than others to this; in particular, I found that a couple of the Android Studio dialogs were way too small for the given DPI setting.
+
+Again, it should be stressed that this support is somewhat experimental. While the Flutter gallery app ( ) ran beautifully in general, I hit a Skia error on the video page. Not sure yet whether this is a Chrome OS, Flutter or Skia bug — we’ll have to investigate.
+
+However, in general, this seems very useful, particularly if you’re willing to live on the edge as the various teams finish building out these features. And if you’ve got a Pixelbook and have been waiting for a way to learn Flutter or try building apps, it’s well worth giving this a go! Have fun and let us know how you get on: you’ll find the team on Twitter at @flutterio.

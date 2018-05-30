@@ -1,0 +1,31 @@
+Repeated 51 percent attacks on proof-of-work (PoW) cryptocurrencies have triggered a critical dialogue about the security of blockchain networks. Last week, a researcher showed that a cryptocurrency worth $2 billion can be hacked profitably with as little as $1.5 million. One cryptocurrency enthusiast decided to take a deeper dive.
+
+Reddit user xur17 has created crypto51.app, a website that tracks the costs of performing hourly 51 percent attacks on PoW cryptocurrencies.
+
+The results are startling. As per the website calculations, it will only take $2,990 to keep an attack going on Bitcoin Gold for one hour, $2,216 on Ethereum Classic, $1,124 on Bytecoin, and $3,345 on ZClassic. For lesser known cryptocurrencies, the number ranges between $1-$500.
+
+For some cryptocurrencies such as Catcoin, Cream, and Smartcoin, you don’t even need a dollar.
+
+The cost for the attacks comes further down if you account for the block rewards that the miners receive from mining. As the website notes, the rewards can significantly reduce the attack cost — by up to 80 percent.
+
+In proof-of-work consensus protocol, validation of transactions is done by the majority of the nodes on the network.
+
+51 percent attacks occur when a single entity gains majority (more than 51 percent) of the network hashrate. This entity can now both prevent valid transactions from occurring as well as reverse already occurred transactions on the blockchain. A single coin can even be spent twice from the same origin with this sort of control, in what’s called a double-spend.
+
+The attacks were previously considered highly unlikely due to financial constraints involved — however that claim has since then been invalidated, especially for cryptocurrencies with small networks.
+
+To begin with, attackers don’t always need to buy new mining equipment. Most smaller PoW cryptocurrencies share their algorithm with the larger ones. This means that if you already have equipment to mine the larger cryptocurrencies, you can mine the smaller currencies with the same equipment. There’re also services (such as NiceHash) which allow for renting of hashing power.
+
+Crypto51.app takes these factors into account while calculating the costs.
+
+The website cumulates statistics from several sources to estimate the cost of the attacks. The hash rates are taken from Mine the Coin, coin prices from CoinMarketCap and mining rents from NiceHash. The website then lists the hourly attack cost based on the algorithm used,  the hash rate for the currency, and the cost to rent hashing power.
+
+It is worth noting that while the costs have been calculated for larger cryptocurrencies such as Bitcoin, Ethereum, Bitcoin Cash, Litecoin, etc., they can’t actually be attacked with this much money. As the website statistics show, the total renting capacity of NiceHash only amounts to 2 percent of the hashing power actually required to perform a 51 percent attack on Bitcoin for one hour; similarly for other cryptocurrencies — the hashing power available for rent through NiceHash is simply not enough for the major cryptocurrencies.
+
+Another thing to note here is that one hour is not actually enough to mine enough blocks for the attack to be profitable. The attack will have to last a lot longer. That doesn’t mean it can last too long either — at some point either the developers of the currency will deploy a fix or the price of the currency will drop so low that the attack no longer remains profitable.
+
+The statistics, however, succeed in showing how vulnerable PoW cryptocurrencies are to network attacks, at the moment. At least four different virtual currencies have suffered 51 percent in the last two months, including Verge (twice), Electroneum, Bitcoin Gold, and Monacoin.
+
+There are multiple fixes available for this problem, as we noted earlier, that include upgrading to proof-of-stake or sharing the security of a larger PoW blockchain.
+
+The companies know how to fix the problem, it remains to be seen why they don’t.

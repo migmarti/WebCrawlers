@@ -1,0 +1,15 @@
+At this point I remembered that every email has a unique identifier as part of its source code.
+
+After doing this a couple of times (and taking quite long), I figured that there must be an easier way to accomplish this.
+
+The story of Gmail Message Finder ID starts with my searching through my inbox, looking for an email confirming a quotation we sent.
+
+I started checking if it was possible to search for these message ID strings in Gmail, and, as it turns out, this is possible using the rfc822messageid operator. From then on, I started copying the message IDs for important emails and pasting them in my notes/in invoices so I could always find the relevant email instantly.
+
+It was then that I figured out this was something that could be useful for a lot of people, including colleagues at Code Orange involved in project management. To make it a bit more accessible and streamlined, I decided to try to wrap this functionality in a Chrome extension.
+
+I started by figuring out how I could get the message ID for an email programmatically. By hand, it was as easy as clicking the Show original button in Gmails message menu, but the message ID or email source werent available in Gmails page source. As it turned out, its not possible to download that Show original page from a Chrome extension, but it is possible to access the download function on that page. At that point, I had the entire original source for an email in memory and getting out the message ID was easy.
+
+The next step was to use InboxSDK to add a menu option to each email that triggers the above mentioned functionality and copies the resulting search query to the users clipboard.
+
+Now, the Chrome extension has a large number of users who have provided very positive feedback and a couple of outlets have written guides on how to use it.

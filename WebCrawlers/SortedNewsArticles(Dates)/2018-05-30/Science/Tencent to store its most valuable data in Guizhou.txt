@@ -1,0 +1,11 @@
+Tencent Holdings huge data center in Guizhou province, southwestern China, started its trial operation on May 28. According to the companys official statement, it will be used to store Tencents most valuable data.
+
+Tencent Guian Qixing Data Center takes up 470,000 square meters and is expected to store 300,000 servers. It is built into the caves two mountains in Guian New Area.
+
+Strict security protocols are taken to guard the facilities. Facial recognition devices were placed at every entrance and infrared detection-enabled security robots will roam the area 24 hours a day.
+
+Tencent founder and chief executive officer Pony Ma said Guizhous inconvenient transportation due to the mountainous landscape and overcast and rainy weather are a detractor (to attract talents and businesses) in the past, but these are perfect fits for big data industry. Mountains can conceal the physical structure of the data centers and constant temperature and moisture are positive for the maintenance of the equipment.
+
+Apart from Tencent, Apple transferred iCloud services in mainland China to government-owned Guizhou-Cloud Big Data on Feb 28 despite concerns over mainland users data privacy issues. Chinas three major state-owned telecommunications companies have also built their data centers in Guizhou. China Telecom invested RMB 7 billion, China Mobile RMB 2 billion and China Unicom RMB 5 billion.
+
+The government of Guizhou, one of Chinas least developed provinces, has been promoting and developing big data industry and attracted big tech companies to build data centers in the region. A specific government branch, Big Data Development Administration of Guizhou Province, was set up in early 2017 to oversee the development of the industry.

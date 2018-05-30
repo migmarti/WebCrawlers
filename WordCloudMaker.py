@@ -9,9 +9,12 @@ import nltk
 from wordcloud import WordCloud, STOPWORDS
 
 basepath = os.getcwd() + '/WebCrawlers'
+
 newsfolderpath = basepath + '/SortedNewsArticles'
+newsfolderpath2 = basepath + '/SortedNewsArticles(Dates)/'
 imagesfolderpath = basepath + '/DefaultImages'
 outputpath = basepath + '/WordClouds/'
+outputpath2 = basepath + '/WordClouds(Dates)/'
 
 def grey_color_func(word, font_size, position, orientation, random_state=None,
                     **kwargs):
@@ -22,6 +25,13 @@ def getFilepaths(path):
     for textfile in os.listdir(path):
         if(str(textfile)!='.DS_Store'):
             filepaths[str(textfile)] = path + '/' + str(textfile)
+    return filepaths
+
+def getRawFilepaths(path):
+    filepaths = []
+    for textfile in os.listdir(path):
+        url = path + str(textfile)
+        filepaths.append(url)
     return filepaths
 
 def getImageFilepaths(path):
@@ -83,4 +93,36 @@ for category in FoldersPaths:
     print("Saved Wordcloud: " + str(filename))
     plt.axis("off")
     plt.figure()
+
+
+dirs = getRawFilepaths(newsfolderpath2)
+for directory in dirs:
+    date = directory[-10:]
+    print("Creating wordclouds for date: " + str(date))
+    FoldersPaths = getFilepaths(directory + "/")
+    for category in FoldersPaths:
+        print("Processing category: " + str(category))
+        fullText = ''
+        newsFiles = getFilepaths(FoldersPaths[category])
+        for news in newsFiles:
+            fullText += str(readFile(newsFiles[news]))
+        fullText = getNouns(fullText)
+        # stopwords = set(STOPWORDS)
+        # stopwords.add("int")
+        # stopwords.add("ext")
+        print("Creating wordcloud...")
+        wc = WordCloud(max_words=1000,
+                       # stopwords=stopwords,
+                       margin=10,
+                       random_state=1).generate(fullText)
+        default_colors = wc.to_array()
+        plt.imshow(default_colors, interpolation="bilinear")
+        path = outputpath2 + date + "/"
+        if not os.path.exists(path):
+            os.makedirs(path)
+        filename = path + str(category) + ".png"
+        wc.to_file(filename)
+        print("Saved Wordcloud: " + str(filename))
+        plt.axis("off")
+        plt.figure()
 

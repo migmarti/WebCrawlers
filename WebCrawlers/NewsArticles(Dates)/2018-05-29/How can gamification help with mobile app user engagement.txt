@@ -1,0 +1,11 @@
+I remember, some 12 years ago when Nokia phones were the trend, there used to be a game “Snake” in nearly all of them. Everyone in our school was playing Snake during the lessons, lesson breaks, while going back home from school, while eating, walking, and of course, while doing the homework. We were obsessed with that game, and we were showing our scores to each other and bragging and bragging and bragging….
+
+A few years later, this Candy Crush fever came up, and a lot of people got obsessed with that, too. Everyone seemed to be playing Candy Crush. Even today, there are a lot of people who play Candy Crush via the Facebook app and who forget to make the app private so that no one sees what they are doing during their working hours (lol).
+
+So, there is no doubt that a lot of games are like a hook. They can make you play all day all night. They do have that power. This article is thus going to be about the ways you can leverage that power to make your app users more engaged.
+
+In fact, gamification is gaining its momentum in app development. Let’s see the definition first, so you get the idea of it more clearly.
+
+A lot of our favorite apps have been designed with gamification in mind. Let’s take Duolingo as an example. It’s like a game, isn’t it? There is the all-favorite progress bar which shows how many questions/tasks you have next. And there is this favorite level unlocking thing which is a typical game element.
+
+Duolingo has introduced gamification to make learning a new language a more engaging experience for its users. We always get excited when we get points, extras, awards, aren’t we? With this in mind, a lot of makers design their apps to hook us and to make us more engaged and loyal.

@@ -1,0 +1,55 @@
+Technology is changing every aspect of how we do business, including how customers interact with brands and the type of support available.
+
+As artificial intelligence continues to play a larger role in customer service and technological advancements make it easier provide assistance at any time of day, the role of support agents is changing. In fact, experts predict that by 2020, 85% of customer interactions will occur without the involvement of a human support agent (up from 55% in 2015).
+
+What other changes will machine learning bring to the world of customer support? Let’s discuss how AI customer service will shape the future of customer experiences, interactions, and expectations.
+
+AI-powered customer support allows businesses to provide a consistent level of service, no matter the time of day or how many tickets are incoming. Not only does AI technology empower support agents to excel at their jobs, it also reduces the number of incoming support requests that need to be addressed in the first place.
+
+Businesses and customers alike benefit from advancements in machine learning and support technology.
+
+Here are a few specific reasons AI customer service is the way of the future.
+
+Traditional customer support reacts to problems by attempting to solve them after they’ve been reported. But with the power of AI-driven technology, support teams are able to resolve technical issues before they evolve into full-blown problems.
+
+For instance, technology monitoring tools like Relay Sense allow support agents to identify and remedy issues before customers ever report (or even notice!) that something’s gone wrong.
+
+In the future, we’ll see even more proactive support solutions providing real-time support through FAQs and chatbots that can answer customer questions without the need to speak to a human support agent.
+
+There is a ton of data available online about each and every customer who contacts your team – not only in your own database, but in various places across the web. AI just might be the key businesses need to tap into that reservoir of information and use it to provide more customized service solutions than ever before.
+
+This has obvious applications in delivering customer support but can also improve the customer journey from start to finish. Personalization can increase customer loyalty, improve customer satisfaction, and ensure they get the exact level of support they need via the channel they most prefer.
+
+Employee turnover can cost businesses a ton in extra hiring and training costs. For every employee who leaves, you need to spend time and money finding a suitable replacement as well as onboarding and training the new hire on everything there is to know about your business and products.
+
+Not only does automation reduce these costs significantly – AI customer service software can be programmed and updated much faster than agents can be onboarded and trained – but it also frees up human support agents to prioritize more serious support issues.
+
+The result is greater efficiency from an organization standpoint as well as from the customer’s perspective. Support agents are able to address the most important tickets quickly, while AI handles mundane and repetitive inquiries. Customers receive responses faster, whether they interact with AI or a human member of the support team.
+
+Since AI doesn’t take time off for holidays or weekends, businesses can technology to deliver quick responses and resolutions at any time of the day, week, or year. That means businesses can use AI-powered customer support to always be there for their customers.
+
+As more businesses switch to automated support solutions, customers will spend less time waiting for responses, even after-hours or on a holiday. This can make a world of difference for customer satisfaction levels, which tend to take a hit if service is slow, delayed, or unavailable.
+
+An increasing number of consumers prefer to self-service, low-touch support solutions that don’t involve speaking to a support at all. In fact, 72% of millennials prefer channels other than phone support, including self-service resources like FAQs, chatbots, and forums.
+
+By incorporating smart solutions, like AI-powered bots and network monitoring, businesses will be able to keep up with growing need for low-touch, digital customer interactions.
+
+Though AI will adopt a much larger role in the world of customer service and eliminate some menial tasks, it’s unlikely that it will ever function on its own as a total replacement of human support agents.
+
+In fact, humans and robots might both be at their strongest when they work together. Let’s take a look at a few of the ways AI will augment human support agents to provide better customer service.
+
+Think of the time your support agents would save if they could automate their responses to support emails. Some companies are already using AI to scan an email and send it to the correct department based on its contents. However, that’s just beginning to scratch the surface of this tech’s application in customer support.
+
+AI can also save phrases and clips from the best responses you’ve sent in the past to quickly put together a reply to a new inquiry. This is different than dropping in canned responses because it will still incorporate elements of customization along with the relevant information the customer is seeking.
+
+Speech recognition software can be used to interpret not only what a customer is saying, but how they’re feeling about the support call. An AI customer service solution can analyze a live conversation and provide the agent with real-time insights and suggestions for addressing the customer’s needs.
+
+Not to mention applications like Google’s controversial Duplex, which suggests AI will eventually take a more active role as the digital assistants in our lives. In the near future, we may find ourselves speaking to intelligent bots who sound an awful lot like real people.
+
+Easy questions can be answered quickly by a bot, but conversations that get more complicated should still be handed off to a support agent. A human agent can sympathize, reason, and make judgment calls based on the situation in a way that AI simply hasn’t achieved yet.
+
+When AI and humans work together, businesses are able to maximize the amount of time and energy spent by real people to solve difficult problems while AI takes care of predictable tasks that don’t require critical thinking skills. Although, it might not be too far off in the future that bots are able to handle those calls, too – in which case, humans will adopt more creative, problem-solving roles or act as backup support for bots who get in over their heads.
+
+When you think about all the ways AI is already integrating into modern customer service strategies, it’s exciting to imagine how it will shape the future of customer experiences. Your best chance to get ahead of the competition is to adopt a smart, AI-powered approach to customer support today.
+
+The Relay support platform empowers B2B support teams to leverage the power of AI customer service, including automation, bots, and omnichannel support. Want to deliver incredible customer experiences every time? Find out how our solutions can transform your support operations – so your team can work smarter, not harder.

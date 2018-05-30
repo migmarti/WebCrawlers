@@ -1,0 +1,35 @@
+On 24 May 2018 we revealed and reported on how ViewFines, an online traffic fines payments website for South Africans, was the source of the leak of 934,000 personal records of South Africans. This came after its owner, Stephen Birkholtz, admitted to iAfrikan that they did indeed briefly "back up" their database, in CSV format, to a publicly viewable directory on the Internet for a period of approximately 12 hours while they did some changes to the website.
+
+Already, security consultant, Troy Hunt, and iAfrikan, had verified that the leaked database was that of ViewFines.
+
+It goes without saying that backing up a database with user credentials, or any database with users personal records, to a publicly viewable directory on the Internet is a terrible ICT systems administration practice. However, this is not the only shocking practice that ViewFines had.
+
+Below is a list of some of the things we discovered about ViewFines website security that left our jaws dropping.
+
+To register on the ViewFines website, in order to view and/or pay for your South African traffic fines, all you needed was you national (South African) ID number and a password. Thereafter, to view traffic fines, all you need is to input the relevant case number allocated to your traffic fine and you will then see a copy of the fine along with an option to pay for it.
+
+That's all good, until we realized that we could register any ID number, including a bogus one like "1234567890123".
+
+There wasn't even any basic form input validation to check, at minimum, if the ID number meets the format of South African issued ID numbers.
+
+Not only is there no form validation when registering, but there was no method in which ViewFines was assisting users to determine if their passwords were strong enough from being cracked easily.
+
+This is evident when you see the list of the most popular passwords on the website. The password "12345" was used by 6,317 users while "123456" was used by 3,452 users.
+
+That's not all, other passwords like "password", "viewfines", "fines", and users' first names and their derivatives, were used by thousands of ViewFines users.
+
+After registration, to view or pay for a South African traffic fine, all you now have to do is enter your traffic fine case number, and then you are presented with a copy of the fine. Needless to say, given that a traffic fine contains personal information such as home address, car make and registration, there are so many scenarios that this could be abused under.
+
+More alarmingly, considering how car hijacking syndicates in South Africa operate, having such a relatively easy way for anyone to access anyone's traffic fine details is worrying. South Africa already has traffic fines SMS scams doing the rounds that send people a legitimate looking traffic offence SMS with the criminals bank account number included for payment, you just have to wonder how, with this leak,much damage criminals can do.
+
+This is one of the most bizarre things we discovered. What made it even more bizarre is how ViewFines saw nothing wrong with storing user passwords in plaintext saying that were it not for the database leak, the user passwords would be safe as they would be stored on a password protected SQL server.
+
+For the non-technically inclined readers, this means that if you managed to crack the ViewFines Admin's SQL server login credentials, you'd have access to the login credentials of all their users...and we're guessing this wouldn't have been difficult looking at how they handled security in general.
+
+Now, given all these "gaping security holes" that were there on the ViewFines website before the database leak and before it was taken down, we have to ask: "How did over 30 South African municipalities willfully hand over citizens data to a website like this?"
+
+Was there any validation (regularly) done to verify that ViewFines is a reputable website with sufficient security measures?"
+
+Those who want to check if their data has been leaked can verify this on haveibeenpwned.
+
+: This is a developing story and we will be updating as new information and responses are available. We have also alerted South Africa's Hawks (cybercrime unit) as well as South Africa's Information Regulator

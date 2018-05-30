@@ -7,6 +7,8 @@ import sys
 import os
 import sys
 
+#   scrapy crawl news --nolog -a maxItems=x
+
 class NewsSpider(CrawlSpider):
     name = "news"
     basePath = os.getcwd() + '/WebCrawlers'

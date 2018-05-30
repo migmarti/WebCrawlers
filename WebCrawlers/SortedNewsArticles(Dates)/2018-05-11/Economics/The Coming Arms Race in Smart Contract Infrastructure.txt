@@ -1,0 +1,141 @@
+Smart contract platforms remain the cornerstone play for most serious investors. We look at protocols; the infrastructure, not the dApps, the newly-minted crypto fund manager enshrines into his pitch. And for good reason: the platform arms race is in full swing, with new protocols marching into the space and vying to become the operating systems of Cloud 3.0. While Ethereum is King, ambitious visionaries continue to build new castles, declare new kingdoms and promise the end of the Crypto-Kitty tyranny (scaling), the beginning of the rule of law (governance) and the birth of a new era where subjects are no longer bound to the one royal garden (interoperability).
+
+But something is rotten in the state of smart contracts.
+
+Its easy to get caught up in the hype of the arms race, in threads about killing Ethereum and personality spats between founders whose collective wealth outsizes the GDP of a few small nations. Platform fever is masking the deeper problems that stand in the way of smart contract adoption. Forget the platforms for a minute and consider the state of smart contract infrastructure. Even if theres a unicornscalable, secure and decentralized, without a trade-off in the worldwe might end up building roads and highways that nobody wants to drive on.
+
+One of these critical areas is smart contract security.
+
+The conversation about blockchain security focuses on game theoretic network attacks. Most of these are hypothetical. While weve been sitting around, pondering possible attacks on Bitcoin, heisters have been stealing treasure chests of Ether for years. Smart contract vulnerabilities are not hypothetical. A recent study analyzed close to a million smart contracts up to block number 4,799,998, the last block of December 26, 2017. 34,200 contracts were flagged. Just in the last fortnight, a new bug was found in Beauty Chains (BEC) contract, prompting several exchanges to freeze ERC-20 deposits and withdrawals. I shouldnt even mention the catastrophes of years past: the DAO and Parity; their grievances still hanging over the space, and the aftermath of the latter yet to be resolvedto fork or not to fork?
+
+The problem is only going to get worse as more money floods into crypto and entices the evil geniuses roaming the Internet. Incentives will get worse, much worse, and the scale of attacks (and the shadow of potential attacks) will grow to a scale that threatens the narrative of security that anchors crypto itself.
+
+These attacks beg the questionhow trustless are smart contracts if we have to trust that the code is tamper-proof?
+
+I think my money is safe, but I dont know for a fact. Worse yet, I dont have a framework to know.
+
+The grand vision was to automate the trust that irks agreement, boot out the middleman and inspire otherwise impossible value creation. But this all hinges on smart contracts being provably, verifiably, mathematically, secure. Even if we scale to VISA+ throughput, losses loom larger than gains. Are risk-averse big businesses going to adopt smart contracts if theres even a minuscule possibility of something blowing up? Not if their bloated bureaucrats and hounding compliance departments have any say.
+
+The value proposition is clear: move capital from sticky towers of trust with armies of lawyers to programmable agreements governed by math. But does this really work if theres even a small probability of exploit?
+
+Scaling is shiny and glamorous. Security is boring. Money and brainpower will keep flowing into the platforms spaceit is, in my view, the chief infrastructure play. My thesis is not that the platform dust is settling any time soondespite Vitaliks cryptic tweetsbut in the long run, we will see a parallel tsunami of capital flow into the architecture surrounding these platforms. The crude reality of smart contract adoption (or lack thereof) will force a new type of roads and highways play. This parallel arms race will not be between the platforms of Cloud 3.0, but between platform-agnostic protocols that ease frictions to smart contract adoption and seal the deal for risk-averse governments and enterprise.
+
+The first of these will be the smart contract security protocol.
+
+Smart contract attacks are the Internet equivalent of bank robberies, but worse. For a thief, a digital hold-up is much more lucrative, offering uncapped bags of gold with close to no downside risk. Imagine robbers were prodigiesnot wise guys hustling their way to Made Men in a mafia flick, but Harvard-grade heisters. Now picture banks freely advertising their blueprints (open source), and these intelligent mobsters evading tellers with a probability of getting caught thats close to zero (anonymity).
+
+No additional cost to another heist, security blueprints on full display and bars of (digital) gold waiting on the other side.
+
+Kyle Samani is rightevery major financial institution is just a giant smart contract. But every major financial institution is also extremely risk-averse. Think about mass adoption in light of this nerds version of a heist film. The situation is going to scare the life out of decision makers from these large financial institutions. Sure, just move large swaths of capital from a relatively comfy architecture to one where anyone, anywhere, with no trace in the world, can have their crack at cracking your code.
+
+You could argue that weve only had a handful of attacks, TheDAO and Parity being the bloodiest. But you dont need a large quantity to strangle adoption. As Posnak notes, its a high-stakes game, and the problem is akin to a nuclear reactor. Disincentives are driven not by a large number of attacks, but only the horrifying Armageddon of a few.
+
+Moreover, attacks are irreversible. The immutability of code is part of what makes smart contracts a game-changer. But its also why we cant clean up the spill: Code is Law, and funds cant be restored lest a hard fork. These forks irrevocably damage community and network resilience. The fallout of TheDAO was far greater than the Ether stolen: the heisters lit the fuse of a philosophical divide and tore a community into two, shattering network value for years to come.
+
+With these seen and unseen costs at play, measuring the aggregate damage of smart contract attacks is tricky. But heres a rough guess: a combination of funds stolen + a discounted measure of funds deterred + the network value destroyed in the aftermath.
+
+The damage runs deeper than the mugging. Its hard to pin this to a simple model. How can we capture the victims nail-tearing trauma? All those late nights calculating how much their Ether would be worth. The despair of knowing they will never be compensated. Some of these people leave the ecosystem (FD and NWD), whereas othersbitter and bruisedbecome foot soldiers in an ugly, community-destroying fork (NWD).
+
+To make matters worse, while its intuitive to measure the costs of attacks that take place, what about those that dont? What about the costs of potential attacks that are entirely possible based on existing, undetected vulnerabilities? As the price of crypto-assets continues to surge, the Harvard heisters incentive grows exponentially. Finding these vulnerabilities becomes more lucrative over time. FD and NWD capture these costs to some extent, but its almost impossible to measure in the real world.
+
+What we can reasonably estimate is the number of bugged contracts. One group of researchers analyzed 19,366 smart contracts from the first 1,460,000 Ethereum blocks in late 2016, reporting 8,833 as potentially bugged. That doesnt mean that all bugs were equally exploitable and equally costly, but its still a bug rate close to 50%. Can we extrapolate this to all contracts deployed today? Probably not. But still not a great sign. Ether has surged in value since, and so have the number of smart contracts.
+
+Its a dire scene, and its only going to get worse over time. Luckily for Ethereum, there is one saving grace. Over the years, researchers have dug extensively into the EVM and Solidity attacks. Ethereum developers have a huge library they can draw upon. New platforms like NEO and QTUM dont have this luxury. While theres some overlap between attacks, different programming languages offer fresh opportunities for heisters. Developers in newer ecosystems cant call upon the accumulated wisdom of their elders.
+
+Its only a matter of time until we see a high-profile attack on one of these newer platforms. And then, maybe then, while the platform circus will continue to play, some portion of the smart money will reallocate toward infrastructure plays beneath the surface. Like smart contract security.
+
+There are many ways to rob a bank, and there are just as many ways to attack a smart contract. Most boil down to what researchers call semantic gaps. This is where assumptions contract writers make about the underlying execution semantics differ from the actual semantics of the smart contract system.
+
+Hackers exploit gaps between developer intuition and computational reality; between the functionality developers want and the cold possibilities of program logic. Developers intend for X functionality, but the contract allows not just for X, but also for Y and Z.
+
+This isnt a huge problem for regular contracts. In traditional legal systems, judges dressed in fancy robes can smash down hammers and mediate disputes, resolving conflicts when angry parties argue over the intention of a clause in a contract. The court looks to the wording as well as the supporting context to then decide on the parties mutual intent at the time of agreement.
+
+In the smart contract universe, theres no courtroom, no judge, no supporting context and no reassessing intentions; just the cold logic of code and onlookers watching with terror as funds are siphoned from one address into another, debating not the boring nuances of law, but whether or not they should embrace the chaos of a fork and destroy network value (NWD).
+
+Its a little-known fact that TheDAO was audited by a security company prior to the contract deployment. Developers arent omniscient. These semantic vulnerabilities are inevitable. Most will miss invitations for attack that seem obvious in hindsight.
+
+Semantic gaps invite hackers to exploit bugs that neither developers or users understand. But the answer isnt to say no to nuclear. Instead, we need ways to make the reactor heist-immune. A step beyond this is to prove, mathematically, that the reactor is attack-immune. What we need are measures to verify the correctness of code; to be sure that the smart contracts achieve their specifications.
+
+This is known as formal verification.
+
+Outside of their own testing, developers have two options to formally verify smart contracts:
+
+With companies, we still cross our fingers and pray that the Gods are watching our multisigs. What if there are sloppy security professionals? Worseand one is all it takeswhat if theres a rogue? This isnt to cast stones on the ethics of companies like Zeppelin, but the Internet of Value cant depend on the morality of a small group of well-paid wizards. Not when all it takes is one who decides to use his magic for evil.
+
+With enough money at stake, this isnt just possible, its probable. Today, most of these companies are hubs for die-hard Ethereum loyalists, immune to the calculated modelling of game theory where humanity is a chessboard for rational pay-offs. Perhaps, a cranky economist might add, their pay-offs arent quantified in $, but in social equity and idealism.
+
+In any case, one day these companies will corporatize. The hallways will be filled not with OmiseGO t-shirts, but suits and ties, and as usual, apathy. Its here where rational incentives will reemerge and redeem the economists dilemma. Rogues are not a question of if, but when.
+
+The same uncertainty applies to White Hat public bounties. Ill give you $10,000 if you break my code isnt so compelling when the alternative is to wait a year and break the code when its worth 1000x the bounty. Not to mention the difficulty and cost of coordinating and administering bounties.
+
+But for a moment, lets forget the rational incentives of evil geniuses. Even if these solutions could in theory provide a requisite level of trusted formal verification, how can they scale? Mass adoption is not a catapult weakening the city gates from a distance, its a siege; a sudden stampede of resources and interest. Smart contracts will grow exponentially not just in number, but in requirement. Its just not possible.
+
+Dear reader, youve guessed it: what we need is a decentralized protocol for formal verification. This protocol shouldnt leverage the good will of White Hats or the anti-rogue policies of security companies, but cryptoeconomic incentives. Even though we dont need to, in the decentralized protocol we trust.
+
+At the core of this protocol is the idea of rational self-interest: it should assume that people are selfish, and they only care about maximizing their payoff in $ (or maybe at some point, BTC). Somehow, developers will request audits and the protocol will incentivize miners to power automated testing, validators to keep these miners accountable and bounty hunters to find and report bugs. At each of these stages, as much as possible, the protocol should not depend on human discretion. Automation is essential. Each layer should be carefully cordoned off from the other, splitting attack vectors and making collusion harder.
+
+Most importantly, these protocols should combine clever technology with unbreakable game theory: tokens will reward the virtuous and punish the malicious, aligning everybodys dominant strategy with formal verification.
+
+These protocols will not just provide users ease of mind, they will become stamps of approval for regulators and enterprise; quasi-rating agencies lead not by the opinion of a few wizards, but the power of distributed computation.
+
+What do existing projects look like? While there are other movers in the space, there are only two who stack up seriously: Quantstamp (QSP) and CertiK (CTK). CertiK is yet to hit the market, but the battle between these two projects may be our first glance into the parallel infrastructure arms race.
+
+Quantstamp is the first mover, galloping to market in November 2017. The project promises a cost-effective and scalable smart contract auditing protocol. Backed by Y-Combinator and stacked with an impressive team, Quantstamp has an equally ambitious vision: to build an automated auditing service that leverages not the good will of White Hats, but distributed, automated software checks and crowdsourced bug bounties.
+
+At the heart of the protocol is the Security Audit Engine. This takes an unverified contract through automated vulnerability tests and churns out a report, flagging potential bugs. Tests are based on computer-aided reasoning tools, which make up the Engines software security library. These reports are either public or private (upon request), but theyre always made public once the contract is deployed. This incentivizes developers to run security reports and builds a platform for public accountability. The security librarys Tradecraft includes:
+
+The protocol is not yet live. Up until this point, the team has been manually auditing contracts. Even though the protocol isnt live, its interesting see the public accountability mechanism already at play. In the wake of the recent ERC20 bug discussed above, exchanges like Binance rushed to assure the public of the QSP green light. While its not clear if QSP will become the gold standard for security protocols, its so far been successful in demonstrating how a security protocol will function within the ecosystemas a source of trust, an immutable ratings agency, crucial especially in times of crisis.
+
+The Engine is powered by distributed computation. Validator nodes provide resources to run the software, and because the verification is split up between these nodes, it becomes difficult (absence collusion) to withhold bugs. These validators stake QSP tokens, and if theyre caught in the act, the protocol will slash their escrowed, just like in Proof of Stake. Validators are rewarded in QSP when they find and report bugs.
+
+Remember, the goal is to prevent people from withholding bugs and exploiting them later. Theoretically, with QSPs model, if one validator withholds a bug, another will report it. Its almost like the puzzle-race of Bitcoin. This combination of punishment (slashing) and reward (QSP) raises the cost of malice and increases the benefit of virtue. Its clear to me that Quantstamp have thought very deeply about the game theory, designing a protocol that relies not on the benevolence, but on the dominant strategy of selfish parties.
+
+The second part of the protocol is the smart contract for bug bounties. Developers who would like the community to break their code can submit QSP to escrow. Bug finders work their magic, break the code and reveal exploits. Once they claim to have found a vulnerability, the Validator nodes run verification software to confirm the presence of the bug. If confirmed, the QSP is freed from escrow and sent to the White Hat. The vision for bug bounties is twofold: not only will they attract security experts to the ecosystem, they will one day be lucrative enough for White Hats to make their entire living trawling the platform and finding these exploits.
+
+Quantstamp is promising, and theyve far built an impressive ecosystem so far. However, Im concerned that the protocol wont give the ecosystem the certainty it needs. Its not clear if the protocol provides for full formal verification. Per the whitepaper, Quantstamp does not guarantee flawless source code, and one of the protocol designers I had the chance to speak with said that the degree of certainty is usually enough. Its better than centralized alternatives, but it doesnt sound like mathematically-guaranteed formal verification. Anxious developers, users, regulators and enterprise will want more than just enough.
+
+Here are a few other open areas, slightly related to this concern:
+
+Quantstamp sits on the first-movers throne, but the attempts at a coup are well on their way. This sector is too important. Ive seen a few other projects claiming to tackle this problem, but I think CertiK is the most interesting. New to the scene, the project is led by academics from Yale and Columbia who have built their careers as experts in formal verification. While blockchain is hot, as they put it in their keynote, CertiK finds its legacy in CertiKOSa military-grade security technology co-developed at Yale by Professor Zhong Shao, one of the founders. This OS Kernelnow the foundation for Certikis years in the making, serving as a core piece in several DARPA programs focused on provable military security.
+
+The whitepaper begins its analysis with an interesting idea: testing can find bugs, but it cant prove the negative. Tests cant prove the absence of bugs. This is why adequate or satisfiable tests are not enough; why we need full, mathematically-guaranteed formal verification. Not only does this testing fail to give us unbreakable certainty, its also very costly. This leads to one of CertiKs core value propositions: how do we cut down proof efforts to make them not just more precise, but also more scalable?
+
+To answer this question, CertiK introduces smart labelling, a framework for expressing decentralized syntax and semantics. These labels express the desired properties of code and fill the holes dug by semantic gaps. On top of this, CertiK introduces layer-based decomposition, where large proofs are broken into an array of smaller proofs that can then each be verified at their proper abstraction layer. Together, this label-based language (smart labelling) and layered approach (layer-based decomposition) help to (1) express the formal specifications of code and (2) streamline verification.
+
+Now that the code is easier expressed and diced into smaller chunks, it is plugged into the proof engine. This is similar Quantstamps Secuity Audit Enginerelying on SMT solvers and the likeexcept, because of the above duo, the code is more precisely expressed and more precisely verified. This is known as Proof-of-Proof (PoP). After code has been verified, just like with Quantstamps proof of audit, proofs become certificates, and they can then be attached to existing blockchains, smart contracts and DAPPS.
+
+These certificates provide an immutable, mathematically precise record of the codes security.
+
+The protocol is in its infancy, and the team is yet to release technical papers. But the Whitepaper provides a rough sketch of PoP in practice. Firstly, customers submit programs for verification. Bounty hunters then provide computation to construct and broadcast proof objects. Just like Quantstamp, bounty hunters must possess a certain amount of CTKspresumably mirroring the PoS slashing model. The next validation is carefully cordoned off: bounty hunters only receive CTK reward after checkers verify their proof objects. These checkers also receive CTK. Finally, sages provide proof engines. Bounty hunters use these engines to verify the code, and the sages are rewarded CTK depending on the accuracy of their engines.
+
+Its still early days, but like Quantstamp, CertiK can be thought of as a game theoretic race for security. Instead of solving what many consider useless algorithms (Bitcoin), miners in CertiK solve puzzles for formal verification.
+
+Even though the protocol isnt live, Quantstamp has gained significant adoption. Its CertiKs race to catch up. However, in some sense, CertiKs vision is very different. Theyre competitors no doubt, but CertiKs ambitions are much broader:
+
+Unlike Quantstamp, CertiK isnt focused on one problem within one ecosystem (smart contracts in Solidity), but formal verification across all blockchain-related ecosystems. Being language and protocol agnostic widens potential market share, and it means that if adopted, the CertiK network will grow with the total number of blockchains, dAPPS and smart contracts across all ecosystems.
+
+A wider market makes for a more attractive potential valuation, especially when network effects rule all. But this also makes business development that much more important, and that much more difficult. How will CertiK build an ecosystem across ecosystems? This wont be easy. QSP enjoys the cosy comforts of being close the Ethereum community, and this has proven very successful for ERC20 adoption, even in the few months that QSP has been taking audit requests.
+
+The goals are bold and the proof lies in the execution.
+
+Its promising to see that CertiK is taking BizDev seriously. While the leadership is academic, the roadmap commits to an aggressive timeline to partner with 20 blockchain companies by June. This isnt typical among strong academic teams. Its an ambitious goal, but if they can execute, its a powerful way to kick down the gates and charge onto market. NEOs VC arm, Neo Global Capital, confirmed an investment at a recent event in Amsterdam. Id speculate that NEO is one of the first and most important partners. QTUM and Distributed Credit Chain have also confirmed partnerships.
+
+And these partnerships are more than the paper-thin spectacles were used to in crypto. Case in point: We recently came across an open pull request on IoTeXs GitHub adding CertiKs smart labels. Neither CertiK or IoTeX have announced a partnership, but theyre clearly testing the waters; partnering not by announcing strategic collaboration with epic portraits of grown men shaking hands at a blockchain conference, but through real world testing and implementation.
+
+Its good to see that CertiK is not built on an idea alone. The team recently released an article demonstrating how the CertiK technology would would have tracked down the integer overflow bug recently found in the Beauty Chain (BEC) contract. Theres a working product, and its not a manual audit. More importantly, CertiK has its roots in CertiKOS, a technology co-developed by one of the founders out of Yale as one of the worlds first fully verified concurrent OS Kernel[s]. CertiKOS is considered a milestone technology in hacker-resistant systems, and has been used in several DARPA programs to ensure US military computers were provably free from security vulnerabilities.
+
+My main concern with CertiK relates to the protocols game theory. I cant poke holes in anything just yet, but thats because the whitepaper is light on detail. Its clear that the tech is promising, but how will the game theory incentivize rational actors? How will the economics encourage network participants to behave honestly and reveal bugs rather than withhold them? How will the incentives be designed such that the dominant strategy of everyone involvedfrom bounty hunters, checkers to sagesaligns with formal verification?
+
+Quantstamps whitepaper does a great job of piecing this part together, whereas CertiKs model is less clear.
+
+This might just be because of how early the project isIm hoping any coming technical papers put my concerns to rest.
+
+The platform arms race will continue to unfold. Platform overvaluations or not, the capital isnt slowing down any time soon. Investors will keep throwing money at entrepreneurs who declare new kingdoms and urge developers to embrace their vision for Cloud 3.0. At least for the next few years. I think this is true (to a lesser extent) even if Ethereum overcomes its scaling and governance issues; even if Vitaliks tweets arent just the technologists version of psychological warfare. Does one platform rule them all? No. As Samani points out, different platforms represent different design trade-offs and different design trade-offs represent novel use cases.
+
+Some monopolies may emerge within one category of trade-offs (why do you need multiple NEOs?), and some trade-offs will be more successful than others. But the portrait were left with is not a single empire spanning the seas; tyrannical in its network monopoly, but a course of nations, some more dominant than others, but each with a different philosophy for law, society and tech.
+
+Will the same picture hold true for smart contract security protocols? Im less certain. I personally think that security will become a commodity, and one will indeed rule them all. In the long run, why do you need more than one smart contract security protocol? Maybe different protocols will offer varying degrees of security (some offering formal verification, others less provable decentralized testing), but it seems to me that smart contract security is binary. One, cost-effective, scalable protocol for formal verification; one untouchable network, a single source of immutable, mathematically-guaranteed truth.
+
+In his book Zero to One, Peter Thiel urges entrepreneurs to strive for monopoly gains. He argues that Western tech culture is caught by a simple narrative that competition is good, and suffocating in complacency, we choose business models that marginally improve the status quo rather than embrace 01 innovation.
+
+Smart contract infrastructure is 01. It has to be. Or else we may be doomed. The Kingdoms of Cloud 3.0 may host the banquets, but this parallel layer of infrastructuresecurity being the most importantwill seal the deal for the risk-averse and motivate the masses to take their seats at the programmable table.

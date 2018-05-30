@@ -1,0 +1,13 @@
+After pleading guilty in November, the Canadian hacker at least partially to blame for the massive Yahoo hack that exposed up to 3 billion accounts will face five years in prison. According to the Justice Department, the hacker, 23-year-old Karim Baratov, worked under the guidance of two agents from the FSB, Russias spy agency, to compromise the accounts.
+
+Those officers, Dmitry Dokuchaev and Igor Sushchin, reside in Russia, as does Latvian hacker Alexsey Belan who also was implicated in the Yahoo hack. Given their location, those three are unlikely to face consequences for their involvement, but Baratovs Canadian citizenship made him vulnerable to prosecution.
+
+Baratovs role in the charged conspiracy was to hack webmail accounts of individuals of interest to his coconspirator who was working for the FSB and send those accounts passwords to Dokuchaev in exchange for money, the Justice Department described in its summary of Baratovs sentencing.
+
+Acting U.S. Attorney for the Northern District of California Alex G. Tse issued a stern warning to other would-be hackers doing a foreign governments dirty work:
+
+The sentence imposed reflects the seriousness of hacking for hire. Hackers such as Baratov ply their trade without regard for the criminal objectives of the people who hire and pay them. These hackers are not minor players; they are a critical tool used by criminals to obtain and exploit personal information illegally. In sentencing Baratov to five years in prison, the Court sent a clear message to hackers that participating in cyber attacks sponsored by nation states will result in significant consequences.
+
+In addition to his prison sentence, Baratov was ordered to pay out all of his remaining assets up to$2,250,000 in the form of a fine. As part of his plea, Baratov also admitted to hacking as many as 11,000 email accounts between 2010 and his arrest in 2017.
+
+Baratovs crimes include aggravated identity theft and conspiracy to violate the Computer Fraud and Abuse Act.

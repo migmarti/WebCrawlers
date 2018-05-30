@@ -1,0 +1,19 @@
+Crypto trading bots are tools used by traders to take the fear and emotion out of their trading. These bots allow you to run trading strategies 24/7 (assuming the exchange is working properly) and provide the customization needed to make the bot trade anyway you like. Weve compiled a list of the best open source (and free) crypto trading bots currently available.
+
+All of these bots are available to download and require just a bit of command line experience to get up and running. Even though they are free, each offer many features to keep your automated trading profitable.
+
+Gekko is currently the most popular open source crypto trading bot with over 6,000 stars on Github. Right out of the box, users are given a web GUI that allows them to import historical market data, backtest their strategies, and run them live on their favorite exchange. One of Gekkos strong points is its ability to chart results from backtesting and live trading which makes it perfect for beginners to immediately start running a strategy. It also has extensive documentation on how develop your own strategies.
+
+Overall, Gekko is an excellent tool for both novice and advanced traders, their simple web GUI makes it easy to quickly backtest and analyze your strategies. Even though the backtesting results view is missing some key performance indicators such as maximum draw-down and win percentage, it is still an excellent tool to have in your trading toolbox.
+
+We recommend you run Gekko on your local machine to test and develop your crypto trading strategies. Once you have your strategy ready to go live, install it on a VPS like Vultr to guarantee 24/7 uptime and low latency trades.
+
+Zenbot is an extremely popular and well-maintained crypto trading bot that can be run on your desktop or hosted in the cloud. Out of the box, it comes with over a dozen trading strategies that you can configure and immediately start trading on your favorite exchange.
+
+If you are familiar with javascript you can also try your hand on developing your own strategies. Zenbots repositoryprovides all code used for the built in strategies and gives examples on how to use technical analysis indicators in them.
+
+Zenbot is another excellent crypto trading platform for traders to automate their strategies. If you are familiar with using the commandline, you will have no troubles at all getting setup and running. Zenbot also comes with some very helpful utilities such as a genetic algorithm backtester to help you optimize the parameters on your trading strategy.We highly recommend installing it locally on your machine for strategy development and faster back testing. Once you are ready to take your strategy live, install Zenbot on a VPS like Vultr to ensure your crypto trading bot never goes offline.
+
+Enigma Catalyst is an algorithmic trading platform for crypto traders built on top of the well-known Zipline project. This platform is made for experienced python developers looking to develop, backtest, and live trade their strategies across multiple cryptocurrency exchanges. Catalyst is still in its early stages of development but already has support for some of the best statistical and machine learning libraries.
+
+Enigma Catalyst currently supports live trading across Bitfinex, Bittrex, and Poloniex. However, integration with other exchanges is planned for releases in the near future. This tool is perfect for you if you have an advanced trading strategy and need a platform powerful enough to implement it.

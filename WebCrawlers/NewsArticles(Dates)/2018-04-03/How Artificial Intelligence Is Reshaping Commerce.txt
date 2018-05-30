@@ -1,0 +1,193 @@
+Retail is under pressure to crack the AI code.
+
+After all, corporations in every industry are scrambling to adapt and integrate artificial intelligence into their products — and retail is no exception.
+
+For traditional retail giants, this means entering the playing field with the likes of e-commerce behemoths Amazon and Alibaba, both of which are leveraging big data and powerful AI algorithms to transform the retail space.
+
+In addition to fierce competition, the need for a change in strategy is being underscored by the record rates at which many US retailers are shutting down.
+
+In 2017 alone, 21 retail chains applied for bankruptcy, including high-profile names like RadioShack, Toys R’ Us, and Aerosoles. Meanwhile other retailers like Macy’s and Sears announced they would shut down hundreds of stores across the country.
+
+While most traditional retailers have yet to develop an AI strategy, some stores and e-commerce players have started using AI and robotics to transform the retail space. With recent advances like computer vision-based cashierless stores, an increasing number of retailers may be forced to improve their AI game in the coming years.
+
+Using CB Insights data, we dug into the changing retail landscape. Below, we analyze how AI, machine learning, and computer vision-based technologies — including robots used for heavy lifting, navigation, and assembly tasks — are impacting all parts of the retail chain, from the manufacturing of goods all the way to their distribution.
+
+E-commerce giants Amazon and Alibaba are may use big data and AI to implement end-to-end solutions that focus on the overall retail experience (both online and offline). However, most retailers are focusing their AI-inspired efforts on more specific parts of the retail chain.
+
+We looked at the different stages in bringing a product to market, from manufacturing to delivery, and how companies are using AI-enabled automation — including facial recognition, demand forecasting, and computer vision-based robots — to enhance each of these stages.
+
+Meeting ever-shifting consumer demands requires reducing manufacturing lead times. To do so, some retailers are turning to robots using computer vision for assembling products like apparel and footwear.
+
+Manufacturing jobs are notoriously vulnerable to being outsourced to developing countries where labor costs are cheaper.
+
+But dropping industrial robot costs are bringing manufacturing bases closer to the site of demand, with retailers like Adidas benefitting from this trend.
+
+Recently, Chinese T-shirt manufacturer Tianyuan Garments Company signed a memorandum of understanding with the Arkansas government to employ 400 workers at $14/hr at its new garment factory in Little Rock, Arkansas. Operations are scheduled to begin in 2018.
+
+Although the plant is creating some retail jobs, its core manufacturing tasks will be heavily automated. Tianyuan’s factory will use machine vision-based sewing robots developed by Georgia-based startup SoftWear Automation to manufacture apparel for Adidas.
+
+It appears much of the heavy lifting will be done by the AI-driven robots, with human workers taking over jobs around robot maintenance and operation.
+
+In fact, a 2012 DARPA contract awarded to SoftWear Automation states, “complete production facilities that produce garments with zero direct labor is the ultimate goal.”
+
+Adidas, which unveiled its ambitious robot-run factory called Speedfactory in Germany in 2015, is planning another fully operational Speedfactory in Georgia soon.
+
+Between the two facilities, Adidas plans to manufacture footwear localized to each market in 5 key cities: London, New York, Paris, Los Angeles, and Shanghai. The shoes will be designed based on data collected from athletes in each city, along with data on local terrain and weather.
+
+In 2013, Nike backed manufacturing startup Grabit in a $3M Series A round. Grabit develops robots using electroadhesion technology and machine learning. These robots can arrange the flexible upper part of a shoe in just 50 — 70 seconds — a task that would take a human employee closer to 10 — 20 minutes, according to Bloomberg.
+
+Grabit has been secretive about its client base: a May 2017 press release only reveals that its material-handling robots are being shipped to a Fortune 100 “industry leading athletic shoe and apparel company.” However, Bloomberg recently confirmed that the robots are being used in a few Nike manufacturing facilities.
+
+Nike has also applied for patents to automate shoe parts assembly and identification, underscoring its commitment to manufacturing innovation.
+
+Another example of a retailer leveraging AI in its manufacturing is multinational makeup brand Shiseido, which recently piloted humanoid robots in its factory assembly line. The company aims to further develop its AI technology to enable its robots to perform more complex tasks.
+
+The road to automation passes through warehouses and factories where robots collaborate with humans. As more people shop for products online, there is greater pressure on order fulfillment centers to ship items on time.
+
+Robotic automation in fulfilment centers gained momentum when Amazon acquired robotics startup Kiva Systems (now known as Amazon Robotics) in 2012. Amazon’s robots use computer vision, depth sensing, object recognition, and other AI software to move heavy items and handle packages, among other functions.
+
+After Amazon acquired Kiva Systems, new startups emerged to fill Kiva’s shoes for the broader ecosystem.
+
+Robots are still less-than-perfect at gripping, picking, and handling items in unstructured environments. But startups are beginning to address some of the challenges in robotic gripping and handling of delicate goods.
+
+RightHand Robotics, for example, raised an $8M Series A in Q1’17 to develop piece-picking robots. Rethink Robotics, which focuses on the manufacturing sector, is also developing robots for logistics and material handling. It is backed by investors like Goldman Sachs, CRV, Draper Fisher Jurvetson, Bezos Expeditions, and GE Ventures, and has raised nearly $150M in total disclosed funding.
+
+One of the biggest recent stories in warehouse automation news comes from Europe.
+
+Like Amazon, UK’s online grocery supermarket Ocado (which provides services similar to FreshDirect and AmazonFresh) was early to invest in warehouse automation, highlighting machine learning as a “core competency” at the company.
+
+In 2002, Ocado opened its first customer fulfillment center, which is “equivalent to 11 football pitches in size and stands 20 meters tall.” Since then, it has opened a second and third, each time adding to its technological capabilities and warehouse capacity.
+
+Ocado says it built most of the hardware and software for its automated warehouse in-house.
+
+A search on the CB Insights platform for Ocado patents filed in the United States shows the types of warehouse automation technologies the company has been working on, from parcel sorters to robotic object handling to automated bag handling.
+
+Ocado saw an opportunity and branched out its business model. In addition to its e-commerce operations, it started offering software and infrastructure-as-a-service to other retailers in UK.
+
+Ocado’s recent partnership with France-base grocery giant Groupe Casino in Q4’17 sent Ocado’s shares skyrocketing. As part of the agreement, Ocado will construct a “latest generation, state‐of‐the‐art automated warehouse” for Groupe Casino, and on the software side, will provide solutions like a front-end web interface and last mile routing.
+
+The deal gives Groupe Casino a one-up over competitors like Carrefour, and even Amazon, which is rumored to be approaching various French supermarket giants for potential acquisition deals.
+
+In 2018, Ocado entered the North American market with its second warehouse automation partnership, a deal with Canadian food retailer Sobeys.
+
+In our analysis of 1,600+ earnings call transcripts from 50+ top publicly-traded US retailers (including e-commerce sites like Etsy and eBay), only 9 retail companies mentioned AI-related strategies for their websites or physical stores. (Note: our analysis excluded big tech companies like Amazon).
+
+Some retailers, like Lowe’s, have focused on internal R&D, while others like Sephora and Walmart have announced partnerships with startups to try new AI-based solutions. Below, we look at a selection of companies deploying AI and robotics online as well as in physical stores.
+
+As shown above, one of the earliest brands to start discussing AI solutions for online operations was eBay.
+
+The company first mentioned “machine learning” in its Q3’15 earnings calls. At the time, eBay had just begun to make it compulsory for sellers to write product descriptions, and was using machine learning to process that data to find similar products in the catalog.
+
+Fast forward to Q2’16, and activity had ramped up: in the quarter, eBay acquired an AI company (Expertmaker), was in talks to acquire another (Salespredict, which it bought in Q3’16), and mentioned AI almost 15 times during the quarterly earnings call.
+
+More recently, in the company’s Q4’17 call, CEO Devin Wenig spoke about AI for ad placement, personalization, visual search, and shipping recommendations for customer-to-customer (C2C) sellers.
+
+After eBay, Etsy was the next retailer to mention an AI strategy. Its initial mention of machine learning in Q3’16 was in reference to its language translation tool. In the same quarter, Etsy acquired computer vision startup Blackbird technologies.
+
+Others companies, like GAP, have mentioned AI technology but not yet discussed a robust AI strategy
+
+Image search startup ViSenze works with clients like Uniqlo, Myntra, and Japanese e-commerce giant Rakuten. ViSenze allows in-store customers to take a picture of something they like at a store, then upload the picture to find the exact product online.
+
+The startup, which has offices in California and Singapore, raised a $10.5M Series B in 2016 from investors including the venture arm of Rakuten. It recently entered the Unilever Foundry, which allows startups in Southeast Asia to test pilot projects with its brands.
+
+Other startups focus on very specific markets. For example, China-based 9KaCha offers an online marketplace for imported wine, using computer vision for product searches.
+
+The company will reportedly work with investor Haier, assisting “Haier’s smart wine cabinet in identifying nearly one hundred million data, accurately acquiring users’ requirements and creating the best user experience.”
+
+Another startup developing AI for online search recommendations is Israel-based Twiggle.
+
+The Alibaba-backed company is developing a semantic API that sits on top of existing e-commerce search engines, responding to very specific searches by the buyer.
+
+AI has also found applications in personalizing consumer experience.
+
+Russian e-commerce retail giant Lamoda, for example, reportedly separates its visitors into 160 geographic segments, and recommends products based on the local weather in its banner ads. It also uses additional metrics like past purchase behavior and customers’ preferred brands and colors to drive decisions.
+
+A case study on Lamoda (published by personalization technology startup Dynamic Yield) claims that the company saw a significant ROI “using only one person on its team,” indicating AI is beginning to restructure the retail workforce.
+
+Popular brands like Sephora, Urban Outfitters, Ikea, and Stitch Fix have partnered with Dynamic Yield. The NY-based startup is backed by investors like Baidu Capital and Bessemer Venture Partners.
+
+Beyond extending the personalization experience online, retailers want to understand consumer behavior across devices.
+
+For example: are consumers more likely to order on a phone or a laptop? When do people use tablets instead of mobile devices?
+
+This kind of information gives brands the option to not only tailor marketing messages to each user, but more specifically to each user’s device.
+
+One startup focusing on this area is Taiwan-based Appier, which was backed by SoftBank Group in Q3’17. Appier’s clients include America luxury products manufacturer Estee Lauder, Japanese skincare line Naruko, and Unilever’s brand AXE.
+
+Its AI platform, Axion, identifies device ownership and creates audience profiles. This allows retailers to engage with audiences across multiple platforms using the most applicable strategy.
+
+Several US stores are closing shop due to the growth of e-commerce: a market dominated by Amazon, a company with AI at the core of its operations.
+
+But at the same time, Amazon itself is diving headfirst into the brick-and-motor business.
+
+The company has taken its AI-inspired approach to the physical retail world, leveraging artificial intelligence to help power in-store operations.
+
+This year, Amazon opened its computer vision-based cashierless “Amazon Go” grocery store in Seattle. Customers can walk into the store, take what they want, and leave without checking out, as AI algorithms track their shopping activity.
+
+Amazon Go relies on customers scanning QR codes to enter the store. Then, a shopper’s activity is monitored using AI-powered tracking systems. When a customer leaves the store, he leaves a digital footprint of his purchases, which are then charged to his Amazon account.
+
+Amazon’s announcement of its Amazon Go store comes in conjunction with a cashierless store frenzy in China.
+
+A keyword search on the CB Insights platforms shows that unmanned store startups raised 27 deals in 2017. In comparison, there was just 1 deal in this space in 2016, and none in prior years. (Note: not all the deals below use AI-related technologies.)
+
+Guangdong-based BingoBox raised $80M in Q1’18, bringing its total funding to $94M. Its unmanned stores currently rely heavily on RFID tags, but the company recently announced that it is moving towards AI-based image recognition solutions.
+
+Walmart announced this month that it will roll out shelf-scanning robots in 50 of its stores to manage inventory. The robots, which can scan shelves and assist employees, are being developed by California-based Bossa Nova Robotics.
+
+Other retailers have also been testing the technology for inventory management and customer interaction assistance in stores.
+
+The Lowe’s Innovation Lab partnered with startup Fellow Robots to build retail robots OSHBot and LoweBot, which, among many tasks, can assist customers with finding specific products in store. The lab is also experimenting with AR/VR solutions for customer assistance.
+
+Target tested out Tally — a robot developed by Simbe Robotics that also assists with in store inventory management — in San Francisco in 2016.
+
+However, the adoption of in-store robots is still in its early stages, with no concrete measure yet of improved customer experience or cost-effectiveness for retailers. As Bill Lewis, former EVP of consumer package goods at Capgemini Consulting, has explained, “The costs out of the gate for these robots are high, especially to run many of the tests. The use cases are still being understood.”
+
+In addition to the in-store robotics solutions mentioned above, brands are also experimenting with facial recognition and VR technology to attract customers in stores.
+
+Modiface uses AI and augmented reality to power virtual try-on experiences for Sephora and other beauty brands. Another startup working on a similar technology is Perfect Corp, which raised $25M in Q4’17. Perfect Corp’s apps reportedly have over 500M downloads.
+
+The global retail supply chain is getting increasingly complicated.
+
+Sellers and consumers alike want to know where their products are, what condition their shipments are in, and what their delivery estimates are, every step of the way.
+
+But the sheer scale and complex networks of people involved in transporting goods — from freight forwarders and freight operators to retailers and warehouse owners — makes supply chain visibility a challenge.
+
+Startups like ClearMetal are attempting to use machine learning to improve transportation visibility. The company is developing a predictive intelligence platform that collects data from shipment carriers, as well as aggregating data points like real-time weather and currency fluctuations, to help predict shipping events, shipment times, and shipping demands.
+
+Maersk, the largest container shipping company in the world, is hiring 200 people focused on data science and AI in India. Maersk has previously partnered with companies like Ericsson and Maana for industrial IoT solutions.
+
+The company wants to connect all its assets to the cloud. For example, connected vessels could provide real-time information on unexpected weather conditions. Maersk also uses IoT to get visibility on food quality in its refrigerated containers during transit.
+
+Amazon is one of the biggest customers for traditional freight forwarders like UPS. There has been concern for a long time now that Amazon’s in-house logistics & automation efforts will turn the company into a competitor for freight giants like FedEx and UPS.
+
+In 2016, Amazon first described itself as a “transportation service provider” in a 10-K filing. It also applied for a license in the United States and China to operate as a freight forwarder.
+
+Amazon is also testing out drone delivery services that use machine vision, although this will be subject to significant regulatory scrutiny before becoming a mainstream last-mile option, especially across cities.
+
+Still, Amazon’s next-gen drone patents show that the company is serious about developing the technology for use both in distribution centers and for deliveries.
+
+
+
+While many retailers are focusing specifically on either online or in-store solutions, others are merging the two.
+
+Alibaba, for example, is using artificial intelligence to better understand how online and offline consumer behavior work in tandem.
+
+In some ways, Alibaba is ahead of Amazon in its online and offline integration using AI. It relies on technology — like smart stores, deep learning, and AR/VR —  as well new business models to bridge the online and offline divide in China.
+
+Alibaba refers to this as its “New Retail” strategy.
+
+To test the efficiency of its retail integration efforts, the company used Single’s Day – the country’s annual shopping extravaganza on November 11 —  as a test bed.
+
+In 2017, the e-commerce giant raked in $25.3B in a single day of sales. At peak, Alibaba Cloud was processing 325,000 order per second.
+
+In its efforts to bridge brick-and-motor with online commerce and improve the overall retail experience for consumers, Alibaba has made it clear that the future of its retail ambitions is omnichannel — a cross-channel approach that fuses the physical and digital shopping experience.
+
+Despite the rise of AI-based solutions, only a handful of traditional brands have been effectively implementing AI strategies to drive business efficiency.
+
+But AI is reshaping the retail workforce — from manufacturing to last-mile logistics — and players across the retail ecosystem will have to adapt to stay relevant.
+
+Tech giants like Alibaba and Amazon continue to push the boundaries, applying AI to retail and amassing massive consumer datasets. Recently, Alibaba announced that it is spending $15B on quantum computing, AI, and other technologies.
+
+Smaller startups are also seeing an opportunity here and seizing it. For example, California-based startup AiFi recently raised $4M to democratize the “cashierless store” automation solution, helping retailers achieve something similar to Amazon’s Go stores.
+
+Retailers may increasingly compete with each other — and with tech companies working in other industries — for AI startups and talent, as artificial intelligence continues to spread across the retail ecosystem.

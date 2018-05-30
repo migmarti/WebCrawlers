@@ -1,0 +1,137 @@
+Being secure online is of greater and greater importance. As businesses operate almost entirely online and sensitive information finds itself living full time in the cloud, we have to make sure we have appropriate measures in place to keep information safe.
+
+One tried and tested way of promoting security is the use of failsafes in login systems. This is what’s referred to as Two Factor Authentication (2FA) or Multi Factor Authentication (MFA).
+
+This means that someone could get hold of your email and password, yet your data is still kept safe.
+
+Whether you’re already familiar with the terminology or not, you’re certainly familiar with the concept.
+
+In this Process Street article, we’ll look at:
+
+This is really simple but we should spell it out.
+
+If you use an email address and password to secure your access to important information then all a person needs in order to access that information is your login details.
+
+There is no double-check in place. Someone could access your email account, for example, and you won’t know.
+
+Moreover, depending on the study, somewhere between 50 and 80% of people use the same password for different sites. Most also use the same email address across a whole load of platforms.
+
+This means if someone gets your login details they might be able to access multiple platforms you have accounts on. If you manage a team, then even if you take strong IT security precautions there is no guarantee that all your team do.
+
+In fact, even if you’re secure with your information, data leaks happen all the time.
+
+The 2016 US election had compromised email accounts as a central part of the spectacle and treasure troves of information were leaked online. The Equifax leak shortly after resulted in huge amounts of sensitive information accessed by hackers – the details of 17.6 million driver’s licenses included.
+
+Whether you’re thinking of how to make your organization more secure, or just your personal accounts, setting up a failsafe can fight back against malicious attempts to access your data.
+
+In the age of GDPR and more digital legislation coming, it is vital you keep your organization secure too – to show you’ve taken all reasonable steps to protect your customer’s data. We’re doing it at Process Street, and recommend you do too!
+
+One answer to this is two factor authentication.
+
+Two factor authentication is a form of multi factor authentication where a person confirms their identity using two different pieces of evidence.
+
+Normally, websites which you have to log into will ask you for your username or email and then the corresponding password. This sounds like two pieces of evidence, but it doesn’t qualify to be called two factor authentication.
+
+The reason is that 2FA is not based on how many pieces of evidence you have, per se, but how many different types of evidence you have. An email address and a password are both the same type of information, even if one is normally more secret than the other.
+
+An email or password both fall into the category of being something the user knows – and that isn’t sufficient for 2FA.
+
+There are three types of evidence which can be combined to deliver two factor authentication:
+
+This is what you normally think of when providing information to log into a platform. You remember this information and it can be used to grant you access.
+
+This often refers to something physical which a person may have which is unlikely to have been replicated. It can refer to physical objects or can refer to software elements.
+
+This is a little less common but is growing in terms of popularity. Being inherent to the user refers to something specific about that individual which would be very hard to copy or fake. This is the more sci-fi of the available options.
+
+We combine these elements to create security. Two factor authentication is a subdivision of multi factor authentication simply because it utilizes more than one type of identifier. Using more than two types is difficult and can be seen as intrusive by the user, or can be impractical at this moment in time for general commercial use.
+
+For something to qualify as 2FA it must use at least two of the above types of evidence.
+
+So, imagine you have set up your email account with 2FA. Some nasty person has found your email and password from a company leak. The person tries to log in to your account.
+
+Do they get in?
+
+No. Because they need the code which was sent to your mobile phone.
+
+Now you not only know that your account is secure, but you also know someone has attempted to access your account. The text your received keeps your data safe and also works like an alert system.
+
+When you go to withdraw money from a cash machine or you pay for something using chip and pin, you are employing two factor authentication.
+
+You physically possess the card necessary to initiate the operation and you remember the PIN as a knowledge based evidence that you are the real owner of that card.
+
+This might be one of the most common and well established forms of 2FA in use.
+
+In terms of software, we can use Apple as an example.
+
+I like this example because so much information is shared across Apple devices and they sync up with each other in a whole range of convenient ways. Instead of just logging into a website you occasionally use, if you’re an iPhone or Macbook user your access to your device is a daily part of your life.
+
+As they outline on their support page:
+
+This two-factor authentication protects you from another device maliciously joining that network of connected devices.
+
+However, software companies can only do so much for us. We have to participate in security measures too. If I were to leave my passwords written down on my desk in a shared office with my devices lying around as I pop off to lunch, I’m undoing all the structures Apple have put in place for my security.
+
+Apple’s 4 points of advice for a user to leverage 2FA effectively for their benefit are:
+
+There are two steps to implementing two factor authentication on your team.
+
+First, you have to set it up via the administration panel.
+
+Second, all your team need to set up 2FA for their logins.
+
+As Google’s email and work platform is a popular one, we’ll walk through how to do this in GSuite below.
+
+We’ll also then look at how to approach it for Office365.
+
+Log into your GSuite account and enter into the Admin panel. You can access this via the same screen with the shortcuts to Docs, Mail, Drive, Calendar, etc.  Then navigate to your Security section of your admin panel. It should look something like mine below.
+
+From here you can click onto Basic Settings.
+
+This will show you the option to turn on two factor authentication as an optional security measure for users to opt into.
+
+Once you have turned this on, you will be able to enter into the advanced settings. In the advanced settings you can enforce two factor authentication on all the users of your GSuite organization.
+
+You can either enforce it right now or you can schedule the enforcement to begin at a future date, giving you time to inform your users about what it is, why it is important, and how it works.
+
+There is another section on the advanced settings where you can allow users to have “trusted devices”. This would mean users would not need to use two factor authentication every time they log in, provided they are on a device they have declared to be safe.
+
+Trusted devices make the experience easier for the user by reducing friction, but may not be ideal if your workspace involves the use of shared computers or other security worries.
+
+From your Google account, whether in your GMail or Drive, you can click on your icon in the top right hand corner and be given the option to go into the My Account screen. You can see how it looks in the image below.
+
+If you click on Sign-in & security you can manage how you access your account in future.
+
+This will have a section where it shows you whether two factor authentication is turned on or off. To turn it on, click on the little arrow and it should send you to a two factor authentication wizard, shown below.
+
+This will walk you through the process of adding a security failsafe.
+
+Google will text you a code to verify your account. Then Google will ask you if you want to turn 2FA on for your account.
+
+Now you’ve set up two factor authentication for your account!
+
+Google offers you some extra optional steps to improve your experience of 2FA. You can see them listed in the image below.
+
+Some of these are simple. Adding a backup phone is really useful for someone like me as I often use different phones depending what country I’m in.
+
+Alternatively, you can use the Google prompt option for a more streamlined experience through your mobile phone. The Authenticator app is similar, allowing you to process verification codes on your phone even when it’s offline.
+
+The final option is backup codes. These are one time use codes which can verify your identify if asked for a verification code.
+
+Our recommendation is to store these codes as a note in a password management system like LastPass or 1Password. This way, you only have to remember one set of login details to retain them. Either that, or store the backup codes securely offline.
+
+Much like the GSuite process, setting up two factor authentication in Office365 is a simple process:
+
+Consult the Office365 help article here for more details and troubleshooting options for if your organization uses older offline software, such as old versions of Outlook.
+
+The process is essentially the same with Microsoft as the one for Google, but with an extra step. Provided your admin has enabled two factor authentication, then the user should be presented with a new screen after login. This will act as a prompt to guide you through setting up 2FA.
+
+If you have any problems, you can consult the Microsoft Help article to troubleshoot.
+
+It isn’t a one step thing. You need to set the systems up and get people used to following the right processes to keep those systems secure.
+
+As technology advances, these means of access may change and evolve, automating parts.
+
+As long as security is at the forefront of your mind and you have processes in place, your company will be in a great position to provide the safety and security which your users need.
+
+Have you implemented two factor security in your organization? Let us know in the comments below!

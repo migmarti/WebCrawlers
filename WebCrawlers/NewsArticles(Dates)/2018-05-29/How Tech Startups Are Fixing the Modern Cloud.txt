@@ -1,0 +1,27 @@
+Move your infrastructure to the cloud, reduce cost, focus on your core business. These are the common pros of the cloud and are often mentioned by analytics and the press. What’s lost in the process is that the cloud is not always beneficial for business. If not done properly, it has the potential to also cause overspending and complicate infrastructure.
+
+The worldwide public cloud services market is projected to grow 21.4% in 2018, to a total of $186.4 billion, up from $153.5 billion in 2017, according to Gartner. IDC predicts that public cloud services market will reach $160 billion in 2018 (+23.2% compared to 2017). However, the huge problem here is that a very big part of these resources is a total waste of money.
+
+This phenomenon is called cloud waste. It occurs when you purchase cloud servers, say via Amazon Web Services or Microsoft Azure, and then for some reason forget to switch them off while not actually using them. Currently, the most popular billing model for cloud services is usage-based, just like it is with utilities in your home. Your utility bills increase if you leave the lights on when you go out, and the same applies to rented servers. By default, all of them remain up and running, eating your IT budget.
+
+According to research, companies are paying an average of 36% more for cloud services than they actually need to. Given the projections of cloud marketing spending, companies are globally spending about $62 billion in IT costs.
+
+Another big issue with the cloud is that it might not make life easier, but instead create the need for more time and resources to manage infrastructure once it has been moved to the cloud. There are dozens and dozens of different cloud services out there. Each of them displays data in its own format, using different API methods and approaches to the user experience.
+
+All these factors make it hard for engineers to fully understand what is going on with infrastructure. They often need to manually monitor metrics in different cloud services and events, map them to each other, thus spending lots of time and effort.
+
+As it turns out, the cloud is not the easy thing it is often perceived to be. A poorly prepared move to the cloud can result in huge losses and an increased workload for the engineering team with no positive outcome.
+
+Thankfully, there are a number of new tech startups to fix this. Below are the ways they attack the modern cloud’s flaws.
+
+Reports show that several of the most popular cloud infrastructure platforms are used by many businesses for their operations worldwide. The leading platform is Amazon Web Services (AWS), which accounts for about 40%-50% of the market.
+
+The team behind the Cloud Timing project is building a tool to fight cloud waste while working with AWS. The only effective way to solve the problem is to switch off unused servers. It might be hard to do this manually, as even the not so big company nowadays may be operating dozens of virtual machines used, say, for development, testing, or other tasks. This tool allows an engineer or even a non-technical employee in the company, to configure the scheduling of cloud servers at one time and the system will automatically shut them down when necessary — thereby saving up to 60% of business’ cloud computing costs. Remember those $62B globally each year?
+
+Cloudyn does a similar thing for Microsoft Azure users, and Turbonomic allows for the reduction of cloud spending, even for companies using a hybrid cloud.
+
+Reducing costs is not the only problem that businesses face when using a cloud. Nowadays a lot of companies have distributed systems with different elements which use certain cloud applications. The monitoring of metrics and events in every system may be hard as they use their own formats of logs and may even have very different dashboards for accessing important data. And when it comes to infrastructure you’d better find the problem and fix it ASAP.
+
+A service called Datadog helps engineers to quickly search and analyze important data across multiple systems at once. The tool is integrated with apps across the full devops stack, which speeds everything up significantly.
+
+Cloud computing is a great invention, which has the capacity to benefit businesses across the globe. However, it is not as easy as just moving everything to the cloud and expecting your business to grow, costs to fall, and your engineers to have more time for developing core systems. Mistakes in adopting the cloud will lead to the increased spending of money and resources. This is why it is always a good idea to use specialized services that will help you to make the most of the cloud and thus avoid possible problems.

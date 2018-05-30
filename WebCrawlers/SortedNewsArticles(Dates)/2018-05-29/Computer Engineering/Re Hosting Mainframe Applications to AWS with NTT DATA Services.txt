@@ -1,0 +1,71 @@
+Legacy mainframe applications arent typically the first workloads that come to mind when discussing cloud computing. Most mainframe applications have reliably supported business-critical processes for years or even decades, but due to perceived cost and complexity, many organizations have not yet incorporated these venerable workloads into their Amazon Web Services (AWS) strategy.
+
+NTT DATA Services provides a mainframe re-host solution that minimizes application code change while benefiting from the agility AWS has to offer. Based on 25 years of production experience and more than 1,300 implementations worldwide, our re-hosting reference architecture, migration best practices, and extensive technology feature set streamline mainframe migrations to AWS.
+
+NTT DATA Services is an AWS Partner Network (APN) Advanced Consulting Partner that helps clients navigate and simplify the modern complexities of business and technology, delivering the insights, solutions, and outcomes that matter most to their objectives.
+
+In this post, I will discuss the benefits of re-hosting mainframe applications to AWS, our established mainframe re-hosting technology, and our reference architecture for confidently addressing the complete picture. Our technology preserves existing business logic, applications, end-user interfaces, and IT skill investments. When implemented through our experienced services team, our approach minimizes disruption, risk, and transition time.
+
+Since mainframe applications are not natively cloud aware, re-hosting to an AWS ecosystem is an excellent way to take advantage of some of the clouds key features, such as flexibility and scalability. Whether its a corporate mandate to move workloads to the cloud or simply a desire to reduce operating costs, re-hosting part or all of a mainframe application environment is a great step towards modernization.
+
+Re-hosting opens possibilities to utilize many AWS services and benefits with little or no code modification. The move can also serve as a bridge to longer-term strategic digital transformation initiatives, such as a rewrite or re-architecture of legacy applications to better support new business models.
+
+After a workload is re-hosted to AWS, further analysis can provide insight into developing a plan for code modifications as part of a long-term goal. Some level of application decomposition will be necessary so that it can be made to run on distributed instances or containers. Through NTT DATAs Repository and Analyzer tool, application components can be evaluated and then migrated in groups to modern technology platforms and languages such as Java or C#.
+
+Mainframe re-hosting software from NTT DATA provides an alternative environment for natively running migrated CICS transactions, IMS applications, batch, and JCL workloads on AWS. We also offer solutions for converting IDMS, natural, and related application environments to operate within our re-hosting solution.
+
+Our TPE software runs re-hosted online CICS transactions, IMS Transaction Manager (TM) applications, transformed IDMS DC programs, and related resources on common servers and operating systems such as Red Hat Linux. As with other advanced transaction processing systems, NTT DATA TPE software manages application resources like programs, files, queues, transactions, screens, and terminals to provide a robust execution environment for business applications. This software includes support for a variety of client devices, including 3270 SNA, TN3270, ECI, EPI, and Java technology-based clients. CICS Client and Universal Client products are also supported.
+
+Figure 2 TPE components along with interfaces and integration options.
+
+Our BPE software provides a complete Job Entry Subsystem (JES) environment for the administration, execution, and management of batch workloads on virtualized servers. Concepts such as job step level management, workload classes, and priorities, as well as file types such as COBOL, VSAM, concatenated datasets, and Generational Data Groups (GDGs) are supported. This software also includes facilities for migrating JCL job streams.
+
+Figure 3 BPE components along with interfaces and integration options.
+
+TSF provides the administration and runtime services of an External Security Manager (ESM) for TPE software environments. With a role-based access control security model, an inclusive permissions model, multiple user profile choices, and adaptable hierarchical relationship options, TSF delivers detailed security protection.
+
+TPE/BPE Manager provides a graphical window into TPE software regions and BPE subsystems, allowing operators to view and monitor system events and performance. The TPE/BPE Manager softwares interface provides centralized, real-time information for determining system status, processing rates, potential bottlenecks, and configuration enhancements that can aid in ensuring performance levels and user response times.
+
+Our COBOL technology includes a compiler, runtime environment, graphical source-level debugger, and a 100 percent portable JISAM indexed file system, where the file handling and the files themselves are not machine specific so they can be moved to any system that can run java. It supports ANSI-85 standard and legacy COBOL dialects and complies with a standard EXTFH interface.
+
+Migrating legacy mainframe workloads to AWS can be a complex task. NTT DATAs five-step methodology is designed to proactively mitigate risk, take a holistic approach to the complete environment, and allow for the managed sharing of migration responsibility based on the specific project requirements.
+
+Every mainframe migration project we manage begins with the Discovery and Design phases, which analyze all the factors affecting a migration or modernization project and assist in building a detailed plan for a smooth and efficient execution. Its important to use a methodology that begins with a full understanding of the projects feasibility and impact to the business. We begin by getting a clear picture of clients applications, infrastructure, interfaces, and processes.
+
+This comprehensive inventory of business and technical assets, and their interdependences, provides insight into how the legacy applications are currently meeting organizational objectives. A detailed software mapping exercise to replace certain mainframe functions, such as scheduling and message queuing, is also required.
+
+In general, mainframe application and data migration involves the following aspects:
+
+Most COBOL programs can be migrated with limited changes and a recompilation on a distributed operating environment. Examples of code changes are when hexadecimal constants are used in EBCDIC or print control characters are used. Applications written in C and C++ as well as Java can also be executed in this environment.
+
+NTT DATA BPE provides facilities to run existing job control language (JCL) with limited modifications. For instance, modifications are necessary when JCL syntax pertains to mainframe-specific constructs or utilities which are not applicable to the Linux operating system. Any JCL references to datasets, libraries, and Generation Data Groups (GDGs) are then mapped to the new directories and filenames in the distributed platforms OS file system where the migrated resources reside.
+
+Data stored in VSAM files as well as IMS databases (DB), IDMS, Adabas, and DB2 databases can be migrated to AWS. In addition to supporting database technologies on Amazon Elastic Compute Cloud (Amazon EC2) instances with plans to support Amazon Relational Database Service (Amazon RDS) in the near future, our technologies provide VSAM file services.
+
+Since IMS DB is a hierarchical database, its structure is translated to a relational database environment before the data can be migrated. If done manually, this process can be time intensive and error prone. By leveraging the NTT DATA H-RDB automated migration tools, we save time and effort during migration projects and deliver current relational database designs that are optimized for system performance.
+
+NTT DATAs TPE and BPE re-hosting technologies are available and used by AWS customers. In fact, our Mainframe Re-hosting Reference Architecture, or MRRA, showcases a real-world, re-hosted workload running on AWS and is available for demonstrations.
+
+Figure5 Logical illustration of a reference architecture example on AWS.
+
+The table in Figure 6 lists the software components of both the development/management instance and the online and batch instances.
+
+NTT DATAs MRRA is composed of a development and management server, application servers running our re-hosting software, and a backend database server for shared data. This reference architecture highlights our re-hosting technologies by demonstrating two key functional areasoperations and development.
+
+The operations view provides a look into the administration and monitoring of the online and batch subsystems. The development view shows a software development lifecycle from creating a new CICS/COBOL project in Visual Studio to deploying and debugging applications.
+
+For certain online workloads, our TPE application servers can function behind an AWS load balancer and participate in an AWS Auto Scaling Group. The application should not have any affinity issues with the requestors (clients) of the application service, and the data being accessed by the application must be available from any instance of the application in an AWS shared data store.
+
+This opens up the possibility of scaling horizontally across many instances either through AWS Auto Scaling Groups or by manual operator intervention. As shown on Figure 7, client 3270 sessions connect to the AWS load balancer, which then routes traffic to the TPE regions using a round-robin algorithm. The configuration not only provides resiliency to the legacy online application but also allows the scaling in and out of TPE nodes dynamically to meet demand.
+
+Figure7  Illustration of 3270 connections using an AWS load balancer to route traffic.
+
+As load increases, a new TPE instance can be added automatically or manually to the group to meet demand. The new instance is provisioned from a customized Amazon Machine Image (AMI) and then automatically added into service rotation as soon as it comes online.
+
+Conversely, as load decreases an instance can be removed from the group. During this process, the load balancer suspends new traffic to the instance marked for removal and then waits to drain any existing connections. Once all connections to the instance are closed or the specified timeout value is reached, whichever occurs first, the instance is shut down and terminated.
+
+NTT DATAs TPE and BPE technology give customers a platform to confidently run legacy mainframe applications in AWS. Our Mainframe Re-hosting Reference Architecture, along with our established migration approach, accelerates migration projects and minimizes risks.
+
+NTT DATA Services has a demo of TPE and BPE environments running on AWS and is available upon request. You can also learn more about NTT DATAs application re-hosting offerings.
+
+To learn more or request a demo of NTT DATA technologies, please contact NTT DATA Services >>

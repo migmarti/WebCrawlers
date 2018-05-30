@@ -1,0 +1,143 @@
+Drag and Drop It Like Its Hot: Setting Up the Ultimate GesturesGlamour
+
+Ill never forget the day my boss walked up to my desk and asked me to research mobile drag-and-drop behavior and create a drag-and-drop component. Im a lover of all things interaction, so I was overjoyed.
+
+Im not a big fan of using external libraries or frameworks. For example, in another article, I wrote about how to create an input mask for mobile without using either. What can I say? Im a traditional guy who likes to build components from scratch using good old vanilla JavaScript, which is what I did for this project. And Im going to share it all with you.
+
+Drag and drop is a natural interaction for moving things around the screen, and its likely youve been using it without even noticing, like when you move files from one folder to another on your computer. Its used for all kinds of things and can include lots of features, such as the long press for dragging elements after an interval of time, sorting elements to choose the place from where the element can be dragged, and so on. This article covers list management because its what I needed for my project.
+
+Before going further into the JavaScript and CSS code, keep in mind that some CSS properties or JavaScript functions may not work on all devices. Take a look at the Can I use and MDN websites to check if the code is fully supported by the device that you are trying to support. Throughout this post, Ill point out a few workarounds for some major compatibility problems, but these wont be exhaustive.
+
+The drag-and-drop component for a mobile application requires JavaScript touch events to detect touch gestures. You know how these go, right? Youve seen them before for touch menus and swipeable elements.
+
+The touchstart and touchmove events provide a list of finger contacts with the screen in the order of the interactions. So, the first contact is given the 0 position. This is the one that we will use from now on. (In case youre wondering, there is no object in the array for the touchend event because the finger is not interacting with the screen anymore.) To start moving the object, we need to know the coordinate that will be used to position the element on the screen. These positions can be obtained using the event.touches[0].pageX and the event.touches[0].pageY.
+
+If you turn on the Chrome Device Emulation, you can see the magic happening.
+
+Now that we know whats involved, we can work on building it. For each element that you want to be draggable, add three touch event listeners.
+
+Although you dont have to, I heartily recommend building separate functions to deal with touch handlers and transform the UI (so the elements can move around the screen). This will make your life easier if you want to add new handlers like those for a mouse so your interaction works for web applications, too.
+
+At this point, we can add event listeners and get the touch coordinates. To get things moving, we need to obtain some values: the initial value and the offset value for each coordinate. Create four new variables to store the key values that will be responsible for the movement.
+
+We need to store the initialX and initialY values because the X and Y coordinates will change whenever the finger moves, and we will also need to use the original coordinates to generate the offset value.
+
+The initial values are stored in the interactionStart, and the offset values are obtained inside the interactionMove.
+
+What would happen if the user just taps the element instead of dragging it? Neither the offsetX or offsetY variables would have any value, and this could result in a JavaScript error. To avoid that, set the default value for both variables to 0.
+
+At this point, we have learned how to obtain the necessary values to create a movement so be prepared because now the real fun begins. Lets make it move like Jagger.
+
+Create a new class that will be responsible for transforming the UI to prepare the draggable item to move.
+
+If we apply the.active class to the element now, the size of the element will change. This happens because the element is not limited by a parent anymorethe fixed position does thatso it has to receive the size dynamically. So, lets not add the class now.
+
+Instead, lets turn our attention to the getBoundingClientRect() JavaScript function. It returns an object with the information from an HTML object, such as the size of an element and its position relative to the viewport. Here we created a new variable called draggableItemRect that receives the result of the getBoundingClientRect() JavaScript function. Also, we applied the width and height to the draggable item:
+
+Keep in mind that the size of the border, margins, and paddings affect the size of an element. It can be fixed using the box-sizing CSS property or including those values into the size value.
+
+Now we need to store the value of the getBoundingClientRect() left and top in order to move the draggable-item:
+
+If we apply the.active class now, the size of the parent div will be smaller than it was before and wont keep the old space of the active draggable item. Again, it happens because of the fixed position. The current element does not take physical space inside its parent anymore. So, we need to make an element occupy its place. To keep the code readable, we will create a new function and call it createKeeper and call it inside the interactionStart handler.
+
+The.keeper needs to have opacity at 0 because you dont want to show the keeper, only its space.
+
+Now that the element is in the right place with the right size, you can add the.active class to it, and the UI is prepared to let the element move.
+
+I know what youre thinking. You want to see some action! And the UI is ready for that now. So lets apply the offset values to the element.
+
+Since we want the interaction to run smoothly, we are not using left and top CSS properties to set the new position of the element. Well use translateX and translateY instead.
+
+Inside the InteractionMove function, transform the UI using the sum of the StartingX and offsetX for translateX and the sum of the StartingY and offsetY for translateY.
+
+And there you go, now you are able to move elements around the screen.
+
+But wait! Were not done yet!
+
+If you think that placing an element over the drop area means the element is actually inside the drop area, youre wrong. I mean, visually, its there. But if you look at the DOM, its still where it was before the touch start.
+
+Anyway, before we think about the logic behind the code for dropping an element inside another element, lets prepare the drop area first. Well get to the DOM later on.
+
+Imagine an application with several boxes all over the screen. If you simply move one of them without any visual cue of where you to drop it, youd be lost, right? Yes, you can be honest!
+
+Remember when I talked about the intuitive behavior? The drag and drop interaction is so intuitive because it teaches the user how to use the interaction while using it.
+
+Right, so lets get coding.
+
+Start by creating a new variable called dropAreas and store all drop areas in it.
+
+We are going to use the border property to teach the user where the element will be after the touch interaction. Since we want everything to be perform properly, we cannot change the border property itself; instead, we are going to use the opacity property to control the state of the affordance. Otherwise, it would work really poorly on rudimentary devices (trust me; I tested it, and its annoying).
+
+So, we are going to use pseudo-elements to create the affordance (this will also make the component easy to use). Since each pseudo-element is related to the.drop-area, it will behave as if it were one of the children of.drop-area.
+
+Add the following CSS properties to the.drop-area:
+
+And then, create the new pseudo-elements and two different states for it: one for when the user is dragging an element and another one to be used when the finger passes through a drop-area. The default state of the pseudo-element is transparent.
+
+You can change the affordance style for the border if you want, but remember that depending on how you make it, you will probably need to work with more pseudo-elements.
+
+Now that we have the states of affordance, its time to create a new function to apply the.affordance class to all drop areas on the screen:
+
+Our next step is to identify the active drop-area while moving the element. Let me introduce you to the elementFromPoint JavaScript function. It will retrieve a visible and touchable element from a coordinate.
+
+With this CSS property, the elementFromPoint() function will ignore the active draggable item and will retrieve the element that is below it.
+
+Inside the interactionMove handler, call the elementFromPoint function using the pageX and pageY coordinates. When you test it, you will probably see elements that are not drop-areas. Dont panic!
+
+With the help of the.closest function, you can obtain the active drop area. The elementFromPoint will return one of the children inside a drop-area whenever a finger passes through it. Using the.closest function will return the closest parent that matches a specific selector or false if it doesnt. This way, we can easily recognize if the finger is passing through a drop-area.
+
+By the way, the.closest function doesnt work in all browsers. Depending on which browser you want to support, you can create a function to replace the JS element.closest().
+
+Now its time to highlight the active drop-area where the element will be dropped if users remove their fingers from the screen. We already created that class, so all we need to do is to add the class while the finger is over it and remove it when the finger leaves that drop-area. Ill be honest; this was one of the most confusing moments I had while developing the component for the first time.
+
+Create a new variable and call it lastActivedropArea and create a new function and name it isNewActiveArea. This function will receive two parameters.
+
+The DOM needs to know that the drop-area is.active to change the affordance status. Create a new variable and call it lastActiveDropArea. It must receive the last drop area that received the.active class that controls the drop area state, normal or active.
+
+Next, create two functions, and name the first one setLastActiveDropArea. It will receive the drop area that will receive the.active class as a parameter. Name the second function unsetLastActiveDropArea; it will have no parameters.
+
+When the finger leaves the screen, the current interaction is over. Therefore, the user doesnt need to know where the drop areas are, nor where the active drop area is anymore. All we need to do here is to remove all affordances from the drop areas:
+
+I know what youre thinking. The element is in the wrong place.
+
+When users stop touching the screen, they dont want to know where they left the element. They expect the app to put the elements in the right place so they can go on using the app or try to move the element again. With that in mind, only two things can happen: either they can either drop the element anywhere on the screen that is not a drop area, or they can drop it inside a drop area.
+
+Inside the interactionEndHandler, check if the targetElement is a drop-area.
+
+Before going further inside the drop action, lets talk about CSS animations. Animations are the basis of any UI interaction, as they allow the user to reach the final result instinctively.
+
+To create smooth-as-butter animations, we can only animate things using the composite layer, which means that we can only change the transform and opacity CSS properties. And that is the path that we are going through from this point on.
+
+Lets start creating a class that will be responsible to set the transition whenever necessary:
+
+When an element is dropped outside a drop area, the user expects the application to cancel the last interaction as if it never happened. But without a visual cue, the user might not be able to understand what happenedfor example, if you dont show the element returning to the original position. This is why its important to work with CSS animations.
+
+So if you add the animatable class to the element, this will animate the element while it is changing its position.
+
+Reset the state of the draggable item in the DOM. It has to be like it was before it started moving. Dont forget to remove the animatable class and the keeper (element created to keep the space while the element is moving). The animatable class cant be removed before the animation ends because JavaScript wont wait for the animation to end unless you ask it to. That brings us to the transitionend event. It will be triggered when the transition of an element ends regardless of how long the transition takes.
+
+Also, the position of the element is different, and you have to consider fixed vs. static. While the position is fixed (.draggable-item.active), the initial position of the element is the startingX and startingY. When the element loses the.active class, the starting position is zero.
+
+Also, remember to remove event listeners when they arent necessary anymore. Leaving events behind may cause memory leaks.
+
+You can test it here:
+
+Well, just to be sure, lets take a look at the performance tab for this animation:
+
+To make the element disappear, a simple scale animation will be enough. To create it, we need to keep the element exactly where it is and just change its scale to zero.
+
+And you can bask in the performance tab of this animation:
+
+There are a lot of ways to insert the object inside the active drop area. To make it simple, we are going to use the appendChild() JavaScript function, which will change the node position from one place to another.
+
+You need to reset the UI of the draggable item before appending it into the active drop-area. This is also where you start doing your back-end logic. So, have fun!
+
+If you want more control you can use the insertBefore() function instead; it will allow you to insert the node before a specific element.
+
+Once your elements are positioned in the DOM, you have a good looking drag and drop component. Congrats!
+
+I have to tell you, I loved this project, and I still thank the day my boss asked me to do it. I know that seems like it was a long process, filled with lots of details and options, but it never felt like a struggle. I wish they were all like this. But then again, where would be the fun in that?
+
+Gestures Glamour: How To Set Up Swipeable Stacked Cards
+
+Visibility vs display none vs opacity

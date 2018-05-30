@@ -1,0 +1,21 @@
+GDXM Terminal is an evolution of GDXM ’s first version released few months ago. Due to an high increase of users, and thanks to their feedback, we have updated the app UI with new features (others will be released in the near future).
+
+By providing real-time data of a discrete range of assets and exchanges, the Terminal enables traders to have a broad view of the market by monitoring the performance of an asset on multiple exchanges.
+
+One of the main new feature brought by this update is the introduction of charts. Charts play a central role in delivering data in the fastest way as possible, so we have included a:
+
+Statistical information are very useful to summarise a set of data, in order to communicate the largest amount of information as simply as possible. That’s why we have added common measures of central tendency and statistical dispersion.
+
+As the previous version, GDXM Terminal offers aggregated data about the major digital assets exchanges, to track and compare prices along with information about volume, high/low and bid/ask.
+
+By clicking on Exchanges’ names in the Monitoring Table you have access to company information and a little description.
+
+News move the markets. Our news feed provides not only news from the main online sources, but also exchanges’ official statements.
+
+Together with the release of the terminal we created a Telegram group, to make easier getting in touch with us and giving us feedback.
+
+You can follow us on Twitter for Market updates.
+
+You can join the terminal from gdxm.io or directly from terminal.gdxm.io.
+
+We are already working on the next update, we hope to see the same interest as the first release has had and to continue receiving feedback for improving UX and the quality of the information delivered.

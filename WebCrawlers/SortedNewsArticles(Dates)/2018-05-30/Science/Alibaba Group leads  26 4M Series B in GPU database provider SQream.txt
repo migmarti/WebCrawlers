@@ -1,0 +1,11 @@
+SQream, the GPU database developer, will deepen its focus on China after raising a $26.4 million Series B led by Alibaba Group. The round also included investors Hanaco Venture Capital, Sistema.vc, World Trade Ventures, Paradiso Ventures, Glory Ventures and Silvertech Ventures.
+
+The startup describes the funding, which brings its total raised to a little over $40 million, as a strategic investment from Alibaba. Earlier this year, SQream and Alibaba Cloud announced a new agreement that will give Alibaba Cloud users access to the GPU database starting in October.
+
+In a statement to TechCrunch, Chaoqun Zhan, director of Alibaba Database Business, said Alibaba Cloud and SQream announced a collaboration in February and this investment deepens our relationship, and together we aim to provide the best cloud solutions to all kinds of businesses to enable their success in this digital age.
+
+Based in Tel Aviv, SQream was founded in 2010. Its SQL analytical database, called SQream DB, uses thousands of parallel processing cores in NVIDIA GPUs to allow large companies to perform big data analytics more quickly and cheaply (SQream claims its clients can analyze up to 20 times more data, up to 100 times faster, at as little 10% of the cost).
+
+SQream co-founder and CEO Ami Gal told TechCrunch that one of SQreams main differentiators from other GPU databases, like Kinetica and MapD, is its ability to adapt to increasingly massive hoards of data. Kinetica and MapD use in-memory storage, so while they can analyze up to about 5 terabytes of data extremely quickly, their scalability is limited. On the other hand, SQream was created to handle data stores of up to hundreds of terabytes.
+
+The companys Series B capital is being used to add new feature to SQream DB and grow its sales, marketing and delivery teams as it focuses on the Chinese market and other regions. In addition to Alibaba Cloud, SQreams other new customers in Asia include Thai mobile operator AIS and Indias ACL Mobile, an enterprise messaging service.

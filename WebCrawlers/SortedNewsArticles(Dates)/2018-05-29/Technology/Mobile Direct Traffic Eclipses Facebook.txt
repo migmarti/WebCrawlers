@@ -1,0 +1,23 @@
+New data shows that for the first time, mobile direct-to-site traffic has surpassed Facebook. Could this mean that mobile does not equal social after all?
+
+With all of the discussion around the duopoly and the lack of control publishers have over their traffic, we wanted to take a look at our data to observe traffic differences since the Facebook algorithm changes were announced in January. Surprisingly, overall traffic to publisher sites has not declined  instead, its remained steady (see chart below). How is this possible?
+
+As we explained earlier this year, referral traffic from Google Search is up, due primarily to increased traffic from mobile, and more specifically from pages that use AMP. We also wrote about the emergence of a new browser-based referrer Google Chrome Suggestions which is up 21x since January 2017 as a traffic referrer for publishers. Now, were seeing another trend.
+
+
+
+We know that the majority of readers arrive on a site directly via desktop. However, for as long as we can remember, this behavior has been different on mobile devices; mobile readers = social readers, where someone on mobile most likely found your content from Facebook.
+
+Our latest data shows thats no longer the case. Now, mobile readers are arriving to a site(website or app) directly to the homepage or section front more often than from attributed social platforms, namely Facebook.
+
+Furthermore, direct traffic to mobile sites is not just surpassing mobile Facebook; it is surpassing ALL referrer traffic from Facebook across devices. For reference, the below chart shows traffic going direct to mobile sites vs traffic referred from Facebook on all devices.
+
+Mobile direct traffic surpassing Facebook traffic to publisher sites is an important milestone. It means consumers may be more loyal to news sites than expected, and publishers may be in a better position vis-a-vis Facebook as well.
+
+Could it also mean that mobile device behavior, rather than Facebook addiction, is the realdriver of the macro consumption changes weve been experiencing? In the shadow of Facebook, mobile traffic is normally eclipsed  but with this new data, its clear that mobile reader behavior and mobile alternatives to Facebook like publisher apps and news sites deserve more attention.
+
+All signs point to mobile as a key strategy for 2018. What are your traffic trends showing? Is your newsroom set up to take advantage of this shift?
+
+For more coverage on this data, see recent articles in Digiday and Nieman Lab.
+
+Weve gotten a number of questions from this post about how we define direct traffic, and just to clarify, Chartbeats definition of direct traffic does not include dark social. For the research purposes below, as well as in our product, we classify traffic as direct if it meets two criteria: a) the visitor arrives at a landing page, i.e. a homepage or section front, and b) there is no referrer. Traffic that arrives to a non-landing page, i.e. an article page, without a referrer is dark social, labeled Email, Apps, and IMs in our product. For more information on our methodology, please email us at insights@chartbeat.com.

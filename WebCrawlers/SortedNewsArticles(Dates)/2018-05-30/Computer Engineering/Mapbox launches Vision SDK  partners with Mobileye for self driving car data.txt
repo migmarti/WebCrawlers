@@ -1,0 +1,17 @@
+Mapbox, a mapping platform that counts Foursquare, Evernote, Snapchat, Tinder, Instacart, and Mastercard among its clients, today unveiled a new toolkit  the Vision SDK  that adds artificial intelligence-powered augmented reality (AR) navigation to its sprawling collection of developer APIs and services. It also announced a partnership with Intel subsidiary Mobileye that will see its software ship in a major European automakers autonomous car next year.
+
+The Vision SDK works in conjunction with live traffic and navigation, CEO Eric Gundersen told VentureBeat in a phone interview. Were putting that functionality out there and giving developers direct access to the data.
+
+Developers who take advantage of the Vision SDK, which runs on both smartphones and embedded hardware in cars, will be able to tap computer vision algorithms to trigger AR alerts for speed limits, pedestrians, vehicles, and other objects of interest. And thanks to integration with Microsofts open source Azure IoT Edge runtime, the SDK will afford those developers flexibility in aggregating that data in Microsofts Cognitive Services, where theyll be able to use it for AI model training, auditing, and reporting.
+
+Developers can pick which parts of the data they want to stream back to the cloud, Gundersen said. They can capture the data they want and send it back under the conditions they want.
+
+Mapbox says it worked closely with British semiconductor and software company Arm Holdings, which has a 95 percent market share in smartphone processors, tooptimize its machine learning algorithms for the system-on-chips powering the worlds most popular handsets. Additionally, it implemented support in the SDK for Arms Project Trillium platform, a machine learning architecture designed for Internet of Things (IoT) devices, connected cars, servers, and other form factors.
+
+With on-device neural networks running on Arms Object Detection processor, Mapboxs Vision SDK can identify objects from an HD camera at 60 frames per second in real time, the companies claim. It doesnt require an internet connection  a plus, Gundersen pointed out, for drivers navigating busy intersections.
+
+Mapboxs second announcement today, its software solution for Mobileye customers, doesnt involve the Vision SDK. Rather, its an infrastructure that allows car makers to stream map vector tiles  the databases of points and lines captured by collision-sensing vision systems  from self-driving cars to the cloud for analysis.
+
+Any automaker can stream off data to a proprietary service, Gundersen said, but what were doing with the platform is [opening] it up.
+
+Mapbox, which was founded in 2010, offers app developers mapping and navigation tools akin to the tools in Google Maps and Apple Maps, including real-time traffic, location search, and navigation. In its most recent funding round in October 2017, it raised $164 million from Softbank.

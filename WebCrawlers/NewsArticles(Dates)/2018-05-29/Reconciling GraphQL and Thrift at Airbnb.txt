@@ -1,0 +1,65 @@
+Our frontend engineers wanted rapid iteration and flexibility from GraphQL, while our backend engineers wanted stability and specificity from Thrift. This is the story of how we got the two groups talking and built something that works for everyone.
+
+Around six months ago, we reopened the discussion because the benefits of GraphQL—and Apollo , specifically—were simply too compelling to ignore. We would be getting:
+
+Regrettably, the narrative emerged that if GraphQL became the law of the land, a backend engineer could observe a material performance regression on the service they own without a single line of code altered in their own project. SLAs, contracts, and observability would fly out the window, and managing performance would take several steps backwards. “No deal.”
+
+This context in mind, you can understand the resistance that faced a noble band of well-meaning advocates for GraphQL. If all data is a graph all the way down and any client engineer can create a query that reaches into core data services however necessary, we find ourselves with all the same problems we set out to fix with the Presentation Service Framework. Rightly or wrongly—GraphQL was thought of at Airbnb as a competing strategy, not a complementary one.
+
+The rationale for Presentation Services is clear. How many thousands of times did the same breakdowns occur: one engineer innocently adds a bathroom_label field (a string that hits our translation service, formatted nicely as “2 bathrooms”) used when displaying a listing’s full detail. Then months later, another engineer adds the same field to search results, and suddenly we have an n+1 query, and search latency regresses 100ms. Rinse and repeat for ten years, and service owners and client engineers alike are calling for clearer handoffs, stricter performance and data fidelity controls, strongly typed API contracts, and even SLAs among services.
+
+The original idea was that these service endpoints would map to REST endpoints directly (e.g. getReviewsByListingId would be accessed via an endpoint like /api/luxury/reviews/123). Since Thrift is versioned semantically, our API versioning would be pegged to Thrift’s.
+
+At Airbnb’s scale, there is a high volume of feature changes and experiments that cause constant change in the data returned from our APIs. To minimize churn in our backend services, we build external-facing “Presentation Services” to power page-specific business logic and query these backend data services.
+
+Instead, when one service communicates with another, the request and response formats are now defined well in advance using Thrift. For example, to support myriad photography needs across the product, our internal image processing service exposes an interface like the following:
+
+I highly recommend exploring Part 1 and Part 2 of “Building Services at Airbnb,” but at a high level, we went to great lengths to move away from shared backend resources such as a single, universal @listing model in Rails, where a change from one team could break another team’s code, often from very different areas of the company.
+
+We recently reframed a case for “GraphQL the API Layer.” Embracing how GraphQL could complement rather than compete with our Presentation Services, it found much more traction. I’d like to tell you why and how we set things up the way we did, in case you’re in a similar place and weighing similar tradeoffs.
+
+For several years, we had a few eager advocates for GraphQL at Airbnb, but the project never quite made it through the gates largely due to the perception that “GraphQL the Religion” — a worldview where all data is a graph all the way down — would be incompatible with our particular services-oriented architecture (SOA) strategy, which defines service-to-service communication using Thrift Interface Definition Language (IDL) and delivers data to clients via dedicated Presentation Services.
+
+Rather than building a single GraphQL server that would centralize resolver logic, we opted to embed Translators within each Presentation Service that would automatically compile Thrift structs and service functions to GraphQL schema definitions and wire them together.
+
+In such a world, the Thrift example above compiles to the following GraphQL schema for free:
+
+This allows for queries that look something like this:
+
+One nuance here is that we avoid both recursive queries and chained queries. We would not want a client to have to query listings by , receive an array of IDs for listing reviews, then subsequently query reviews with that array of IDs. Instead, reviews are delivered by so that everything can be fetched in parallel.
+
+The best part? All the handling of GraphQL queries and the schema itself are both a compiled result of the Thrift interface. As a service engineer, simply include the Translator module, and the work is done for you.
+
+Roughly half the API endpoints at Airbnb behave like the above example: Simply describe the data model so the client can request what it needs and construct UI accordingly.
+
+But many pages within our product follow a pattern whereby the backend plays a much more proactive role in defining the UI as an array of “sections” on the page.
+
+Search is one such example. Clients no longer request a predefined data structure. Rather, they submit query criteria and various refinements, and then a constellation of backend services build a dynamic page highly customized to the user. The UI becomes far more “dumb,” simply rendering what it is asked to.
+
+In this screenshot, the user is presented with a few clickable refinements (homes, experiences, restaurants), and then information about the new Plus homes, followed by a grid of cards featuring homes from around the world, and so on.
+
+Search for Los Angeles, though, and you may be presented with a carousel of restaurants followed by a carousel of your previously viewed homes in the area. Depending on the market, a map may appear. The entire page is driven by the API, and it is highly contextual to the user.
+
+Thankfully, GraphQL provides first class support for this strategy via interfaces and unions. Simply define the possible types of sections, and for each, which fields are expected. (You may notice that Clay’s example in his article is for Search!)
+
+And because the universe is both bountiful and benevolent, Thrift knows a thing or two about unions, as well. Imagine a Thrift struct for the above image:
+
+On the client, we can support a GraphQL query that looks something like this:
+
+Of course, the query does not appear in our code like this. We colocate the fragment with the React component of the same name, and the query itself is assembled in CI.
+
+Best of all, each deployed version of the app packages with it a list of the sections it knows how to render, and within each section, the fields it expects. With a system as “massive yet intricate” as Search, imagine the pain of trying to incrementally version a fragile, constantly-evolving REST API. It was a beast for frontend and backend alike. Instead we will allow each deployed app to specify what it needs and then expect backend services to accommodate accordingly, speeding up both teams dramatically.
+
+It is a neat trick to embed GraphQL within each Presentation Service. But we would not want the client aware of n endpoints. Better yet is to consolidate the Presentation Services within a lightweight Gateway Service.
+
+This service manages a few elements of housekeeping:
+
+Finally, we are building a custom Operations Registry to use in CI to collect all queries, automatically whitelisting those to be made available in production. This means that we avoid the risk of arbitrary queries executed against production, and the process also substitutes the verbose query object in the request with a concise hash. Adam Miskiewicz is currently working with our friends at Apollo to make this a first class feature of Apollo Server for all.
+
+This is just the beginning. This week we are launching in production for a few low traffic endpoints, but we are soon launching GraphQL experiments on one of our highest traffic services to kick the tires where the stakes are high. If all goes as planned, we could have all core flows on GraphQL by end of year.
+
+Like all beginnings, we have ideas about where it will lead beyond uptake. Specifically, I have a strong suspicion that if the handling of network request data and state move from Redux to Apollo, it will be hard to justify loading Redux at all, so you can bet we are marinating on what Peggy Rayzis has to say about the future of state management.
+
+We also have a lot of thinking to do about the Apollo Client and Apollo Engine toolsets and how they could simplify the code we use to drive performance improvements — everything from how we persist data on a device to whether we want to get Apollo Engine involved in the caching game. Paired with a huge investment in Service Worker, we might be able to reduce TTI for repeat visits to key pages by 10x.
+
+If you’re interested in hearing more, I will be speaking at Apollo Day on May 31, and stay tuned for details on a tech talk here at Airbnb HQ on July 10!

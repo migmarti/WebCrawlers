@@ -1,0 +1,13 @@
+Nigeria's Lidya, which has developed a digital financial services platform focused on improving access to credit for small businesses in Afrika, has concluded raising $6,9 million in a Series A funding round. The funding round, which is one of the largest in Nigeria's technology startups ecosystem, was led by Pierre Omidyar's (Founder of eBay) impact investment firm - Omidyar Network.
+
+New investors, Alitheia Capital (via the Umunthu Fund), Bamboo Capital Partners, and Tekton Ventures, also joined the Series A funding round which also included existing investors Accion Venture Lab and Newid Capital.
+
+“Lidya was founded on a simple, yet fundamental idea: technology can unleash and empower a generation of business leaders and entrepreneurs throughout Africa by revolutionizing how risk is assessed, credit is underwritten, and customers are banked,” said Tunde Kehinde, Co-founder at Lidya.
+
+A small business can create a free account online or download the Lidya app on to their connected devices. Then, they can share or load bank account or transaction information to the platform. Following this, the small business can manage cash flows, customer data, and create and send invoices digitally.
+
+Lidya also allows small businesses to request loans against pending invoices. To assess credit risk, Lidya uses nearly 100 data points to evaluate each applicant and builds a unique credit score. Small businesses can apply for loans ranging from $500 to $50,000, without the need to go to a physical location, present audited financials and projections, or provide collateral.
+
+"We are excited by the overwhelming support from the investor community, which signals a great confidence in our business model and team," said Ercin Eksin, cofounder of Lidya.
+
+The Nigerian FinTech startup has indicated that the money it raised with the Series A round will allow it to expand its loan book, scale in Nigeria, enter new markets in Afrika, and bring in more skilled professionals, particularly data scientists and engineers.

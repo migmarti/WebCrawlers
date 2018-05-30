@@ -1,0 +1,27 @@
+Man Teleports Into Miniature Vehicle in Stunning On-Stage Demo at GTC Taiwan
+
+NVIDIA CEO Jensen Huang just used VR to shrink one of our colleagues and teleport him into a miniature car, which he then drove around a miniature city.
+
+The on-stage demonstration Wednesday was a rousing finale to Huangs keynote at our GPU Technology Conference in Taiwan.
+
+With such technology, humans will be able to use VR to become backups for AI machines, Huang explained. Wherever these machines are. Whatever their size.
+
+In the future you will be able to merge with the robot, Huang told a stunned audience of more than 2,000 developers, researchers, government officials and media in Taipei. You can have telepresence, you can go anywhere you want.
+
+The magic: taking real-time sensor feeds and using them to create a VR environment where a remote driver can take control of the car in real time. The result: an experience where the driver feels like theyve been shrunk down and put in the the drivers seat of a miniature car.
+
+The on-stage demo virtually shrunk down Justin, our lead engineer for the project  who was present beside the stage  and teleported him into a quarter-scale car inside a tiny simulated city set up in a ballroom upstairs.
+
+To make the trip, Justin donned a VR headset and entered a high-def simulation that includes the environment around the car updated by a live feed from the sensors embedded in the vehicle.
+
+He was then able to turn the wheel and step on the pedals in front of him to manipulate the cars drive-by-wire system remotely and caroom around the tiny streets of a tiny city.
+
+As he drove, Justin saw a live feed of the environment around his vehicle. While the AI is still active  preventing the car from doing anything dangerous, such as running into a wall  the human driver is able to control the vehicle to get around the obstacle.
+
+Which is just what the demo showed. The human driver teleports into the scaled-down vehicle, through VR, as Huang spoke.
+
+Right now Justin is upstairs, but hes right here, but hes enjoying upstairs, Huang said as camera feed showed the audience what Justin was seeing as he drove.
+
+The demonstration points to a future where, aided by sophisticated sensors and immersive VR, humans and machines are able to work together to navigate mines deep underground, tend crops, repair satellites and space stations, or engage in rescue operations in hazardous areas, such as earthquake zones.
+
+In the future, were going to have a bunch of little pizza delivery bots, but sometimes they will get stuck so well be able to go into virtual reality and help the robot get unstuck, Huang said.

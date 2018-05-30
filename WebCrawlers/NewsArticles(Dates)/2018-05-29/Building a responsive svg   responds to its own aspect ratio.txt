@@ -1,0 +1,59 @@
+Let’s start by designing four versions of our logo. My tool of choice for that is Sketch .
+
+In the following, I’m going to walk you through every step you have to perform to build your own responsive Logo. You should at least have some basic knowledge about SVG and also CSS. But the good news is: there will be no JavaScript at all. For the most part, we just have to copy code from one file to another.
+
+Whenever there are elements, that can be found on multiple versions, I recommend to use symbols in Sketch. This is going to make it easier for you in the future, and the SVG that we’re going to build is going to use the same symbols. (If you’re not familiar with symbols in Sketch I highly recommend this Medium Story by Jon Moore.)
+
+As you can see, the logo consists of a visual element and the company name. Only in the square version, I chose not to display the name. The reason for this is, that I wanted it to be recognizable, even when used as a tiny thumbnail by maybe only about 32px x 32px.
+
+Before we export any images, we have to create a new SVG file. Maybe it’s a little frightening to start your SVG with writing code, but in the end, it is not too complicated. Pinky promise. All we need is an opening and a closing tag like this:
+
+If you look at the attributes, you’ll notice, that there is no viewBox attribute. We only set width and height to 100%.
+
+Because we will be using both elements as symbols in the final SVG, we have to put each of them on a single artboard and export them as SVG.
+
+It is crucial that you do not export the objects but always create a new artboard. If you export elements from a bigger artboard, you will end up with strange looking transform attributes attached to your groups. It also helps to detach all symbols and delete all unused groups. Finally, do some proper naming and see if there is any mask applied, that is not used.
+
+Now let’s see, what the exported code looks like:
+
+I’d recommend to use something like SVGOMG to reduce file size and delete all the unnecessary stuff. But do not clean IDs. If you named your layers in Sketch you can identify them easier by ID in the final file. This is how your optimized file is going to look like:
+
+If everything is correct, you will see a group that has the name of your artboard as ID. Inside of this group is the content, that is of interest. In this case it’s a rectangle serving as background and a complex path that builds the IX (roman 9 rotated counter-clockwise by 45 degrees … just in case you were asking).
+
+All our files are ready and can be put together. Start by writing some symbol tags in your final file and give each a unique ID as well as a viewBox attribute that matches the viewBox of the exported files.
+
+Finally, paste the content of your exported files (everything inside the group that is named like your artboard) inside the symbol tags. Once you’re done with that your file should look like this:
+
+So far so good. Sadly, if you open the file in a browser, you won’t see anything. For now, we defined our symbols, but never placed them anywhere. To insert a symbol you need a -tag in your file:
+
+Now let’s see what exactly is happening here.
+
+First the points to a symbol with a unique ID and will render its contents… well, it’s not really rendered, but cloned and suddenly there is a weird thing coming up called the Shadow DOM. It may sound like something from Stranger Things, but you don’t need to be afraid. As long as you don’t want to change anything inside the symbol instance via CSS, there is nothing to worry about.
+
+Next we have the x, y, width and height attributes. You may already have guessed, that these attributes define the position and dimensions of the rendered symbol. But there is no unit given, so how big will our symbol be? Inside an SVG the units are defined by the attribute set in the SVG tag. Since we did not set a and only defined width and height (100%), one unit matches one pixel and our symbol will have a width of 100px. And it doesn’t matter if you change the width of the SVG. It will always stay at at 100px width.
+
+Try changing the width and height attributes inside this CodePen. You will notice that the symbol will always keep its aspect ratio. Luckily this is exactly what we need for our logo. If you wanted to change the resizing behavior, you needed an attribute called . Check out @SaraSoueidan’s Article on Understanding SVG Coordinate Systems and Transformation if you want to learn more about it.
+
+Apart from the unitless values, you can also use percentages to define position and dimensions through the attributes. So to make this symbol look like the square version, simply use a width of 90% and position its upper left corner 5% from the bounding box of the image:
+
+For the portrait version, we’ll need both symbols. In order to make sure they scale proportional and always have the same distance to the border and to each other, we simply create yet another symbol. This symbol again has its own attribute which allows us to place our symbols within the new coordinate system. To see where exactly everything has to be placed, you can simply go back to your sketch file and inspect the sizes and distances.
+
+Now, we only have to translate all the numbers to our new SVG symbol, which will then look like this:
+
+When we use this symbol, we wouldn’t want it at 100% width, so let’s just scale it down like our square symbol.
+
+Up to this point we created three symbols and have two tags in our SVG.
+
+Finally, the fun part begins, and we can make it responsive. Right now both symbols are rendered on top of each other. To hide the parts we don’t want to display, we need to add some classes to the tags.
+
+Now, the only thing missing is some CSS to show only one logo version at a time. You can add a tag to your SVG and use some media queries just like you would in a regular CSS file.
+
+In CSS you most likely use something like , but then you are only looking at the width of the image. We are interested in aspect ratio and not width, so our media queries will have to look like this: .
+
+For our first two versions, let’s make the portrait-version the default and show the single-IX-version only when the image width is at least the same as the image height. In other words: at the point where the image changes from portrait mode to landscape, we will not show the typography anyomore, only the graphical logo.
+
+If you create another symbol for the landscape version, you would probably want to show it when the width of the image is at least two times it’s height. Let’s see how the style changes:
+
+And that’s it. We’re done building our own responsive svg logo. Here, you can see the full code with three versions going from portrait mode to landscape:
+
+OK, OK… I know the skyscraper-version is missing in the example above. The reason here is, that you need to perform some transformation to create the needed symbol. I will not explain it in detail, but you can find the code you’ll need below:

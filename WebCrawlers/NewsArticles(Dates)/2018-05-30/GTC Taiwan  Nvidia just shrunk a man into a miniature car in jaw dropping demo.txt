@@ -1,0 +1,21 @@
+“In future, you will be able to merge with the robot,” NVIDIA CEO Jensen Huang announced on-stage in Taipei today as he used VR to shrink one of his colleagues and ‘teleport’ him into a miniature vehicle. The employee then drove the car around a miniature city. The audience went silent in awe.
+
+To a crowd of 2,000 developers, media personnel, researchers and government officials attending the demo at GTC Technology Conference in Taiwan, Huang laid out his keynote focussing on how humans could use VR to be backups for AI machines – whatever the size, wherever they are.
+
+The magic that became the grand finale of the NVIDIA CEO’s keynote, was done with real-time sensor feeds to make a VR environment. In this, a remote driver could take control of a car right away. The entire experience feels like the driver shrank and found himself in the seat of a mini car.
+
+The chief used this Black-Panther level VR tech on none other than the lead engineer of the project – Justin. He wore a VR headset and rode, as the car updated on a live-feed from sensors embedded in the vehicle.
+
+The possibilities of this tech marrying the capabilities of humans to the efficiency of machines seemed endless, and the CEO got right to where it matters – food. “In the future, we’re going to have a bunch of little pizza delivery bots, but sometimes they will get stuck so we’ll be able to go into virtual reality and help the robot get unstuck,” he said.
+
+Huang’s keynote focused on the launch of HGX-2, a cloud-server platform to aid server makers in creating systems around advanced graphic processors (GPUs). This is the second generation of the HGX, with the NVIDIA Tesla V100 GPU at the core.
+
+“As long as there is data, so long as there is knowledge in how to create the architecture, we can create absolute enormous software,” Huang said. According to him, every single company in the world that develops software would need an AI supercomputer.
+
+The two-hour keynote also outlined a super server platform called DGX-2 – a 350-lb monster that has 2 petaflops of computing power and 512GB of HBM2 memory.
+
+“This is the fastest single computer humanity has ever created: one operating system, one programming model, you can program this as one computer,” Huang claimed.
+
+Apart from the vast application of graphics in the gaming industry, NVIDIA and its peers also focus on the $2-trillion entertainment industry where advanced rendering and graphics are used. The healthcare industry also uses GPUs for medical imaging, optimizing medical equipment, and in various digital scanning procedures.
+
+As NVIDIA shrinks a person virtually to control an artificial car, the day is not far when we can expect a human-driven toy truck make its way virtually under the bed to find a missing toy. Till then, we’ll enjoy the machine-delivered pizzas, with extra cheese.

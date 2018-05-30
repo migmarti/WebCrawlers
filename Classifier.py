@@ -11,8 +11,11 @@ import io
 import shutil
 import re
 
-inputpath = '/home/mig/WebCrawlers/WebCrawlers/NewsArticles/'
-outputpath = '/home/mig/WebCrawlers/WebCrawlers/SortedNewsArticles/'
+directory = os.getcwd() + '/WebCrawlers'
+inputpath = directory + '/NewsArticles/'
+inputpath2 = directory + '/NewsArticles(Dates)/'
+outputpath = directory + '/SortedNewsArticles/'
+outputpath2 = directory + '/SortedNewsArticles(Dates)/'
 
 def getFilepaths(path):
     filepaths = []
@@ -44,10 +47,12 @@ def sort_article(title, text, path):
 
 
 def predict_genre(classifier, text):
-    if len(re.findall('(\$ *\d+|currency)', text)) > 5:
+    if len(re.findall('(\$ *\d+|currency|bank|money|econom)', text)) > 5:
         genre = 'Economics'
-    elif len(re.findall('game', text)) > 5:
+    elif len(re.findall('game|movie', text)) > 5:
         genre = 'Recreational'
+    elif len(re.findall('government|law', text)) > 3:
+        genre = 'Politics'
     else:
         genreIndex = classifier.predict([text])
         genre = str(categories[genreIndex][0])
@@ -58,6 +63,8 @@ def predict_genre(classifier, text):
 if __name__ == "__main__":
     if os.path.exists(outputpath):
         shutil.rmtree(outputpath)
+    if os.path.exists(outputpath2):
+        shutil.rmtree(outputpath2)
 
     training = fetch_20newsgroups(subset='all',
                                   remove=('headers', 'footers', 'quotes'))
@@ -70,7 +77,7 @@ if __name__ == "__main__":
     #print(training.target_names)
     # ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
 
-    genres = ['Religion', 'Computer Science', 'Computer Science', 'Computer Science', 'Computer Science', 'Computer Science', 'Miscellaneous', 'Recreational', 'Recreational', 'Recreational', 'Recreational', 'General Technology', 'General Technology', 'General Science', 'General Science', 'Recreational', 'Politics', 'Politics', 'Politics', 'Religion']
+    genres = ['Religion', 'Computer Engineering', 'Computer Engineering', 'Computer Engineering', 'Computer Engineering', 'Computer Engineering', 'Recreational', 'Recreational', 'Recreational', 'Recreational', 'Recreational', 'Technology', 'Technology', 'Science', 'Science', 'Recreational', 'Politics', 'Politics', 'Politics', 'Religion']
 
     classifier = train(trial, training.data, training.target)
     categories = np.array(genres)
@@ -88,6 +95,22 @@ if __name__ == "__main__":
         title = os.path.basename(filepath)
         sort_article(title, text, path)
         dist[genre] += 1
+
+    dirs = getFilepaths(inputpath2)
+    for dir in dirs:
+        date = dir[-10:]
+        filepaths = getFilepaths(dir + "/")
+        for filepath in filepaths:
+            print(filepath)
+            text = readFile(filepath)
+            genre = predict_genre(classifier, text)
+            path = str(outputpath2 + date + "/" + genre)
+            if not os.path.exists(path):
+                os.makedirs(path)
+            title = os.path.basename(filepath)
+            sort_article(title, text, path)
+
+
 
     print("Results: ")
     print(str(dist))

@@ -1,0 +1,169 @@
+The ultimate guide to bar charts using geom_bar
+
+Here at Sharp Sight, we have a particular philosophy about learning data science: master the fundamentals.
+
+Data science is just like any other skill: if you want to be great at what you do, it pays to master foundational skills. If you look at true masters in any field – art, music, sports – you will consistently see that elite performers focus relentlessly on fundamentals.
+
+But don’t just take my word for it. Listen to many of the most successful people in the world. Elite performers routinely talk about the importance of mastering the basics.
+
+If you want to be a great data scientist, data analyst, or analytics professional, you need to know the core data techniques backwards and forwards.
+
+One of those techniques is the bar chart.
+
+It’s a simple technique. To many people, it feels too simple. It’s not sexy like artificial intelligence.
+
+But on your path to learning advanced techniques, you need to master the fundamentals like the bar chart.
+
+In this post, I’ll tell you everything you need to know about creating a bar chart in ‘s using .
+
+Ok, later in the post, I’ll show you a large variety of variations of the bar chart. I’ll also explain how ggplot2 works.
+
+But before we do that, let’s just create a simple bar chart.
+
+In the following example, we’ll work with the dataset from the package. If you don’t have installed yet, make sure you install it.
+
+If you don’t entirely understand how this works, keep reading. I’ll explain everything.
+
+If you’re new to and especially if you’re new to using , even creating something simple like a ggplot bar chart can seem very confusing. I get it. The system can seem a little arcane in the beginning.
+
+However, once you understand how works, creating bar charts is easy. In fact, once you understand , lots of visualizations become easy … even data visualizations that seem very complex.
+
+Having said that, let’s first review how the data visualization system works.
+
+is very systematic. Once you get the hang of it, everything “just works.”
+
+Critically though, you need to understand the “building blocks” of the system. is very modular in how it works. The system has many little functions that do one thing.
+
+This is in contrast to the base system for plotting. Many of the base plotting tools are single functions, but with lots of little parameters.
+
+ggplot2 is different because each little functional “building block” typically does one thing and one thing only. Because of this, you can start by making a simple chart (like a very simple bar chart) and then iteratively build the plot, step by step.
+
+I’ll show you that in a moment, but first let’s review some of the most important functions in the ggplot2 system.
+
+First, let’s talk about the function.
+
+The function is probably the most important piece of the plotting system. You’ll use it essentially every time you create a data visualization.
+
+Its purpose is simple: it initiates a plot. basically indicates that we’re going to plot something.
+
+… what exactly we plot will depend on the other functions we call and how we structure the rest of the syntax.
+
+Let’s talk about those other syntactical pieces.
+
+Let’s take another look at our code example for a simple bar chart:
+
+Do you see the parameter inside of the function? This is the part of the syntax where we indicate what data we will plot.
+
+In this particular example, we are telling that we will be plotting data in the dataframe.
+
+Let’s quickly examine , just so we can see what’s in it. We’ll use two functions to inspect the data:
+
+and are both tools for “looking” at a dataset. As you can see, the output is a little different, but it’s similar. They both show you what’s in the data. I won’t go into extended detail about data inspection here, but I will tell you that you need to get into the habit of inspecting your data.
+
+Ok, back to ggplot and the ggplot bar chart.
+
+When we use the parameter, we’re just telling the function what dataset we will be working with.
+
+Importantly, expects a dataframe. If your data is in a different format – like a matrix, array, or a vector – won’t work.
+
+In this case, our dataset is a dataframe.
+
+There’s also a special kind of dataframe that understands called a . I won’t explain dataframes and here, but understand that they are similar.
+
+Ok, now let’s move on to the next piece in the syntax, the function.
+
+Let’s take another look at our code example for a simple bar chart:
+
+Notice the function inside of . The code reads .
+
+Remember that is a variable in our dataframe. What the function is doing is “mapping” the variable to the x-axis.
+
+The whole purpose of the function is to “map” variables in our dataframe (which we identify with the parameter) to the aesthetic attributes of the objects in the plot. The function “connects” the variables in the dataset to the objects that we draw in the visualization.
+
+It’s important to point out here that the “objects” that we draw are called “geoms” in .
+
+If we are drawing points (e.g., for a scatterplot) we will draw point “geoms.” If we create a line chart, we will draw line “geoms.” And if we draw bars to create a bar chart, we will draw bar geoms. If it sounds complicated, don’t overthink it. Geoms are just things that we draw like points, lines, bars, and lines.
+
+And remember: as I noted above, the function “maps” variables to the aesthetic attributes of the things that we draw. The aes function maps variables to the aesthetics of geoms, like color, shape, x-axis, y-axis.
+
+Now that I’ve explained some of the details of the system, let’s take a second look at the code we used to create our simple bar chart.
+
+Here’s what this code is doing:
+
+It’s really straight forward once you understand how the individual pieces all work.
+
+Take note of how I explained the ggplot2 bar chart: I broke everything down into little pieces.
+
+As you’re learning data science, you need to do this. Data science tools can be complicated. It is a huge help if you break everything down into small learnable pieces. Break everything down, learn and understand each small piece, and then put things “back together” to understand the greater whole.
+
+Now that you’ve learned how to make a simple ggplot bar chart using geom_bar, let’s modify that bar chart.
+
+Changing the interior color of the bars is relatively simple, but it’s a little tricky.
+
+It’s tricky because the parameter we need to use to change the interior color is not 100% intuitive.
+
+To change the interior color, you need to use the aesthetic, not the aesthetic.
+
+There is a reason for this (which you’ll learn about below) but you just need to remember that the aesthetic controls the interior color of the bars.
+
+Let’s take a look. Here, we’ll change the interior color of the bars to “cyan”:
+
+Here, we have set the aesthetic to the color ‘cyan.’
+
+A couple of notes on this:
+
+Now that you’ve learned how to change the interior color of the bars, let’s talk about how to change the border color of the bars.
+
+Changing the border color is also simple. To change the border color of the bars, you need to use the aesthetic.
+
+Here, we have set the aesthetic to the value ‘red.’
+
+Again, this can be a little confusing. Remember that the aesthetic controls the border color, not the interior color.
+
+On more than one occasion, I have mistakenly used the aesthetic when I meant to use the aesthetic and visa versa. This is just one of those things that you have to memorize and use repeatedly until you completely remember the difference.
+
+Now that I’ve shown you how to make a simple bar chart, and shown you how to make some simple color modifications, let’s take a look at some variations of the bar chart.
+
+We’ll look at the:
+
+In , it’s very easy to create a horizontal bar chart. To do this, just add the code after your bar chart code (and don’t forget the sign).
+
+does exactly what it sounds like it does: it “flips” the coordinates.
+
+In this case, it is taking the x-axis and “flipping” it to the position typically occupied by the y-axis (and visa versa).
+
+By the way, this is one of the reasons that I love . In many cases, making modifications to a chart can be accomplished by calling a new function in addition to the original code. The different functions of work like LEGO building blocks that you can “stack up.” This enables you to build plots itteratively, building your code one line at a time.
+
+The staked bar is a pretty simple variation of the basic bar chart.
+
+To create it, just map a categorical variable to the aesthetic.
+
+This is almost exactly the same as code for a simple bar chart. We’ve specified our dataframe with the parameter, and we’ve mapped a categorical variable, , to the x-axis.
+
+But notice that inside of geom_bar, we have another call to the function. There, inside of the function, we’ve mapped another categorical variable, , to the aesthetic.
+
+What this is doing is it’s “filling in” the bars according to the number of the records for each category of .
+
+Note that this does not change the total length of the bar. It’s just dividing up the bar according to a second categorical variable. This enables us to see the proportion of observations that belong to a particular category, within the original category.
+
+Now let’s do a variation of the stacked bar. Here, we’ll create a 100% stacked bar.
+
+The 100% stacked bar is very similar to the stacked bar, but instead of the length of the bar corresponding to the number of records, it “fills in” the whole axis.
+
+Here, you can see that the length of each bar extends along the entire length of the y-axis. The bars “fill in” the plot area.
+
+Syntactically, we are doing this with a small snippet of code: .
+
+Notice though that this is otherwise identical to the code for the stacked bar chart. Again, this is one of the benefits of using . One simple modification enables you to change the chart from a stacked bar chart to a 100% stacked bar chart.
+
+The bar chart is one of the “must know” tools of data science.
+
+If you want to get hired as a junior data scientist, you need to know how to make the plots in this post “with your eyes closed.” The bar chart is a simple technique, but it is essential.
+
+Are you serious about mastering the fundamentals, and putting yourself on the path to becoming a top performer?
+
+Do you want to be one of top few percent of data scientists who get hired, get the raise, and get paid?
+
+If you do, sign up for our email list.
+
+We’ll show you the tips and strategies for mastering data science faster than you though possible.

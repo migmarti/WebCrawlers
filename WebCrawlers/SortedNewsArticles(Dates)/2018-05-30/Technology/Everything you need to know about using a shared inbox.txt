@@ -1,0 +1,129 @@
+Email is the most low-effort way to reach a company.A staggering 51% of customers prefer to communicate with companies only through email.
+
+Naturally, organizations ensure they make it easy for the world to reach them via email. When a company is small, the customers have your direct email addresses and they write to you when they face a problem.
+
+As you grow bigger and acquire more customers, you start creating email accounts such as support@ and info@company.com.
+
+And then sales@, careers@ where prospects and job aspirants can reach out. A few more for internal communication  accounts@, product@. The list goes on.
+
+While shared email addresses certainlylet companies communicate witheveryone using just a handful of email accounts, handling them efficiently can become a task.
+
+There are two ways a lot of companies try to manage shared email accounts: first: share the accounts credentials with the entire team, or second: delegate access to the entire team. In either case, multiple users log into the same email account to manage emails  Google does not like it.
+
+Every time you have more than one person using the same Gmail account, Google starts blocking it temporarily. Do not pay attention to their warnings and your account gets blocked for good. They are in fact pretty vocal about it  youll find warnings peppered across their support pages; here's a screenshot of one:
+
+And that is not the only problem with many people using one account.There is also no way to establish who is supposed to work on an email when it arrives.
+
+There is a very high chance that two people from your team will end up responding to the same message. Because the team is not on the same page, there will be times when an email does not get picked up by anyone.
+
+And that is exactly why shared inboxes came into the picture  for teams to work with one other, and not against each other.
+
+A shared inbox lets teams manage shared email accountswithout everyone logging into it.Every individual on your team manages the same email address from a personal interface  can be inside or outside Gmail.
+
+You'll have to turn your support or sales email account into a Google Group.You will then have the ability to use the group as a Collaborative Inbox  promises to help you distribute and track responsibility for topics among the groups members.
+
+You can add your staff as members, and have people outside the organization email to the group. You get the ability to (a) assign responsibility to your teammates, (b) edit tags associated with that topic, and (d) filter topics according to tag, resolution status, or assignee.
+
+Heres how you set up a shared inbox:
+
+And youre set. Your team will no longer have to log into the same Gmail account to manage emails  one less problem to worry about.
+
+The unfortunate truth about Email is that it was designed to be used by individuals. The only ways to share information are the age-old forwarding, CCing, or BCCing  they fail to be of much help when you want a team to collaborate on emails.
+
+Shared inboxes, on the other hand, give you a wide range of benefits when you compare them with the plain old Gmail. Let's dive in.
+
+Fewer steps to achieve the same outcome. How do you generally share an email with a teammate? Click on Forward, type in the teammates name, write a quick FYI line, and finally the Send button.Does not look like a lot of work? Do that a hundred times a day and youll know what Im saying.
+
+When you use the shared inbox, everyone who is a part of the group receives the email. Zero steps here.
+
+You handle emails faster.Howdo you delegate a task if there were no shared inboxes? You receive an email. You forward it to the teammate you want to work on it. That person takes their own sweet time to read the email. They take some time to act on that. They send it back to you. You finally manage to return it to the customer.
+
+All of this is instantaneous inside a shared inbox. Everyone who is part of the inbox receives the email and they can start replying in real time.
+
+Your team stays on the same page. When you have a lot of people involved in a process and you use email to share information, there will be endless email forwarding, the CCs, the BCCs, long email threads. Inboxes get cluttered. You forget to CC someone, and boom, they are left behind wondering what happened.
+
+When you use shared inboxes, everyone in the team receives the same information, at the same time. The team will always be on the same page.
+
+However, theres a flipside, the real challenge  managing the shared inbox, and getting your team to use it efficiently.
+
+Like we wrote in a previous answer, you can convert your support or sales account into a Google Group and start using it as a Collaborative inbox. Well, theres more to this story.The Google Collaborative Inbox is a popular disaster here's why:
+
+Needs substantial learning. Your team will start facing problems from the very moment they lay their hands on it. The UI does not look anything like Gmail and your team will have to spend timegetting used to an all-new way of managing emails.
+
+Lack of ownership. Say youre managing sales from the shared inbox. A new email comes in and the first salesperson who sees it starts working on it. The rest of the team does not know who has taken it up.
+
+When the accountability is not crystal clear, things can go wrong quickly. Who has to send the follow-up email now? Is the lead waiting for a brochure or more information? Is this the first time they have written to you? Nobody in the team will have the complete picture of the situation.
+
+Room for duplication. An email arrives and you have the entire team looking at it in real time. Even when someone starts replying to the message, the rest of the team will not know about it. There is a good chance someone else will start working on it at the same time.
+
+Say youre managing the sales inbox and two agents end up replying to the same prospect. Youve ruined your first impression there.
+
+Status of emails is a gray area. An email arrives and an agent replies to it from their personal inbox. Unless that person has copied the group email address, the rest of the team will not be aware of it.
+
+Every time you want to know the status of an email, you'll have to ask around if someone has worked on it. You and your team will always be in the dark about the status of emails.
+
+Internal and external messages overlap. Say youre managing support from the shared inbox. A customer email arrives and the agent needs help from another agent. They start discussing the problem in the same email thread. They solve the problem and send a reply to the customer, again on the same thread.
+
+The end result: the internal discussion that went into solving the problem leaks to the customer  makes you look outright unprofessional.
+
+No analytics. None at all. This is majorly relevant to customer support teams. When you use a shared inbox, you will not know how your team is doing at managing emails.
+
+How much time do your agents take to respond to emails? Who is doing a good job? Who needs coaching? You will not have answers to these questions.
+
+Basically, when it comes to managing shared inboxes, Google fails to give you a practical solution or an intuitive app. This is exactly where Hiver comes into the picture.
+
+Hiver lets you manage all your shared inboxes right from Gmail. Your team does not have to log into the sales or support shared email account at all.
+
+You get all the features of a good help desk  from quick delegation to team analytics, right inside Gmail. Because all the action happens inside Gmail, there's nothing new to learn for your team.
+
+Here's a quick rundown of what you get with Hiver:
+
+Delegate emails effortlesslyinjust 2 clicks from the Gmail sidebar. You do not have to forward emails to delegate them to your team. You dont have to leave Gmail. Theres no switching between apps.
+
+Tracking becomes undemanding too. Your team gets the ability to specify the status of every email as assigned, unassigned, or pending  it is visible to everyone inside the shared inbox. You and the rest of the team will no longer have to ask around to know the status of tasks or tickets.
+
+Clear accountability inside teams. The entire teamknows who is working on what. Every email bears labels that tell you whos working on it, and whats its status. Theres no room for duplication.
+
+Shorter workflows. With Hiver, you get Email Notes which are like chat messages that appear right beside your email thread. Youll not have to write emails to your teammates and keep waiting for an answer.You can choose whom to notify using @mentions. The Notes stay right where you wrote them, in case youd like to refer to the conversation in the future. With Notes, internal and external communication remain neatly separated.
+
+Robust analytics and reporting. Support teams will love this. You get access to all the key email management metrics. You can see individual and team trends. All without having to open an excel spreadsheet.
+
+The biggest difference youll notice when you start using shared inboxes  your team will collaborate like never before. Everyone will be on the same page and itll take much less time than before to process the same emails.
+
+Every email related task will have a clear owner and the entire team will know about it. You save the time youd otherwise spend on discussions around whos supposed to start working on what. Everyone will know what the rest of the team is doing. There's more transparency inside the team.
+
+Your team will stop writing emails for internal conversations. Apart from saving time and making processes faster, this will give their inboxes a much-needed breather too. Your team will send email responses much faster than before.
+
+Collision alerts will ensure that your team makes streamlined responses from the shared email address  you will never have two members writing the same email again.
+
+When you have insights into how fast and how well is the team handling emails, youre well-equipped to understand who needs coaching  goes a long way in making the team more productive. Its like the age-old saying you are only as fast as the slowest member on your team.
+
+Discover how the Hiver shared inbox works forsupport, sales, finance, and marketing teams.
+
+One team that will always need to share email management responsibility is customer support. And time is of the absolute essence when youre talking to customers. You cannot do without a support shared inbox.
+
+The question you have to ask yourself is  how do you want to manage emails arriving at the customer support email address?
+
+There are a plethora of bulky enterprise-grade help desk tools that promise to make managing customer emails easy, but, they come with an entirely new set of problems.
+
+Majority of these help desk tools will get overwhelming for your support agents. There are too many features you dont really need. They just add up to things youll have to think about.
+
+You will have to spend considerable time and energy just to get started. Your team will take time to get used to the new tool.
+
+Even when your team finally gets used to the new help desk, they will have to keep switching between Gmail and the help desk tool  your team will waste hours every day. Irrespective of what a help desk tool claims, you will have to keep going back to your Gmail inbox quite often, even for the smallest of things like changing permissions.
+
+You need something simpler to manage customer support.
+
+Hiver lets you manage the support shared inbox right from Gmail
+
+When you use Hiver, you get the ability to manage customer support right from Gmail. There are no extra tabs to open, no new windows, and zero switching between tools.
+
+Hiver works just like Gmail and you will not have to spend even an ounce on training. Your team can literally get started in minutes as there is hardly anything to learn.
+
+In customer support, resolving problems quickly is a must. With 2-click delegation from Gmail, email notes instead of long email threads, your team will be well equipped to resolve tickets faster than before.
+
+Hiver also ensures you do not miss any emails. The emails are classified into distinct groups: unassigned, mine, team, pending, and closed. Emails that have not been assigned to anyone remain stacked together inside unassigned  emails do not get lost.
+
+You also get the capability to automatically assign emails to teammates using easy to set up rules  round-robin assignment, closing or archiving emails that do not need attention, and more.
+
+Lastly, how do you run a support team without monitoring how well is your team handling emails? WIth Hiver, you have access to all the vital support metrics right inside Gmail. Ticket volume, response time, resolution time  all of it drilled down to individual team members.

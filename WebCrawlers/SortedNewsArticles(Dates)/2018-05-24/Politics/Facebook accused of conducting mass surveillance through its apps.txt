@@ -1,0 +1,41 @@
+Facebook used its apps to gather information about users and their friends, including some who had not signed up to the social network, reading their text messages, tracking their locations and accessing photos on their phones, a court case in California alleges.
+
+The claims of what would amount to mass surveillance are part of a lawsuit brought against the company by the former startup Six4Three, listed in legal documents filed at the superior court in San Mateo as part of a court case that has been ongoing for more than two years.
+
+A Facebook spokesperson said that Six4Threes claims have no merit, and we will continue to defend ourselves vigorously. Facebook did not directly respond to questions about surveillance.
+
+Documents filed in the court last week draw upon extensive confidential emails and messages between Facebook senior executives, which are currently sealed.
+
+Facebook has deployed a feature of California law, designed to protect freedom of speech, to argue that the case should be dismissed. Six4Three is opposing that motion.
+
+The allegations about surveillance appear in a January filing, the fifth amended complaint made by Six4Three. It alleges that Facebook used a range of methods, some adapted to the different phones that users carried, to collect information it could use for commercial purposes.
+
+Facebook continued to explore and implement ways to track users location, to track and read their texts, to access and record their microphones on their phones, to track and monitor their usage of competitive apps on their phones, and to track and monitor their calls, one court document says.
+
+But all details about the mass surveillance scheme have been redacted on Facebooks request in Six4Threes most recent filings. Facebook claims these are confidential business matters. It has until next Tuesday to submit a claim to the court for the documents to remain sealed from public view.
+
+The developer is suing Facebook over the failure of its app Pikinis, which allowed users to zero in on photos of their friends in bikinis and other swimwear.
+
+It claims the social media company lured developers and investors on to the platform by intentionally misleading them about data controls and privacy settings. As part of the January filing, it claims Facebook tracked users extensively, sometimes without consent.
+
+On Android phones, the company was able to collect metadata and content from text messages, the lawsuit alleges. On iPhones it could access most photos, including those that had not been uploaded to Facebook, Six4Three claims.
+
+Other alleged projects included one to remotely activate Bluetooth, allowing the company to pinpoint a users location without them explicitly agreeing to it. Another involved the development of privacy settings with an early end date that was not flagged to users, letting them expire without notice, the court documents claim.
+
+In a submission to the court, an anti-Slapp motion under Californian legislation designed to protect freedom of speech, Facebook said: Six4Three is taking its fifth shot at an ever-expanding set of claims and all of its claim turn on one decision, which is absolutely protected: Facebooks editorial decision to stop publishing certain user-generated content via its Platform to third-party app developers.
+
+One court filing, referring to a period in 2013 and 2014, alleges: Facebook made partial disclosures around this time regarding privacy settings, but did not fully disclose that it had caused certain settings to lapse after a period of time.
+
+The lawsuit claims the ability to read text messages on Android phones was also partially disclosed, presented to users as a way to make logging in easier, but Facebook deployed it to collect a range of other messages and the associated metadata.
+
+It also collected information sent by non-subscribers to friends or contacts who had Facebook apps installed on their phones, the court documents claim. Because these people would not have been Facebook users, it would have been impossible for them to have consented to Facebooks collection of their data.
+
+Facebook disclosed publicly that it was reading text messages in order to authenticate users more easily ... [but] this partial disclosure failed to state accurately the type of data Facebook was accessing, the timeframe over which it had accessed it, and the reasons for accessing the data of these Android users, the complaint alleges.
+
+Facebook used this data to give certain Facebook products and features an unfair competitive advantage over other social applications on Facebook Platform.
+
+Facebook admitted recently that it had collected call and text message data from users, but said it only did so with prior consent. However the Guardian has reported that it logged some messages without explicitly notifying users. The company could not see text messages for iPhone users but could access any photos taken on a phone or stored on the built-in camera roll archive system, the court case alleged. It has not disclosed how they were analysed.
+
+Facebook has not fully disclosed the manner in which it pre-processes photos on the iOS camera roll, meaning if a user has any Facebook app installed on their iPhone, then Facebook accesses and analyses the photos the user takes and/or stores on the iPhone, the complainant alleges.
+
+Facebook has an option to sync photos taken on the phones with the app downloaded, which it says users need to opt into to use.

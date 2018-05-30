@@ -1,0 +1,55 @@
+How many times have you heard entrepreneurs and businesses in general say “we need to go fast in order to be the first to market”?
+
+Well, today I wanted to explore the very opposite of that idea. I feel like there is a wide array of reasons as to why you would not want to be first to market, and we tend to overlook them.
+
+To deliver the ideas, I’ll be using a practical example of Scoot, an electric scooter sharing company that’s just launching their service in Barcelona, a city that’s already had a range of competing companies for several years now.
+
+Very often we find people talking about how important it is to be the first to market, to get the first-mover advantage. Securing most of the market share from the get-go, benefitting from brand name recognition, gaining control over certain resources such as location or providers, yada yada yada…
+
+But, as with anything in general, there’s always two sides to every story. Being first to market means that there is no market in the first place. You need to develop it and that’s a very ambitious, complex and usually costly thing to do.
+
+One of the most important tasks when developing a new market is convincing people your new solution will solve a problem they have. Heck, sometimes we get so drowned into the status-quo we may not be able to see there could be a better solution to our problem and convincing people there is an alternative is a monumental task.
+
+Case in point: urban mobility (i.e. how you get around your city).
+
+For decades there has been a lack of major innovation across the urban mobility space. Personal transport, Buses, Taxis and Metros (or Tubes for you Brits) were pretty much the only options to move around a city. It’s only in the last couple of years that we’ve seen a number of different business models arise to try and solve this problem taking a fresh approach at the problem.
+
+One of said approaches is scooter sharing.
+
+A couple of years ago one of my good friends told me about a new service that had launched our city (Barcelona, Spain) called eCooltra. It’s a free-floating electric scooter sharing company. The idea is that they have a decently-sized fleet of scooters parked around the city and you just have to book one through their app. Once you find the scooter you simply unlock it with the app, put on their helmet and drive off. In terms of practicality, it pretty much doesn’t get much better. A personal form of transport that gets you from A to B cheaper than a taxi.
+
+Back in the day when eCooltra launched they had to face a series of issues as a first mover. Issues such as:
+
+The first mover not only has to figure out how to run their operation smoothly as they go (remember, there is no one to learn from), but they also have to market their new product or service to people. This is easier said than done. Usually people tend to adopt new solutions very progressively. In eCooltra’s case they needed to convince people that sharing a scooter was a better option than taking a bus or taxi or owning a scooter all-together. That’s fighting against people’s habits formed during decades.
+
+When a new product is launched successfully, the traction in sales it gets tends to follow a pattern similar to the one in the chart below.
+
+In essence what happens is sales grow painfully slow until you hit an inflection point at which your solution starts to get massive adoption. At this first stage you’re selling to people who din’t mind trying out novel solutions, hence the name of “innovators” for said audience. The sales at this stage are very little and will never bring you to break-even as at this same point in time any company is also investing heaps of cash to develop and market their new product. In eCooltra’s case these could include:
+
+These things are extremely hard to know the answers to before hand. The best way to tackle them is by simply throw yourself into the ocean and navigate around the uncertainty and issues as you go. Ohh, and other entrepreneurs will be watching very closely.
+
+If a company survives this first stage then it’s likely the case they have solved many of the issues they’d have encountered. In a certain way, they have just paved the way and revealed how some of the bigger issues might be solved. They have also made it way easier for other companies to learn from their efforts in opening the market up and short cut the initial process all together and saving a lot of money.
+
+This is the stage where early adopters will start buying into the new solution and sales start soaring. This is also the sweet spot for other companies to also enter the market. Not too early to pay for all the costs associated with opening up and learning how to create a viable business out of it, not too late to be overshadowed by large companies in the space.
+
+Think of it like drafting behind a large truck. The truck is spending an incredible amount of energy to pick up speed and displacing large volumes of air in order to keep momentum going. No one is stopping someone else from getting their bicycle and drafting millimetres away from you at the same speed while using a fraction of the energy.
+
+The electric scooter sharing business is a tricky one. Here’s the thing with eCooltra:
+
+But, as I’ve already mentioned in the previous section, being first in many cases is very unforgiving. Let’s do a little “back of the envelope” calculations to see where they stand:
+
+That’s no where near the cost of the scooter in the first place and I haven’t even factored in operational costs. This is actually not very surprising as this service is relatively new (some ~3 years old) and you’d expect a scooter’s life span to be at least ~5 years after which it could be fully depreciated.
+
+This is important because Scoot has just arrived in Barcelona with newer, faster and longer range bikes. I’ve been lucky to be a beta tester for their service and here are main differences I see between both services:
+
+Notice something interesting here. Is eCooltra limiting the speed of their bikes so people can’t go over the urban speed limit, or to make people travel for longer and thus pay more for using the service? I honestly don’t know, but if Scoot has upped the limit to 80km/h I can’t restrain myself from asking…
+
+Connectivity (how fast the scooter reacts to turning it on/off on the app by the user)
+
+Again, eCooltra is using a third party provider that installs hardware into the scooters that allows them to be started and stopped via an app. This is also a large investment and this hardware and connectivity is painfully slow. When you tap to open the helmet vault, eCooltra takes some 10 seconds to do so and the same goes for starting / stopping the scooter. This is time they still are billing you for “using” the scooter.
+
+Range (probably the most important in terms of making the business profitable)
+
+Another interesting fact appears here. Which service will be able to run with less operational costs? One of the main operational costs is the entire batter swapping operation where a team of people need to travel to the scooters scattered across the city and swap batteries, clean the bikes and do any minor maintenance tasks to them.
+
+Given the fact that eCooltra needs to swap batteries almost 3 times as often as Scoot, they likely need a larger battery swapping operation which adds costs that are translated to the end customer. This also suggests Scoot could launch at a similar pricing point even when having substantially better scooters. At the time of writing this article the pricing has yet to be revealed, but if they do launch at a similar pricing point, from a customer stand point it’s an absolute no brainer. The only reason why someone would still use eCooltra would be if there wasn’t a Scoot around nearby.
