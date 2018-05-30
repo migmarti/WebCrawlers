@@ -6,8 +6,9 @@ from nltk.corpus import wordnet as wn
 import tkinter as tk
 from datetime import datetime
 
-basepath = '/home/mig/WebCrawlers/WebCrawlers/NewsArticles/'
-imagepath = '/home/mig/WebCrawlers/WebCrawlers/Frequencies/'
+directory = os.getcwd() + '/WebCrawlers'
+basepath = directory + '/NewsArticles/'
+imagepath = directory + '/Frequencies/'
 
 def getFilepaths(path):
     filepaths = []

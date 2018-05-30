@@ -40,6 +40,7 @@ FoldersPaths = getFilepaths(newsfolderpath)
 ImagesPath = getImageFilepaths(imagesfolderpath)
 
 for category in FoldersPaths:
+    print("Processing category: " + str(category))
     fullText = ''
     imagePath = ImagesPath[category]
     newsFiles = getFilepaths(FoldersPaths[category])
@@ -53,8 +54,9 @@ for category in FoldersPaths:
                    random_state=1).generate(fullText)
     default_colors = wc.to_array()
     plt.imshow(default_colors, interpolation="bilinear")
-    wc.to_file(outputpath+category+".png")
+    filename = outputpath + category + ".png"
+    wc.to_file(filename)
+    print("Saved Wordcloud: " + str(filename))
     plt.axis("off")
     plt.figure()
-    fullText = ''
 
