@@ -44,7 +44,7 @@ Metodo para extraer el texto del artículo del enlace y guardarlo en el campo de
 
 class ExtractArticlePipeline(object):
     def __init__(self):
-        self.savePath = '/home/mig/WebCrawlers/WebCrawlers/'
+        self.savePath = os.getcwd() + '/WebCrawlers'
         self.h = html2text.HTML2Text()
         self.h.ignore_links = True
         self.h.ignore_images = True
@@ -75,7 +75,7 @@ class ExtractArticlePipeline(object):
     def save_article(self, title, text):
         if len(text.split()) > 250:
             name = re.sub('[^A-Za-z0-9 ]+', ' ', title)
-            path = self.savePath + 'NewsArticles/'
+            path = self.savePath + '/NewsArticles/'
             filename = path + '%s.txt' % name
             with open(filename, 'w') as f:
                 f.write(text)

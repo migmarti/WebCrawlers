@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf0fb72d-b57a-474b-8952-2df0ca606ec6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawlers/spiders/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/spiders/news.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WordCloudMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordCloudMaker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordClouds/Computer Science.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/WordClouds/Computer Science.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordClouds/Economics.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/WordClouds/Economics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordClouds/General Science.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/WordClouds/General Science.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordClouds/General Technology.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/WordClouds/General Technology.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordClouds/Politics.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/WordClouds/Politics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordClouds/Recreational.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawlers/WordClouds/Recreational.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCloudMaker.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordCloudMaker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordCloudMaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="237">
+              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -32,41 +27,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Economics.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Economics.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Computer Science.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Computer Science.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="General Science.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Science.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="TextAnalyzer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TextAnalyzer.py">
+      <file leaf-file-name="news.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/news.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="477">
+              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#15#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier.py">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCrawlers/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="222">
+              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -121,10 +103,10 @@
         <option value="$PROJECT_DIR$/WebCrawlers/text_analysis.py" />
         <option value="$PROJECT_DIR$/WebCrawlers/settings.py" />
         <option value="$PROJECT_DIR$/WebCrawlers/classifier.py" />
-        <option value="$PROJECT_DIR$/WebCrawlers/pipelines.py" />
-        <option value="$PROJECT_DIR$/WebCrawlers/spiders/news.py" />
         <option value="$PROJECT_DIR$/classifier.py" />
         <option value="$PROJECT_DIR$/text_analysis.py" />
+        <option value="$PROJECT_DIR$/WebCrawlers/pipelines.py" />
+        <option value="$PROJECT_DIR$/WebCrawlers/spiders/news.py" />
         <option value="$PROJECT_DIR$/WordCloudMaker.py" />
       </list>
     </option>
@@ -157,7 +139,13 @@
               <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
               <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="WordClouds" type="462c0819:PsiDirectoryNode" />
+              <item name="SortedNewsArticles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
+              <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,17 +261,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -316,13 +297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="2" column="268" selection-start-line="2" selection-start-column="268" selection-end-line="2" selection-end-column="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -450,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawlers/SortedNewsArticles/Politics/Trump can t block users on Twitter  federal judge rules.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -474,13 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Technology.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Recreational.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Politics.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawlers/Frequencies/ 2018-05-23.png">
@@ -525,24 +486,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCloudMaker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Politics.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Economics.png">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Science.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Computer Science.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Science.png">
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/Economics.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/WordClouds/General Technology.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawlers/spiders/news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCloudMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,13 +1,15 @@
 # coding=utf-8
+from scrapy import Request
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from WebCrawlers.items import NewsItem
 import sys
 import os
+import sys
 
 class NewsSpider(CrawlSpider):
     name = "news"
-    basePath = '/home/mig/WebCrawlers/WebCrawlers/'
+    basePath = os.getcwd() + '/WebCrawlers'
     allowed_domains = ["ycombinator.com"]
     start_urls = [
         "https://news.ycombinator.com/"
@@ -19,10 +21,10 @@ class NewsSpider(CrawlSpider):
             follow=True
         ),
     )
-    maxItems = 50
+    maxItems = 1
     count = 0
-    print("Starting spider: " + name + ". Item limit: " + str(maxItems))
-    articlePath = basePath + 'NewsArticles/'
+    print("Starting spider: " + name)
+    articlePath = basePath + '/NewsArticles/'
     if not os.path.exists(articlePath):
         os.makedirs(articlePath)
 
@@ -30,6 +32,9 @@ class NewsSpider(CrawlSpider):
 Usa XPath para obtener una lista de los artículos en la página. Cada artículo está en un elemento de fila de tabla con una clase de "athing". Podemos tomar una secuencia de cada elemento coincidente de la siguiente manera:
     """
     def parse_item(self, response):
+        if self.maxItems is None or int(self.maxItems) == 0:
+            print("Item parse limit set to 0. Shutting down.")
+            sys.exit("Exiting now.")
         print("Crawling: " + str(response.url) + "\n")
         articles = response.xpath('//tr[@class="athing"]')
         for article in articles:
@@ -44,6 +49,6 @@ Usa XPath para obtener una lista de los artículos en la página. Cada artículo
     def on_item_parse(self):
         self.count += 1
         print("Items parsed: " + str(self.count) + "\n")
-        if (self.count == self.maxItems):
+        if self.count == int(self.maxItems):
             print("Spider: Item parse limit reached. Shutting down.")
             sys.exit("Exiting now.")

@@ -1,0 +1,29 @@
+Technical analysis in any market is broadly the same, you look for repeating patterns that can be exploited to increase your odds of success. This may be through moving averages, oscillators, support levels or more complex methodologies. All of which serve to reduce the noise in the price data to produce cleaner trading signals.
+
+I’ve seen many arguments about whether or not technical analysis actually produces viable strategies, most of which boil down to the same misunderstanding as to what TA really sets out to achieve.
+
+You will not create a system which can always predict where the market will go. In fact, it will not even be able to predict where the market is likely to go the majority of the time.
+
+Instead, you are looking for system which will deliver signals whose success rate is justified by its risk:reward ratio. The signals may only be correct 10% of the time, but if its profits outsize its losses 10:1, it can still break even.
+
+Some of the most simple and successful strategies can just take a position aligned with the long term trend and occasionally adjust exposure to keep downside risk at a comfortable level.
+
+Due to the huge bull run Cryptocurrency saw in the past few years, it is important to make sure you back-test and verify strategies during long term downturns too, such as post 2013.
+
+It would be easy to look at the bull run from late 2015 to the start of 2018 and conclude that the most effective method is to “buy the dip” at every opportunity. This only looks at half of the picture, a market always acts in cycles of bullish and bearish periods, whether that be the longer term trend or the short term pullback.
+
+Methods such as the use of an “equity curve” can be used to produce an adaptive trading system, where different strategies will only be trading during favorable market conditions. You may even with to use long term moving average crosses to help differentiate between a pullback and the shift into a new bear/ bull market.
+
+Due to the extremely new and highly technical nature of Cryptocurrencies, it has taken a long time for institutions to even acknowledge Crypto, let alone become involved in the market. This has left a market filled with experts in technology rather than the world of finance and trading.
+
+This may be one of the contributing factors to the huge levels of historical volatility, as inexperienced traders and investors playing around with a highly speculative asset are prone to being caught up in the hype and fear cycles of market swings, adding yet more momentum and irrationality to the mix.
+
+In trading, you don’t have to be the smartest in the market (although it can certainly help), simply keeping your head above the emotion of trading cycles and sticking rigidly to a trading strategy is one of the most important factors in success. Emotional trading drives us to FOMO into assets as they near the top before panic selling as it comes crashing back down.
+
+This need for simple and objective decision making is one of the main benefits of algorithmic trading over manual trading.
+
+Algorithmic trading can be particularly successful in Cryptocurrency due to the level of inefficiency still present. We’re not even past the point where retail traders can still profit from arbitrage strategies — imagine the numbers of other strategies that haven’t been tapped yet!
+
+There are many trading strategies that will give you very limited results in more mature financial markets, such as basic moving average crosses. Every strategy has a limit to the effective capital it can support before it becomes infeasible due to diminishing returns. When everyone knows the same basic strategy, it becomes a race as to who can trade the signals first — and a retail trader can’t compete with a well funded institution.
+
+This effect is lessened as the time-period of the strategy increases, but it still pays to find a truly unique strategy, as you will have more opportunity take advantage of its capital limits, rather than fighting to be first on each signal.

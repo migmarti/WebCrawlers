@@ -66,13 +66,12 @@ for category in FoldersPaths:
     newsFiles = getFilepaths(FoldersPaths[category])
     for news in newsFiles:
         fullText += str(readFile(newsFiles[news]))
-    print("Finished reading text...")
     fullText = getNouns(fullText)
-    print("Finished filtering text...")
     mask = np.array(Image.open(imagePath))
     #stopwords = set(STOPWORDS)
     #stopwords.add("int")
     #stopwords.add("ext")
+    print("Creating wordcloud...")
     wc = WordCloud(max_words=1000, mask=mask,
                    #stopwords=stopwords,
                    margin=10,

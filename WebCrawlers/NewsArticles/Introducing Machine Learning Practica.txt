@@ -1,0 +1,16 @@
+When I was a graduate student in cognitive science, I spent countless hours poring over videos and transcripts of natural language, looking for patterns in the data that could help me better understand how people learn words, concepts, and categories. Fast forward a few years, and I’m now a part of Google’s machine learning education team. We support the company’s mission to make AI beneficial to everyone by helping educate Googlers and others on how to build machine learning (ML) models that look for patterns in data in order to solve a variety of problems.
+
+Back in February, our team shared our internal Machine Learning Crash Course (MLCC) with the world to help more developers learn to use ML. Since then, we’ve heard from many people who are hungry for more ML education. In particular, you want to learn from teams who have built and deployed ML models. What challenges and successes do product teams encounter? How do they problem solve, and what solutions work best?
+
+
+
+With all this in mind, my colleagues and I collaborated with Google’s image model experts to develop the Machine Learning Practicum on Image Classification. This hands-on practicum contains video, documentation, and interactive programming exercises, illustrating how Google developed the state-of-the-art image classification model powering search in Google Photos. To date, more than 10,000 Googlers have used this practicum to train their own image classifiers to identify cats and dogs in photos.
+
+
+
+Today, we’re sharing this interactive course with you on Learn with Google AI, Google’s online hub for educational resources on machine learning. First, you’ll walk through the basics of how image classification works, learning the building blocks of convolutional neural networks (CNNs). Then you’ll build a CNN from scratch, learn how to prevent overfitting, and leverage pretrained models for feature extraction and fine-tuning.
+
+
+
+We hope that you enjoy this course, learn something new, and think about new ways you can apply classification and CNNs to your own work or studies. We’re eager to hear your feedback, and to share more Machine Learning Practica and other educational content with you on Learn with Google AI in the future.
+
