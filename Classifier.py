@@ -47,7 +47,7 @@ def sort_article(title, text, path):
 
 
 def predict_genre(classifier, text):
-    if len(re.findall('(\$ *\d+|currency|bank|money|econom)', text)) > 5:
+    if len(re.findall('(\$ *\d+|currency|bank|econom)', text)) > 6:
         genre = 'Economics'
     elif len(re.findall('game|movie', text)) > 5:
         genre = 'Recreational'
